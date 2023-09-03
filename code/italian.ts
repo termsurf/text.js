@@ -1,5 +1,5 @@
 
-const { build, transform } = require('./base')
+import { build, transform } from './base'
 
 /**
  * Italian.

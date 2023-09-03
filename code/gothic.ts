@@ -1,6 +1,6 @@
 // https://en.wiktionary.org/wiki/Category:Gothic_terms_with_IPA_pronunciation
 
-const { build, transform } = require('./base')
+import { build, transform } from './base'
 
 /**
  * Expose module.
@@ -46,14 +46,14 @@ const m = {
   '(': '(',
   ')': ')',
   "'": "'",
-  ",": ',',
+  ',': ',',
   '.': '.',
   '?': '?',
-  "׳": "'",
+  '׳': "'",
   '״': '"',
   ':': ':',
   ';': ';',
-  '!': '!'
+  '!': '!',
 }
 
 const s = build(m)

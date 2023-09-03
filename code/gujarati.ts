@@ -1,5 +1,4 @@
-
-const { build, transform } = require('./base')
+import { build, transform } from './base'
 
 const virama = '\u0D4d'
 
@@ -28,27 +27,27 @@ const otherDiacritics = {
 }
 
 const standaloneVowels = {
-  'અ': 'U',
-  'આ': 'a',
-  'ઇ': 'i',
-  'ઈ': 'i',
-  'ઉ': 'u',
-  'ઊ': 'u',
-  'એ': 'E',
-  'ઐ': 'Uy',
-  'ઓ': 'o~',
-  'ઔ': 'UV',
-  'અં': 'a',
-  'અ': 'i~',
-  'ઋ': 'ru',
-  'ઍ': 'A',
-  'ઑ': 'o~',
-  'ર': 'r',
-  'જ': 'y',
-  'હ': 'h',
-  'રૂ': 'ru',
-  'જી': 'yi',
-  'હૃ': 'hr',
+  અ: 'U',
+  આ: 'a',
+  ઇ: 'i',
+  ઈ: 'i',
+  ઉ: 'u',
+  ઊ: 'u',
+  એ: 'E',
+  ઐ: 'Uy',
+  ઓ: 'o~',
+  ઔ: 'UV',
+  અં: 'a',
+  અ: 'i~',
+  ઋ: 'ru',
+  ઍ: 'A',
+  ઑ: 'o~',
+  ર: 'r',
+  જ: 'y',
+  હ: 'h',
+  રૂ: 'ru',
+  જી: 'yi',
+  હૃ: 'hr',
 }
 
 const digits = {
@@ -65,42 +64,42 @@ const digits = {
 }
 
 const consonants = {
-  'ક': 'kU',
-  'ખ': 'khU',
-  'ગ': 'gU',
-  'ઘ': 'ghU',
-  'ઙ': 'qU',
-  'ચ': 'txU',
-  'છ': 'txhI',
-  'જ': 'djU',
-  'ઝ': 'djhU',
-  'ઞ': 'nyU',
-  'ય': 'yU',
-  'શ': 'xU',
-  'ટ': 'TU',
-  'ઠ': 'ThU',
-  'ડ': 'DU',
-  'ઢ': 'DhU',
-  'ણ': 'NU',
-  'ર': 'r!U',
-  'ષ': 'XU',
-  'ત': 'tU',
-  'થ': 'thU',
-  'દ': 'dU',
-  'ધ': 'dhU',
-  'ન': 'nU',
-  'લ': 'lU',
-  'સ': 'sU',
-  'પ': 'pU',
-  'ફ': 'phU',
-  'બ': 'bU',
-  'ભ': 'bhU',
-  'મ': 'mU',
-  'વ': 'VU',
-  'હ': 'hU',
-  'ળ': 'LU',
-  'ક્ષ': 'kXU',
-  'જ્ઞ': 'gnU',
+  ક: 'kU',
+  ખ: 'khU',
+  ગ: 'gU',
+  ઘ: 'ghU',
+  ઙ: 'qU',
+  ચ: 'txU',
+  છ: 'txhI',
+  જ: 'djU',
+  ઝ: 'djhU',
+  ઞ: 'nyU',
+  ય: 'yU',
+  શ: 'xU',
+  ટ: 'TU',
+  ઠ: 'ThU',
+  ડ: 'DU',
+  ઢ: 'DhU',
+  ણ: 'NU',
+  ર: 'r!U',
+  ષ: 'XU',
+  ત: 'tU',
+  થ: 'thU',
+  દ: 'dU',
+  ધ: 'dhU',
+  ન: 'nU',
+  લ: 'lU',
+  સ: 'sU',
+  પ: 'pU',
+  ફ: 'phU',
+  બ: 'bU',
+  ભ: 'bhU',
+  મ: 'mU',
+  વ: 'VU',
+  હ: 'hU',
+  ળ: 'LU',
+  ક્ષ: 'kXU',
+  જ્ઞ: 'gnU',
 }
 
 const vowelTransformer = Object.keys(vowelDiacritics).reduce((m, x) => {
@@ -119,7 +118,7 @@ const m = {
   ...consonants,
   [virama]: m => {
     m[m.length - 1] = m[m.length - 1].replace(/a/, '')
-  }
+  },
 }
 
 const s = build(m)
