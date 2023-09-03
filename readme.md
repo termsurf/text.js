@@ -8,7 +8,7 @@
 
 <h3 align='center'>talk</h3>
 <p align='center'>
-  A tool to convert traditional writing across languages into a normalized form.
+  A tool to convert traditional writing across languages into a normalized form for pronunciation.
 </p>
 
 <br/>
