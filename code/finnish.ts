@@ -1,3 +1,4 @@
+/* eslint-disable sort-keys/sort-keys-fix */
 import { build, transform } from './base'
 
 /**
@@ -45,6 +46,6 @@ const s = build(m)
  * Transform the text.
  */
 
-const form = i => transform(i, s, m)
+const form = (i: string) => transform(i, s, m)
 
-module.exports = form
+export default form

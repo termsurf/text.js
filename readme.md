@@ -33,6 +33,25 @@ some other languages. However, some languages do have the ability to get
 pretty close to correct pronunciation based purely on the native
 spelling, which is pretty cool. Taking advantage of that fact here!
 
+## Table of Languages
+
+Here is a table explaining which languages we've looked at so far which
+can and can't have pronunciations automatically done.
+
+| language           | automatic                                                      | note                                                                                                                                                                                                    |
+| :----------------- | :------------------------------------------------------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| Chinese (Mandarin) | yes but not perfect                                            | Pinyin can be used to auto generate pronunciations, but it doesn't always accurately reflect how people actually say each word, so it would be better to manually write each pronunciation if possible. |
+| Korean             | yes but not perfect                                            |                                                                                                                                                                                                         |
+| Sanskrit           | yes                                                            | With Devanagari, each sound has an exact pronunciation in Sanskrit, so we can get pretty close to exact pronunciations automatically done.                                                              |
+| Finnish            | yes                                                            |                                                                                                                                                                                                         |
+| Navajo             | yes                                                            | Since it was fairly recently transcribed intoa Latin alphabet, it is phonetic for the most part.                                                                                                        |
+| Akkadian           | yes                                                            | Because it is no longer spoken, we have at least a standard way f representing things.                                                                                                                  |
+| Hebrew             | partially yes, but only for consonants unless diacritics given |                                                                                                                                                                                                         |
+| Arabic             | partially yes, but only for consonants unless diacritics given |                                                                                                                                                                                                         |
+| English            | no                                                             | Too many words need to have pronunciation memorized.                                                                                                                                                    |
+| Tibetan            | no                                                             | Modern Tibetan has evolved to where the script no longer is phonetic.                                                                                                                                   |
+| Vietnamese         | no                                                             |                                                                                                                                                                                                         |
+
 ## License
 
 Copyright 2021-2023 <a href='https://nerd.bond'>NerdBond</a>
