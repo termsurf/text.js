@@ -18,10 +18,11 @@
 ## Welcome
 
 A bunch of utils for transforming traditional orthography into
-[Read Text](https://github.com/nerdbond/read), which makes it available
-as well for [Tone Text](https://github.com/nerdbond/tone), amongst other
-things. Basically thing normalizes the way you write pronunciation, into
-a more human readable (and easier to type on the computer) form.
+[Chat Text](https://github.com/nerdbond/chat.js), which makes it
+available as well for [Tone Text](https://github.com/nerdbond/tone),
+amongst other things. Basically thing normalizes the way you write
+pronunciation, into a more human readable (and easier to type on the
+computer) form.
 
 Check out the
 [`./code`](https://github.com/nerdbond/link/blob/make/code) folder for
