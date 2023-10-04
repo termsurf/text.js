@@ -54,6 +54,15 @@ can and can't have pronunciations automatically done.
 | Tibetan            | no                                                             | Modern Tibetan has evolved to where the script no longer is phonetic.                                                                                                                                   |
 | Vietnamese         | no                                                             |                                                                                                                                                                                                         |
 
+## Goals
+
+- Include romanization transliterations of texts in various forms.
+- Include pronunciation of words and word parts in Chat text and
+  possibly IPA.
+- Maybe include keyboard layout data for various languages.
+- Have structured script data, such as what are the vowels, etc..
+- Script detection.
+
 ## License
 
 Copyright 2021-2023 <a href='https://nerd.bond'>NerdBond</a>
