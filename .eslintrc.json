@@ -80,8 +80,6 @@
     "import/no-duplicates": "error",
     "typescript-sort-keys/interface": "error",
     "typescript-sort-keys/string-enum": "error",
-    "sort-keys": 0,
-    "sort-keys/sort-keys-fix": 2,
     "prettier/prettier": 2,
     "@typescript-eslint/no-unused-vars": "off",
     "default-case": "error",

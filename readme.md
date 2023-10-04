@@ -6,7 +6,7 @@
 <br/>
 <br/>
 
-<h3 align='center'>talk</h3>
+<h3 align='center'>@nerdbond/talk</h3>
 <p align='center'>
   A tool to convert traditional writing across languages into a normalized form for pronunciation.
 </p>
@@ -46,6 +46,7 @@ can and can't have pronunciations automatically done.
 | Finnish            | yes                                                            |                                                                                                                                                                                                         |
 | Navajo             | yes                                                            | Since it was fairly recently transcribed intoa Latin alphabet, it is phonetic for the most part.                                                                                                        |
 | Akkadian           | yes                                                            | Because it is no longer spoken, we have at least a standard way f representing things.                                                                                                                  |
+| Spanish            | yes                                                            | Because it is no longer spoken, we have at least a standard way f representing things.                                                                                                                  |
 | Hebrew             | partially yes, but only for consonants unless diacritics given |                                                                                                                                                                                                         |
 | Arabic             | partially yes, but only for consonants unless diacritics given |                                                                                                                                                                                                         |
 | English            | no                                                             | Too many words need to have pronunciation memorized.                                                                                                                                                    |

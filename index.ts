@@ -1,6 +1,6 @@
 import amharic from './code/amharic'
 import arabic from './code/arabic'
-import chinesePinyin from './code/chinese-pinyin'
+import chinesePinyin from './code/chinese'
 import coptic from './code/coptic'
 import devanagari from './code/devanagari'
 // import finnish from './code/finnish'
