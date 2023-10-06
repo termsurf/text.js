@@ -64,14 +64,20 @@ export const CHEROKEE_UNICODE_BLOCKS: Array<Block> = [[0x13a0, 0x13ff]]
 export const GRANTHA_UNICODE_BLOCKS: Array<Block> = [[0x11300, 0x1137f]]
 export const LAO_UNICODE_BLOCKS: Array<Block> = [[0x0e80, 0x0eff]]
 export const LEPCHA_UNICODE_BLOCKS: Array<Block> = [[0x1c00, 0x1c4f]]
-export const LINEAR_A_UNICODE_BLOCKS: Array<Block> = [[0x10600, 0x1077f]]
-export const LINEAR_B_UNICODE_BLOCKS: Array<Block> = [[0x10000, 0x1007f]]
+export const LINEAR_A_UNICODE_BLOCKS: Array<Block> = [
+  [0x10600, 0x1077f],
+]
+export const LINEAR_B_UNICODE_BLOCKS: Array<Block> = [
+  [0x10000, 0x1007f],
+]
 export const MAKASAR_UNICODE_BLOCKS: Array<Block> = [[0x11ee0, 0x11eff]]
 export const MANDAIC_UNICODE_BLOCKS: Array<Block> = [[0x0840, 0x085f]]
 export const MODI_UNICODE_BLOCKS: Array<Block> = [[0x11600, 0x1165f]]
 export const OGHAM_UNICODE_BLOCKS: Array<Block> = [[0x1680, 0x169f]]
 export const OSAGE_UNICODE_BLOCKS: Array<Block> = [[0x104b0, 0x104ff]]
-export const PHOENICIAN_UNICODE_BLOCKS: Array<Block> = [[0x10900, 0x1091f]]
+export const PHOENICIAN_UNICODE_BLOCKS: Array<Block> = [
+  [0x10900, 0x1091f],
+]
 export const RUNIC_UNICODE_BLOCKS: Array<Block> = [[0x16a0, 0x16ff]]
 export const BAYBAYIN_UNICODE_BLOCKS: Array<Block> = [[0x1700, 0x171f]]
 
@@ -154,7 +160,9 @@ export const TELUGU_UNICODE_BLOCKS: Array<Block> = [[0x0c00, 0x0c7f]]
 export const ARMENIAN_UNICODE_BLOCKS: Array<Block> = [[0x0530, 0x058f]]
 export const GEEZ_UNICODE_BLOCKS: Array<Block> = [[0x1200, 0x137f]]
 export const AVESTAN_UNICODE_BLOCKS: Array<Block> = [[0x10b00, 0x10b3f]]
-export const CUNEIFORM_UNICODE_BLOCKS: Array<Block> = [[0x12000, 0x123ff]]
+export const CUNEIFORM_UNICODE_BLOCKS: Array<Block> = [
+  [0x12000, 0x123ff],
+]
 export const BENGALI_UNICODE_BLOCKS: Array<Block> = [[0x0980, 0x09ff]]
 export const BURMESE_UNICODE_BLOCKS: Array<Block> = [[0x1000, 0x109f]]
 export const JAVANESE_UNICODE_BLOCKS: Array<Block> = [[0xa980, 0xa9df]]
@@ -164,7 +172,9 @@ export const SINHALA_UNICODE_BLOCKS: Array<Block> = [[0x0d80, 0x0dff]]
 export const SUNDANESE_UNICODE_BLOCKS: Array<Block> = [[0x1b80, 0x1bbf]]
 export const SYRIAC_UNICODE_BLOCKS: Array<Block> = [[0x0700, 0x074f]]
 export const TIFINAGH_UNICODE_BLOCKS: Array<Block> = [[0x2d30, 0x2d7f]]
-export const EGYPTIAN_UNICODE_BLOCKS: Array<Block> = [[0x13000, 0x1342f]]
+export const EGYPTIAN_UNICODE_BLOCKS: Array<Block> = [
+  [0x13000, 0x1342f],
+]
 
 // thai
 // coptic
@@ -193,7 +203,9 @@ export const EGYPTIAN_UNICODE_BLOCKS: Array<Block> = [[0x13000, 0x1342f]]
 // tifinagh
 // egyptian
 
-export const DEVANAGARI_UNICODE_BLOCKS: Array<Block> = [[0x0900, 0x097f]]
+export const DEVANAGARI_UNICODE_BLOCKS: Array<Block> = [
+  [0x0900, 0x097f],
+]
 
 export const ARABIC_UNICODE_BLOCKS: Array<Block> = [
   [0x0600, 0x06ff],

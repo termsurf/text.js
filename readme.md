@@ -59,7 +59,9 @@ can and can't have pronunciations automatically done.
 - Include romanization transliterations of texts in various forms.
 - Include pronunciation of words and word parts in Chat text and
   possibly IPA.
-- Maybe include keyboard layout data for various languages.
+- Maybe include
+  [keyboard layout data](https://github.com/simple-keyboard/simple-keyboard-layouts)
+  for various languages.
 - Have structured script data, such as what are the vowels, etc..
 - Script detection.
 

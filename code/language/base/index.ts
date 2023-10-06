@@ -1,7 +1,11 @@
 export type Map = Record<string, string | ((m: Array<string>) => void)>
 
 export type Trie = {
-  [key: string]: Trie | boolean
+  child: {
+    [key: string]: Trie | boolean
+  }
+  last?: boolean
+  parent?: Trie
 }
 
 /**
@@ -16,26 +20,36 @@ export function transform(i: string, s: Trie, m: Map) {
     let r = s
     let v = w
 
-    while (true) {
+    char: while (true) {
       const c = i.charAt(v).toLowerCase()
-      const d = r[c]
+      const d = r.child[c]
       if (typeof d === 'object') {
         r = d
         v++
       } else {
-        break
+        break char
       }
     }
 
-    if (!r.__last__) {
-      const t = i.charAt(w).toLowerCase()
-      const h = t.codePointAt(0)?.toString(16)
-      const e = '\\u' + '0000'.substring(0, 4 - (h ?? '').length) + h
-      console.log(r)
-      throw new Error(`${w}:${e}:${t}`)
+    if (!r.last) {
+      parent: while (r.parent) {
+        r = r.parent
+        v--
+        if (r.last) {
+          break parent
+        }
+      }
+
+      if (!r.last) {
+        const t = i.charAt(w).toLowerCase()
+        const h = t.codePointAt(0)?.toString(16)
+        const e = '\\u' + '0000'.substring(0, 4 - (h ?? '').length) + h
+        console.log(r)
+        throw new Error(`${w}:${e}:${t}`)
+      }
     }
 
-    const z = i.slice(w, v - w).toLowerCase()
+    const z = i.slice(w, v).toLowerCase()
     const k = m[z]
 
     if (typeof k == 'function') {
@@ -55,7 +69,7 @@ export function transform(i: string, s: Trie, m: Map) {
  */
 
 export function build(m: Map) {
-  let s: Trie = {}
+  let s: Trie = { child: {} }
 
   for (let key in m) {
     let v = key.toLowerCase().split('')
@@ -63,16 +77,16 @@ export function build(m: Map) {
     while (v.length) {
       const x = v.shift()
       if (x) {
-        if (!r[x]) {
-          r[x] = {}
+        if (!r.child[x]) {
+          r.child[x] = { parent: r, child: {} }
         }
-        const w = r[x]
+        const w = r.child[x]
         if (typeof w === 'object') {
           r = w
         }
       }
     }
-    r.__last__ = true
+    r.last = true
   }
 
   return s
