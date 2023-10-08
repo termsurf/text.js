@@ -7,21 +7,21 @@
 const m: Record<string, string> = {
   '\u0626': "'y",
   '\u0624': "'w",
-  '\u064E\u0627': 'aa',
-  '\u0650\u0649': 'ii',
-  '\u064E\u0649': 'aa',
-  '\u0650\u064A': 'ii',
-  '\u064F\u0648': 'uu',
+  '\u064E\u0627': 'a_',
+  '\u0650\u0649': 'i_',
+  '\u064E\u0649': 'a_',
+  '\u0650\u064A': 'i_',
+  '\u064F\u0648': 'u_',
   '\u064A\u064E': 'ay',
   '\u0648\u064E': 'aw',
 
-  '\u0649': 'aa',
+  '\u0649': 'a_',
 
   ء: "'",
 
-  ا: 'aa',
-  ﺍ: 'aa',
-  ﺎ: 'aa',
+  ا: 'a_',
+  ﺍ: 'a_',
+  ﺎ: 'a_',
 
   ب: 'b',
   ﺏ: 'b',
@@ -47,11 +47,11 @@ const m: Record<string, string> = {
   ﺠ: 'dj',
   ﺟ: 'dj',
 
-  ح: 'h~',
-  ﺡ: 'h~',
-  ﺢ: 'h~',
-  ﺤ: 'h~',
-  ﺣ: 'h~',
+  ح: 'hh~',
+  ﺡ: 'hh~',
+  ﺢ: 'hh~',
+  ﺤ: 'hh~',
+  ﺣ: 'hh~',
 
   خ: 'H',
   ﺥ: 'H',
@@ -67,9 +67,9 @@ const m: Record<string, string> = {
   ﺫ: 'C',
   ﺬ: 'C',
 
-  ر: 'r!',
-  ﺭ: 'r!',
-  ﺮ: 'r!',
+  ر: 'r',
+  ﺭ: 'r',
+  ﺮ: 'r',
 
   ز: 'z',
   ﺯ: 'z',
@@ -117,11 +117,11 @@ const m: Record<string, string> = {
   ﻌ: "'",
   ﻋ: "'",
 
-  غ: 'r~',
-  ﻍ: 'r~',
-  ﻎ: 'r~',
-  ﻐ: 'r~',
-  ﻏ: 'r~',
+  غ: 'G',
+  ﻍ: 'G',
+  ﻎ: 'G',
+  ﻐ: 'G',
+  ﻏ: 'G',
 
   ف: 'f',
   ﻑ: 'f',
@@ -175,11 +175,11 @@ const m: Record<string, string> = {
   ﻴ: 'y',
   ﻳ: 'y',
 
-  آ: "'aa",
-  ـآ: "'aa",
+  آ: "'a_",
+  ـآ: "'a_",
   ٱ: '',
-  ﺁ: "'aa",
-  ﺂ: "'aa",
+  ﺁ: "'a_",
+  ﺂ: "'a_",
 
   ة: 'at',
   ـة: 'at',
@@ -187,15 +187,15 @@ const m: Record<string, string> = {
   ﺔ: 'at',
 
   ال: 'al',
-  ـى: 'aa',
+  ـى: 'a_',
 
-  ﻻ: 'laa',
-  ﻼ: 'laa',
+  ﻻ: 'la_',
+  ﻼ: 'la_',
 
-  ﲓ: 'iim',
-  ﳰ: 'iim',
-  ﳝ: 'iim',
-  ﱘ: 'iim',
+  ﲓ: 'i_m',
+  ﳰ: 'i_m',
+  ﳝ: 'i_m',
+  ﱘ: 'i_m',
 
   ﲅ: 'lm',
   ﳭ: 'lm',
@@ -205,7 +205,7 @@ const m: Record<string, string> = {
   ﻯ: 'a',
   ﻰ: 'a',
 
-  '،‎': ',',
+  '،': ',',
   '؟': '?',
   '؛': ';',
   '۔': '.',
@@ -215,7 +215,7 @@ const m: Record<string, string> = {
   '\u064e': 'a',
   '\u0650': 'i',
   '\u064f': 'u',
-  // '\u0627': 'aa',
+  // '\u0627': 'a_',
   // '\u064a': 'ii',
   // '\u0648': 'uu',
   '\u064b': 'an',
@@ -257,7 +257,7 @@ const m: Record<string, string> = {
 
   '\u0651': '',
 
-  '\u0670': 'aa',
+  '\u0670': 'a_',
   إ: "'i", // Arabic Letter Alef With Hamza Below
   أ: "'",
   '\u200e': '', // ltr marker
@@ -296,7 +296,7 @@ const form = (s: string) => {
     .join('')
     .replace(/ii+/g, 'ii')
     .replace(/ee+/g, 'ee')
-    .replace(/aa+/g, 'aa')
+    .replace(/a_+/g, 'a_')
     .replace(/oo+/g, 'oo')
     .replace(/uu+/g, 'uu')
 }
