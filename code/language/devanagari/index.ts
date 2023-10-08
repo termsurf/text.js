@@ -1,16 +1,18 @@
-import { Map, build, transform } from './base'
+import { Map, build, transform } from '../base'
 
 const virama = '\u094d'
+const anusvara = '\u0902'
+const visarga = '\u0903'
 
 const standaloneVowels: Record<string, string> = {
   अ: 'a',
-  अं: 'aM',
+  अं: 'am',
   अः: 'ah',
-  आ: 'aa',
+  आ: 'a_',
   इ: 'i',
-  ई: 'ii',
+  ई: 'i_',
   उ: 'u',
-  ऊ: 'uu',
+  ऊ: 'u_',
   ऋ: 'r',
   ऌ: 'L',
   ऍ: 'e',
@@ -19,21 +21,21 @@ const standaloneVowels: Record<string, string> = {
   ऑ: 'o',
   ओ: 'o',
   औ: 'au',
-  ॠ: 'rr',
+  ॠ: 'u$_',
   ॡ: 'LL',
   ॲ: 'e',
 }
 
 const vowels: Record<string, string> = {
   '\u093a': 'oe',
-  '\u093b': 'ooe',
-  '\u093e': 'aa',
+  '\u093b': 'o_e',
+  '\u093e': 'a_',
   '\u093f': 'i',
-  '\u0940': 'ii',
+  '\u0940': 'i_',
   '\u0941': 'u',
-  '\u0942': 'uu',
-  '\u0943': 'r',
-  '\u0944': 'rr',
+  '\u0942': 'u_',
+  '\u0943': 'u$',
+  '\u0944': 'u$_',
   '\u0945': 'e',
   '\u0946': 'e',
   '\u0947': 'e',
@@ -51,34 +53,34 @@ const vowels: Record<string, string> = {
 
 const consonants: Record<string, string> = {
   क: 'ka',
-  ख: 'kha',
+  ख: 'kh~a',
   ग: 'ga',
-  घ: 'gha',
+  घ: 'gh~a',
   ङ: 'qa',
   च: 'txa',
-  छ: 'txha',
+  छ: 'txh~a',
   ज: 'dja',
-  झ: 'djha',
-  ञ: 'nya',
+  झ: 'djh~a',
+  ञ: 'ny~a',
   ट: 'Ta',
-  ठ: 'Tha',
+  ठ: 'Th~a',
   ड: 'Da',
-  ढ: 'Dha',
+  ढ: 'Dh~a',
   ण: 'Na',
   त: 'ta',
-  थ: 'tha',
+  थ: 'th~a',
   द: 'da',
-  ध: 'dha',
+  ध: 'dh~a',
   न: 'na',
   प: 'pa',
-  फ: 'pha',
+  फ: 'ph~a',
   ब: 'ba',
-  भ: 'bha',
+  भ: 'bh~a',
   म: 'ma',
   य: 'ya',
-  र: 'r!a',
+  र: 'ra',
   ल: 'la',
-  व: 'v+a',
+  व: 'Va',
   श: 'xa',
   ष: 'Xa',
   स: 'sa',
@@ -90,20 +92,37 @@ const vowelTransformer = Object.keys(vowels).reduce<Map>((m, x) => {
   m[x] = m => {
     const last = m[m.length - 1]
     if (last) {
-      m[m.length - 1] = last.replace(/a/, '') + render
+      m[m.length - 1] = last.replace(/a_?/, '') + render
     }
   }
   return m
 }, {})
 
+export const laghava = '\u0970'
+
 const m: Map = {
   ...standaloneVowels,
   ...vowelTransformer,
   ...consonants,
+  [visarga]: 'h',
+  [laghava]: '.',
+  [anusvara]: m => {
+    let last = m[m.length - 1]
+    if (last) {
+      if (last.endsWith('_')) {
+        last = last.replace('_', '')
+        last = `${last}&_`
+      } else {
+        last = `${last}&`
+      }
+      m[m.length - 1] = last
+    }
+  },
+  ॐ: 'o_m',
   [virama]: m => {
     const last = m[m.length - 1]
     if (last) {
-      m[m.length - 1] = last.replace(/a/, '')
+      m[m.length - 1] = last.replace(/a_?/, '')
     }
   },
 }

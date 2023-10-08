@@ -1,12 +1,8 @@
-import { build, transform } from '../base'
-
 /**
  * Korean.
  */
 
-const m = {}
-
-const vowels = {
+const vowels: Record<string, string> = {
   ㅏ: 'a',
   ㅐ: 'E',
   ㅑ: 'ya',
@@ -18,168 +14,37 @@ const vowels = {
   ㅗ: 'o',
   ㅘ: 'wa',
   ㅙ: 'wE',
-  ㅚ: 'a~',
+  ㅚ: 'a$',
   ㅛ: 'yo',
   ㅜ: 'u',
   ㅝ: 'wU',
   ㅞ: 'we',
-  ㅟ: 'i~',
+  ㅟ: 'i$',
   ㅠ: 'yu',
   ㅡ: 'O',
-  ㅢ: 'r~i',
+  ㅢ: 'Gi',
   ㅣ: 'i',
 }
 
-const clusters = {
-  ㄳㅇ: 'ks',
-  ㄳㄷ: 'kt',
-  ㄳ: 'k',
-  ㄵㅇ: 'ntx~',
-  ㄵㄷ: 'ntx~t',
-  ㄵ: 'ntx~',
-  ㄶㅇ: 'lh',
-  ㄶㄷ: 'nt',
-  ㄶ: 'nh',
-  ㄺㅇ: 'lk',
-  ㄺㄷ: 'kd',
-  ㄺ: 'k',
-  ㄻㅇ: 'lm',
-  ㄻㄷ: 'md',
-  ㄻ: 'm',
-  ㄼㅇ: 'lp',
-  ㄼㄷ: 'pd',
-  ㄼ: 'p',
-  ㄽㅇ: 'ls',
-  ㄽㄷ: 'lt',
-  ㄽ: 's',
-  ㄾㅇ: 'lth',
-  ㄾㄷ: 'lth',
-  ㄾ: 'th',
-  ㄿㅇ: 'lph',
-  ㄿㄷ: 'phd',
-  ㄿ: 'ph',
-  ㅀㅇ: 'lh',
-  ㅀㄷ: 'lt',
-  ㅀ: 'h',
-  ㅄㅇ: 'ps',
-  ㅄㄷ: 'pt',
-  ㅄ: 'p',
-
-  ㄱㄱ: 'kk',
-  ㄴㄱ: 'nk',
-  ㄷㄱ: 'tk',
-  ㄹㄱ: 'lk',
-  ㅁㄱ: 'mk',
-  ㅂㄱ: 'pk',
-  ㅅㄱ: 'tk',
-  ㅈㄱ: 'tk',
-  ㅊㄱ: 'tk',
-  ㅌㄱ: 'tk',
-  ㅍㄱ: 'phk',
-  ㅎㄱ: 'hk',
-  ㄱㄴ: 'qn',
-  ㄴㄴ: 'nn',
-  ㄹㄴ: 'll',
-  ㅁㄴ: 'mn',
-  ㅂㄴ: 'mn',
-  ㅅㄴ: 'thn',
-  ㅆㄴ: 'nth',
-  ㅈㄴ: 'thn',
-  ㅊㄴ: 'thn',
-  ㅌㄴ: 'thn',
-  ㅍㄴ: 'phn',
-  ㅎㄴ: 'hn',
-  ㄱㄷ: 'kt',
-  ㄴㄷ: 'nt',
-  ㄷㄷ: 'thth',
-  ㄹㄷ: 'lt',
-  ㅁㄷ: 'mt',
-  ㅂㄷ: 'pht',
-  ㅅㄷ: 'thth',
-  ㅆㄷ: 'thth',
-  ㅈㄷ: 'thth',
-  ㅊㄷ: 'thth',
-  ㅋㄷ: 'kt',
-  ㅌㄷ: 'thth',
-  ㅍㄷ: 'pht',
-  ㅎㄷ: 'hth',
-  ㄱㄹ: 'kn',
-  ㄴㄹ: 'll',
-  ㄹㄹ: 'll',
-  ㅁㄹ: 'mn',
-  ㅂㄹ: 'mn',
-  ㅇㄹ: 'qn',
-  ㅎㄹ: 'r',
-  ㄱㅁ: 'km',
-  ㄴㅁ: 'nm',
-  ㄷㅁ: 'thm',
-  ㄹㅁ: 'lm',
-  ㅁㅁ: 'mm',
-  ㅂㅁ: 'mm',
-  ㅅㅁ: 'thm',
-  ㅇㅁ: 'qm',
-  ㅈㅁ: 'thm',
-  ㅊㅁ: 'thm',
-  ㅋㅁ: 'kt',
-  ㅌㅁ: 'thm',
-  ㅍㅁ: 'phm',
-  ㅎㅁ: 'hm',
-  ㄱㅂ: 'kp',
-  ㅂㅂ: 'phph',
-  ㅅㅂ: 'thp',
-  ㅆㅅ: 's@s',
-  ㄱㅇ: 'k',
-  ㄲㅇ: 'k@h',
-  ㄴㅇ: 'n',
-  ㄷㅇ: 'th',
-  ㄹㅇ: 'r',
-  ㅁㅇ: 'm',
-  ㅂㅇ: 'ph',
-  ㅅㅇ: 's',
-  ㅆㅇ: 's@',
-  ㅇㅇ: 'qh',
-  ㅈㅇ: 'thtx~h',
-  ㅊㅇ: 'thtx~h',
-  ㅋㅇ: 'kh',
-  ㅌㅇ: 'thtx~h',
-  ㅍㅇ: 'ph',
-  ㅎㅇ: 'h',
-  ㅆㅈ: 'thtx~h',
-  ㄱㅎ: 'k',
-  ㄲㅎ: 'k@h',
-  ㄴㅎ: 'nh',
-  ㄷㅎ: 'th',
-  ㄹㅎ: 'lh',
-  ㅁㅎ: 'mh',
-  ㅂㅎ: 'ph',
-  ㅅㅎ: 'th',
-  ㅈㅎ: 'thtx~h',
-  ㅊㅎ: 'thtx~h',
-  ㅋㅎ: 'k',
-  ㅌㅎ: 'th',
-  ㅍㅎ: 'ph',
-}
-
-const consonants = {
+const consonants: Record<string, [string, string]> = {
   ㄱ: ['k', 'k.'],
   ㄲ: ['k@', 'k.'],
   ㄴ: ['n', 'n'],
   ㄷ: ['t', 't.'],
   ㄸ: ['t@', ''],
-  ㄹ: ['r!', 'L'],
+  ㄹ: ['r', 'L'],
   ㅁ: ['m', 'm'],
   ㅂ: ['p', 'p.'],
   ㅃ: ['p@', ''],
   ㅅ: ['s', 't.'],
   ㅆ: ['s@', 't.'],
   ㅇ: ['', 'q'],
-  ㅈ: ['tx~', 't.'],
-  ㅈ: ['tx~', 't.'],
-  ㅉ: ['t@x~', ''],
-  ㅊ: ['tx~h', 't.'],
-  ㅋ: ['kh', 'k.'],
-  ㅌ: ['th', 't.'],
-  ㅍ: ['ph', 'p.'],
+  ㅈ: ['txy~', 't.'],
+  ㅉ: ['t@xy~', ''],
+  ㅊ: ['txy~h~', 't.'],
+  ㅋ: ['kh~', 'k.'],
+  ㅌ: ['th~', 't.'],
+  ㅍ: ['ph~', 'p.'],
   ㅎ: ['h', 't.'],
 }
 
@@ -260,8 +125,8 @@ const finals = [
   'ㅎ',
 ]
 
-const list = []
-const map = {}
+const list: Array<{ s: string; t: string }> = []
+const map: Record<string, string> = {}
 
 initial.forEach((i, ii) => {
   medial.forEach((m, mi) => {
@@ -282,10 +147,10 @@ list.forEach(({ s, t }) => (map[s] = t))
  * Transform the text.
  */
 
-const form = s => {
+const form = (s: string) => {
   let i = 0
   let r = s
-  let syllables = []
+  let syllables: Array<[string, string, string]> = []
 
   while (r.length) {
     let found = false
@@ -294,15 +159,18 @@ const form = s => {
       if (r.indexOf(k) === 0) {
         let v = map[k]
         i += k.length
-        r = r.substr(k.length)
-        syllables.push(v.split(''))
+        r = r.slice(k.length)
+        if (!v) {
+          throw new Error(k)
+        }
+        syllables.push(v.split('') as [string, string, string])
         found = true
         break o
       }
     }
 
     if (!found) {
-      throw `oops`
+      throw new Error()
     }
   }
 
@@ -310,14 +178,20 @@ const form = s => {
 
   while (syllables.length) {
     let r = syllables.shift()
+    if (!r) {
+      continue
+    }
     let ri = r[0]
     let rm = r[1]
     let rf = r[2]
     let next = syllables[0] && syllables[0][0]
 
     if (ri) {
-      let v = consonants[ri][0]
-      out.push(v)
+      const c = consonants[ri]
+      if (c) {
+        let v = c[0]
+        out.push(v)
+      }
     }
 
     if (rm) {
@@ -326,16 +200,11 @@ const form = s => {
     }
 
     if (rf) {
-      if (next) {
-        let combined = clusters[`${rf}${next}`]
-        if (combined) {
-          out.push(combined)
-          syllables[0][0] = null
-          continue
-        }
+      const c = consonants[ri]
+      if (c) {
+        let v = c[1]
+        out.push(v)
       }
-      let consonant = clusters[rf] || consonants[rf][1]
-      out.push(consonant)
     }
   }
 
