@@ -50,9 +50,51 @@ export const consonants: Map = {
   l: 'l',
 }
 
+const punctuation = {
+  '-': '-',
+  '.': '.',
+  '?': '?',
+  ';': ';',
+  ':': ':',
+  '!': '!',
+  ',': ',',
+  "'": "='",
+  '"': '"',
+  '(': '(',
+  ')': ')',
+  '[': '[',
+  ']': ']',
+  '<': '<',
+  '>': '>',
+  '+': '+',
+  '=': '=',
+  '1': '1',
+  '2': '2',
+  '3': '3',
+  '4': '4',
+  '5': '5',
+  '6': '6',
+  '7': '7',
+  '8': '8',
+  '9': '9',
+  '0': '0',
+}
+
+// function digit(x: string) {
+//   return function (m: Array<string>) {
+//     const last = m[m.length - 1]
+//     if (last?.match(/\d+/)) {
+//       m[m.length - 1] = `${last}${x}`
+//     } else {
+//       m.push(`a${}`)
+//     }
+//   }
+// }
+
 export const characters: Map = {
   ...vowels,
   ...consonants,
+  ...punctuation,
 }
 
 const s = build(characters)
