@@ -2,7 +2,7 @@
  * Korean.
  */
 
-const vowels: Record<string, string> = {
+export const vowels: Record<string, string> = {
   ㅏ: 'a',
   ㅐ: 'E',
   ㅑ: 'ya',
@@ -26,7 +26,7 @@ const vowels: Record<string, string> = {
   ㅣ: 'i',
 }
 
-const consonants: Record<string, [string, string]> = {
+export const consonants: Record<string, [string, string]> = {
   ㄱ: ['k', 'k.'],
   ㄲ: ['k@', 'k.'],
   ㄴ: ['n', 'n'],
@@ -48,7 +48,7 @@ const consonants: Record<string, [string, string]> = {
   ㅎ: ['h', 't.'],
 }
 
-let initial = [
+export const initial = [
   'ㄱ',
   'ㄲ',
   'ㄴ',
@@ -70,7 +70,7 @@ let initial = [
   'ㅎ',
 ]
 
-const medial = [
+export const medial = [
   'ㅏ',
   'ㅐ',
   'ㅑ',
@@ -94,7 +94,7 @@ const medial = [
   'ㅣ',
 ]
 
-const finals = [
+export const finals = [
   '',
   'ㄱ',
   'ㄲ',
@@ -125,8 +125,8 @@ const finals = [
   'ㅎ',
 ]
 
-const list: Array<{ s: string; t: string }> = []
-const map: Record<string, string> = {}
+export const list: Array<{ s: string; t: string }> = []
+export const map: Record<string, string> = {}
 
 initial.forEach((i, ii) => {
   medial.forEach((m, mi) => {

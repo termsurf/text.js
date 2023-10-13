@@ -1,7 +1,6 @@
 {
   "name": "@nerdbond/talk",
-  "version": "0.1.0",
-  "main": "./host/index.js",
+  "version": "0.1.4",
   "scripts": {
     "make": "tsc && tsc-alias",
     "scan": "concurrently --kill-others \"tsc -w\" \"tsc-alias -w\"",

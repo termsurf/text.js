@@ -221,6 +221,14 @@ export const ARABIC_UNICODE_BLOCKS: Array<Block> = [
 ]
 
 export const TIBETAN_UNICODE_BLOCKS: Array<Block> = [[0x0f00, 0x0fff]]
+export const TIBETAN_UNICODE_BLOCKS_MISSING: Array<Block> = [
+  [0x0f48, 0x0f48],
+  [0x0f6d, 0x0f70],
+  [0x0f98, 0x0f98],
+  [0x0fbd, 0x0fbd],
+  [0x0fcd, 0x0fcd],
+  [0x0fdb, 0x0fff],
+]
 
 export const GREEK_UNICODE_BLOCKS: Array<Block> = [
   [0x0370, 0x03ff],

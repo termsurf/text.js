@@ -1,47 +1,49 @@
-import { build, transform } from '../base'
+import { Map, build, transform } from '../base'
 
-const virama = '\u0bcd'
+export const virama = '\u0bcd'
+export const anusvara = '\u0b82'
 
-const vowelDiacritics = {
-  '\u0BBe': 'aa',
+export const vowelDiacritics: Record<string, string> = {
+  '\u0BBe': 'a_',
   '\u0BBf': 'i',
-  '\u0Bc0': 'ii',
+  '\u0Bc0': 'i_',
   '\u0Bc1': 'u',
-  '\u0Bc2': 'uu',
+  '\u0Bc2': 'u_',
   '\u0Bc6': 'e',
-  '\u0Bc7': 'ee',
+  '\u0Bc7': 'e_',
   '\u0Bc8': 'ai',
   '\u0Bca': 'o',
-  '\u0Bcb': 'oo',
+  '\u0Bcb': 'o_',
   '\u0Bcc': 'au',
 }
 
-const standaloneVowels = {
+export const standaloneVowels: Record<string, string> = {
   அ: 'a',
-  ஆ: 'aa',
+  ஆ: 'a_',
   இ: 'i',
-  ஈ: 'ii',
+  ஈ: 'i_',
   உ: 'u',
-  ஊ: 'uu',
+  ஊ: 'u_',
   எ: 'e',
-  ஏ: 'ee',
+  ஏ: 'e_',
   ஐ: 'aI',
   ஒ: 'o',
-  ஓ: 'oo',
+  ஓ: 'o_',
   ஔ: 'aO',
-  ஃ: 'aH',
-  அஂ: 'a~',
 }
 
-const consonants = {
-  கஷ: 'kXa',
+export const akku = {
+  ஃ: 'aH',
+}
+
+export const consonants: Record<string, string> = {
   க: 'ka',
   ஃப: 'fa',
   ஃஜ: 'za',
   ஃக: 'Ha',
   ங: 'qa',
-  ச: 'txya',
-  ஞ: 'nya',
+  ச: 'txa',
+  ஞ: 'ny~a',
   ட: 'Ta',
   ண: 'Na',
   த: 'ta',
@@ -52,40 +54,57 @@ const consonants = {
   ர: 'ra',
   ல: 'la',
   வ: 'Va',
-  ழ: 'ra',
+  ழ: 'u$a',
   ள: 'La',
-  ற: 'rra',
+  ற: 'ra',
   ன: 'na',
   ஜ: 'dja',
-  ஶ: 'xya',
-  வ: 'va',
-  ஷ: 'Xa',
+  ஶ: 'xa',
+  ஷ: 'kXa',
   ஸ: 'sa',
   ஹ: 'ha',
-  '\u0b82': '~',
-  '\u00a0': ' ',
 }
 
-const vowelTransformer = Object.keys(vowelDiacritics).reduce((m, x) => {
+export const vowelTransformer = Object.keys(
+  vowelDiacritics,
+).reduce<Map>((m, x) => {
   let render = vowelDiacritics[x]
   m[x] = m => {
-    m[m.length - 1] = m[m.length - 1].replace(/a/, '') + render
+    const last = m[m.length - 1]
+    if (last) {
+      m[m.length - 1] = last.replace(/a/, '') + render
+    }
   }
   return m
 }, {})
 
-const m = {
+export const characters: Map = {
   ...vowelTransformer,
   ...standaloneVowels,
+  ...akku,
   ...consonants,
+  [anusvara]: m => {
+    let last = m[m.length - 1]
+    if (last) {
+      if (last.endsWith('_')) {
+        last = last.replace('_', '')
+        last = `${last}&_`
+      } else {
+        last = `${last}&`
+      }
+      m[m.length - 1] = last
+    }
+  },
   [virama]: m => {
-    m[m.length - 1] =
-      m[m.length - 1] && m[m.length - 1].replace(/a/, '')
+    const last = m[m.length - 1]
+    if (last) {
+      m[m.length - 1] = last.replace(/a/, '')
+    }
   },
 }
 
-const s = build(m)
+const s = build(characters)
 
-const form = (t: string) => transform(t, s, m)
+const form = (t: string) => transform(t, s, characters)
 
 export default form

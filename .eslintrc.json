@@ -78,11 +78,11 @@
     "import/first": "error",
     "import/newline-after-import": "error",
     "import/no-duplicates": "error",
-    "typescript-sort-keys/interface": "error",
-    "typescript-sort-keys/string-enum": "error",
+    "typescript-sort-keys/interface": "off",
+    "typescript-sort-keys/string-enum": "off",
     "prettier/prettier": 2,
     "@typescript-eslint/no-unused-vars": "off",
-    "default-case": "error",
-    "default-case-last": "error"
+    "default-case": "off",
+    "default-case-last": "off"
   }
 }

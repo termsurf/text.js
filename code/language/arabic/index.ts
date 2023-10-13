@@ -4,7 +4,25 @@
  * Arabic to ULA map.
  */
 
-const m: Record<string, string> = {
+const precomposedConsonants: Record<string, string> = {
+  ﺍ: 'a_',
+  ﺎ: 'a_',
+}
+
+const integers = {
+  '٠': '0',
+  '١': '1',
+  '٢': '2',
+  '٣': '3',
+  '٤': '4',
+  '٥': '5',
+  '٦': '6',
+  '٧': '7',
+  '٨': '8',
+  '٩': '9',
+}
+
+const consonants: Record<string, string> = {
   '\u0626': "'y",
   '\u0624': "'w",
   '\u064E\u0627': 'a_',
@@ -20,8 +38,6 @@ const m: Record<string, string> = {
   ء: "'",
 
   ا: 'a_',
-  ﺍ: 'a_',
-  ﺎ: 'a_',
 
   ب: 'b',
   ﺏ: 'b',
@@ -226,16 +242,6 @@ const m: Record<string, string> = {
 
   '؀': '#',
 
-  '٠': '0',
-  '١': '1',
-  '٢': '2',
-  '٣': '3',
-  '٤': '4',
-  '٥': '5',
-  '٦': '6',
-  '٧': '7',
-  '٨': '8',
-  '٩': '9',
   '٪': '%',
   '٫': '.',
 
@@ -261,6 +267,12 @@ const m: Record<string, string> = {
   إ: "'i", // Arabic Letter Alef With Hamza Below
   أ: "'",
   '\u200e': '', // ltr marker
+}
+
+const m: Record<string, string> = {
+  ...consonants,
+  ...precomposedConsonants,
+  ...integers,
 }
 
 const form = (s: string) => {
