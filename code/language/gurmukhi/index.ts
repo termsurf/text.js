@@ -3,22 +3,32 @@
 import { Map, build, transform } from '../base'
 
 export const virama = '\u0A4d'
+export const tippi = '\u0a70'
+export const bindi = '\u0a02'
 
 const standaloneVowels: Map = {
   ਅ: 'U',
+  ਆ: 'a_',
+  ਇ: 'I',
+  ਈ: 'i_',
+  ਉ: 'O',
+  ਊ: 'u_',
+  ਏ: 'e_',
+  ਐ: 'E_',
+  ਓ: 'o_',
+  ਔ: 'o$_',
 }
 
 const vowels: Map = {
   '\u0A3e': 'a_',
-  '\u0A3f': 'i',
+  '\u0A3f': 'I',
   '\u0A40': 'i_',
-  '\u0A41': 'u',
+  '\u0A41': 'O',
   '\u0A42': 'u_',
   '\u0A47': 'e_',
-  '\u0A48': 'ai',
+  '\u0A48': 'E_',
   '\u0A4b': 'o_',
-  '\u0A4c': 'au',
-  '\u0A4f': 'i',
+  '\u0A4c': 'o$_',
 }
 
 const vowelTransformer = Object.keys(vowels).reduce<Map>((m, x) => {
@@ -80,17 +90,48 @@ export const consonants: Map = {
   ੜ: 'RU',
 }
 
+export const numbers: Map = {
+  '੦': '0',
+  '੧': '1',
+  '੨': '2',
+  '੩': '3',
+  '੪': '4',
+  '੫': '5',
+  '੬': '6',
+  '੭': '7',
+  '੮': '8',
+  '੯': '9',
+}
+
+const nasal = (m: Array<string>) => {
+  const last = m[m.length - 1]
+  if (last) {
+    if (last.match(/[_-]/)) {
+      m[m.length - 1] = last.replace(/(-_|_|-)/, (_, $1) => `&${$1}`)
+    } else {
+      m[m.length - 1] = `${last}&`
+    }
+  }
+}
+
 export const characters: Map = {
   ...blank,
   ...vowelTransformer,
   ...standaloneVowels,
   ...consonants,
+  ...numbers,
   [virama]: m => {
     const last = m[m.length - 1]
     if (last) {
       m[m.length - 1] = last.replace(/U[_-]?/, '')
     }
   },
+  [tippi]: nasal,
+  [bindi]: nasal,
+  ੴ: 'Ik o_qka_r',
+  '।': '।', // danda to gurmukhi danda
+  '॥': '॥', // double danda
+  '\u0a03': '.', // visarga is abbreviation
 }
 
 const s = build(characters)
