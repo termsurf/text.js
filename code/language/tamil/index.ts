@@ -101,6 +101,11 @@ export const characters: Map = {
       m[m.length - 1] = last.replace(/a/, '')
     }
   },
+  ',': ',',
+  '.': '.',
+  '?': '?',
+  ';': ';',
+  '-': '-',
 }
 
 const s = build(characters)
