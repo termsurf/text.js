@@ -52,15 +52,15 @@ export const blank: Map = {
 export const consonants: Map = {
   ਕ: 'kU',
   ਖ: 'kh~U',
-  ਖ਼: 'H',
+  ਖ਼: 'HU',
   ਗ: 'gU',
-  ਗ਼: 'G',
+  ਗ਼: 'GU',
   ਘ: 'kU-',
   ਙ: 'qU',
   ਚ: 'txU',
   ਛ: 'txh~U',
   ਜ: 'djU',
-  ਜ਼: 'z',
+  ਜ਼: 'zU',
   ਝ: 'txU-',
   ਞ: 'ny~U',
   ਟ: 'TU',
@@ -88,6 +88,11 @@ export const consonants: Map = {
   ਸ਼: 'xU',
   ਹ: 'hU',
   ੜ: 'RU',
+  ਜ਼: 'zU',
+  ਫ਼: 'fU',
+  ਖ਼: 'kh~U',
+  ਸ਼: 'xU',
+  ਗ਼: 'GU',
 }
 
 export const numbers: Map = {
@@ -132,6 +137,8 @@ export const characters: Map = {
   '।': '।', // danda to gurmukhi danda
   '॥': '॥', // double danda
   '\u0a03': '.', // visarga is abbreviation
+  '(': '(',
+  ')': ')',
 }
 
 const s = build(characters)

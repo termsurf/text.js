@@ -94,6 +94,8 @@ export const headLetters: Record<string, string> = {
   སྡ: 'da',
 
   རྫ: 'dza',
+
+  ཀྲ: 'Ta',
 }
 
 export const subjoinedConsonants: Record<string, string> = {
