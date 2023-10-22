@@ -1,5 +1,5 @@
 {
-  "name": "@nerdbond/talk",
+  "name": "@wavebond/talk",
   "version": "0.1.9",
   "scripts": {
     "make": "tsc && tsc-alias",
