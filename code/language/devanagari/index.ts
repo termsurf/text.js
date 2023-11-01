@@ -1,32 +1,32 @@
 import { Map, build, transform } from '../base'
 
-const virama = '\u094d'
-const anusvara = '\u0902'
-const visarga = '\u0903'
+export const virama = '\u094d'
+export const anusvara = '\u0902'
+export const visarga = '\u0903'
 
-const standaloneVowels: Record<string, string> = {
+export const standaloneVowels: Record<string, string> = {
   अ: 'a',
-  अं: 'am',
-  अः: 'ah',
+  अं: '&',
+  अः: 'h',
   आ: 'a_',
   इ: 'i',
   ई: 'i_',
   उ: 'u',
   ऊ: 'u_',
-  ऋ: 'r',
-  ऌ: 'L',
-  ऍ: 'e',
-  ए: 'e',
+  ऋ: 'u$',
+  ऌ: 'l',
+  ऍ: 'A',
+  ए: 'e_',
   ऐ: 'ai',
-  ऑ: 'o',
+  ऑ: 'a',
   ओ: 'o',
   औ: 'au',
   ॠ: 'u$_',
-  ॡ: 'LL',
-  ॲ: 'e',
+  ॡ: 'll',
+  ॲ: 'A',
 }
 
-const vowels: Record<string, string> = {
+export const vowelDiacritics: Record<string, string> = {
   '\u093a': 'oe',
   '\u093b': 'o_e',
   '\u093e': 'a_',
@@ -36,22 +36,22 @@ const vowels: Record<string, string> = {
   '\u0942': 'u_',
   '\u0943': 'u$',
   '\u0944': 'u$_',
-  '\u0945': 'e',
+  '\u0945': 'A',
   '\u0946': 'e',
-  '\u0947': 'e',
+  '\u0947': 'e_',
   '\u0948': 'ai',
-  '\u0949': 'o',
+  '\u0949': 'a',
   '\u094a': 'o',
-  '\u094b': 'o',
+  '\u094b': 'o_',
   '\u094c': 'au',
   '\u094e': 'e',
   '\u0955': 'e',
   '\u0956': 'ue',
-  '\u0962': 'L',
-  '\u0963': 'LL',
+  '\u0962': 'l',
+  '\u0963': 'll',
 }
 
-const consonants: Record<string, string> = {
+export const consonants: Record<string, string> = {
   क: 'ka',
   ख: 'kh~a',
   ग: 'ga',
@@ -87,16 +87,19 @@ const consonants: Record<string, string> = {
   ह: 'ha',
 }
 
-const vowelTransformer = Object.keys(vowels).reduce<Map>((m, x) => {
-  let render = vowels[x]
-  m[x] = m => {
-    const last = m[m.length - 1]
-    if (last) {
-      m[m.length - 1] = last.replace(/a_?/, '') + render
+const vowelTransformer = Object.keys(vowelDiacritics).reduce<Map>(
+  (m, x) => {
+    let render = vowelDiacritics[x]
+    m[x] = m => {
+      const last = m[m.length - 1]
+      if (last) {
+        m[m.length - 1] = last.replace(/a_?/, '') + render
+      }
     }
-  }
-  return m
-}, {})
+    return m
+  },
+  {},
+)
 
 export const laghava = '\u0970'
 
