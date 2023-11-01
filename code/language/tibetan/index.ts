@@ -7,6 +7,8 @@
 // https://github.com/Sandhi-IITBombay/Shobhika
 // https://github.com/Omnibus-Type/Jaldi
 
+import { build, transform } from '../base'
+
 const CLUSTER_PATTERN =
   /^(bl|br|dr|dw|fl|fr|gl|gr|kl|kr|kw|pl|pr|sk|skr|skw|sl|sm|sn|sp|spl|spr|st|str|sw|xr|tr|tw)/
 
@@ -230,6 +232,12 @@ export const characters: Record<string, string> = {
 //       m[m.length - 1] = last.replace(/a/g, 'o_')
 //     }
 //   }
+
+const s = build(characters)
+
+const form = (t: string) => transform(t, s, characters)
+
+export default form
 
 export function getClusters() {
   const combinations: Array<Array<string>> = []

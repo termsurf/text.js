@@ -25,8 +25,8 @@ pronunciation, into a more human readable (and easier to type on the
 computer) form.
 
 Check out the
-[`./code`](https://github.com/wavebond/link/blob/make/code) folder for
-the list of languages we are starting to work on. It's not always
+[`./code`](https://github.com/wavebond/talk.js/blob/make/code) folder
+for the list of languages we are starting to work on. It's not always
 possible to do this across every language, especially on a language like
 English, where it is impossible to generate pronunciation based on
 written words. You must memorize individual cases in English, and in

@@ -3,6 +3,7 @@
   "version": "0.1.9",
   "scripts": {
     "make": "tsc && tsc-alias",
+    "move": "pnpm make && git add . && git commit -am 'save' && npm version patch && pnpm host && git push",
     "scan": "concurrently --kill-others \"tsc -w\" \"tsc-alias -w\"",
     "test": "tsx test.ts",
     "host": "pnpm make && npm publish --access=public"
