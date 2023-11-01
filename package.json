@@ -1,6 +1,6 @@
 {
   "name": "@wavebond/talk",
-  "version": "0.1.11",
+  "version": "0.1.12",
   "scripts": {
     "make": "tsc && tsc-alias",
     "move": "pnpm make && git add . && git commit -am 'save' && npm version patch && pnpm host && git push",
