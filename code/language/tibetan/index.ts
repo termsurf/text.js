@@ -253,8 +253,12 @@ const form = (t: string) => transform(t, s, characters)
 
 export default form
 
+export const clusters = getClusters()
+
+export const vowelConsonants = getConsonantWithVowelList()
+
 export function getClusters() {
-  const combinations: Array<Array<string>> = []
+  const combinations: Record<string, string> = {}
 
   for (const a in consonants) {
     const a2 = consonants[a]
@@ -267,12 +271,12 @@ export function getClusters() {
           vowelDiacritics[c]
         }`
         if (t.match(CLUSTER_PATTERN) && !t.match(/ru\$/i)) {
-          combinations.push([`${a}${b}${c}`, t])
+          combinations[`${a}${b}${c}`] = t
         }
       }
       const t = `${a2?.replace(/a/, '')}${b2}`
       if (t.match(CLUSTER_PATTERN) && !t.match(/ru\$/i)) {
-        combinations.push([`${a}${b}`, t])
+        combinations[`${a}${b}`] = t
       }
     }
   }
@@ -281,7 +285,7 @@ export function getClusters() {
 }
 
 export function getConsonantWithVowelList() {
-  const combinations: Array<Array<string>> = []
+  const combinations: Record<string, string> = {}
 
   for (const a in consonants) {
     const a2 = consonants[a]
@@ -291,7 +295,7 @@ export function getConsonantWithVowelList() {
         vowelDiacritics[c]
       }`
       if (!t.match(/ru\$/i)) {
-        combinations.push([`${a}${c}`, t])
+        combinations[`${a}${c}`] = t
       }
     }
   }
