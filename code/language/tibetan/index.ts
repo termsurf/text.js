@@ -219,12 +219,26 @@ export const nasals: Record<string, string> = {
   '\u0f7f': '&',
 }
 
+export const numerals: Record<string, string> = {
+  '༠': '0',
+  '༡': '1',
+  '༢': '2',
+  '༣': '3',
+  '༤': '4',
+  '༥': '5',
+  '༦': '6',
+  '༧': '7',
+  '༨': '8',
+  '༩': '9',
+}
+
 export const characters: Record<string, string> = {
   ...consonants,
   ...subjoinedConsonants,
   ...vowels,
   ...nasals,
   ...punctuation,
+  ...numerals,
 }
 // (m: Array<string>) => {
 //     const last = m[m.length - 1]
