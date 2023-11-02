@@ -6,7 +6,7 @@ export const visarga = '\u0903'
 
 export const standaloneVowels: Record<string, string> = {
   अ: 'a',
-  अं: '&',
+  अं: '', // &
   अः: 'h',
   आ: 'a_',
   इ: 'i',
