@@ -1,18 +1,28 @@
 export type Map = Record<string, string | ((m: Array<string>) => void)>
 
-export type Trie = {
-  child: {
-    [key: string]: Trie | boolean
+export type Tree = {
+  nest: {
+    [key: string]: Tree | boolean
   }
   last?: boolean
-  parent?: Trie
+  stem?: Tree
+}
+
+export function makeBack(site: Record<string, string>) {
+  return Object.keys(site).reduce<Record<string, string>>((m, x) => {
+    const v = site[x]
+    if (v) {
+      m[v] = x
+    }
+    return m
+  }, {})
 }
 
 /**
  * Transform input text to output using map.
  */
 
-export function transform(i: string, s: Trie, m: Map) {
+export function transform(i: string, s: Tree, m: Map) {
   let o: Array<string> = []
   let w = 0
 
@@ -22,7 +32,7 @@ export function transform(i: string, s: Trie, m: Map) {
 
     char: while (true) {
       const c = i.charAt(v).toLowerCase()
-      const d = r.child[c]
+      const d = r.nest[c]
       if (typeof d === 'object') {
         r = d
         v++
@@ -32,11 +42,11 @@ export function transform(i: string, s: Trie, m: Map) {
     }
 
     if (!r.last) {
-      parent: while (r.parent) {
-        r = r.parent
+      stem: while (r.stem) {
+        r = r.stem
         v--
         if (r.last) {
-          break parent
+          break stem
         }
       }
 
@@ -65,11 +75,11 @@ export function transform(i: string, s: Trie, m: Map) {
 }
 
 /**
- * Build trie.
+ * Build Tree.
  */
 
 export function build(m: Map) {
-  let s: Trie = { child: {} }
+  let s: Tree = { nest: {} }
 
   for (let key in m) {
     let v = key.toLowerCase().split('')
@@ -77,10 +87,10 @@ export function build(m: Map) {
     while (v.length) {
       const x = v.shift()
       if (x) {
-        if (!r.child[x]) {
-          r.child[x] = { parent: r, child: {} }
+        if (!r.nest[x]) {
+          r.nest[x] = { stem: r, nest: {} }
         }
-        const w = r.child[x]
+        const w = r.nest[x]
         if (typeof w === 'object') {
           r = w
         }

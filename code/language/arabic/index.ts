@@ -1,5 +1,7 @@
 /* eslint-disable sort-keys/sort-keys-fix */
 
+import { makeBack } from '../base'
+
 /**
  * Arabic to ULA map.
  */
@@ -9,7 +11,7 @@ const precomposedConsonants: Record<string, string> = {
   ﺎ: 'a_',
 }
 
-const integers = {
+const codeHead = {
   '٠': '0',
   '١': '1',
   '٢': '2',
@@ -21,8 +23,48 @@ const integers = {
   '٨': '8',
   '٩': '9',
 }
+const codeBack = makeBack(codeHead)
 
-const consonants: Record<string, string> = {
+// ```
+// import make from '@wavebond/talk'
+// make('arabic') //=> ascii
+
+// make.head // forward to ascii
+// make.back // backward from ascii
+// make.back.mesh['a_']
+// make.back.vowel/tone
+// make.back.vowel.link // diacritics
+// make.back.vowel.site // standalone
+// make.back.consonant/vibe
+// make.back.bulb // punctuation
+
+// make.back.bulb.open_parenthesis
+// ```
+
+// {
+//   open_parenthesis: { i: '(', o: '(' },
+//   a_long,
+//   A_long,
+//   A_toneHigh_toneLow2_2,
+
+// }
+
+// {
+//   { i: '(', o: '(', name: 'open_parenthesis' },
+//   a_long,
+//   A_long,
+//   A_toneHigh_toneLow2_2,
+
+// }
+
+// const vibeHead = readHead(base, [
+//   'c',
+//   'C',
+// ])
+
+// const codeBase = read(base, )
+
+const vibe: Record<string, string> = {
   '\u0626': "'y",
   '\u0624': "'w",
   '\u064E\u0627': 'a_',
@@ -238,7 +280,7 @@ const consonants: Record<string, string> = {
   '\u064d': 'in',
   '\u064c': 'un',
 
-  ﷲ: 'الله',
+  // ﷲ: 'الله',
 
   '؀': '#',
 
@@ -270,9 +312,9 @@ const consonants: Record<string, string> = {
 }
 
 const m: Record<string, string> = {
-  ...consonants,
+  ...vibe,
   ...precomposedConsonants,
-  ...integers,
+  ...codeHead,
 }
 
 const form = (s: string) => {
