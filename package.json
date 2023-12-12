@@ -1,5 +1,5 @@
 {
-  "name": "@textsurf/talk",
+  "name": "@termsurf/talk",
   "version": "0.1.14",
   "scripts": {
     "make": "tsc && tsc-alias",

@@ -6,7 +6,7 @@
 <br/>
 <br/>
 
-<h3 align='center'>@textsurf/talk</h3>
+<h3 align='center'>@termsurf/talk</h3>
 <p align='center'>
   A tool to convert traditional writing across languages into a normalized form for pronunciation.
 </p>
@@ -18,15 +18,15 @@
 ## Welcome
 
 Talk is a bunch of utils for transforming traditional orthography into
-[ChatText](https://github.com/textsurf/chat.js), which makes it
-available as well for [ToneText](https://github.com/textsurf/tone),
+[ChatText](https://github.com/termsurf/chat.js), which makes it
+available as well for [ToneText](https://github.com/termsurf/tone),
 amongst other things. ChatText normalizes the way you write
 pronunciation, into a more human readable (and easier to type on the
 computer) form, and ToneText is a rune-like script which streamlines
 writing pronunciations further.
 
 Check out the
-[`./code/language`](https://github.com/textsurf/talk.js/blob/make/code/language)
+[`./code/language`](https://github.com/termsurf/talk.js/blob/make/code/language)
 folder for the list of languages we are starting to work on. It's not
 always possible to do this across every language, especially on a
 language like English, where it is impossible to generate pronunciation
@@ -68,7 +68,7 @@ can and can't have pronunciations automatically done.
 
 ## License
 
-Copyright 2021-2023 <a href='https://text.surf'>TextSurf</a>
+Copyright 2021-2023 <a href='https://term.surf'>TermSurf</a>
 
 Licensed under the Apache License, Version 2.0 (the "License"); you may
 not use this file except in compliance with the License. You may obtain
@@ -82,11 +82,11 @@ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 See the License for the specific language governing permissions and
 limitations under the License.
 
-## TextSurf
+## TermSurf
 
-This is being developed by the folks at [TextSurf](https://text.surf), a
+This is being developed by the folks at [TermSurf](https://term.surf), a
 California-based project for helping humanity master information and
-computation. Find us on [Twitter](https://twitter.com/_textsurf),
-[LinkedIn](https://www.linkedin.com/company/textsurf), and
-[Facebook](https://www.facebook.com/textsurf). Check out our other
-[GitHub projects](https://github.com/textsurf) as well!
+computation. Find us on [Twitter](https://twitter.com/_termsurf),
+[LinkedIn](https://www.linkedin.com/company/termsurf), and
+[Facebook](https://www.facebook.com/termsurf). Check out our other
+[GitHub projects](https://github.com/termsurf) as well!
