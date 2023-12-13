@@ -26,7 +26,7 @@ const codeHead = {
 const codeBack = makeBack(codeHead)
 
 // ```
-// import make from '@wavebond/talk'
+// import make from '@termsurf/talk'
 // make('arabic') //=> ascii
 
 // make.head // forward to ascii

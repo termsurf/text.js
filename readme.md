@@ -86,7 +86,7 @@ limitations under the License.
 
 This is being developed by the folks at [TermSurf](https://term.surf), a
 California-based project for helping humanity master information and
-computation. Find us on [Twitter](https://twitter.com/_termsurf),
+computation. Find us on [Twitter](https://twitter.com/termsurf),
 [LinkedIn](https://www.linkedin.com/company/termsurf), and
 [Facebook](https://www.facebook.com/termsurf). Check out our other
 [GitHub projects](https://github.com/termsurf) as well!
