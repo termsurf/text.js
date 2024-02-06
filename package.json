@@ -6,7 +6,7 @@
     "move": "pnpm make && git add . && git commit -am 'save' && npm version patch && pnpm host && git push",
     "scan": "concurrently --kill-others \"tsc -w\" \"tsc-alias -w\"",
     "test": "tsx test.ts",
-    "host": "pnpm make && npm publish --access=public"
+    "host": "rm -rf host && pnpm make && npm publish --access=public"
   },
   "devDependencies": {
     "@trivago/prettier-plugin-sort-imports": "^4.0.0",
