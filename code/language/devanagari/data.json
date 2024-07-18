@@ -2,12 +2,14 @@
   {
     "role": ["vowel"],
     "text": "ऄ",
-    "talk": "a!"
+    "talk": "a!",
+    "code": "Ạ"
   },
   {
     "role": ["vowel"],
     "text": "अ",
-    "talk": "a"
+    "talk": "a",
+    "code": "A"
   },
   {
     "role": ["vowel"],
@@ -109,12 +111,13 @@
   {
     "role": ["vowel"],
     "text": "ॲ",
-    "talk": "A"
+    "talk": "A",
+    "code": "Á"
   },
   {
     "text": "\u093a",
     "talk": "oe",
-    "code": "ō",
+    "code": "ô",
     "role": ["vowel", "bound"]
   },
   {
@@ -126,43 +129,43 @@
   {
     "text": "\u093e",
     "talk": "a_",
-    "code": "",
+    "code": "ā",
     "role": ["vowel", "bound"]
   },
   {
     "text": "\u093f",
     "talk": "i",
-    "code": "",
+    "code": "i",
     "role": ["vowel", "bound"]
   },
   {
     "text": "\u0940",
     "talk": "i_",
-    "code": "",
+    "code": "ī",
     "role": ["vowel", "bound"]
   },
   {
     "text": "\u0941",
     "talk": "u",
-    "code": "",
+    "code": "u",
     "role": ["vowel", "bound"]
   },
   {
     "text": "\u0942",
     "talk": "u_",
-    "code": "",
+    "code": "ū",
     "role": ["vowel", "bound"]
   },
   {
     "text": "\u0943",
     "talk": "u$",
-    "code": "",
+    "code": "ṛ",
     "role": ["vowel", "bound"]
   },
   {
     "text": "\u0944",
     "talk": "u$_",
-    "code": "",
+    "code": "ṝ",
     "role": ["vowel", "bound"]
   },
   {

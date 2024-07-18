@@ -3,6 +3,7 @@
     "role": ["vowel"],
     "text": "\u0904",
     "talk": "a!",
+    "code": "Ạ",
     "name": {
       "head": "devanagari letter short a"
     }
@@ -11,7 +12,7 @@
     "role": ["vowel"],
     "text": "\u0905",
     "talk": "a",
-    "code": "Ạ",
+    "code": "A",
     "name": {
       "head": "devanagari letter a"
     }
@@ -182,6 +183,7 @@
     "role": ["vowel"],
     "text": "\u0972",
     "talk": "A",
+    "code": "Á",
     "name": {
       "head": "devanagari letter candra a"
     }
@@ -189,7 +191,7 @@
   {
     "text": "\u093A",
     "talk": "oe",
-    "code": "ō",
+    "code": "ô",
     "role": ["vowel", "bound"],
     "name": {
       "head": "devanagari vowel sign oe"
@@ -207,7 +209,7 @@
   {
     "text": "\u093E",
     "talk": "a_",
-    "code": "",
+    "code": "ā",
     "role": ["vowel", "bound"],
     "name": {
       "head": "devanagari vowel sign aa"
@@ -216,7 +218,7 @@
   {
     "text": "\u093F",
     "talk": "i",
-    "code": "",
+    "code": "i",
     "role": ["vowel", "bound"],
     "name": {
       "head": "devanagari vowel sign i"
@@ -225,7 +227,7 @@
   {
     "text": "\u0940",
     "talk": "i_",
-    "code": "",
+    "code": "ī",
     "role": ["vowel", "bound"],
     "name": {
       "head": "devanagari vowel sign ii"
@@ -234,7 +236,7 @@
   {
     "text": "\u0941",
     "talk": "u",
-    "code": "",
+    "code": "u",
     "role": ["vowel", "bound"],
     "name": {
       "head": "devanagari vowel sign u"
@@ -243,7 +245,7 @@
   {
     "text": "\u0942",
     "talk": "u_",
-    "code": "",
+    "code": "ū",
     "role": ["vowel", "bound"],
     "name": {
       "head": "devanagari vowel sign uu"
@@ -252,7 +254,7 @@
   {
     "text": "\u0943",
     "talk": "u$",
-    "code": "",
+    "code": "ṛ",
     "role": ["vowel", "bound"],
     "name": {
       "head": "devanagari vowel sign vocalic r"
@@ -261,7 +263,7 @@
   {
     "text": "\u0944",
     "talk": "u$_",
-    "code": "",
+    "code": "ṝ",
     "role": ["vowel", "bound"],
     "name": {
       "head": "devanagari vowel sign vocalic rr"
