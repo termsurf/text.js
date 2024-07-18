@@ -8,7 +8,7 @@
 
 <h3 align='center'>@termsurf/talk</h3>
 <p align='center'>
-  A tool to convert traditional writing across languages into a normalized form for pronunciation.
+  Convert traditional orthography into Latin or pronunciation text.
 </p>
 
 <br/>
@@ -17,22 +17,23 @@
 
 ## Welcome
 
-Talk is a bunch of utils for transforming traditional orthography into
-[ChatText](https://github.com/termsurf/chat.js), which makes it
-available as well for [ToneText](https://github.com/termsurf/tone),
-amongst other things. ChatText normalizes the way you write
-pronunciation, into a more human readable (and easier to type on the
-computer) form, and ToneText is a rune-like script which streamlines
-writing pronunciations further.
+Talk is a TypeScript library which does a few things:
 
-Check out the
-[`./code/language`](https://github.com/termsurf/talk.js/blob/make/code/language)
-folder for the list of languages we are starting to work on. It's not
-always possible to do this across every language, especially on a
-language like English, where it is impossible to generate pronunciation
-based on written words. You must memorize individual cases in English,
-and in some other languages. However, some languages do have the ability
-to get pretty close to correct pronunciation based purely on the native
+1. **Transforms traditional orthography into Latin/Romanized text**,
+   which maintains a one-to-one correspondence between the original
+   script and the Latin script, where possible (i.e. not for Chinese,
+   where Pinyin already exists).
+2. **Transforms traditional orthography into pronunciation text**, built
+   around [TalkText](https://github.com/termsurf/talk.js). TalkText can
+   be used to render [ToneText](https://github.com/termsurf/tone), which
+   is a unique and modern rune-like writing system for pronunciations.
+
+Caveat: It's not always possible to do transform traditional orthography
+into pronunciation text across every language, especially on a language
+like English, where it is impossible to generate pronunciation based on
+written words. You must memorize individual cases in English, and in
+some other languages. However, some languages do have the ability to get
+pretty close to correct pronunciation based purely on the native
 spelling, which is pretty cool. Taking advantage of that fact here!
 
 ## Table of Languages
@@ -65,6 +66,20 @@ can and can't have pronunciations automatically done.
   for various languages.
 - Have structured script data, such as what are the vowels, etc..
 - Script detection.
+
+```ts
+export type Mark = {
+  text: string // traditional text
+  code: string // romanized orthography mapping
+  talk: string // pronunciation text
+  name?: {
+    base?: string // Traditional name
+    head: string // English
+    link: string // Slug English.
+  }
+  role: Array<string> | string // vowel, punctuation, etc..
+}
+```
 
 ## License
 

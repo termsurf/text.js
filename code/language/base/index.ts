@@ -1,5 +1,17 @@
 export type Map = Record<string, string | ((m: Array<string>) => void)>
 
+export type Mark = {
+  text: string // traditional text
+  code?: string // romanized orthography mapping
+  talk?: string // pronunciation text
+  name?: {
+    base?: string // Traditional name
+    head: string // English
+    link?: string // Slug English.
+  }
+  role?: Array<string>
+}
+
 export type Tree = {
   nest: {
     [key: string]: Tree | boolean

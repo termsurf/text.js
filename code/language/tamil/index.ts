@@ -106,6 +106,7 @@ export const characters: Map = {
   '?': '?',
   ';': ';',
   '-': '-',
+  ' ': ' ',
 }
 
 const s = build(characters)

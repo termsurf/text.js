@@ -1,6 +1,6 @@
 {
-  "name": "@termsurf/talk",
-  "version": "0.1.14",
+  "name": "@termsurf/text",
+  "version": "0.1.2",
   "scripts": {
     "make": "tsc && tsc-alias",
     "move": "pnpm make && git add . && git commit -am 'save' && npm version patch && pnpm host && git push",
@@ -10,6 +10,7 @@
   },
   "devDependencies": {
     "@trivago/prettier-plugin-sort-imports": "^4.0.0",
+    "@types/lodash": "^4.17.7",
     "@types/node": "^18.11.17",
     "@types/prettier": "^2.7.2",
     "@typescript-eslint/eslint-plugin": "^5.46.1",
@@ -27,6 +28,7 @@
     "eslint-plugin-sort-exports": "^0.8.0",
     "eslint-plugin-sort-keys": "^2.3.5",
     "eslint-plugin-typescript-sort-keys": "^2.1.0",
+    "lodash": "^4.17.21",
     "prettier": "^2.8.1",
     "ts-node": "^10.9.1",
     "tsc-alias": "^1.8.2",
