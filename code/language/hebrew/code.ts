@@ -1,35 +1,80 @@
 import { Map, Mark, build, transform } from '../base'
 import * as groups from './groups'
 
-const boundVowels = groups.boundVowels.reduce((m: Map, x: Mark) => {
+const boundVowelsToCode = groups.boundVowels.reduce(
+  (m: Map, x: Mark) => {
+    m[x.text] = x.code!
+    return m
+  },
+  {},
+)
+
+const consonantsToCode = groups.consonants.reduce((m: Map, x: Mark) => {
   m[x.text] = x.code!
   return m
 }, {})
 
-const consonants = groups.consonants.reduce((m: Map, x: Mark) => {
+const punctuationsToCode = groups.punctuations.reduce(
+  (m: Map, x: Mark) => {
+    m[x.text] = x.code!
+    return m
+  },
+  {},
+)
+
+const modifiersToCode = groups.modifiers.reduce((m: Map, x: Mark) => {
   m[x.text] = x.code!
   return m
 }, {})
 
-const punctuations = groups.punctuations.reduce((m: Map, x: Mark) => {
-  m[x.text] = x.code!
-  return m
-}, {})
-
-const modifiers = groups.modifiers.reduce((m: Map, x: Mark) => {
-  m[x.text] = x.code!
-  return m
-}, {})
-
-const map: Map = {
-  ...boundVowels,
-  ...consonants,
-  ...punctuations,
-  ...modifiers,
+const mapToCode: Map = {
+  ...boundVowelsToCode,
+  ...consonantsToCode,
+  ...punctuationsToCode,
+  ...modifiersToCode,
 }
 
-const s = build(map)
+const treeToCode = build(mapToCode)
 
-const code = (t: string) => transform(t, s, map)
+export const to = (t: string) => transform(t, treeToCode, mapToCode)
 
-export default code
+const boundVowelsFromCode = groups.boundVowels.reduce(
+  (m: Map, x: Mark) => {
+    m[x.text] = x.code!
+    return m
+  },
+  {},
+)
+
+const consonantsFromCode = groups.consonants.reduce(
+  (m: Map, x: Mark) => {
+    m[x.text] = x.code!
+    return m
+  },
+  {},
+)
+
+const punctuationsFromCode = groups.punctuations.reduce(
+  (m: Map, x: Mark) => {
+    m[x.text] = x.code!
+    return m
+  },
+  {},
+)
+
+const modifiersFromCode = groups.modifiers.reduce((m: Map, x: Mark) => {
+  m[x.text] = x.code!
+  return m
+}, {})
+
+const mapFromCode: Map = {
+  ...boundVowelsFromCode,
+  ...consonantsFromCode,
+  ...punctuationsFromCode,
+  ...modifiersFromCode,
+}
+
+const treeFromCode = build(mapFromCode)
+
+export const from = (t: string) =>
+  transform(t, treeFromCode, mapFromCode)
