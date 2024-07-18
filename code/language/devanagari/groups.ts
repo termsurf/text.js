@@ -18,3 +18,5 @@ export const modifiers = marks.filter(x => x.role?.includes('modifier'))
 export const punctuations = marks.filter(x =>
   x.role?.includes('punctuation'),
 )
+
+export const sounds = marks.filter(x => x.role?.includes('sound'))

@@ -16,6 +16,11 @@ const consonants = groups.consonants.reduce((m: Map, x: Mark) => {
   return m
 }, {})
 
+const sounds = groups.sounds.reduce((m: Map, x: Mark) => {
+  m[x.text] = x.talk!
+  return m
+}, {})
+
 const visarga = groups.modifiers.find(x => x.name!.link === 'visarga')!
 const anusvara = groups.modifiers.find(
   x => x.name!.link === 'anusvara',
@@ -58,7 +63,7 @@ const map: Map = {
       m[m.length - 1] = last
     }
   },
-  ॐ: 'o_m',
+  ...sounds,
   [virama.text]: m => {
     const last = m[m.length - 1]
     if (last) {

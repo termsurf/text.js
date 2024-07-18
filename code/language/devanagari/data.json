@@ -14,7 +14,7 @@
   {
     "role": ["vowel"],
     "text": "अः",
-    "talk": "h"
+    "talk": "H"
   },
   {
     "role": ["vowel"],
@@ -261,18 +261,21 @@
     "name": { "link": "anusvara", "base": "अनुस्वार" },
     "text": "\u0902",
     "talk": "&",
+    "code": "ṁ",
     "role": ["modifier"]
   },
   {
     "name": { "link": "visarga", "base": "विसर्ग" },
     "text": "\u0903",
     "talk": "h",
+    "code": "ḩ",
     "role": ["modifier"]
   },
   {
     "name": { "link": "laghava", "base": "लाघव चिह्न" },
     "text": "\u0970",
     "talk": ".",
+    "code": ".",
     "role": ["punctuation", "period"]
   },
   { "text": "क", "talk": "ka", "role": ["consonant"] },
@@ -380,5 +383,11 @@
     "talk": "rh~a",
     "code": "ɽħa",
     "role": ["consonant", "extension"]
+  },
+  {
+    "text": "ॐ",
+    "code": "ṃ",
+    "talk": "o_m",
+    "role": ["sound"]
   }
 ]
