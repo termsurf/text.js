@@ -40,7 +40,7 @@ export const to = (t: string) => transform(t, treeToCode, mapToCode)
 
 const boundVowelsFromCode = groups.boundVowels.reduce(
   (m: Map, x: Mark) => {
-    m[x.text] = x.code!
+    m[x.code!] = x.text
     return m
   },
   {},
@@ -48,7 +48,7 @@ const boundVowelsFromCode = groups.boundVowels.reduce(
 
 const consonantsFromCode = groups.consonants.reduce(
   (m: Map, x: Mark) => {
-    m[x.text] = x.code!
+    m[x.code!] = x.text
     return m
   },
   {},
@@ -56,14 +56,14 @@ const consonantsFromCode = groups.consonants.reduce(
 
 const punctuationsFromCode = groups.punctuations.reduce(
   (m: Map, x: Mark) => {
-    m[x.text] = x.code!
+    m[x.code!] = x.text
     return m
   },
   {},
 )
 
 const modifiersFromCode = groups.modifiers.reduce((m: Map, x: Mark) => {
-  m[x.text] = x.code!
+  m[x.code!] = x.text
   return m
 }, {})
 

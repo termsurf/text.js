@@ -1,3 +1,3 @@
-import { to } from '../code/language/hebrew/code'
+import { to, from } from '../code/language/hebrew/code'
 
-console.log(to(String(process.argv[2])))
+console.log(from(String(process.argv[2])))
