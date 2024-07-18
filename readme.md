@@ -20,9 +20,9 @@
 Talk is a TypeScript library which does a few things:
 
 1. **Transforms traditional orthography into Latin/Romanized text**,
-   which maintains a one-to-one correspondence between the original
-   script and the Latin script, where possible (i.e. not for Chinese,
-   where Pinyin already exists).
+   calling it CodeText, which maintains a one-to-one correspondence
+   between the original script and the Latin script, where possible
+   (i.e. not for Chinese, where Pinyin already exists).
 2. **Transforms traditional orthography into pronunciation text**, built
    around [TalkText](https://github.com/termsurf/talk.js). TalkText can
    be used to render [ToneText](https://github.com/termsurf/tone), which
