@@ -1,0 +1,1568 @@
+[
+  {
+    "text": "\u0600",
+    "name": {
+      "head": "arabic number sign"
+    }
+  },
+  {
+    "text": "\u0601",
+    "name": {
+      "head": "arabic sign sanah"
+    }
+  },
+  {
+    "text": "\u0602",
+    "name": {
+      "head": "arabic footnote marker"
+    }
+  },
+  {
+    "text": "\u0603",
+    "name": {
+      "head": "arabic sign safha"
+    }
+  },
+  {
+    "text": "\u0604",
+    "name": {
+      "head": "arabic sign samvat"
+    }
+  },
+  {
+    "text": "\u0605",
+    "name": {
+      "head": "arabic number mark above"
+    }
+  },
+  {
+    "text": "\u0606",
+    "name": {
+      "head": "arabic-indic cube root"
+    }
+  },
+  {
+    "text": "\u0607",
+    "name": {
+      "head": "arabic-indic fourth root"
+    }
+  },
+  {
+    "text": "\u0608",
+    "name": {
+      "head": "arabic ray"
+    }
+  },
+  {
+    "text": "\u0609",
+    "name": {
+      "head": "arabic-indic per mille sign"
+    }
+  },
+  {
+    "text": "\u060A",
+    "name": {
+      "head": "arabic-indic per ten thousand sign"
+    }
+  },
+  {
+    "text": "\u060B",
+    "name": {
+      "head": "afghani sign"
+    }
+  },
+  {
+    "text": "\u060C",
+    "name": {
+      "head": "arabic comma"
+    }
+  },
+  {
+    "text": "\u060D",
+    "name": {
+      "head": "arabic date separator"
+    }
+  },
+  {
+    "text": "\u060E",
+    "name": {
+      "head": "arabic poetic verse sign"
+    }
+  },
+  {
+    "text": "\u060F",
+    "name": {
+      "head": "arabic sign misra"
+    }
+  },
+  {
+    "text": "\u0610",
+    "name": {
+      "head": "arabic sign sallallahou alayhe wassallam"
+    }
+  },
+  {
+    "text": "\u0611",
+    "name": {
+      "head": "arabic sign alayhe assallam"
+    }
+  },
+  {
+    "text": "\u0612",
+    "name": {
+      "head": "arabic sign rahmatullah alayhe"
+    }
+  },
+  {
+    "text": "\u0613",
+    "name": {
+      "head": "arabic sign radi allahou anhu"
+    }
+  },
+  {
+    "text": "\u0614",
+    "name": {
+      "head": "arabic sign takhallus"
+    }
+  },
+  {
+    "text": "\u0615",
+    "name": {
+      "head": "arabic small high tah"
+    }
+  },
+  {
+    "text": "\u0616",
+    "name": {
+      "head": "arabic small high ligature alef with lam with yeh (alias arabic small high ligature alef with yeh barree)"
+    }
+  },
+  {
+    "text": "\u0617",
+    "name": {
+      "head": "arabic small high zain"
+    }
+  },
+  {
+    "text": "\u0618",
+    "name": {
+      "head": "arabic small fatha"
+    }
+  },
+  {
+    "text": "\u0619",
+    "name": {
+      "head": "arabic small damma"
+    }
+  },
+  {
+    "text": "\u061A",
+    "name": {
+      "head": "arabic small kasra"
+    }
+  },
+  {
+    "text": "\u061B",
+    "name": {
+      "head": "arabic semicolon"
+    }
+  },
+  {
+    "text": "\u061C",
+    "name": {
+      "head": "arabic letter mark (alias alm)"
+    }
+  },
+  {
+    "text": "\u061D",
+    "name": {
+      "head": "arabic end of text mark"
+    }
+  },
+  {
+    "text": "\u061E",
+    "name": {
+      "head": "arabic triple dot punctuation mark"
+    }
+  },
+  {
+    "text": "\u061F",
+    "name": {
+      "head": "arabic question mark"
+    }
+  },
+  {
+    "text": "\u0620",
+    "name": {
+      "head": "arabic letter kashmiri yeh"
+    }
+  },
+  {
+    "text": "\u0621",
+    "name": {
+      "head": "arabic letter hamza"
+    }
+  },
+  {
+    "text": "\u0622",
+    "name": {
+      "head": "arabic letter alef with madda above"
+    }
+  },
+  {
+    "text": "\u0623",
+    "name": {
+      "head": "arabic letter alef with hamza above"
+    }
+  },
+  {
+    "text": "\u0624",
+    "name": {
+      "head": "arabic letter waw with hamza above"
+    }
+  },
+  {
+    "text": "\u0625",
+    "name": {
+      "head": "arabic letter alef with hamza below"
+    }
+  },
+  {
+    "text": "\u0626",
+    "name": {
+      "head": "arabic letter yeh with hamza above"
+    }
+  },
+  {
+    "text": "\u0627",
+    "name": {
+      "head": "arabic letter alef"
+    }
+  },
+  {
+    "text": "\u0628",
+    "name": {
+      "head": "arabic letter beh"
+    }
+  },
+  {
+    "text": "\u0629",
+    "name": {
+      "head": "arabic letter teh marbuta"
+    }
+  },
+  {
+    "text": "\u062A",
+    "name": {
+      "head": "arabic letter teh"
+    }
+  },
+  {
+    "text": "\u062B",
+    "name": {
+      "head": "arabic letter theh"
+    }
+  },
+  {
+    "text": "\u062C",
+    "name": {
+      "head": "arabic letter jeem"
+    }
+  },
+  {
+    "text": "\u062D",
+    "name": {
+      "head": "arabic letter hah"
+    }
+  },
+  {
+    "text": "\u062E",
+    "name": {
+      "head": "arabic letter khah"
+    }
+  },
+  {
+    "text": "\u062F",
+    "name": {
+      "head": "arabic letter dal"
+    }
+  },
+  {
+    "text": "\u0630",
+    "name": {
+      "head": "arabic letter thal"
+    }
+  },
+  {
+    "text": "\u0631",
+    "name": {
+      "head": "arabic letter reh"
+    }
+  },
+  {
+    "text": "\u0632",
+    "name": {
+      "head": "arabic letter zain"
+    }
+  },
+  {
+    "text": "\u0633",
+    "name": {
+      "head": "arabic letter seen"
+    }
+  },
+  {
+    "text": "\u0634",
+    "name": {
+      "head": "arabic letter sheen"
+    }
+  },
+  {
+    "text": "\u0635",
+    "name": {
+      "head": "arabic letter sad"
+    }
+  },
+  {
+    "text": "\u0636",
+    "name": {
+      "head": "arabic letter dad"
+    }
+  },
+  {
+    "text": "\u0637",
+    "name": {
+      "head": "arabic letter tah"
+    }
+  },
+  {
+    "text": "\u0638",
+    "name": {
+      "head": "arabic letter zah"
+    }
+  },
+  {
+    "text": "\u0639",
+    "name": {
+      "head": "arabic letter ain"
+    }
+  },
+  {
+    "text": "\u063A",
+    "name": {
+      "head": "arabic letter ghain"
+    }
+  },
+  {
+    "text": "\u063B",
+    "name": {
+      "head": "arabic letter keheh with two dots above"
+    }
+  },
+  {
+    "text": "\u063C",
+    "name": {
+      "head": "arabic letter keheh with three dots below"
+    }
+  },
+  {
+    "text": "\u063D",
+    "name": {
+      "head": "arabic letter farsi yeh with inverted v"
+    }
+  },
+  {
+    "text": "\u063E",
+    "name": {
+      "head": "arabic letter farsi yeh with two dots above"
+    }
+  },
+  {
+    "text": "\u063F",
+    "name": {
+      "head": "arabic letter farsi yeh with three dots above"
+    }
+  },
+  {
+    "text": "\u0640",
+    "name": {
+      "head": "arabic tatweel"
+    }
+  },
+  {
+    "text": "\u0641",
+    "name": {
+      "head": "arabic letter feh"
+    }
+  },
+  {
+    "text": "\u0642",
+    "name": {
+      "head": "arabic letter qaf"
+    }
+  },
+  {
+    "text": "\u0643",
+    "name": {
+      "head": "arabic letter kaf"
+    }
+  },
+  {
+    "text": "\u0644",
+    "name": {
+      "head": "arabic letter lam"
+    }
+  },
+  {
+    "text": "\u0645",
+    "name": {
+      "head": "arabic letter meem"
+    }
+  },
+  {
+    "text": "\u0646",
+    "name": {
+      "head": "arabic letter noon",
+      "link": "nūn"
+    }
+  },
+  {
+    "text": "\u0647",
+    "name": {
+      "head": "arabic letter heh",
+      "link": "heh"
+    }
+  },
+  {
+    "text": "\u0648",
+    "name": {
+      "head": "arabic letter waw",
+      "base": "واو",
+      "link": "waw"
+    }
+  },
+  {
+    "text": "\u0649",
+    "name": {
+      "head": "arabic letter alef maksura"
+    }
+  },
+  {
+    "text": "\u064A",
+    "name": {
+      "head": "arabic letter yeh",
+      "base": "ياء",
+      "link": "yeh"
+    }
+  },
+  {
+    "text": "\u064B",
+    "talk": "a?",
+    "name": {
+      "head": "arabic fathatan",
+      "base": "فتحتان",
+      "link": "fathatan"
+    }
+  },
+  {
+    "text": "\u064C",
+    "talk": "u?",
+    "name": {
+      "head": "arabic dammatan",
+      "base": "ضَمَّتَان",
+      "link": "dammatan"
+    }
+  },
+  {
+    "text": "\u064D",
+    "talk": "i?",
+    "name": {
+      "head": "arabic kasratan",
+      "base": "كَسْرَتَان",
+      "link": "kasratan"
+    }
+  },
+  {
+    "text": "\u064E",
+    "talk": "a?",
+    "name": {
+      "head": "arabic fatha",
+      "base": "فَتْحَة",
+      "link": "fatḥah"
+    }
+  },
+  {
+    "text": "\u064F",
+    "talk": "u?",
+    "name": {
+      "head": "arabic damma",
+      "base": "ضَمَّة",
+      "link": "dammah"
+    }
+  },
+  {
+    "text": "\u0650",
+    "talk": "i?",
+    "name": {
+      "head": "arabic kasra",
+      "base": "كَسْرَة",
+      "link": "kasrah"
+    }
+  },
+  {
+    "text": "\u0651",
+    "role": ["modifier"],
+    "name": {
+      "head": "arabic shadda",
+      "base": "شَدّة",
+      "link": "shadda"
+    }
+  },
+  {
+    "text": "\u0652",
+    "role": ["modifier"],
+    "name": {
+      "head": "arabic sukun",
+      "base": "سُكُونْ",
+      "link": "sukun"
+    }
+  },
+  {
+    "text": "\u0653",
+    "name": {
+      "head": "arabic maddah above"
+    }
+  },
+  {
+    "text": "\u0654",
+    "name": {
+      "head": "arabic hamza above"
+    }
+  },
+  {
+    "text": "\u0655",
+    "name": {
+      "head": "arabic hamza below"
+    }
+  },
+  {
+    "text": "\u0656",
+    "name": {
+      "head": "arabic subscript alef"
+    }
+  },
+  {
+    "text": "\u0657",
+    "name": {
+      "head": "arabic inverted damma"
+    }
+  },
+  {
+    "text": "\u0658",
+    "name": {
+      "head": "arabic mark noon ghunna"
+    }
+  },
+  {
+    "text": "\u0659",
+    "name": {
+      "head": "arabic zwarakay"
+    }
+  },
+  {
+    "text": "\u065A",
+    "name": {
+      "head": "arabic vowel sign small v above"
+    }
+  },
+  {
+    "text": "\u065B",
+    "name": {
+      "head": "arabic vowel sign inverted small v above"
+    }
+  },
+  {
+    "text": "\u065C",
+    "name": {
+      "head": "arabic vowel sign dot below"
+    }
+  },
+  {
+    "text": "\u065D",
+    "name": {
+      "head": "arabic reversed damma"
+    }
+  },
+  {
+    "text": "\u065E",
+    "name": {
+      "head": "arabic fatha with two dots"
+    }
+  },
+  {
+    "text": "\u065F",
+    "name": {
+      "head": "arabic wavy hamza below"
+    }
+  },
+  {
+    "text": "\u0660",
+    "name": {
+      "head": "arabic-indic digit zero"
+    }
+  },
+  {
+    "text": "\u0661",
+    "name": {
+      "head": "arabic-indic digit one"
+    }
+  },
+  {
+    "text": "\u0662",
+    "name": {
+      "head": "arabic-indic digit two"
+    }
+  },
+  {
+    "text": "\u0663",
+    "name": {
+      "head": "arabic-indic digit three"
+    }
+  },
+  {
+    "text": "\u0664",
+    "name": {
+      "head": "arabic-indic digit four"
+    }
+  },
+  {
+    "text": "\u0665",
+    "name": {
+      "head": "arabic-indic digit five"
+    }
+  },
+  {
+    "text": "\u0666",
+    "name": {
+      "head": "arabic-indic digit six"
+    }
+  },
+  {
+    "text": "\u0667",
+    "name": {
+      "head": "arabic-indic digit seven"
+    }
+  },
+  {
+    "text": "\u0668",
+    "name": {
+      "head": "arabic-indic digit eight"
+    }
+  },
+  {
+    "text": "\u0669",
+    "name": {
+      "head": "arabic-indic digit nine"
+    }
+  },
+  {
+    "text": "\u066A",
+    "name": {
+      "head": "arabic percent sign"
+    }
+  },
+  {
+    "text": "\u066B",
+    "name": {
+      "head": "arabic decimal separator"
+    }
+  },
+  {
+    "text": "\u066C",
+    "name": {
+      "head": "arabic thousands separator"
+    }
+  },
+  {
+    "text": "\u066D",
+    "name": {
+      "head": "arabic five pointed star"
+    }
+  },
+  {
+    "text": "\u066E",
+    "name": {
+      "head": "arabic letter dotless beh"
+    }
+  },
+  {
+    "text": "\u066F",
+    "name": {
+      "head": "arabic letter dotless qaf"
+    }
+  },
+  {
+    "text": "\u0670",
+    "name": {
+      "head": "arabic letter superscript alef"
+    }
+  },
+  {
+    "text": "\u0671",
+    "name": {
+      "head": "arabic letter alef wasla"
+    }
+  },
+  {
+    "text": "\u0672",
+    "name": {
+      "head": "arabic letter alef with wavy hamza above"
+    }
+  },
+  {
+    "text": "\u0673",
+    "name": {
+      "head": "arabic letter alef with wavy hamza below"
+    }
+  },
+  {
+    "text": "\u0674",
+    "name": {
+      "head": "arabic letter high hamza"
+    }
+  },
+  {
+    "text": "\u0675",
+    "name": {
+      "head": "arabic letter high hamza alef"
+    }
+  },
+  {
+    "text": "\u0676",
+    "name": {
+      "head": "arabic letter high hamza waw"
+    }
+  },
+  {
+    "text": "\u0677",
+    "name": {
+      "head": "arabic letter u with hamza above"
+    }
+  },
+  {
+    "text": "\u0678",
+    "name": {
+      "head": "arabic letter high hamza yeh"
+    }
+  },
+  {
+    "text": "\u0679",
+    "name": {
+      "head": "arabic letter tteh"
+    }
+  },
+  {
+    "text": "\u067A",
+    "name": {
+      "head": "arabic letter tteheh"
+    }
+  },
+  {
+    "text": "\u067B",
+    "name": {
+      "head": "arabic letter beeh"
+    }
+  },
+  {
+    "text": "\u067C",
+    "name": {
+      "head": "arabic letter teh with ring"
+    }
+  },
+  {
+    "text": "\u067D",
+    "name": {
+      "head": "arabic letter teh with three dots above downwards"
+    }
+  },
+  {
+    "text": "\u067E",
+    "name": {
+      "head": "arabic letter peh"
+    }
+  },
+  {
+    "text": "\u067F",
+    "name": {
+      "head": "arabic letter teheh"
+    }
+  },
+  {
+    "text": "\u0680",
+    "name": {
+      "head": "arabic letter beheh"
+    }
+  },
+  {
+    "text": "\u0681",
+    "name": {
+      "head": "arabic letter hah with hamza above"
+    }
+  },
+  {
+    "text": "\u0682",
+    "name": {
+      "head": "arabic letter hah with two dots vertical above"
+    }
+  },
+  {
+    "text": "\u0683",
+    "name": {
+      "head": "arabic letter nyeh"
+    }
+  },
+  {
+    "text": "\u0684",
+    "name": {
+      "head": "arabic letter dyeh"
+    }
+  },
+  {
+    "text": "\u0685",
+    "name": {
+      "head": "arabic letter hah with three dots above"
+    }
+  },
+  {
+    "text": "\u0686",
+    "name": {
+      "head": "arabic letter tcheh"
+    }
+  },
+  {
+    "text": "\u0687",
+    "name": {
+      "head": "arabic letter tcheheh"
+    }
+  },
+  {
+    "text": "\u0688",
+    "name": {
+      "head": "arabic letter ddal"
+    }
+  },
+  {
+    "text": "\u0689",
+    "name": {
+      "head": "arabic letter dal with ring"
+    }
+  },
+  {
+    "text": "\u068A",
+    "name": {
+      "head": "arabic letter dal with dot below"
+    }
+  },
+  {
+    "text": "\u068B",
+    "name": {
+      "head": "arabic letter dal with dot below and small tah"
+    }
+  },
+  {
+    "text": "\u068C",
+    "name": {
+      "head": "arabic letter dahal"
+    }
+  },
+  {
+    "text": "\u068D",
+    "name": {
+      "head": "arabic letter ddahal"
+    }
+  },
+  {
+    "text": "\u068E",
+    "name": {
+      "head": "arabic letter dul"
+    }
+  },
+  {
+    "text": "\u068F",
+    "name": {
+      "head": "arabic letter dal with three dots above downwards"
+    }
+  },
+  {
+    "text": "\u0690",
+    "name": {
+      "head": "arabic letter dal with four dots above"
+    }
+  },
+  {
+    "text": "\u0691",
+    "name": {
+      "head": "arabic letter rreh"
+    }
+  },
+  {
+    "text": "\u0692",
+    "name": {
+      "head": "arabic letter reh with small v"
+    }
+  },
+  {
+    "text": "\u0693",
+    "name": {
+      "head": "arabic letter reh with ring"
+    }
+  },
+  {
+    "text": "\u0694",
+    "name": {
+      "head": "arabic letter reh with dot below"
+    }
+  },
+  {
+    "text": "\u0695",
+    "name": {
+      "head": "arabic letter reh with small v below"
+    }
+  },
+  {
+    "text": "\u0696",
+    "name": {
+      "head": "arabic letter reh with dot below and dot above"
+    }
+  },
+  {
+    "text": "\u0697",
+    "name": {
+      "head": "arabic letter reh with two dots above"
+    }
+  },
+  {
+    "text": "\u0698",
+    "name": {
+      "head": "arabic letter jeh"
+    }
+  },
+  {
+    "text": "\u0699",
+    "name": {
+      "head": "arabic letter reh with four dots above"
+    }
+  },
+  {
+    "text": "\u069A",
+    "name": {
+      "head": "arabic letter seen with dot below and dot above"
+    }
+  },
+  {
+    "text": "\u069B",
+    "name": {
+      "head": "arabic letter seen with three dots below"
+    }
+  },
+  {
+    "text": "\u069C",
+    "name": {
+      "head": "arabic letter seen with three dots below and three dots above"
+    }
+  },
+  {
+    "text": "\u069D",
+    "name": {
+      "head": "arabic letter sad with two dots below"
+    }
+  },
+  {
+    "text": "\u069E",
+    "name": {
+      "head": "arabic letter sad with three dots above"
+    }
+  },
+  {
+    "text": "\u069F",
+    "name": {
+      "head": "arabic letter tah with three dots above"
+    }
+  },
+  {
+    "text": "\u06A0",
+    "name": {
+      "head": "arabic letter ain with three dots above"
+    }
+  },
+  {
+    "text": "\u06A1",
+    "name": {
+      "head": "arabic letter dotless feh"
+    }
+  },
+  {
+    "text": "\u06A2",
+    "name": {
+      "head": "arabic letter feh with dot moved below"
+    }
+  },
+  {
+    "text": "\u06A3",
+    "name": {
+      "head": "arabic letter feh with dot below"
+    }
+  },
+  {
+    "text": "\u06A4",
+    "name": {
+      "head": "arabic letter veh"
+    }
+  },
+  {
+    "text": "\u06A5",
+    "name": {
+      "head": "arabic letter feh with three dots below"
+    }
+  },
+  {
+    "text": "\u06A6",
+    "name": {
+      "head": "arabic letter peheh"
+    }
+  },
+  {
+    "text": "\u06A7",
+    "name": {
+      "head": "arabic letter qaf with dot above"
+    }
+  },
+  {
+    "text": "\u06A8",
+    "name": {
+      "head": "arabic letter qaf with three dots above"
+    }
+  },
+  {
+    "text": "\u06A9",
+    "name": {
+      "head": "arabic letter keheh"
+    }
+  },
+  {
+    "text": "\u06AA",
+    "name": {
+      "head": "arabic letter swash kaf"
+    }
+  },
+  {
+    "text": "\u06AB",
+    "name": {
+      "head": "arabic letter kaf with ring"
+    }
+  },
+  {
+    "text": "\u06AC",
+    "name": {
+      "head": "arabic letter kaf with dot above"
+    }
+  },
+  {
+    "text": "\u06AD",
+    "name": {
+      "head": "arabic letter ng"
+    }
+  },
+  {
+    "text": "\u06AE",
+    "name": {
+      "head": "arabic letter kaf with three dots below"
+    }
+  },
+  {
+    "text": "\u06AF",
+    "name": {
+      "head": "arabic letter gaf"
+    }
+  },
+  {
+    "text": "\u06B0",
+    "name": {
+      "head": "arabic letter gaf with ring"
+    }
+  },
+  {
+    "text": "\u06B1",
+    "name": {
+      "head": "arabic letter ngoeh"
+    }
+  },
+  {
+    "text": "\u06B2",
+    "name": {
+      "head": "arabic letter gaf with two dots below"
+    }
+  },
+  {
+    "text": "\u06B3",
+    "name": {
+      "head": "arabic letter gueh"
+    }
+  },
+  {
+    "text": "\u06B4",
+    "name": {
+      "head": "arabic letter gaf with three dots above"
+    }
+  },
+  {
+    "text": "\u06B5",
+    "name": {
+      "head": "arabic letter lam with small v"
+    }
+  },
+  {
+    "text": "\u06B6",
+    "name": {
+      "head": "arabic letter lam with dot above"
+    }
+  },
+  {
+    "text": "\u06B7",
+    "name": {
+      "head": "arabic letter lam with three dots above"
+    }
+  },
+  {
+    "text": "\u06B8",
+    "name": {
+      "head": "arabic letter lam with three dots below"
+    }
+  },
+  {
+    "text": "\u06B9",
+    "name": {
+      "head": "arabic letter noon with dot below"
+    }
+  },
+  {
+    "text": "\u06BA",
+    "name": {
+      "head": "arabic letter noon ghunna"
+    }
+  },
+  {
+    "text": "\u06BB",
+    "name": {
+      "head": "arabic letter rnoon"
+    }
+  },
+  {
+    "text": "\u06BC",
+    "name": {
+      "head": "arabic letter noon with ring"
+    }
+  },
+  {
+    "text": "\u06BD",
+    "name": {
+      "head": "arabic letter noon with three dots above"
+    }
+  },
+  {
+    "text": "\u06BE",
+    "name": {
+      "head": "arabic letter heh doachashmee"
+    }
+  },
+  {
+    "text": "\u06BF",
+    "name": {
+      "head": "arabic letter tcheh with dot above"
+    }
+  },
+  {
+    "text": "\u06C0",
+    "name": {
+      "head": "arabic letter heh with yeh above"
+    }
+  },
+  {
+    "text": "\u06C1",
+    "name": {
+      "head": "arabic letter heh goal"
+    }
+  },
+  {
+    "text": "\u06C2",
+    "name": {
+      "head": "arabic letter heh goal with hamza above"
+    }
+  },
+  {
+    "text": "\u06C3",
+    "name": {
+      "head": "arabic letter teh marbuta goal"
+    }
+  },
+  {
+    "text": "\u06C4",
+    "name": {
+      "head": "arabic letter waw with ring"
+    }
+  },
+  {
+    "text": "\u06C5",
+    "name": {
+      "head": "arabic letter kirghiz oe"
+    }
+  },
+  {
+    "text": "\u06C6",
+    "name": {
+      "head": "arabic letter oe"
+    }
+  },
+  {
+    "text": "\u06C7",
+    "name": {
+      "head": "arabic letter u"
+    }
+  },
+  {
+    "text": "\u06C8",
+    "name": {
+      "head": "arabic letter yu"
+    }
+  },
+  {
+    "text": "\u06C9",
+    "name": {
+      "head": "arabic letter kirghiz yu"
+    }
+  },
+  {
+    "text": "\u06CA",
+    "name": {
+      "head": "arabic letter waw with two dots above"
+    }
+  },
+  {
+    "text": "\u06CB",
+    "name": {
+      "head": "arabic letter ve"
+    }
+  },
+  {
+    "text": "\u06CC",
+    "name": {
+      "head": "arabic letter farsi yeh"
+    }
+  },
+  {
+    "text": "\u06CD",
+    "name": {
+      "head": "arabic letter yeh with tail"
+    }
+  },
+  {
+    "text": "\u06CE",
+    "name": {
+      "head": "arabic letter yeh with small v"
+    }
+  },
+  {
+    "text": "\u06CF",
+    "name": {
+      "head": "arabic letter waw with dot above"
+    }
+  },
+  {
+    "text": "\u06D0",
+    "name": {
+      "head": "arabic letter e"
+    }
+  },
+  {
+    "text": "\u06D1",
+    "name": {
+      "head": "arabic letter yeh with three dots below"
+    }
+  },
+  {
+    "text": "\u06D2",
+    "name": {
+      "head": "arabic letter yeh barree"
+    }
+  },
+  {
+    "text": "\u06D3",
+    "name": {
+      "head": "arabic letter yeh barree with hamza above"
+    }
+  },
+  {
+    "text": "\u06D4",
+    "name": {
+      "head": "arabic full stop"
+    }
+  },
+  {
+    "text": "\u06D5",
+    "name": {
+      "head": "arabic letter ae"
+    }
+  },
+  {
+    "text": "\u06D6",
+    "name": {
+      "head": "arabic small high ligature sad with lam with alef maksura"
+    }
+  },
+  {
+    "text": "\u06D7",
+    "name": {
+      "head": "arabic small high ligature qaf with lam with alef maksura"
+    }
+  },
+  {
+    "text": "\u06D8",
+    "name": {
+      "head": "arabic small high meem initial form"
+    }
+  },
+  {
+    "text": "\u06D9",
+    "name": {
+      "head": "arabic small high lam alef"
+    }
+  },
+  {
+    "text": "\u06DA",
+    "name": {
+      "head": "arabic small high jeem"
+    }
+  },
+  {
+    "text": "\u06DB",
+    "name": {
+      "head": "arabic small high three dots"
+    }
+  },
+  {
+    "text": "\u06DC",
+    "name": {
+      "head": "arabic small high seen"
+    }
+  },
+  {
+    "text": "\u06DD",
+    "name": {
+      "head": "arabic end of ayah"
+    }
+  },
+  {
+    "text": "\u06DE",
+    "name": {
+      "head": "arabic start of rub el hizb"
+    }
+  },
+  {
+    "text": "\u06DF",
+    "name": {
+      "head": "arabic small high rounded zero"
+    }
+  },
+  {
+    "text": "\u06E0",
+    "name": {
+      "head": "arabic small high upright rectangular zero"
+    }
+  },
+  {
+    "text": "\u06E1",
+    "name": {
+      "head": "arabic small high dotless head of khah"
+    }
+  },
+  {
+    "text": "\u06E2",
+    "name": {
+      "head": "arabic small high meem isolated form"
+    }
+  },
+  {
+    "text": "\u06E3",
+    "name": {
+      "head": "arabic small low seen"
+    }
+  },
+  {
+    "text": "\u06E4",
+    "name": {
+      "head": "arabic small high madda"
+    }
+  },
+  {
+    "text": "\u06E5",
+    "name": {
+      "head": "arabic small waw"
+    }
+  },
+  {
+    "text": "\u06E6",
+    "name": {
+      "head": "arabic small yeh"
+    }
+  },
+  {
+    "text": "\u06E7",
+    "name": {
+      "head": "arabic small high yeh"
+    }
+  },
+  {
+    "text": "\u06E8",
+    "name": {
+      "head": "arabic small high noon"
+    }
+  },
+  {
+    "text": "\u06E9",
+    "name": {
+      "head": "arabic place of sajdah"
+    }
+  },
+  {
+    "text": "\u06EA",
+    "name": {
+      "head": "arabic empty centre low stop"
+    }
+  },
+  {
+    "text": "\u06EB",
+    "name": {
+      "head": "arabic empty centre high stop"
+    }
+  },
+  {
+    "text": "\u06EC",
+    "name": {
+      "head": "arabic rounded high stop with filled centre"
+    }
+  },
+  {
+    "text": "\u06ED",
+    "name": {
+      "head": "arabic small low meem"
+    }
+  },
+  {
+    "text": "\u06EE",
+    "name": {
+      "head": "arabic letter dal with inverted v"
+    }
+  },
+  {
+    "text": "\u06EF",
+    "name": {
+      "head": "arabic letter reh with inverted v"
+    }
+  },
+  {
+    "text": "\u06F0",
+    "name": {
+      "head": "extended arabic-indic digit zero"
+    }
+  },
+  {
+    "text": "\u06F1",
+    "name": {
+      "head": "extended arabic-indic digit one"
+    }
+  },
+  {
+    "text": "\u06F2",
+    "name": {
+      "head": "extended arabic-indic digit two"
+    }
+  },
+  {
+    "text": "\u06F3",
+    "name": {
+      "head": "extended arabic-indic digit three"
+    }
+  },
+  {
+    "text": "\u06F4",
+    "name": {
+      "head": "extended arabic-indic digit four"
+    }
+  },
+  {
+    "text": "\u06F5",
+    "name": {
+      "head": "extended arabic-indic digit five"
+    }
+  },
+  {
+    "text": "\u06F6",
+    "name": {
+      "head": "extended arabic-indic digit six"
+    }
+  },
+  {
+    "text": "\u06F7",
+    "name": {
+      "head": "extended arabic-indic digit seven"
+    }
+  },
+  {
+    "text": "\u06F8",
+    "name": {
+      "head": "extended arabic-indic digit eight"
+    }
+  },
+  {
+    "text": "\u06F9",
+    "name": {
+      "head": "extended arabic-indic digit nine"
+    }
+  },
+  {
+    "text": "\u06FA",
+    "name": {
+      "head": "arabic letter sheen with dot below"
+    }
+  },
+  {
+    "text": "\u06FB",
+    "name": {
+      "head": "arabic letter dad with dot below"
+    }
+  },
+  {
+    "text": "\u06FC",
+    "name": {
+      "head": "arabic letter ghain with dot below"
+    }
+  },
+  {
+    "text": "\u06FD",
+    "name": {
+      "head": "arabic sign sindhi ampersand"
+    }
+  },
+  {
+    "text": "\u06FE",
+    "name": {
+      "head": "arabic sign sindhi postposition men"
+    }
+  },
+  {
+    "text": "\u06FF",
+    "name": {
+      "head": "arabic letter heh with inverted v"
+    }
+  }
+]

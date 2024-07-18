@@ -1,0 +1,611 @@
+[
+  {
+    "text": "\u0E01",
+    "name": {
+      "head": "thai character ko kai"
+    },
+    "role": ["consonant"]
+  },
+  {
+    "text": "\u0E02",
+    "name": {
+      "head": "thai character kho khai"
+    },
+    "role": ["consonant"]
+  },
+  {
+    "text": "\u0E03",
+    "name": {
+      "head": "thai character kho khuat"
+    },
+    "role": ["consonant"]
+  },
+  {
+    "text": "\u0E04",
+    "name": {
+      "head": "thai character kho khwai"
+    },
+    "role": ["consonant"]
+  },
+  {
+    "text": "\u0E05",
+    "name": {
+      "head": "thai character kho khon"
+    },
+    "role": ["consonant"]
+  },
+  {
+    "text": "\u0E06",
+    "name": {
+      "head": "thai character kho rakhang"
+    },
+    "role": ["consonant"]
+  },
+  {
+    "text": "\u0E07",
+    "name": {
+      "head": "thai character ngo ngu"
+    },
+    "role": ["consonant"]
+  },
+  {
+    "text": "\u0E08",
+    "name": {
+      "head": "thai character cho chan"
+    },
+    "role": ["consonant"]
+  },
+  {
+    "text": "\u0E09",
+    "name": {
+      "head": "thai character cho ching"
+    },
+    "role": ["consonant"]
+  },
+  {
+    "text": "\u0E0A",
+    "name": {
+      "head": "thai character cho chang"
+    },
+    "role": ["consonant"]
+  },
+  {
+    "text": "\u0E0B",
+    "name": {
+      "head": "thai character so so"
+    },
+    "role": ["consonant"]
+  },
+  {
+    "text": "\u0E0C",
+    "name": {
+      "head": "thai character cho choe"
+    },
+    "role": ["consonant"]
+  },
+  {
+    "text": "\u0E0D",
+    "name": {
+      "head": "thai character yo ying"
+    },
+    "role": ["consonant"]
+  },
+  {
+    "text": "\u0E0E",
+    "name": {
+      "head": "thai character do chada"
+    },
+    "role": ["consonant"]
+  },
+  {
+    "text": "\u0E0F",
+    "name": {
+      "head": "thai character to patak"
+    },
+    "role": ["consonant"]
+  },
+  {
+    "text": "\u0E10",
+    "name": {
+      "head": "thai character tho than"
+    },
+    "role": ["consonant"]
+  },
+  {
+    "text": "\u0E11",
+    "name": {
+      "head": "thai character tho nangmontho"
+    },
+    "role": ["consonant"]
+  },
+  {
+    "text": "\u0E12",
+    "name": {
+      "head": "thai character tho phuthao"
+    },
+    "role": ["consonant"]
+  },
+  {
+    "text": "\u0E13",
+    "name": {
+      "head": "thai character no nen"
+    },
+    "role": ["consonant"]
+  },
+  {
+    "text": "\u0E14",
+    "name": {
+      "head": "thai character do dek"
+    },
+    "role": ["consonant"]
+  },
+  {
+    "text": "\u0E15",
+    "name": {
+      "head": "thai character to tao"
+    },
+    "role": ["consonant"]
+  },
+  {
+    "text": "\u0E16",
+    "name": {
+      "head": "thai character tho thung"
+    },
+    "role": ["consonant"]
+  },
+  {
+    "text": "\u0E17",
+    "name": {
+      "head": "thai character tho thahan"
+    },
+    "role": ["consonant"]
+  },
+  {
+    "text": "\u0E18",
+    "name": {
+      "head": "thai character tho thong"
+    },
+    "role": ["consonant"]
+  },
+  {
+    "text": "\u0E19",
+    "name": {
+      "head": "thai character no nu"
+    },
+    "role": ["consonant"]
+  },
+  {
+    "text": "\u0E1A",
+    "name": {
+      "head": "thai character bo baimai"
+    },
+    "role": ["consonant"]
+  },
+  {
+    "text": "\u0E1B",
+    "name": {
+      "head": "thai character po pla"
+    },
+    "role": ["consonant"]
+  },
+  {
+    "text": "\u0E1C",
+    "name": {
+      "head": "thai character pho phung"
+    },
+    "role": ["consonant"]
+  },
+  {
+    "text": "\u0E1D",
+    "name": {
+      "head": "thai character fo fa"
+    },
+    "role": ["consonant"]
+  },
+  {
+    "text": "\u0E1E",
+    "name": {
+      "head": "thai character pho phan"
+    },
+    "role": ["consonant"]
+  },
+  {
+    "text": "\u0E1F",
+    "name": {
+      "head": "thai character fo fan"
+    },
+    "role": ["consonant"]
+  },
+  {
+    "text": "\u0E20",
+    "name": {
+      "head": "thai character pho samphao"
+    },
+    "role": ["consonant"]
+  },
+  {
+    "text": "\u0E21",
+    "name": {
+      "head": "thai character mo ma"
+    },
+    "role": ["consonant"]
+  },
+  {
+    "text": "\u0E22",
+    "name": {
+      "head": "thai character yo yak"
+    },
+    "role": ["consonant"]
+  },
+  {
+    "text": "\u0E23",
+    "name": {
+      "head": "thai character ro rua"
+    },
+    "role": ["consonant"]
+  },
+  {
+    "text": "\u0E24",
+    "name": {
+      "head": "thai character ru"
+    },
+    "role": ["consonant"]
+  },
+  {
+    "text": "\u0E25",
+    "name": {
+      "head": "thai character lo ling"
+    },
+    "role": ["consonant"]
+  },
+  {
+    "text": "\u0E26",
+    "name": {
+      "head": "thai character lu"
+    },
+    "role": ["consonant"]
+  },
+  {
+    "text": "\u0E27",
+    "name": {
+      "head": "thai character wo waen"
+    },
+    "role": ["consonant"]
+  },
+  {
+    "text": "\u0E28",
+    "name": {
+      "head": "thai character so sala"
+    },
+    "role": ["consonant"]
+  },
+  {
+    "text": "\u0E29",
+    "name": {
+      "head": "thai character so rusi"
+    },
+    "role": ["consonant"]
+  },
+  {
+    "text": "\u0E2A",
+    "name": {
+      "head": "thai character so sua"
+    },
+    "role": ["consonant"]
+  },
+  {
+    "text": "\u0E2B",
+    "name": {
+      "head": "thai character ho hip"
+    },
+    "role": ["consonant"]
+  },
+  {
+    "text": "\u0E2C",
+    "name": {
+      "head": "thai character lo chula"
+    },
+    "role": ["consonant"]
+  },
+  {
+    "text": "\u0E2D",
+    "name": {
+      "head": "thai character o ang"
+    },
+    "role": ["consonant"]
+  },
+  {
+    "text": "\u0E2E",
+    "name": {
+      "head": "thai character ho nokhuk"
+    },
+    "role": ["consonant"]
+  },
+  {
+    "text": "\u0E2F",
+    "name": {
+      "head": "thai character paiyannoi"
+    },
+    "role": ["sign"]
+  },
+  {
+    "text": "\u0E30",
+    "name": {
+      "head": "thai character sara a"
+    },
+    "role": ["vowel"]
+  },
+  {
+    "text": "\u0E31",
+    "name": {
+      "head": "thai character mai han-akat"
+    },
+    "role": ["vowel", "bound"]
+  },
+  {
+    "text": "\u0E32",
+    "name": {
+      "head": "thai character sara aa"
+    },
+    "role": ["vowel"]
+  },
+  {
+    "text": "\u0E33",
+    "name": {
+      "head": "thai character sara am"
+    },
+    "role": ["vowel"]
+  },
+  {
+    "text": "\u0E34",
+    "name": {
+      "head": "thai character sara i"
+    },
+    "role": ["vowel", "bound"]
+  },
+  {
+    "text": "\u0E35",
+    "name": {
+      "head": "thai character sara ii"
+    },
+    "role": ["vowel", "bound"]
+  },
+  {
+    "text": "\u0E36",
+    "name": {
+      "head": "thai character sara ue"
+    },
+    "role": ["vowel", "bound"]
+  },
+  {
+    "text": "\u0E37",
+    "name": {
+      "head": "thai character sara uee"
+    },
+    "role": ["vowel", "bound"]
+  },
+  {
+    "text": "\u0E38",
+    "name": {
+      "head": "thai character sara u"
+    },
+    "role": ["vowel", "bound"]
+  },
+  {
+    "text": "\u0E39",
+    "name": {
+      "head": "thai character sara uu"
+    },
+    "role": ["vowel", "bound"]
+  },
+  {
+    "text": "\u0E3A",
+    "name": {
+      "head": "thai character phinthu"
+    },
+    "role": ["modifier"]
+  },
+  {
+    "text": "\u0E3F",
+    "name": {
+      "head": "thai currency symbol baht"
+    },
+    "role": ["sign"]
+  },
+  {
+    "text": "\u0E40",
+    "name": {
+      "head": "thai character sara e"
+    },
+    "role": ["vowel"]
+  },
+  {
+    "text": "\u0E41",
+    "name": {
+      "head": "thai character sara ae"
+    },
+    "role": ["vowel"]
+  },
+  {
+    "text": "\u0E42",
+    "name": {
+      "head": "thai character sara o"
+    },
+    "role": ["vowel"]
+  },
+  {
+    "text": "\u0E43",
+    "name": {
+      "head": "thai character sara ai maimuan"
+    },
+    "role": ["vowel"]
+  },
+  {
+    "text": "\u0E44",
+    "name": {
+      "head": "thai character sara ai maimalai"
+    },
+    "role": ["vowel"]
+  },
+  {
+    "text": "\u0E45",
+    "name": {
+      "head": "thai character lakkhangyao"
+    },
+    "role": ["vowel", "bound"]
+  },
+  {
+    "text": "\u0E46",
+    "name": {
+      "head": "thai character maiyamok"
+    },
+    "role": ["sign"]
+  },
+  {
+    "text": "\u0E47",
+    "name": {
+      "head": "thai character maitaikhu"
+    },
+    "role": ["modifier"]
+  },
+  {
+    "text": "\u0E48",
+    "name": {
+      "head": "thai character mai ek"
+    },
+    "role": ["modifier"]
+  },
+  {
+    "text": "\u0E49",
+    "name": {
+      "head": "thai character mai tho"
+    },
+    "role": ["modifier"]
+  },
+  {
+    "text": "\u0E4A",
+    "name": {
+      "head": "thai character mai tri"
+    },
+    "role": ["modifier"]
+  },
+  {
+    "text": "\u0E4B",
+    "name": {
+      "head": "thai character mai chattawa"
+    },
+    "role": ["modifier"]
+  },
+  {
+    "text": "\u0E4C",
+    "name": {
+      "head": "thai character thanthakhat"
+    },
+    "role": ["modifier"]
+  },
+  {
+    "text": "\u0E4D",
+    "name": {
+      "head": "thai character nikhahit"
+    },
+    "role": ["modifier"]
+  },
+  {
+    "text": "\u0E4E",
+    "name": {
+      "head": "thai character yamakkan"
+    },
+    "role": ["modifier"]
+  },
+  {
+    "text": "\u0E4F",
+    "name": {
+      "head": "thai character fongman"
+    },
+    "role": ["punctuation"]
+  },
+  {
+    "text": "\u0E50",
+    "name": {
+      "head": "thai digit zero"
+    },
+    "role": ["number"]
+  },
+  {
+    "text": "\u0E51",
+    "name": {
+      "head": "thai digit one"
+    },
+    "role": ["number"]
+  },
+  {
+    "text": "\u0E52",
+    "name": {
+      "head": "thai digit two"
+    },
+    "role": ["number"]
+  },
+  {
+    "text": "\u0E53",
+    "name": {
+      "head": "thai digit three"
+    },
+    "role": ["number"]
+  },
+  {
+    "text": "\u0E54",
+    "name": {
+      "head": "thai digit four"
+    },
+    "role": ["number"]
+  },
+  {
+    "text": "\u0E55",
+    "name": {
+      "head": "thai digit five"
+    },
+    "role": ["number"]
+  },
+  {
+    "text": "\u0E56",
+    "name": {
+      "head": "thai digit six"
+    },
+    "role": ["number"]
+  },
+  {
+    "text": "\u0E57",
+    "name": {
+      "head": "thai digit seven"
+    },
+    "role": ["number"]
+  },
+  {
+    "text": "\u0E58",
+    "name": {
+      "head": "thai digit eight"
+    },
+    "role": ["number"]
+  },
+  {
+    "text": "\u0E59",
+    "name": {
+      "head": "thai digit nine"
+    },
+    "role": ["number"]
+  },
+  {
+    "text": "\u0E5A",
+    "name": {
+      "head": "thai character angkhankhu"
+    },
+    "role": ["punctuation"]
+  },
+  {
+    "text": "\u0E5B",
+    "name": {
+      "head": "thai character khomut"
+    },
+    "role": ["punctuation"]
+  }
+]

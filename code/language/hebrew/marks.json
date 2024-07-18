@@ -1,0 +1,278 @@
+[
+  {
+    "role": ["consonant"],
+    "text": "א",
+    "code": "'",
+    "name": { "link": "aleph" }
+  },
+  {
+    "role": ["consonant"],
+    "text": "ב",
+    "code": "b",
+    "name": { "link": "bet" }
+  },
+  {
+    "role": ["consonant"],
+    "text": "ג",
+    "code": "g",
+    "name": { "link": "gimel" }
+  },
+  {
+    "role": ["consonant"],
+    "text": "ד",
+    "code": "d",
+    "name": { "link": "dalet" }
+  },
+  {
+    "role": ["consonant"],
+    "text": "ה",
+    "code": "h",
+    "name": { "link": "he" }
+  },
+  {
+    "role": ["consonant"],
+    "text": "ו",
+    "code": "v",
+    "name": { "link": "vav" }
+  },
+  {
+    "role": ["consonant"],
+    "text": "ז",
+    "code": "z",
+    "name": { "link": "zayin" }
+  },
+  {
+    "role": ["consonant"],
+    "text": "ח",
+    "code": "ḥ",
+    "name": { "link": "het" }
+  },
+  {
+    "role": ["consonant"],
+    "text": "ט",
+    "code": "ṭ",
+    "name": { "link": "tet" }
+  },
+  {
+    "role": ["consonant"],
+    "text": "י",
+    "code": "y",
+    "name": { "link": "yod" }
+  },
+  {
+    "role": ["consonant"],
+    "text": "כ",
+    "code": "k",
+    "name": { "link": "kaf" }
+  },
+  {
+    "role": ["consonant"],
+    "text": "ך",
+    "code": "k",
+    "name": { "link": "final kaf" }
+  },
+  {
+    "role": ["consonant"],
+    "text": "ל",
+    "code": "l",
+    "name": { "link": "lamed" }
+  },
+  {
+    "role": ["consonant"],
+    "text": "מ",
+    "code": "m",
+    "name": { "link": "mem" }
+  },
+  {
+    "role": ["consonant"],
+    "text": "ם",
+    "code": "m",
+    "name": { "link": "final mem" }
+  },
+  {
+    "role": ["consonant"],
+    "text": "נ",
+    "code": "n",
+    "name": { "link": "nun" }
+  },
+  {
+    "role": ["consonant"],
+    "text": "ן",
+    "code": "n",
+    "name": { "link": "final nun" }
+  },
+  {
+    "role": ["consonant"],
+    "text": "ס",
+    "code": "s",
+    "name": { "link": "samekh" }
+  },
+  {
+    "role": ["consonant"],
+    "text": "ע",
+    "code": "‘",
+    "name": { "link": "ayin" }
+  },
+  {
+    "role": ["consonant"],
+    "text": "פ",
+    "code": "p",
+    "name": { "link": "pe" }
+  },
+  {
+    "role": ["consonant"],
+    "text": "ף",
+    "code": "p",
+    "name": { "link": "final pe" }
+  },
+  {
+    "role": ["consonant"],
+    "text": "צ",
+    "code": "ṣ",
+    "name": { "link": "tsade" }
+  },
+  {
+    "role": ["consonant"],
+    "text": "ץ",
+    "code": "ṣ",
+    "name": { "link": "final tsade" }
+  },
+  {
+    "role": ["consonant"],
+    "text": "ק",
+    "code": "q",
+    "name": { "link": "qof" }
+  },
+  {
+    "role": ["consonant"],
+    "text": "ר",
+    "code": "r",
+    "name": { "link": "resh" }
+  },
+  {
+    "role": ["consonant"],
+    "text": "ש",
+    "code": "š",
+    "name": { "link": "shin" }
+  },
+  {
+    "role": ["consonant"],
+    "text": "ת",
+    "code": "t",
+    "name": { "link": "tav" }
+  },
+  {
+    "role": ["vowel", "bound"],
+    "text": "\u05B0",
+    "code": "ə",
+    "name": { "link": "sheva" }
+  },
+  {
+    "role": ["vowel", "bound"],
+    "text": "\u05B1",
+    "code": "ĕ",
+    "name": { "link": "ḥataf segol" }
+  },
+  {
+    "role": ["vowel", "bound"],
+    "text": "\u05B2",
+    "code": "ă",
+    "name": { "link": "ḥataf pataḥ" }
+  },
+  {
+    "role": ["vowel", "bound"],
+    "text": "\u05B3",
+    "code": "ŏ",
+    "name": { "link": "ḥataf qamatz" }
+  },
+  {
+    "role": ["vowel", "bound"],
+    "text": "\u05B4",
+    "code": "i",
+    "name": { "link": "hiriq" }
+  },
+  {
+    "role": ["vowel", "bound"],
+    "text": "\u05B5",
+    "code": "e",
+    "name": { "link": "tsere" }
+  },
+  {
+    "role": ["vowel", "bound"],
+    "text": "\u05B6",
+    "code": "e",
+    "name": { "link": "segol" }
+  },
+  {
+    "role": ["vowel", "bound"],
+    "text": "\u05B7",
+    "code": "a",
+    "name": { "link": "pataḥ" }
+  },
+  {
+    "role": ["vowel", "bound"],
+    "text": "\u05B8",
+    "code": "a",
+    "name": { "link": "qamatz" }
+  },
+  {
+    "role": ["vowel", "bound"],
+    "text": "\u05B9",
+    "code": "o",
+    "name": { "link": "holam" }
+  },
+  {
+    "role": ["vowel", "bound"],
+    "text": "\u05BB",
+    "code": "u",
+    "name": { "link": "qubuts" }
+  },
+  {
+    "role": ["vowel", "bound"],
+    "text": "\u05BC",
+    "code": "",
+    "name": { "link": "dagesh or mapiq" }
+  },
+  {
+    "role": ["vowel", "bound"],
+    "text": "\u05BD",
+    "code": "",
+    "name": { "link": "meteg" }
+  },
+  {
+    "role": ["vowel", "bound"],
+    "text": "\u05BF",
+    "code": "",
+    "name": { "link": "rafe" }
+  },
+  {
+    "role": ["vowel", "bound"],
+    "text": "\u05C1",
+    "code": "",
+    "name": { "link": "shin dot" }
+  },
+  {
+    "role": ["vowel", "bound"],
+    "text": "\u05C2",
+    "code": "",
+    "name": { "link": "sin dot" }
+  },
+  {
+    "role": ["vowel", "bound"],
+    "text": "\u05C3",
+    "code": "",
+    "name": { "link": "sof pasuq" }
+  },
+  {
+    "role": ["vowel", "bound"],
+    "text": "\u05C4",
+    "code": "",
+    "name": { "link": "upper dot" }
+  },
+  {
+    "role": ["vowel", "bound"],
+    "text": "\u05C5",
+    "code": "",
+    "name": { "link": "lower dot" }
+  }
+]

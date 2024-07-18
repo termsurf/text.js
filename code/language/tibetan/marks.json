@@ -1,0 +1,1694 @@
+[
+  {
+    "text": "\u0F00",
+    "name": {
+      "head": "tibetan syllable om"
+    }
+  },
+  {
+    "text": "\u0F01",
+    "name": {
+      "head": "tibetan mark gter yig mgo truncated a"
+    }
+  },
+  {
+    "text": "\u0F02",
+    "name": {
+      "head": "tibetan mark gter yig mgo -um rnam bcad ma"
+    }
+  },
+  {
+    "text": "\u0F03",
+    "name": {
+      "head": "tibetan mark gter yig mgo -um gter tsheg ma"
+    }
+  },
+  {
+    "text": "\u0F04",
+    "name": {
+      "head": "tibetan mark initial yig mgo mdun ma"
+    }
+  },
+  {
+    "text": "\u0F05",
+    "name": {
+      "head": "tibetan mark closing yig mgo sgab ma"
+    }
+  },
+  {
+    "text": "\u0F06",
+    "name": {
+      "head": "tibetan mark caret yig mgo phur shad ma"
+    }
+  },
+  {
+    "text": "\u0F07",
+    "name": {
+      "head": "tibetan mark yig mgo tsheg shad ma"
+    }
+  },
+  {
+    "text": "\u0F08",
+    "name": {
+      "head": "tibetan mark sbrul shad"
+    }
+  },
+  {
+    "text": "\u0F09",
+    "name": {
+      "head": "tibetan mark bskur yig mgo"
+    }
+  },
+  {
+    "text": "\u0F0A",
+    "name": {
+      "head": "tibetan mark bka- shog yig mgo"
+    }
+  },
+  {
+    "text": "\u0F0B",
+    "name": {
+      "head": "tibetan mark intersyllabic tsheg"
+    }
+  },
+  {
+    "text": "\u0F0C",
+    "name": {
+      "head": "tibetan mark delimiter tsheg bstar"
+    }
+  },
+  {
+    "text": "\u0F0D",
+    "name": {
+      "head": "tibetan mark shad"
+    }
+  },
+  {
+    "text": "\u0F0E",
+    "name": {
+      "head": "tibetan mark nyis shad"
+    }
+  },
+  {
+    "text": "\u0F0F",
+    "name": {
+      "head": "tibetan mark tsheg shad"
+    }
+  },
+  {
+    "text": "\u0F10",
+    "name": {
+      "head": "tibetan mark nyis tsheg shad"
+    }
+  },
+  {
+    "text": "\u0F11",
+    "name": {
+      "head": "tibetan mark rin chen spungs shad"
+    }
+  },
+  {
+    "text": "\u0F12",
+    "name": {
+      "head": "tibetan mark rgya gram shad"
+    }
+  },
+  {
+    "text": "\u0F13",
+    "name": {
+      "head": "tibetan mark caret -dzud rtags me long can"
+    }
+  },
+  {
+    "text": "\u0F14",
+    "name": {
+      "head": "tibetan mark gter tsheg"
+    }
+  },
+  {
+    "text": "\u0F15",
+    "name": {
+      "head": "tibetan logotype sign chad rtags"
+    }
+  },
+  {
+    "text": "\u0F16",
+    "name": {
+      "head": "tibetan logotype sign lhag rtags"
+    }
+  },
+  {
+    "text": "\u0F17",
+    "name": {
+      "head": "tibetan astrological sign sgra gcan -char rtags"
+    }
+  },
+  {
+    "text": "\u0F18",
+    "name": {
+      "head": "tibetan astrological sign -khyud pa"
+    }
+  },
+  {
+    "text": "\u0F19",
+    "name": {
+      "head": "tibetan astrological sign sdong tshugs"
+    }
+  },
+  {
+    "text": "\u0F1A",
+    "name": {
+      "head": "tibetan sign rdel dkar gcig"
+    }
+  },
+  {
+    "text": "\u0F1B",
+    "name": {
+      "head": "tibetan sign rdel dkar gnyis"
+    }
+  },
+  {
+    "text": "\u0F1C",
+    "name": {
+      "head": "tibetan sign rdel dkar gsum"
+    }
+  },
+  {
+    "text": "\u0F1D",
+    "name": {
+      "head": "tibetan sign rdel nag gcig"
+    }
+  },
+  {
+    "text": "\u0F1E",
+    "name": {
+      "head": "tibetan sign rdel nag gnyis"
+    }
+  },
+  {
+    "text": "\u0F1F",
+    "name": {
+      "head": "tibetan sign rdel dkar rdel nag"
+    }
+  },
+  {
+    "text": "\u0F20",
+    "name": {
+      "head": "tibetan digit zero"
+    }
+  },
+  {
+    "text": "\u0F21",
+    "name": {
+      "head": "tibetan digit one"
+    }
+  },
+  {
+    "text": "\u0F22",
+    "name": {
+      "head": "tibetan digit two"
+    }
+  },
+  {
+    "text": "\u0F23",
+    "name": {
+      "head": "tibetan digit three"
+    }
+  },
+  {
+    "text": "\u0F24",
+    "name": {
+      "head": "tibetan digit four"
+    }
+  },
+  {
+    "text": "\u0F25",
+    "name": {
+      "head": "tibetan digit five"
+    }
+  },
+  {
+    "text": "\u0F26",
+    "name": {
+      "head": "tibetan digit six"
+    }
+  },
+  {
+    "text": "\u0F27",
+    "name": {
+      "head": "tibetan digit seven"
+    }
+  },
+  {
+    "text": "\u0F28",
+    "name": {
+      "head": "tibetan digit eight"
+    }
+  },
+  {
+    "text": "\u0F29",
+    "name": {
+      "head": "tibetan digit nine"
+    }
+  },
+  {
+    "text": "\u0F2A",
+    "name": {
+      "head": "tibetan digit half one"
+    }
+  },
+  {
+    "text": "\u0F2B",
+    "name": {
+      "head": "tibetan digit half two"
+    }
+  },
+  {
+    "text": "\u0F2C",
+    "name": {
+      "head": "tibetan digit half three"
+    }
+  },
+  {
+    "text": "\u0F2D",
+    "name": {
+      "head": "tibetan digit half four"
+    }
+  },
+  {
+    "text": "\u0F2E",
+    "name": {
+      "head": "tibetan digit half five"
+    }
+  },
+  {
+    "text": "\u0F2F",
+    "name": {
+      "head": "tibetan digit half six"
+    }
+  },
+  {
+    "text": "\u0F30",
+    "name": {
+      "head": "tibetan digit half seven"
+    }
+  },
+  {
+    "text": "\u0F31",
+    "name": {
+      "head": "tibetan digit half eight"
+    }
+  },
+  {
+    "text": "\u0F32",
+    "name": {
+      "head": "tibetan digit half nine"
+    }
+  },
+  {
+    "text": "\u0F33",
+    "name": {
+      "head": "tibetan digit half zero"
+    }
+  },
+  {
+    "text": "\u0F34",
+    "name": {
+      "head": "tibetan mark bsdus rtags"
+    }
+  },
+  {
+    "text": "\u0F35",
+    "name": {
+      "head": "tibetan mark ngas bzung nyi zla"
+    }
+  },
+  {
+    "text": "\u0F36",
+    "name": {
+      "head": "tibetan mark caret -dzud rtags bzhi mig can"
+    }
+  },
+  {
+    "text": "\u0F37",
+    "name": {
+      "head": "tibetan mark ngas bzung sgor rtags"
+    }
+  },
+  {
+    "text": "\u0F38",
+    "name": {
+      "head": "tibetan mark che mgo"
+    }
+  },
+  {
+    "text": "\u0F39",
+    "name": {
+      "head": "tibetan mark tsa -phru"
+    }
+  },
+  {
+    "text": "\u0F3A",
+    "name": {
+      "head": "tibetan mark gug rtags gyon"
+    }
+  },
+  {
+    "text": "\u0F3B",
+    "name": {
+      "head": "tibetan mark gug rtags gyas"
+    }
+  },
+  {
+    "text": "\u0F3C",
+    "name": {
+      "head": "tibetan mark ang khang gyon"
+    }
+  },
+  {
+    "text": "\u0F3D",
+    "name": {
+      "head": "tibetan mark ang khang gyas"
+    }
+  },
+  {
+    "text": "\u0F3E",
+    "name": {
+      "head": "tibetan sign yar tshes"
+    }
+  },
+  {
+    "text": "\u0F3F",
+    "name": {
+      "head": "tibetan sign mar tshes"
+    }
+  },
+  {
+    "text": "\u0F40",
+    "name": {
+      "head": "tibetan letter ka"
+    }
+  },
+  {
+    "text": "\u0F41",
+    "name": {
+      "head": "tibetan letter kha"
+    }
+  },
+  {
+    "text": "\u0F42",
+    "name": {
+      "head": "tibetan letter ga"
+    }
+  },
+  {
+    "text": "\u0F43",
+    "name": {
+      "head": "tibetan letter gha"
+    }
+  },
+  {
+    "text": "\u0F44",
+    "name": {
+      "head": "tibetan letter nga"
+    }
+  },
+  {
+    "text": "\u0F45",
+    "name": {
+      "head": "tibetan letter ca"
+    }
+  },
+  {
+    "text": "\u0F46",
+    "name": {
+      "head": "tibetan letter cha"
+    }
+  },
+  {
+    "text": "\u0F47",
+    "name": {
+      "head": "tibetan letter ja"
+    }
+  },
+  {
+    "text": "\u0F49",
+    "name": {
+      "head": "tibetan letter nya"
+    }
+  },
+  {
+    "text": "\u0F4A",
+    "name": {
+      "head": "tibetan letter tta"
+    }
+  },
+  {
+    "text": "\u0F4B",
+    "name": {
+      "head": "tibetan letter ttha"
+    }
+  },
+  {
+    "text": "\u0F4C",
+    "name": {
+      "head": "tibetan letter dda"
+    }
+  },
+  {
+    "text": "\u0F4D",
+    "name": {
+      "head": "tibetan letter ddha"
+    }
+  },
+  {
+    "text": "\u0F4E",
+    "name": {
+      "head": "tibetan letter nna"
+    }
+  },
+  {
+    "text": "\u0F4F",
+    "name": {
+      "head": "tibetan letter ta"
+    }
+  },
+  {
+    "text": "\u0F50",
+    "name": {
+      "head": "tibetan letter tha"
+    }
+  },
+  {
+    "text": "\u0F51",
+    "name": {
+      "head": "tibetan letter da"
+    }
+  },
+  {
+    "text": "\u0F52",
+    "name": {
+      "head": "tibetan letter dha"
+    }
+  },
+  {
+    "text": "\u0F53",
+    "name": {
+      "head": "tibetan letter na"
+    }
+  },
+  {
+    "text": "\u0F54",
+    "name": {
+      "head": "tibetan letter pa"
+    }
+  },
+  {
+    "text": "\u0F55",
+    "name": {
+      "head": "tibetan letter pha"
+    }
+  },
+  {
+    "text": "\u0F56",
+    "name": {
+      "head": "tibetan letter ba"
+    }
+  },
+  {
+    "text": "\u0F57",
+    "name": {
+      "head": "tibetan letter bha"
+    }
+  },
+  {
+    "text": "\u0F58",
+    "name": {
+      "head": "tibetan letter ma"
+    }
+  },
+  {
+    "text": "\u0F59",
+    "name": {
+      "head": "tibetan letter tsa"
+    }
+  },
+  {
+    "text": "\u0F5A",
+    "name": {
+      "head": "tibetan letter tsha"
+    }
+  },
+  {
+    "text": "\u0F5B",
+    "name": {
+      "head": "tibetan letter dza"
+    }
+  },
+  {
+    "text": "\u0F5C",
+    "name": {
+      "head": "tibetan letter dzha"
+    }
+  },
+  {
+    "text": "\u0F5D",
+    "name": {
+      "head": "tibetan letter wa"
+    }
+  },
+  {
+    "text": "\u0F5E",
+    "name": {
+      "head": "tibetan letter zha"
+    }
+  },
+  {
+    "text": "\u0F5F",
+    "name": {
+      "head": "tibetan letter za"
+    }
+  },
+  {
+    "text": "\u0F60",
+    "name": {
+      "head": "tibetan letter -a"
+    }
+  },
+  {
+    "text": "\u0F61",
+    "name": {
+      "head": "tibetan letter ya"
+    }
+  },
+  {
+    "text": "\u0F62",
+    "name": {
+      "head": "tibetan letter ra"
+    }
+  },
+  {
+    "text": "\u0F63",
+    "name": {
+      "head": "tibetan letter la"
+    }
+  },
+  {
+    "text": "\u0F64",
+    "name": {
+      "head": "tibetan letter sha"
+    }
+  },
+  {
+    "text": "\u0F65",
+    "name": {
+      "head": "tibetan letter ssa"
+    }
+  },
+  {
+    "text": "\u0F66",
+    "name": {
+      "head": "tibetan letter sa"
+    }
+  },
+  {
+    "text": "\u0F67",
+    "name": {
+      "head": "tibetan letter ha"
+    }
+  },
+  {
+    "text": "\u0F68",
+    "name": {
+      "head": "tibetan letter a"
+    }
+  },
+  {
+    "text": "\u0F69",
+    "name": {
+      "head": "tibetan letter kssa"
+    }
+  },
+  {
+    "text": "\u0F6A",
+    "name": {
+      "head": "tibetan letter fixed-form ra"
+    }
+  },
+  {
+    "text": "\u0F6B",
+    "name": {
+      "head": "tibetan letter kka"
+    }
+  },
+  {
+    "text": "\u0F6C",
+    "name": {
+      "head": "tibetan letter rra"
+    }
+  },
+  {
+    "text": "\u0F71",
+    "name": {
+      "head": "tibetan vowel sign aa"
+    }
+  },
+  {
+    "text": "\u0F72",
+    "name": {
+      "head": "tibetan vowel sign i"
+    }
+  },
+  {
+    "text": "\u0F73",
+    "name": {
+      "head": "tibetan vowel sign ii"
+    }
+  },
+  {
+    "text": "\u0F74",
+    "name": {
+      "head": "tibetan vowel sign u"
+    }
+  },
+  {
+    "text": "\u0F75",
+    "name": {
+      "head": "tibetan vowel sign uu"
+    }
+  },
+  {
+    "text": "\u0F76",
+    "name": {
+      "head": "tibetan vowel sign vocalic r"
+    }
+  },
+  {
+    "text": "\u0F77",
+    "name": {
+      "head": "tibetan vowel sign vocalic rr"
+    }
+  },
+  {
+    "text": "\u0F78",
+    "name": {
+      "head": "tibetan vowel sign vocalic l"
+    }
+  },
+  {
+    "text": "\u0F79",
+    "name": {
+      "head": "tibetan vowel sign vocalic ll"
+    }
+  },
+  {
+    "text": "\u0F7A",
+    "name": {
+      "head": "tibetan vowel sign e"
+    }
+  },
+  {
+    "text": "\u0F7B",
+    "name": {
+      "head": "tibetan vowel sign ee"
+    }
+  },
+  {
+    "text": "\u0F7C",
+    "name": {
+      "head": "tibetan vowel sign o"
+    }
+  },
+  {
+    "text": "\u0F7D",
+    "name": {
+      "head": "tibetan vowel sign oo"
+    }
+  },
+  {
+    "text": "\u0F7E",
+    "name": {
+      "head": "tibetan sign rjes su nga ro"
+    }
+  },
+  {
+    "text": "\u0F7F",
+    "name": {
+      "head": "tibetan sign rnam bcad"
+    }
+  },
+  {
+    "text": "\u0F80",
+    "name": {
+      "head": "tibetan vowel sign reversed i"
+    }
+  },
+  {
+    "text": "\u0F81",
+    "name": {
+      "head": "tibetan vowel sign reversed ii"
+    }
+  },
+  {
+    "text": "\u0F82",
+    "name": {
+      "head": "tibetan sign nyi zla naa da"
+    }
+  },
+  {
+    "text": "\u0F83",
+    "name": {
+      "head": "tibetan sign sna ldan"
+    }
+  },
+  {
+    "text": "\u0F84",
+    "name": {
+      "head": "tibetan mark halanta"
+    }
+  },
+  {
+    "text": "\u0F85",
+    "name": {
+      "head": "tibetan mark paluta"
+    }
+  },
+  {
+    "text": "\u0F86",
+    "name": {
+      "head": "tibetan sign lci rtags"
+    }
+  },
+  {
+    "text": "\u0F87",
+    "name": {
+      "head": "tibetan sign yang rtags"
+    }
+  },
+  {
+    "text": "\u0F88",
+    "name": {
+      "head": "tibetan sign lce tsa can"
+    }
+  },
+  {
+    "text": "\u0F89",
+    "name": {
+      "head": "tibetan sign mchu can"
+    }
+  },
+  {
+    "text": "\u0F8A",
+    "name": {
+      "head": "tibetan sign gru can rgyings"
+    }
+  },
+  {
+    "text": "\u0F8B",
+    "name": {
+      "head": "tibetan sign gru med rgyings"
+    }
+  },
+  {
+    "text": "\u0F8C",
+    "name": {
+      "head": "tibetan sign inverted mchu can"
+    }
+  },
+  {
+    "text": "\u0F8D",
+    "name": {
+      "head": "tibetan subjoined sign lce tsa can"
+    }
+  },
+  {
+    "text": "\u0F8E",
+    "name": {
+      "head": "tibetan subjoined sign mchu can"
+    }
+  },
+  {
+    "text": "\u0F8F",
+    "name": {
+      "head": "tibetan subjoined sign inverted mchu can"
+    }
+  },
+  {
+    "text": "\u0F90",
+    "name": {
+      "head": "tibetan subjoined letter ka"
+    }
+  },
+  {
+    "text": "\u0F91",
+    "name": {
+      "head": "tibetan subjoined letter kha"
+    }
+  },
+  {
+    "text": "\u0F92",
+    "name": {
+      "head": "tibetan subjoined letter ga"
+    }
+  },
+  {
+    "text": "\u0F93",
+    "name": {
+      "head": "tibetan subjoined letter gha"
+    }
+  },
+  {
+    "text": "\u0F94",
+    "name": {
+      "head": "tibetan subjoined letter nga"
+    }
+  },
+  {
+    "text": "\u0F95",
+    "name": {
+      "head": "tibetan subjoined letter ca"
+    }
+  },
+  {
+    "text": "\u0F96",
+    "name": {
+      "head": "tibetan subjoined letter cha"
+    }
+  },
+  {
+    "text": "\u0F97",
+    "name": {
+      "head": "tibetan subjoined letter ja"
+    }
+  },
+  {
+    "text": "\u0F99",
+    "name": {
+      "head": "tibetan subjoined letter nya"
+    }
+  },
+  {
+    "text": "\u0F9A",
+    "name": {
+      "head": "tibetan subjoined letter tta"
+    }
+  },
+  {
+    "text": "\u0F9B",
+    "name": {
+      "head": "tibetan subjoined letter ttha"
+    }
+  },
+  {
+    "text": "\u0F9C",
+    "name": {
+      "head": "tibetan subjoined letter dda"
+    }
+  },
+  {
+    "text": "\u0F9D",
+    "name": {
+      "head": "tibetan subjoined letter ddha"
+    }
+  },
+  {
+    "text": "\u0F9E",
+    "name": {
+      "head": "tibetan subjoined letter nna"
+    }
+  },
+  {
+    "text": "\u0F9F",
+    "name": {
+      "head": "tibetan subjoined letter ta"
+    }
+  },
+  {
+    "text": "\u0FA0",
+    "name": {
+      "head": "tibetan subjoined letter tha"
+    }
+  },
+  {
+    "text": "\u0FA1",
+    "name": {
+      "head": "tibetan subjoined letter da"
+    }
+  },
+  {
+    "text": "\u0FA2",
+    "name": {
+      "head": "tibetan subjoined letter dha"
+    }
+  },
+  {
+    "text": "\u0FA3",
+    "name": {
+      "head": "tibetan subjoined letter na"
+    }
+  },
+  {
+    "text": "\u0FA4",
+    "name": {
+      "head": "tibetan subjoined letter pa"
+    }
+  },
+  {
+    "text": "\u0FA5",
+    "name": {
+      "head": "tibetan subjoined letter pha"
+    }
+  },
+  {
+    "text": "\u0FA6",
+    "name": {
+      "head": "tibetan subjoined letter ba"
+    }
+  },
+  {
+    "text": "\u0FA7",
+    "name": {
+      "head": "tibetan subjoined letter bha"
+    }
+  },
+  {
+    "text": "\u0FA8",
+    "name": {
+      "head": "tibetan subjoined letter ma"
+    }
+  },
+  {
+    "text": "\u0FA9",
+    "name": {
+      "head": "tibetan subjoined letter tsa"
+    }
+  },
+  {
+    "text": "\u0FAA",
+    "name": {
+      "head": "tibetan subjoined letter tsha"
+    }
+  },
+  {
+    "text": "\u0FAB",
+    "name": {
+      "head": "tibetan subjoined letter dza"
+    }
+  },
+  {
+    "text": "\u0FAC",
+    "name": {
+      "head": "tibetan subjoined letter dzha"
+    }
+  },
+  {
+    "text": "\u0FAD",
+    "name": {
+      "head": "tibetan subjoined letter wa"
+    }
+  },
+  {
+    "text": "\u0FAE",
+    "name": {
+      "head": "tibetan subjoined letter zha"
+    }
+  },
+  {
+    "text": "\u0FAF",
+    "name": {
+      "head": "tibetan subjoined letter za"
+    }
+  },
+  {
+    "text": "\u0FB0",
+    "name": {
+      "head": "tibetan subjoined letter -a"
+    }
+  },
+  {
+    "text": "\u0FB1",
+    "name": {
+      "head": "tibetan subjoined letter ya"
+    }
+  },
+  {
+    "text": "\u0FB2",
+    "name": {
+      "head": "tibetan subjoined letter ra"
+    }
+  },
+  {
+    "text": "\u0FB3",
+    "name": {
+      "head": "tibetan subjoined letter la"
+    }
+  },
+  {
+    "text": "\u0FB4",
+    "name": {
+      "head": "tibetan subjoined letter sha"
+    }
+  },
+  {
+    "text": "\u0FB5",
+    "name": {
+      "head": "tibetan subjoined letter ssa"
+    }
+  },
+  {
+    "text": "\u0FB6",
+    "name": {
+      "head": "tibetan subjoined letter sa"
+    }
+  },
+  {
+    "text": "\u0FB7",
+    "name": {
+      "head": "tibetan subjoined letter ha"
+    }
+  },
+  {
+    "text": "\u0FB8",
+    "name": {
+      "head": "tibetan subjoined letter a"
+    }
+  },
+  {
+    "text": "\u0FB9",
+    "name": {
+      "head": "tibetan subjoined letter kssa"
+    }
+  },
+  {
+    "text": "\u0FBA",
+    "name": {
+      "head": "tibetan subjoined letter fixed-form wa"
+    }
+  },
+  {
+    "text": "\u0FBB",
+    "name": {
+      "head": "tibetan subjoined letter fixed-form ya"
+    }
+  },
+  {
+    "text": "\u0FBC",
+    "name": {
+      "head": "tibetan subjoined letter fixed-form ra"
+    }
+  },
+  {
+    "text": "\u0FBE",
+    "name": {
+      "head": "tibetan ku ru kha"
+    }
+  },
+  {
+    "text": "\u0FBF",
+    "name": {
+      "head": "tibetan ku ru kha bzhi mig can"
+    }
+  },
+  {
+    "text": "\u0FC0",
+    "name": {
+      "head": "tibetan cantillation sign heavy beat"
+    }
+  },
+  {
+    "text": "\u0FC1",
+    "name": {
+      "head": "tibetan cantillation sign light beat"
+    }
+  },
+  {
+    "text": "\u0FC2",
+    "name": {
+      "head": "tibetan cantillation sign cang te-u"
+    }
+  },
+  {
+    "text": "\u0FC3",
+    "name": {
+      "head": "tibetan cantillation sign sbub -chal"
+    }
+  },
+  {
+    "text": "\u0FC4",
+    "name": {
+      "head": "tibetan symbol dril bu"
+    }
+  },
+  {
+    "text": "\u0FC5",
+    "name": {
+      "head": "tibetan symbol rdo rje"
+    }
+  },
+  {
+    "text": "\u0FC6",
+    "name": {
+      "head": "tibetan symbol padma gdan"
+    }
+  },
+  {
+    "text": "\u0FC7",
+    "name": {
+      "head": "tibetan symbol rdo rje rgya gram"
+    }
+  },
+  {
+    "text": "\u0FC8",
+    "name": {
+      "head": "tibetan symbol phur pa"
+    }
+  },
+  {
+    "text": "\u0FC9",
+    "name": {
+      "head": "tibetan symbol nor bu"
+    }
+  },
+  {
+    "text": "\u0FCA",
+    "name": {
+      "head": "tibetan symbol nor bu nyis -khyil"
+    }
+  },
+  {
+    "text": "\u0FCB",
+    "name": {
+      "head": "tibetan symbol nor bu gsum -khyil"
+    }
+  },
+  {
+    "text": "\u0FCC",
+    "name": {
+      "head": "tibetan symbol nor bu bzhi -khyil"
+    }
+  },
+  {
+    "text": "\u0FCE",
+    "name": {
+      "head": "tibetan sign rdel nag rdel dkar"
+    }
+  },
+  {
+    "text": "\u0FCF",
+    "name": {
+      "head": "tibetan sign rdel nag gsum"
+    }
+  },
+  {
+    "text": "\u0FD0",
+    "name": {
+      "head": "tibetan mark bska- shog gi mgo rgyan (alias tibetan mark bka- shog gi mgo rgyan)"
+    }
+  },
+  {
+    "text": "\u0FD1",
+    "name": {
+      "head": "tibetan mark mnyam yig gi mgo rgyan"
+    }
+  },
+  {
+    "text": "\u0FD2",
+    "name": {
+      "head": "tibetan mark nyis tsheg"
+    }
+  },
+  {
+    "text": "\u0FD3",
+    "name": {
+      "head": "tibetan mark initial brda rnying yig mgo mdun ma"
+    }
+  },
+  {
+    "text": "\u0FD4",
+    "name": {
+      "head": "tibetan mark closing brda rnying yig mgo sgab ma"
+    }
+  },
+  {
+    "text": "\u0FD5",
+    "name": {
+      "head": "right-facing svasti sign"
+    }
+  },
+  {
+    "text": "\u0FD6",
+    "name": {
+      "head": "left-facing svasti sign"
+    }
+  },
+  {
+    "text": "\u0FD7",
+    "name": {
+      "head": "right-facing svasti sign with dots"
+    }
+  },
+  {
+    "text": "\u0FD8",
+    "name": {
+      "head": "left-facing svasti sign with dots"
+    }
+  },
+  {
+    "text": "\u0FD9",
+    "name": {
+      "head": "tibetan mark leading mchan rtags"
+    }
+  },
+  {
+    "text": "\u0FDA",
+    "name": {
+      "head": "tibetan mark trailing mchan rtags"
+    }
+  },
+  {
+    "text": "\u1000",
+    "name": {
+      "head": "tibetan letter ka"
+    }
+  },
+  {
+    "text": "\u1001",
+    "name": {
+      "head": "tibetan letter kha"
+    }
+  },
+  {
+    "text": "\u1002",
+    "name": {
+      "head": "tibetan letter ga"
+    }
+  },
+  {
+    "text": "\u1003",
+    "name": {
+      "head": "tibetan letter nga"
+    }
+  },
+  {
+    "text": "\u1004",
+    "name": {
+      "head": "tibetan letter ca"
+    }
+  },
+  {
+    "text": "\u1005",
+    "name": {
+      "head": "tibetan letter cha"
+    }
+  },
+  {
+    "text": "\u1006",
+    "name": {
+      "head": "tibetan letter ja"
+    }
+  },
+  {
+    "text": "\u1007",
+    "name": {
+      "head": "tibetan letter nya"
+    }
+  },
+  {
+    "text": "\u1008",
+    "name": {
+      "head": "tibetan letter reversed ta"
+    }
+  },
+  {
+    "text": "\u1009",
+    "name": {
+      "head": "tibetan letter reversed tha"
+    }
+  },
+  {
+    "text": "\u100A",
+    "name": {
+      "head": "tibetan letter reversed da"
+    }
+  },
+  {
+    "text": "\u100B",
+    "name": {
+      "head": "tibetan letter reversed na"
+    }
+  },
+  {
+    "text": "\u100C",
+    "name": {
+      "head": "tibetan letter ta"
+    }
+  },
+  {
+    "text": "\u100D",
+    "name": {
+      "head": "tibetan letter tha"
+    }
+  },
+  {
+    "text": "\u100E",
+    "name": {
+      "head": "tibetan letter da"
+    }
+  },
+  {
+    "text": "\u100F",
+    "name": {
+      "head": "tibetan letter na"
+    }
+  },
+  {
+    "text": "\u1010",
+    "name": {
+      "head": "tibetan letter pa"
+    }
+  },
+  {
+    "text": "\u1011",
+    "name": {
+      "head": "tibetan letter pha"
+    }
+  },
+  {
+    "text": "\u1012",
+    "name": {
+      "head": "tibetan letter ba"
+    }
+  },
+  {
+    "text": "\u1013",
+    "name": {
+      "head": "tibetan letter ma"
+    }
+  },
+  {
+    "text": "\u1014",
+    "name": {
+      "head": "tibetan letter tsa"
+    }
+  },
+  {
+    "text": "\u1015",
+    "name": {
+      "head": "tibetan letter tsha"
+    }
+  },
+  {
+    "text": "\u1016",
+    "name": {
+      "head": "tibetan letter dza"
+    }
+  },
+  {
+    "text": "\u1017",
+    "name": {
+      "head": "tibetan letter wa"
+    }
+  },
+  {
+    "text": "\u1018",
+    "name": {
+      "head": "tibetan letter zha"
+    }
+  },
+  {
+    "text": "\u1019",
+    "name": {
+      "head": "tibetan letter za"
+    }
+  },
+  {
+    "text": "\u101A",
+    "name": {
+      "head": "tibetan letter aa"
+    }
+  },
+  {
+    "text": "\u101B",
+    "name": {
+      "head": "tibetan letter ya"
+    }
+  },
+  {
+    "text": "\u101C",
+    "name": {
+      "head": "tibetan letter ra"
+    }
+  },
+  {
+    "text": "\u101D",
+    "name": {
+      "head": "tibetan letter la"
+    }
+  },
+  {
+    "text": "\u101E",
+    "name": {
+      "head": "tibetan letter sha"
+    }
+  },
+  {
+    "text": "\u101F",
+    "name": {
+      "head": "tibetan letter reversed sha"
+    }
+  },
+  {
+    "text": "\u1020",
+    "name": {
+      "head": "tibetan letter sa"
+    }
+  },
+  {
+    "text": "\u1021",
+    "name": {
+      "head": "tibetan letter ha"
+    }
+  },
+  {
+    "text": "\u1022",
+    "name": {
+      "head": "tibetan letter a"
+    }
+  },
+  {
+    "text": "\u1026",
+    "name": {
+      "head": "tibetan vowel sign i"
+    }
+  },
+  {
+    "text": "\u1027",
+    "name": {
+      "head": "tibetan vowel sign short i"
+    }
+  },
+  {
+    "text": "\u1028",
+    "name": {
+      "head": "tibetan vowel sign u"
+    }
+  },
+  {
+    "text": "\u1029",
+    "name": {
+      "head": "tibetan vowel sign e"
+    }
+  },
+  {
+    "text": "\u102A",
+    "name": {
+      "head": "tibetan vowel sign o"
+    }
+  },
+  {
+    "text": "\u102B",
+    "name": {
+      "head": "tibetan chuchenyige"
+    }
+  },
+  {
+    "text": "\u102C",
+    "name": {
+      "head": "tibetan visarga"
+    }
+  },
+  {
+    "text": "\u102E",
+    "name": {
+      "head": "tibetan anusvara"
+    }
+  },
+  {
+    "text": "\u102F",
+    "name": {
+      "head": "tibetan right brace"
+    }
+  },
+  {
+    "text": "\u1030",
+    "name": {
+      "head": "tibetan under ring"
+    }
+  },
+  {
+    "text": "\u1031",
+    "name": {
+      "head": "tibetan ditto"
+    }
+  },
+  {
+    "text": "\u1033",
+    "name": {
+      "head": "tibetan single ornament"
+    }
+  },
+  {
+    "text": "\u1034",
+    "name": {
+      "head": "tibetan shad"
+    }
+  },
+  {
+    "text": "\u1035",
+    "name": {
+      "head": "tibetan tsheg"
+    }
+  },
+  {
+    "text": "\u1036",
+    "name": {
+      "head": "tibetan candrabindu"
+    }
+  },
+  {
+    "text": "\u1037",
+    "name": {
+      "head": "tibetan candrabindu with ornament"
+    }
+  },
+  {
+    "text": "\u1038",
+    "name": {
+      "head": "tibetan comma"
+    }
+  },
+  {
+    "text": "\u1039",
+    "name": {
+      "head": "tibetan mark rinchanphungshad"
+    }
+  },
+  {
+    "text": "\u103A",
+    "name": {
+      "head": "tibetan mark rgyanshad"
+    }
+  },
+  {
+    "text": "\u103B",
+    "name": {
+      "head": "tibetan mark honorific under ring"
+    }
+  },
+  {
+    "text": "\u103C",
+    "name": {
+      "head": "tibetan mark left brace"
+    }
+  },
+  {
+    "text": "\u103D",
+    "name": {
+      "head": "tibetan vowel sign ai"
+    }
+  },
+  {
+    "text": "\u103E",
+    "name": {
+      "head": "tibetan vowel sign au"
+    }
+  },
+  {
+    "text": "\u1040",
+    "name": {
+      "head": "tibetan digit zero"
+    }
+  },
+  {
+    "text": "\u1041",
+    "name": {
+      "head": "tibetan digit one"
+    }
+  },
+  {
+    "text": "\u1042",
+    "name": {
+      "head": "tibetan digit two"
+    }
+  },
+  {
+    "text": "\u1043",
+    "name": {
+      "head": "tibetan digit three"
+    }
+  },
+  {
+    "text": "\u1044",
+    "name": {
+      "head": "tibetan digit four"
+    }
+  },
+  {
+    "text": "\u1045",
+    "name": {
+      "head": "tibetan digit five"
+    }
+  },
+  {
+    "text": "\u1046",
+    "name": {
+      "head": "tibetan digit six"
+    }
+  },
+  {
+    "text": "\u1047",
+    "name": {
+      "head": "tibetan digit seven"
+    }
+  },
+  {
+    "text": "\u1048",
+    "name": {
+      "head": "tibetan digit eight"
+    }
+  },
+  {
+    "text": "\u1049",
+    "name": {
+      "head": "tibetan digit nine"
+    }
+  },
+  {
+    "text": "\u104A",
+    "name": {
+      "head": "tibetan double shad"
+    }
+  },
+  {
+    "text": "\u104B",
+    "name": {
+      "head": "tibetan virama"
+    }
+  },
+  {
+    "text": "\u104C",
+    "name": {
+      "head": "tibetan lenition mark"
+    }
+  }
+]

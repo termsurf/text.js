@@ -1,0 +1,618 @@
+[
+  {
+    "text": "\u10A0",
+    "name": {
+      "head": "georgian capital letter an"
+    },
+    "role": ["consonant"]
+  },
+  {
+    "text": "\u10A1",
+    "name": {
+      "head": "georgian capital letter ban"
+    },
+    "role": ["consonant"]
+  },
+  {
+    "text": "\u10A2",
+    "name": {
+      "head": "georgian capital letter gan"
+    },
+    "role": ["consonant"]
+  },
+  {
+    "text": "\u10A3",
+    "name": {
+      "head": "georgian capital letter don"
+    },
+    "role": ["consonant"]
+  },
+  {
+    "text": "\u10A4",
+    "name": {
+      "head": "georgian capital letter en"
+    },
+    "role": ["consonant"]
+  },
+  {
+    "text": "\u10A5",
+    "name": {
+      "head": "georgian capital letter vin"
+    },
+    "role": ["consonant"]
+  },
+  {
+    "text": "\u10A6",
+    "name": {
+      "head": "georgian capital letter zen"
+    },
+    "role": ["consonant"]
+  },
+  {
+    "text": "\u10A7",
+    "name": {
+      "head": "georgian capital letter tan"
+    },
+    "role": ["consonant"]
+  },
+  {
+    "text": "\u10A8",
+    "name": {
+      "head": "georgian capital letter in"
+    },
+    "role": ["consonant"]
+  },
+  {
+    "text": "\u10A9",
+    "name": {
+      "head": "georgian capital letter kan"
+    },
+    "role": ["consonant"]
+  },
+  {
+    "text": "\u10AA",
+    "name": {
+      "head": "georgian capital letter las"
+    },
+    "role": ["consonant"]
+  },
+  {
+    "text": "\u10AB",
+    "name": {
+      "head": "georgian capital letter man"
+    },
+    "role": ["consonant"]
+  },
+  {
+    "text": "\u10AC",
+    "name": {
+      "head": "georgian capital letter nar"
+    },
+    "role": ["consonant"]
+  },
+  {
+    "text": "\u10AD",
+    "name": {
+      "head": "georgian capital letter on"
+    },
+    "role": ["consonant"]
+  },
+  {
+    "text": "\u10AE",
+    "name": {
+      "head": "georgian capital letter par"
+    },
+    "role": ["consonant"]
+  },
+  {
+    "text": "\u10AF",
+    "name": {
+      "head": "georgian capital letter zhar"
+    },
+    "role": ["consonant"]
+  },
+  {
+    "text": "\u10B0",
+    "name": {
+      "head": "georgian capital letter rae"
+    },
+    "role": ["consonant"]
+  },
+  {
+    "text": "\u10B1",
+    "name": {
+      "head": "georgian capital letter san"
+    },
+    "role": ["consonant"]
+  },
+  {
+    "text": "\u10B2",
+    "name": {
+      "head": "georgian capital letter tar"
+    },
+    "role": ["consonant"]
+  },
+  {
+    "text": "\u10B3",
+    "name": {
+      "head": "georgian capital letter un"
+    },
+    "role": ["consonant"]
+  },
+  {
+    "text": "\u10B4",
+    "name": {
+      "head": "georgian capital letter phar"
+    },
+    "role": ["consonant"]
+  },
+  {
+    "text": "\u10B5",
+    "name": {
+      "head": "georgian capital letter khar"
+    },
+    "role": ["consonant"]
+  },
+  {
+    "text": "\u10B6",
+    "name": {
+      "head": "georgian capital letter ghan"
+    },
+    "role": ["consonant"]
+  },
+  {
+    "text": "\u10B7",
+    "name": {
+      "head": "georgian capital letter qar"
+    },
+    "role": ["consonant"]
+  },
+  {
+    "text": "\u10B8",
+    "name": {
+      "head": "georgian capital letter shin"
+    },
+    "role": ["consonant"]
+  },
+  {
+    "text": "\u10B9",
+    "name": {
+      "head": "georgian capital letter chin"
+    },
+    "role": ["consonant"]
+  },
+  {
+    "text": "\u10BA",
+    "name": {
+      "head": "georgian capital letter can"
+    },
+    "role": ["consonant"]
+  },
+  {
+    "text": "\u10BB",
+    "name": {
+      "head": "georgian capital letter jil"
+    },
+    "role": ["consonant"]
+  },
+  {
+    "text": "\u10BC",
+    "name": {
+      "head": "georgian capital letter cil"
+    },
+    "role": ["consonant"]
+  },
+  {
+    "text": "\u10BD",
+    "name": {
+      "head": "georgian capital letter char"
+    },
+    "role": ["consonant"]
+  },
+  {
+    "text": "\u10BE",
+    "name": {
+      "head": "georgian capital letter xan"
+    },
+    "role": ["consonant"]
+  },
+  {
+    "text": "\u10BF",
+    "name": {
+      "head": "georgian capital letter jhan"
+    },
+    "role": ["consonant"]
+  },
+  {
+    "text": "\u10C0",
+    "name": {
+      "head": "georgian capital letter hae"
+    },
+    "role": ["consonant"]
+  },
+  {
+    "text": "\u10C1",
+    "name": {
+      "head": "georgian capital letter he"
+    },
+    "role": ["consonant"]
+  },
+  {
+    "text": "\u10C2",
+    "name": {
+      "head": "georgian capital letter hie"
+    },
+    "role": ["consonant"]
+  },
+  {
+    "text": "\u10C3",
+    "name": {
+      "head": "georgian capital letter we"
+    },
+    "role": ["consonant"]
+  },
+  {
+    "text": "\u10C4",
+    "name": {
+      "head": "georgian capital letter har"
+    },
+    "role": ["consonant"]
+  },
+  {
+    "text": "\u10C5",
+    "name": {
+      "head": "georgian capital letter hoe"
+    },
+    "role": ["consonant"]
+  },
+  {
+    "text": "\u10C7",
+    "name": {
+      "head": "georgian capital letter yn"
+    },
+    "role": ["consonant"]
+  },
+  {
+    "text": "\u10CD",
+    "name": {
+      "head": "georgian capital letter aen"
+    },
+    "role": ["consonant"]
+  },
+  {
+    "text": "\u10D0",
+    "name": {
+      "head": "georgian letter an"
+    },
+    "role": ["consonant"]
+  },
+  {
+    "text": "\u10D1",
+    "name": {
+      "head": "georgian letter ban"
+    },
+    "role": ["consonant"]
+  },
+  {
+    "text": "\u10D2",
+    "name": {
+      "head": "georgian letter gan"
+    },
+    "role": ["consonant"]
+  },
+  {
+    "text": "\u10D3",
+    "name": {
+      "head": "georgian letter don"
+    },
+    "role": ["consonant"]
+  },
+  {
+    "text": "\u10D4",
+    "name": {
+      "head": "georgian letter en"
+    },
+    "role": ["consonant"]
+  },
+  {
+    "text": "\u10D5",
+    "name": {
+      "head": "georgian letter vin"
+    },
+    "role": ["consonant"]
+  },
+  {
+    "text": "\u10D6",
+    "name": {
+      "head": "georgian letter zen"
+    },
+    "role": ["consonant"]
+  },
+  {
+    "text": "\u10D7",
+    "name": {
+      "head": "georgian letter tan"
+    },
+    "role": ["consonant"]
+  },
+  {
+    "text": "\u10D8",
+    "name": {
+      "head": "georgian letter in"
+    },
+    "role": ["consonant"]
+  },
+  {
+    "text": "\u10D9",
+    "name": {
+      "head": "georgian letter kan"
+    },
+    "role": ["consonant"]
+  },
+  {
+    "text": "\u10DA",
+    "name": {
+      "head": "georgian letter las"
+    },
+    "role": ["consonant"]
+  },
+  {
+    "text": "\u10DB",
+    "name": {
+      "head": "georgian letter man"
+    },
+    "role": ["consonant"]
+  },
+  {
+    "text": "\u10DC",
+    "name": {
+      "head": "georgian letter nar"
+    },
+    "role": ["consonant"]
+  },
+  {
+    "text": "\u10DD",
+    "name": {
+      "head": "georgian letter on"
+    },
+    "role": ["consonant"]
+  },
+  {
+    "text": "\u10DE",
+    "name": {
+      "head": "georgian letter par"
+    },
+    "role": ["consonant"]
+  },
+  {
+    "text": "\u10DF",
+    "name": {
+      "head": "georgian letter zhar"
+    },
+    "role": ["consonant"]
+  },
+  {
+    "text": "\u10E0",
+    "name": {
+      "head": "georgian letter rae"
+    },
+    "role": ["consonant"]
+  },
+  {
+    "text": "\u10E1",
+    "name": {
+      "head": "georgian letter san"
+    },
+    "role": ["consonant"]
+  },
+  {
+    "text": "\u10E2",
+    "name": {
+      "head": "georgian letter tar"
+    },
+    "role": ["consonant"]
+  },
+  {
+    "text": "\u10E3",
+    "name": {
+      "head": "georgian letter un"
+    },
+    "role": ["consonant"]
+  },
+  {
+    "text": "\u10E4",
+    "name": {
+      "head": "georgian letter phar"
+    },
+    "role": ["consonant"]
+  },
+  {
+    "text": "\u10E5",
+    "name": {
+      "head": "georgian letter khar"
+    },
+    "role": ["consonant"]
+  },
+  {
+    "text": "\u10E6",
+    "name": {
+      "head": "georgian letter ghan"
+    },
+    "role": ["consonant"]
+  },
+  {
+    "text": "\u10E7",
+    "name": {
+      "head": "georgian letter qar"
+    },
+    "role": ["consonant"]
+  },
+  {
+    "text": "\u10E8",
+    "name": {
+      "head": "georgian letter shin"
+    },
+    "role": ["consonant"]
+  },
+  {
+    "text": "\u10E9",
+    "name": {
+      "head": "georgian letter chin"
+    },
+    "role": ["consonant"]
+  },
+  {
+    "text": "\u10EA",
+    "name": {
+      "head": "georgian letter can"
+    },
+    "role": ["consonant"]
+  },
+  {
+    "text": "\u10EB",
+    "name": {
+      "head": "georgian letter jil"
+    },
+    "role": ["consonant"]
+  },
+  {
+    "text": "\u10EC",
+    "name": {
+      "head": "georgian letter cil"
+    },
+    "role": ["consonant"]
+  },
+  {
+    "text": "\u10ED",
+    "name": {
+      "head": "georgian letter char"
+    },
+    "role": ["consonant"]
+  },
+  {
+    "text": "\u10EE",
+    "name": {
+      "head": "georgian letter xan"
+    },
+    "role": ["consonant"]
+  },
+  {
+    "text": "\u10EF",
+    "name": {
+      "head": "georgian letter jhan"
+    },
+    "role": ["consonant"]
+  },
+  {
+    "text": "\u10F0",
+    "name": {
+      "head": "georgian letter hae"
+    },
+    "role": ["consonant"]
+  },
+  {
+    "text": "\u10F1",
+    "name": {
+      "head": "georgian letter he"
+    },
+    "role": ["consonant"]
+  },
+  {
+    "text": "\u10F2",
+    "name": {
+      "head": "georgian letter hie"
+    },
+    "role": ["consonant"]
+  },
+  {
+    "text": "\u10F3",
+    "name": {
+      "head": "georgian letter we"
+    },
+    "role": ["consonant"]
+  },
+  {
+    "text": "\u10F4",
+    "name": {
+      "head": "georgian letter har"
+    },
+    "role": ["consonant"]
+  },
+  {
+    "text": "\u10F5",
+    "name": {
+      "head": "georgian letter hoe"
+    },
+    "role": ["consonant"]
+  },
+  {
+    "text": "\u10F6",
+    "name": {
+      "head": "georgian letter fi"
+    },
+    "role": ["consonant"]
+  },
+  {
+    "text": "\u10F7",
+    "name": {
+      "head": "georgian letter yn"
+    },
+    "role": ["consonant"]
+  },
+  {
+    "text": "\u10F8",
+    "name": {
+      "head": "georgian letter elifi"
+    },
+    "role": ["consonant"]
+  },
+  {
+    "text": "\u10F9",
+    "name": {
+      "head": "georgian letter turned gan"
+    },
+    "role": ["consonant"]
+  },
+  {
+    "text": "\u10FA",
+    "name": {
+      "head": "georgian letter ain"
+    },
+    "role": ["consonant"]
+  },
+  {
+    "text": "\u10FB",
+    "name": {
+      "head": "georgian paragraph separator"
+    },
+    "role": ["punctuation"]
+  },
+  {
+    "text": "\u10FC",
+    "name": {
+      "head": "modifier letter georgian nar"
+    },
+    "role": ["modifier"]
+  },
+  {
+    "text": "\u10FD",
+    "name": {
+      "head": "georgian letter aen"
+    },
+    "role": ["consonant"]
+  },
+  {
+    "text": "\u10FE",
+    "name": {
+      "head": "georgian letter hard sign"
+    },
+    "role": ["consonant"]
+  },
+  {
+    "text": "\u10FF",
+    "name": {
+      "head": "georgian letter labial sign"
+    },
+    "role": ["consonant"]
+  }
+]

@@ -1,0 +1,506 @@
+[
+  {
+    "text": "\u0B82",
+    "name": {
+      "head": "tamil sign anusvara"
+    },
+    "role": ["modifier"]
+  },
+  {
+    "text": "\u0B83",
+    "name": {
+      "head": "tamil sign visarga"
+    },
+    "role": ["modifier"]
+  },
+  {
+    "text": "\u0B85",
+    "name": {
+      "head": "tamil letter a"
+    },
+    "role": ["vowel"]
+  },
+  {
+    "text": "\u0B86",
+    "name": {
+      "head": "tamil letter aa"
+    },
+    "role": ["vowel"]
+  },
+  {
+    "text": "\u0B87",
+    "name": {
+      "head": "tamil letter i"
+    },
+    "role": ["vowel"]
+  },
+  {
+    "text": "\u0B88",
+    "name": {
+      "head": "tamil letter ii"
+    },
+    "role": ["vowel"]
+  },
+  {
+    "text": "\u0B89",
+    "name": {
+      "head": "tamil letter u"
+    },
+    "role": ["vowel"]
+  },
+  {
+    "text": "\u0B8A",
+    "name": {
+      "head": "tamil letter uu"
+    },
+    "role": ["vowel"]
+  },
+  {
+    "text": "\u0B8E",
+    "name": {
+      "head": "tamil letter e"
+    },
+    "role": ["vowel"]
+  },
+  {
+    "text": "\u0B8F",
+    "name": {
+      "head": "tamil letter ee"
+    },
+    "role": ["vowel"]
+  },
+  {
+    "text": "\u0B90",
+    "name": {
+      "head": "tamil letter ai"
+    },
+    "role": ["vowel"]
+  },
+  {
+    "text": "\u0B92",
+    "name": {
+      "head": "tamil letter o"
+    },
+    "role": ["vowel"]
+  },
+  {
+    "text": "\u0B93",
+    "name": {
+      "head": "tamil letter oo"
+    },
+    "role": ["vowel"]
+  },
+  {
+    "text": "\u0B94",
+    "name": {
+      "head": "tamil letter au"
+    },
+    "role": ["vowel"]
+  },
+  {
+    "text": "\u0B95",
+    "name": {
+      "head": "tamil letter ka"
+    },
+    "role": ["consonant", "hard"]
+  },
+  {
+    "text": "\u0B99",
+    "name": {
+      "head": "tamil letter nga"
+    },
+    "role": ["consonant", "soft"]
+  },
+  {
+    "text": "\u0B9A",
+    "name": {
+      "head": "tamil letter ca"
+    },
+    "role": ["consonant", "hard"]
+  },
+  {
+    "text": "\u0B9C",
+    "name": {
+      "head": "tamil letter ja"
+    },
+    "role": ["consonant"]
+  },
+  {
+    "text": "\u0B9E",
+    "name": {
+      "head": "tamil letter nya"
+    },
+    "role": ["consonant", "soft"]
+  },
+  {
+    "text": "\u0B9F",
+    "name": {
+      "head": "tamil letter tta"
+    },
+    "role": ["consonant", "hard"]
+  },
+  {
+    "text": "\u0BA3",
+    "name": {
+      "head": "tamil letter nna"
+    },
+    "role": ["consonant", "soft"]
+  },
+  {
+    "text": "\u0BA4",
+    "name": {
+      "head": "tamil letter ta"
+    },
+    "role": ["consonant", "hard"]
+  },
+  {
+    "text": "\u0BA8",
+    "name": {
+      "head": "tamil letter na"
+    },
+    "role": ["consonant", "medium"]
+  },
+  {
+    "text": "\u0BA9",
+    "name": {
+      "head": "tamil letter nnna"
+    },
+    "role": ["consonant"]
+  },
+  {
+    "text": "\u0BAA",
+    "name": {
+      "head": "tamil letter pa"
+    },
+    "role": ["consonant", "hard"]
+  },
+  {
+    "text": "\u0BAE",
+    "name": {
+      "head": "tamil letter ma"
+    },
+    "role": ["consonant", "soft"]
+  },
+  {
+    "text": "\u0BAF",
+    "name": {
+      "head": "tamil letter ya"
+    },
+    "role": ["consonant", "medium"]
+  },
+  {
+    "text": "\u0BB0",
+    "name": {
+      "head": "tamil letter ra"
+    },
+    "role": ["consonant", "medium"]
+  },
+  {
+    "text": "\u0BB1",
+    "name": {
+      "head": "tamil letter rra"
+    },
+    "role": ["consonant"]
+  },
+  {
+    "text": "\u0BB2",
+    "name": {
+      "head": "tamil letter la"
+    },
+    "role": ["consonant", "medium"]
+  },
+  {
+    "text": "\u0BB3",
+    "name": {
+      "head": "tamil letter lla"
+    },
+    "role": ["consonant", "soft"]
+  },
+  {
+    "text": "\u0BB4",
+    "name": {
+      "head": "tamil letter llla"
+    },
+    "role": ["consonant"]
+  },
+  {
+    "text": "\u0BB5",
+    "name": {
+      "head": "tamil letter va"
+    },
+    "role": ["consonant", "medium"]
+  },
+  {
+    "text": "\u0BB6",
+    "name": {
+      "head": "tamil letter sha"
+    },
+    "role": ["consonant"]
+  },
+  {
+    "text": "\u0BB7",
+    "name": {
+      "head": "tamil letter ssa"
+    },
+    "role": ["consonant"]
+  },
+  {
+    "text": "\u0BB8",
+    "name": {
+      "head": "tamil letter sa"
+    },
+    "role": ["consonant"]
+  },
+  {
+    "text": "\u0BB9",
+    "name": {
+      "head": "tamil letter ha"
+    },
+    "role": ["consonant"]
+  },
+  {
+    "text": "\u0BBE",
+    "name": {
+      "head": "tamil vowel sign aa"
+    },
+    "role": ["vowel", "bound"]
+  },
+  {
+    "text": "\u0BBF",
+    "name": {
+      "head": "tamil vowel sign i"
+    },
+    "role": ["vowel", "bound"]
+  },
+  {
+    "text": "\u0BC0",
+    "name": {
+      "head": "tamil vowel sign ii"
+    },
+    "role": ["vowel", "bound"]
+  },
+  {
+    "text": "\u0BC1",
+    "name": {
+      "head": "tamil vowel sign u"
+    },
+    "role": ["vowel", "bound"]
+  },
+  {
+    "text": "\u0BC2",
+    "name": {
+      "head": "tamil vowel sign uu"
+    },
+    "role": ["vowel", "bound"]
+  },
+  {
+    "text": "\u0BC6",
+    "name": {
+      "head": "tamil vowel sign e"
+    },
+    "role": ["vowel", "bound"]
+  },
+  {
+    "text": "\u0BC7",
+    "name": {
+      "head": "tamil vowel sign ee"
+    },
+    "role": ["vowel", "bound"]
+  },
+  {
+    "text": "\u0BC8",
+    "name": {
+      "head": "tamil vowel sign ai"
+    },
+    "role": ["vowel", "bound"]
+  },
+  {
+    "text": "\u0BCA",
+    "name": {
+      "head": "tamil vowel sign o"
+    },
+    "role": ["vowel", "bound"]
+  },
+  {
+    "text": "\u0BCB",
+    "name": {
+      "head": "tamil vowel sign oo"
+    },
+    "role": ["vowel", "bound"]
+  },
+  {
+    "text": "\u0BCC",
+    "name": {
+      "head": "tamil vowel sign au"
+    },
+    "role": ["vowel", "bound"]
+  },
+  {
+    "text": "\u0BCD",
+    "name": {
+      "head": "tamil sign virama"
+    },
+    "role": ["modifier"]
+  },
+  {
+    "text": "\u0BD0",
+    "name": {
+      "head": "tamil om"
+    },
+    "role": ["sign"]
+  },
+  {
+    "text": "\u0BD7",
+    "name": {
+      "head": "tamil au length mark"
+    },
+    "role": ["vowel", "bound"]
+  },
+  {
+    "text": "\u0BE6",
+    "name": {
+      "head": "tamil digit zero"
+    },
+    "role": ["number"]
+  },
+  {
+    "text": "\u0BE7",
+    "name": {
+      "head": "tamil digit one"
+    },
+    "role": ["number"]
+  },
+  {
+    "text": "\u0BE8",
+    "name": {
+      "head": "tamil digit two"
+    },
+    "role": ["number"]
+  },
+  {
+    "text": "\u0BE9",
+    "name": {
+      "head": "tamil digit three"
+    },
+    "role": ["number"]
+  },
+  {
+    "text": "\u0BEA",
+    "name": {
+      "head": "tamil digit four"
+    },
+    "role": ["number"]
+  },
+  {
+    "text": "\u0BEB",
+    "name": {
+      "head": "tamil digit five"
+    },
+    "role": ["number"]
+  },
+  {
+    "text": "\u0BEC",
+    "name": {
+      "head": "tamil digit six"
+    },
+    "role": ["number"]
+  },
+  {
+    "text": "\u0BED",
+    "name": {
+      "head": "tamil digit seven"
+    },
+    "role": ["number"]
+  },
+  {
+    "text": "\u0BEE",
+    "name": {
+      "head": "tamil digit eight"
+    },
+    "role": ["number"]
+  },
+  {
+    "text": "\u0BEF",
+    "name": {
+      "head": "tamil digit nine"
+    },
+    "role": ["number"]
+  },
+  {
+    "text": "\u0BF0",
+    "name": {
+      "head": "tamil number ten"
+    },
+    "role": ["number"]
+  },
+  {
+    "text": "\u0BF1",
+    "name": {
+      "head": "tamil number one hundred"
+    },
+    "role": ["number"]
+  },
+  {
+    "text": "\u0BF2",
+    "name": {
+      "head": "tamil number one thousand"
+    },
+    "role": ["number"]
+  },
+  {
+    "text": "\u0BF3",
+    "name": {
+      "head": "tamil day sign"
+    },
+    "role": ["sign"]
+  },
+  {
+    "text": "\u0BF4",
+    "name": {
+      "head": "tamil month sign"
+    },
+    "role": ["sign"]
+  },
+  {
+    "text": "\u0BF5",
+    "name": {
+      "head": "tamil year sign"
+    },
+    "role": ["sign"]
+  },
+  {
+    "text": "\u0BF6",
+    "name": {
+      "head": "tamil debit sign"
+    },
+    "role": ["sign"]
+  },
+  {
+    "text": "\u0BF7",
+    "name": {
+      "head": "tamil credit sign"
+    },
+    "role": ["sign"]
+  },
+  {
+    "text": "\u0BF8",
+    "name": {
+      "head": "tamil as above sign"
+    },
+    "role": ["sign"]
+  },
+  {
+    "text": "\u0BF9",
+    "name": {
+      "head": "tamil rupee sign"
+    },
+    "role": ["sign"]
+  },
+  {
+    "text": "\u0BFA",
+    "name": {
+      "head": "tamil number sign"
+    },
+    "role": ["sign"]
+  }
+]

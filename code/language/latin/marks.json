@@ -1,0 +1,770 @@
+[
+  {
+    "text": "\u0000",
+    "name": {
+      "head": "control (alias null) (alias nul)"
+    }
+  },
+  {
+    "text": "\u0001",
+    "name": {
+      "head": "control (alias start of heading) (alias soh)"
+    }
+  },
+  {
+    "text": "\u0002",
+    "name": {
+      "head": "control (alias start of text) (alias stx)"
+    }
+  },
+  {
+    "text": "\u0003",
+    "name": {
+      "head": "control (alias end of text) (alias etx)"
+    }
+  },
+  {
+    "text": "\u0004",
+    "name": {
+      "head": "control (alias end of transmission) (alias eot)"
+    }
+  },
+  {
+    "text": "\u0005",
+    "name": {
+      "head": "control (alias enquiry) (alias enq)"
+    }
+  },
+  {
+    "text": "\u0006",
+    "name": {
+      "head": "control (alias acknowledge) (alias ack)"
+    }
+  },
+  {
+    "text": "\u0007",
+    "name": {
+      "head": "control (alias alert) (alias bel)"
+    }
+  },
+  {
+    "text": "\u0008",
+    "name": {
+      "head": "control (alias backspace) (alias bs)"
+    }
+  },
+  {
+    "text": "\u0009",
+    "name": {
+      "head": "control (alias character tabulation) (alias horizontal tabulation) (alias ht) (alias tab)"
+    }
+  },
+  {
+    "text": "\u000A",
+    "name": {
+      "head": "control (alias line feed) (alias new line) (alias end of line) (alias lf) (alias nl) (alias eol)"
+    }
+  },
+  {
+    "text": "\u000B",
+    "name": {
+      "head": "control (alias line tabulation) (alias vertical tabulation) (alias vt)"
+    }
+  },
+  {
+    "text": "\u000C",
+    "name": {
+      "head": "control (alias form feed) (alias ff)"
+    }
+  },
+  {
+    "text": "\u000D",
+    "name": {
+      "head": "control (alias carriage return) (alias cr)"
+    }
+  },
+  {
+    "text": "\u000E",
+    "name": {
+      "head": "control (alias shift out) (alias locking-shift one) (alias so)"
+    }
+  },
+  {
+    "text": "\u000F",
+    "name": {
+      "head": "control (alias shift in) (alias locking-shift zero) (alias si)"
+    }
+  },
+  {
+    "text": "\u0010",
+    "name": {
+      "head": "control (alias data link escape) (alias dle)"
+    }
+  },
+  {
+    "text": "\u0011",
+    "name": {
+      "head": "control (alias device control one) (alias dc1)"
+    }
+  },
+  {
+    "text": "\u0012",
+    "name": {
+      "head": "control (alias device control two) (alias dc2)"
+    }
+  },
+  {
+    "text": "\u0013",
+    "name": {
+      "head": "control (alias device control three) (alias dc3)"
+    }
+  },
+  {
+    "text": "\u0014",
+    "name": {
+      "head": "control (alias device control four) (alias dc4)"
+    }
+  },
+  {
+    "text": "\u0015",
+    "name": {
+      "head": "control (alias negative acknowledge) (alias nak)"
+    }
+  },
+  {
+    "text": "\u0016",
+    "name": {
+      "head": "control (alias synchronous idle) (alias syn)"
+    }
+  },
+  {
+    "text": "\u0017",
+    "name": {
+      "head": "control (alias end of transmission block) (alias etb)"
+    }
+  },
+  {
+    "text": "\u0018",
+    "name": {
+      "head": "control (alias cancel) (alias can)"
+    }
+  },
+  {
+    "text": "\u0019",
+    "name": {
+      "head": "control (alias end of medium) (alias eom) (alias em)"
+    }
+  },
+  {
+    "text": "\u001A",
+    "name": {
+      "head": "control (alias substitute) (alias sub)"
+    }
+  },
+  {
+    "text": "\u001B",
+    "name": {
+      "head": "control (alias escape) (alias esc)"
+    }
+  },
+  {
+    "text": "\u001C",
+    "name": {
+      "head": "control (alias information separator four) (alias file separator) (alias fs)"
+    }
+  },
+  {
+    "text": "\u001D",
+    "name": {
+      "head": "control (alias information separator three) (alias group separator) (alias gs)"
+    }
+  },
+  {
+    "text": "\u001E",
+    "name": {
+      "head": "control (alias information separator two) (alias record separator) (alias rs)"
+    }
+  },
+  {
+    "text": "\u001F",
+    "name": {
+      "head": "control (alias information separator one) (alias unit separator) (alias us)"
+    }
+  },
+  {
+    "text": "\u0020",
+    "name": {
+      "head": "space (alias sp)"
+    }
+  },
+  {
+    "text": "\u0021",
+    "name": {
+      "head": "exclamation mark"
+    }
+  },
+  {
+    "text": "\u0022",
+    "name": {
+      "head": "quotation mark"
+    }
+  },
+  {
+    "text": "\u0023",
+    "name": {
+      "head": "number sign"
+    }
+  },
+  {
+    "text": "\u0024",
+    "name": {
+      "head": "dollar sign"
+    }
+  },
+  {
+    "text": "\u0025",
+    "name": {
+      "head": "percent sign"
+    }
+  },
+  {
+    "text": "\u0026",
+    "name": {
+      "head": "ampersand"
+    }
+  },
+  {
+    "text": "\u0027",
+    "name": {
+      "head": "apostrophe"
+    }
+  },
+  {
+    "text": "\u0028",
+    "name": {
+      "head": "left parenthesis"
+    }
+  },
+  {
+    "text": "\u0029",
+    "name": {
+      "head": "right parenthesis"
+    }
+  },
+  {
+    "text": "\u002A",
+    "name": {
+      "head": "asterisk"
+    }
+  },
+  {
+    "text": "\u002B",
+    "name": {
+      "head": "plus sign"
+    }
+  },
+  {
+    "text": "\u002C",
+    "name": {
+      "head": "comma"
+    }
+  },
+  {
+    "text": "\u002D",
+    "name": {
+      "head": "hyphen-minus"
+    }
+  },
+  {
+    "text": "\u002E",
+    "name": {
+      "head": "full stop"
+    }
+  },
+  {
+    "text": "\u002F",
+    "name": {
+      "head": "solidus"
+    }
+  },
+  {
+    "text": "\u0030",
+    "name": {
+      "head": "digit zero"
+    }
+  },
+  {
+    "text": "\u0031",
+    "name": {
+      "head": "digit one"
+    }
+  },
+  {
+    "text": "\u0032",
+    "name": {
+      "head": "digit two"
+    }
+  },
+  {
+    "text": "\u0033",
+    "name": {
+      "head": "digit three"
+    }
+  },
+  {
+    "text": "\u0034",
+    "name": {
+      "head": "digit four"
+    }
+  },
+  {
+    "text": "\u0035",
+    "name": {
+      "head": "digit five"
+    }
+  },
+  {
+    "text": "\u0036",
+    "name": {
+      "head": "digit six"
+    }
+  },
+  {
+    "text": "\u0037",
+    "name": {
+      "head": "digit seven"
+    }
+  },
+  {
+    "text": "\u0038",
+    "name": {
+      "head": "digit eight"
+    }
+  },
+  {
+    "text": "\u0039",
+    "name": {
+      "head": "digit nine"
+    }
+  },
+  {
+    "text": "\u003A",
+    "name": {
+      "head": "colon"
+    }
+  },
+  {
+    "text": "\u003B",
+    "name": {
+      "head": "semicolon"
+    }
+  },
+  {
+    "text": "\u003C",
+    "name": {
+      "head": "less-than sign"
+    }
+  },
+  {
+    "text": "\u003D",
+    "name": {
+      "head": "equals sign"
+    }
+  },
+  {
+    "text": "\u003E",
+    "name": {
+      "head": "greater-than sign"
+    }
+  },
+  {
+    "text": "\u003F",
+    "name": {
+      "head": "question mark"
+    }
+  },
+  {
+    "text": "\u0040",
+    "name": {
+      "head": "commercial at"
+    }
+  },
+  {
+    "text": "\u0041",
+    "name": {
+      "head": "latin capital letter a"
+    }
+  },
+  {
+    "text": "\u0042",
+    "name": {
+      "head": "latin capital letter b"
+    }
+  },
+  {
+    "text": "\u0043",
+    "name": {
+      "head": "latin capital letter c"
+    }
+  },
+  {
+    "text": "\u0044",
+    "name": {
+      "head": "latin capital letter d"
+    }
+  },
+  {
+    "text": "\u0045",
+    "name": {
+      "head": "latin capital letter e"
+    }
+  },
+  {
+    "text": "\u0046",
+    "name": {
+      "head": "latin capital letter f"
+    }
+  },
+  {
+    "text": "\u0047",
+    "name": {
+      "head": "latin capital letter g"
+    }
+  },
+  {
+    "text": "\u0048",
+    "name": {
+      "head": "latin capital letter h"
+    }
+  },
+  {
+    "text": "\u0049",
+    "name": {
+      "head": "latin capital letter i"
+    }
+  },
+  {
+    "text": "\u004A",
+    "name": {
+      "head": "latin capital letter j"
+    }
+  },
+  {
+    "text": "\u004B",
+    "name": {
+      "head": "latin capital letter k"
+    }
+  },
+  {
+    "text": "\u004C",
+    "name": {
+      "head": "latin capital letter l"
+    }
+  },
+  {
+    "text": "\u004D",
+    "name": {
+      "head": "latin capital letter m"
+    }
+  },
+  {
+    "text": "\u004E",
+    "name": {
+      "head": "latin capital letter n"
+    }
+  },
+  {
+    "text": "\u004F",
+    "name": {
+      "head": "latin capital letter o"
+    }
+  },
+  {
+    "text": "\u0050",
+    "name": {
+      "head": "latin capital letter p"
+    }
+  },
+  {
+    "text": "\u0051",
+    "name": {
+      "head": "latin capital letter q"
+    }
+  },
+  {
+    "text": "\u0052",
+    "name": {
+      "head": "latin capital letter r"
+    }
+  },
+  {
+    "text": "\u0053",
+    "name": {
+      "head": "latin capital letter s"
+    }
+  },
+  {
+    "text": "\u0054",
+    "name": {
+      "head": "latin capital letter t"
+    }
+  },
+  {
+    "text": "\u0055",
+    "name": {
+      "head": "latin capital letter u"
+    }
+  },
+  {
+    "text": "\u0056",
+    "name": {
+      "head": "latin capital letter v"
+    }
+  },
+  {
+    "text": "\u0057",
+    "name": {
+      "head": "latin capital letter w"
+    }
+  },
+  {
+    "text": "\u0058",
+    "name": {
+      "head": "latin capital letter x"
+    }
+  },
+  {
+    "text": "\u0059",
+    "name": {
+      "head": "latin capital letter y"
+    }
+  },
+  {
+    "text": "\u005A",
+    "name": {
+      "head": "latin capital letter z"
+    }
+  },
+  {
+    "text": "\u005B",
+    "name": {
+      "head": "left square bracket"
+    }
+  },
+  {
+    "text": "\u005C",
+    "name": {
+      "head": "reverse solidus"
+    }
+  },
+  {
+    "text": "\u005D",
+    "name": {
+      "head": "right square bracket"
+    }
+  },
+  {
+    "text": "\u005E",
+    "name": {
+      "head": "circumflex accent"
+    }
+  },
+  {
+    "text": "\u005F",
+    "name": {
+      "head": "low line"
+    }
+  },
+  {
+    "text": "\u0060",
+    "name": {
+      "head": "grave accent"
+    }
+  },
+  {
+    "text": "\u0061",
+    "name": {
+      "head": "latin small letter a"
+    }
+  },
+  {
+    "text": "\u0062",
+    "name": {
+      "head": "latin small letter b"
+    }
+  },
+  {
+    "text": "\u0063",
+    "name": {
+      "head": "latin small letter c"
+    }
+  },
+  {
+    "text": "\u0064",
+    "name": {
+      "head": "latin small letter d"
+    }
+  },
+  {
+    "text": "\u0065",
+    "name": {
+      "head": "latin small letter e"
+    }
+  },
+  {
+    "text": "\u0066",
+    "name": {
+      "head": "latin small letter f"
+    }
+  },
+  {
+    "text": "\u0067",
+    "name": {
+      "head": "latin small letter g"
+    }
+  },
+  {
+    "text": "\u0068",
+    "name": {
+      "head": "latin small letter h"
+    }
+  },
+  {
+    "text": "\u0069",
+    "name": {
+      "head": "latin small letter i"
+    }
+  },
+  {
+    "text": "\u006A",
+    "name": {
+      "head": "latin small letter j"
+    }
+  },
+  {
+    "text": "\u006B",
+    "name": {
+      "head": "latin small letter k"
+    }
+  },
+  {
+    "text": "\u006C",
+    "name": {
+      "head": "latin small letter l"
+    }
+  },
+  {
+    "text": "\u006D",
+    "name": {
+      "head": "latin small letter m"
+    }
+  },
+  {
+    "text": "\u006E",
+    "name": {
+      "head": "latin small letter n"
+    }
+  },
+  {
+    "text": "\u006F",
+    "name": {
+      "head": "latin small letter o"
+    }
+  },
+  {
+    "text": "\u0070",
+    "name": {
+      "head": "latin small letter p"
+    }
+  },
+  {
+    "text": "\u0071",
+    "name": {
+      "head": "latin small letter q"
+    }
+  },
+  {
+    "text": "\u0072",
+    "name": {
+      "head": "latin small letter r"
+    }
+  },
+  {
+    "text": "\u0073",
+    "name": {
+      "head": "latin small letter s"
+    }
+  },
+  {
+    "text": "\u0074",
+    "name": {
+      "head": "latin small letter t"
+    }
+  },
+  {
+    "text": "\u0075",
+    "name": {
+      "head": "latin small letter u"
+    }
+  },
+  {
+    "text": "\u0076",
+    "name": {
+      "head": "latin small letter v"
+    }
+  },
+  {
+    "text": "\u0077",
+    "name": {
+      "head": "latin small letter w"
+    }
+  },
+  {
+    "text": "\u0078",
+    "name": {
+      "head": "latin small letter x"
+    }
+  },
+  {
+    "text": "\u0079",
+    "name": {
+      "head": "latin small letter y"
+    }
+  },
+  {
+    "text": "\u007A",
+    "name": {
+      "head": "latin small letter z"
+    }
+  },
+  {
+    "text": "\u007B",
+    "name": {
+      "head": "left curly bracket"
+    }
+  },
+  {
+    "text": "\u007C",
+    "name": {
+      "head": "vertical line"
+    }
+  },
+  {
+    "text": "\u007D",
+    "name": {
+      "head": "right curly bracket"
+    }
+  },
+  {
+    "text": "\u007E",
+    "name": {
+      "head": "tilde"
+    }
+  },
+  {
+    "text": "\u007F",
+    "name": {
+      "head": "control (alias delete) (alias del)"
+    }
+  }
+]

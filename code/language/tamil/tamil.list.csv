@@ -1,0 +1,73 @@
+symbol,name
+ஂ,tamil sign anusvara
+ஃ,tamil sign visarga
+அ,tamil letter a
+ஆ,tamil letter aa
+இ,tamil letter i
+ஈ,tamil letter ii
+உ,tamil letter u
+ஊ,tamil letter uu
+எ,tamil letter e
+ஏ,tamil letter ee
+ஐ,tamil letter ai
+ஒ,tamil letter o
+ஓ,tamil letter oo
+ஔ,tamil letter au
+க,tamil letter ka
+ங,tamil letter nga
+ச,tamil letter ca
+ஜ,tamil letter ja
+ஞ,tamil letter nya
+ட,tamil letter tta
+ண,tamil letter nna
+த,tamil letter ta
+ந,tamil letter na
+ன,tamil letter nnna
+ப,tamil letter pa
+ம,tamil letter ma
+ய,tamil letter ya
+ர,tamil letter ra
+ற,tamil letter rra
+ல,tamil letter la
+ள,tamil letter lla
+ழ,tamil letter llla
+வ,tamil letter va
+ஶ,tamil letter sha
+ஷ,tamil letter ssa
+ஸ,tamil letter sa
+ஹ,tamil letter ha
+ா,tamil vowel sign aa
+ி,tamil vowel sign i
+ீ,tamil vowel sign ii
+ு,tamil vowel sign u
+ூ,tamil vowel sign uu
+ெ,tamil vowel sign e
+ே,tamil vowel sign ee
+ை,tamil vowel sign ai
+ொ,tamil vowel sign o
+ோ,tamil vowel sign oo
+ௌ,tamil vowel sign au
+்,tamil sign virama
+ௐ,tamil om
+ௗ,tamil au length mark
+௦,tamil digit zero
+௧,tamil digit one
+௨,tamil digit two
+௩,tamil digit three
+௪,tamil digit four
+௫,tamil digit five
+௬,tamil digit six
+௭,tamil digit seven
+௮,tamil digit eight
+௯,tamil digit nine
+௰,tamil number ten
+௱,tamil number one hundred
+௲,tamil number one thousand
+௳,tamil day sign
+௴,tamil month sign
+௵,tamil year sign
+௶,tamil debit sign
+௷,tamil credit sign
+௸,tamil as above sign
+௹,tamil rupee sign
+௺,tamil number sign
