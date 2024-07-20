@@ -1,0 +1,2324 @@
+[
+  {
+    "text": "\u0600",
+    "name": {
+      "head": "arabic number sign",
+      "base": "علامة الرقم العربي"
+    },
+    "role": ["sign"],
+    "link": "number sign"
+  },
+  {
+    "text": "\u0601",
+    "name": {
+      "head": "arabic sign sanah",
+      "base": "علامة السنة العربية"
+    },
+    "role": ["sign"],
+    "link": "sign sanah"
+  },
+  {
+    "text": "\u0602",
+    "name": {
+      "head": "arabic footnote marker",
+      "base": "علامة الحاشية العربية"
+    },
+    "role": ["sign"],
+    "link": "footnote marker"
+  },
+  {
+    "text": "\u0603",
+    "name": {
+      "head": "arabic sign safha",
+      "base": "علامة الصفحة العربية"
+    },
+    "role": ["sign"],
+    "link": "sign safha"
+  },
+  {
+    "text": "\u0604",
+    "name": {
+      "head": "arabic sign samvat",
+      "base": "علامة السنة الهندية"
+    },
+    "role": ["sign"],
+    "link": "sign samvat"
+  },
+  {
+    "text": "\u0605",
+    "name": {
+      "head": "arabic number mark above",
+      "base": "علامة الرقم العربي فوق"
+    },
+    "role": ["sign"],
+    "link": "number mark above"
+  },
+  {
+    "text": "\u0606",
+    "name": {
+      "head": "arabic-indic cube root",
+      "base": "الجذر التكعيبي العربي الهندي"
+    },
+    "role": ["mathematical"],
+    "link": "-indic cube root"
+  },
+  {
+    "text": "\u0607",
+    "name": {
+      "head": "arabic-indic fourth root",
+      "base": "الجذر الرابع العربي الهندي"
+    },
+    "role": ["mathematical"],
+    "link": "-indic fourth root"
+  },
+  {
+    "text": "\u0608",
+    "name": {
+      "head": "arabic ray",
+      "base": "الشعاع العربي"
+    },
+    "role": ["sign"],
+    "link": "ray"
+  },
+  {
+    "text": "\u0609",
+    "name": {
+      "head": "arabic-indic per mille sign",
+      "base": "علامة في الألف العربية الهندية"
+    },
+    "role": ["sign"],
+    "link": "-indic per mille sign"
+  },
+  {
+    "text": "\u060A",
+    "name": {
+      "head": "arabic-indic per ten thousand sign",
+      "base": "علامة في العشرة آلاف العربية الهندية"
+    },
+    "role": ["sign"],
+    "link": "-indic per ten thousand sign"
+  },
+  {
+    "text": "\u060B",
+    "name": {
+      "head": "afghani sign",
+      "base": "علامة الأفغاني"
+    },
+    "role": ["currency"],
+    "link": "afghani sign"
+  },
+  {
+    "text": "\u060C",
+    "name": {
+      "head": "arabic comma",
+      "base": "الفاصلة العربية"
+    },
+    "role": ["punctuation"],
+    "link": "comma"
+  },
+  {
+    "text": "\u060D",
+    "name": {
+      "head": "arabic date separator",
+      "base": "فاصل التاريخ العربي"
+    },
+    "role": ["punctuation"],
+    "link": "date separator"
+  },
+  {
+    "text": "\u060E",
+    "name": {
+      "head": "arabic poetic verse sign",
+      "base": "علامة البيت الشعري العربي"
+    },
+    "role": ["sign"],
+    "link": "poetic verse sign"
+  },
+  {
+    "text": "\u060F",
+    "name": {
+      "head": "arabic sign misra",
+      "base": "علامة المصرع"
+    },
+    "role": ["sign"],
+    "link": "sign misra"
+  },
+  {
+    "text": "\u0610",
+    "name": {
+      "head": "arabic sign sallallahou alayhe wassallam",
+      "base": "علامة صلى الله عليه وسلم"
+    },
+    "role": ["religious"],
+    "link": "sign sallallahou alayhe wassallam"
+  },
+  {
+    "text": "\u0611",
+    "name": {
+      "head": "arabic sign alayhe assallam",
+      "base": "علامة عليه السلام"
+    },
+    "role": ["religious"],
+    "link": "sign alayhe assallam"
+  },
+  {
+    "text": "\u0612",
+    "name": {
+      "head": "arabic sign rahmatullah alayhe",
+      "base": "علامة رحمة الله عليه"
+    },
+    "role": ["religious"],
+    "link": "sign rahmatullah alayhe"
+  },
+  {
+    "text": "\u0613",
+    "name": {
+      "head": "arabic sign radi allahou anhu",
+      "base": "علامة رضي الله عنه"
+    },
+    "role": ["religious"],
+    "link": "sign radi allahou anhu"
+  },
+  {
+    "text": "\u0614",
+    "name": {
+      "head": "arabic sign takhallus",
+      "base": "علامة التخلص"
+    },
+    "role": ["sign"],
+    "link": "sign takhallus"
+  },
+  {
+    "text": "\u0615",
+    "name": {
+      "head": "arabic small high tah",
+      "base": "طاء صغيرة عالية"
+    },
+    "role": ["diacritic"],
+    "link": "small high tah"
+  },
+  {
+    "text": "\u0616",
+    "name": {
+      "head": "arabic small high ligature alef with lam with yeh (alias arabic small high ligature alef with yeh barree)",
+      "base": "ألف لام ياء صغيرة عالية"
+    },
+    "role": ["diacritic"],
+    "link": "small high ligature alef with lam with yeh (alias arabic small high ligature alef with yeh barree)"
+  },
+  {
+    "text": "\u0617",
+    "name": {
+      "head": "arabic small high zain",
+      "base": "زاي صغيرة عالية"
+    },
+    "role": ["diacritic"],
+    "link": "small high zain"
+  },
+  {
+    "text": "\u0618",
+    "name": {
+      "head": "arabic small fatha",
+      "base": "فَتحة صغيرة"
+    },
+    "role": ["vowel", "bound"],
+    "link": "small fatha"
+  },
+  {
+    "text": "\u0619",
+    "name": {
+      "head": "arabic small damma",
+      "base": "ضَمّة صغيرة"
+    },
+    "role": ["vowel", "bound"],
+    "link": "small damma"
+  },
+  {
+    "text": "\u061A",
+    "name": {
+      "head": "arabic small kasra",
+      "base": "كَسرة صغيرة"
+    },
+    "role": ["vowel", "bound"],
+    "link": "small kasra"
+  },
+  {
+    "text": "\u061B",
+    "name": {
+      "head": "arabic semicolon",
+      "base": "الفاصلة المنقوطة العربية"
+    },
+    "role": ["punctuation"],
+    "link": "semicolon"
+  },
+  {
+    "text": "\u061C",
+    "name": {
+      "head": "arabic letter mark (alias alm)",
+      "base": "علامة الحرف العربي"
+    },
+    "role": ["sign"],
+    "link": "mark (alias alm)"
+  },
+  {
+    "text": "\u061D",
+    "name": {
+      "head": "arabic end of text mark",
+      "base": "علامة نهاية النص العربي"
+    },
+    "role": ["punctuation"],
+    "link": "end of text mark"
+  },
+  {
+    "text": "\u061E",
+    "name": {
+      "head": "arabic triple dot punctuation mark",
+      "base": "علامة الترقيم ذات النقاط الثلاث العربية"
+    },
+    "role": ["punctuation"],
+    "link": "triple dot punctuation mark"
+  },
+  {
+    "text": "\u061F",
+    "name": {
+      "head": "arabic question mark",
+      "base": "علامة الاستفهام العربية"
+    },
+    "role": ["punctuation"],
+    "link": "question mark"
+  },
+  {
+    "text": "\u0620",
+    "name": {
+      "head": "arabic letter kashmiri yeh",
+      "base": "ياء كشميرية"
+    },
+    "role": ["consonant"],
+    "link": "kashmiri yeh"
+  },
+  {
+    "text": "\u0621",
+    "name": {
+      "head": "arabic letter hamza",
+      "base": "همزة"
+    },
+    "role": ["consonant"],
+    "link": "hamza"
+  },
+  {
+    "text": "\u0622",
+    "name": {
+      "head": "arabic letter alef with madda above",
+      "base": "ألف مع مدّة"
+    },
+    "role": ["consonant"],
+    "link": "alef with madda above"
+  },
+  {
+    "text": "\u0623",
+    "name": {
+      "head": "arabic letter alef with hamza above",
+      "base": "ألف مع همزة فوق"
+    },
+    "role": ["consonant"],
+    "link": "alef with hamza above"
+  },
+  {
+    "text": "\u0624",
+    "name": {
+      "head": "arabic letter waw with hamza above",
+      "base": "واو مع همزة فوق"
+    },
+    "role": ["consonant"],
+    "link": "waw with hamza above"
+  },
+  {
+    "text": "\u0625",
+    "name": {
+      "head": "arabic letter alef with hamza below",
+      "base": "ألف مع همزة تحت"
+    },
+    "role": ["consonant"],
+    "link": "alef with hamza below"
+  },
+  {
+    "text": "\u0626",
+    "name": {
+      "head": "arabic letter yeh with hamza above",
+      "base": "ياء مع همزة فوق"
+    },
+    "role": ["consonant"],
+    "link": "yeh with hamza above"
+  },
+  {
+    "text": "\u0627",
+    "name": {
+      "head": "arabic letter alef",
+      "base": "ألف"
+    },
+    "role": ["consonant"],
+    "link": "alef"
+  },
+  {
+    "text": "\u0628",
+    "name": {
+      "head": "arabic letter beh",
+      "base": "باء"
+    },
+    "role": ["consonant"],
+    "link": "beh"
+  },
+  {
+    "text": "\u0629",
+    "name": {
+      "head": "arabic letter teh marbuta",
+      "base": "تاء مربوطة"
+    },
+    "role": ["consonant"],
+    "link": "teh marbuta"
+  },
+  {
+    "text": "\u062A",
+    "name": {
+      "head": "arabic letter teh",
+      "base": "تاء"
+    },
+    "role": ["consonant"],
+    "link": "teh"
+  },
+  {
+    "text": "\u062B",
+    "name": {
+      "head": "arabic letter theh",
+      "base": "ثاء"
+    },
+    "role": ["consonant"],
+    "link": "theh"
+  },
+  {
+    "text": "\u062C",
+    "name": {
+      "head": "arabic letter jeem",
+      "base": "جيم"
+    },
+    "role": ["consonant"],
+    "link": "jeem"
+  },
+  {
+    "text": "\u062D",
+    "name": {
+      "head": "arabic letter hah",
+      "base": "حاء"
+    },
+    "role": ["consonant"],
+    "link": "hah"
+  },
+  {
+    "text": "\u062E",
+    "name": {
+      "head": "arabic letter khah",
+      "base": "خاء"
+    },
+    "role": ["consonant"],
+    "link": "khah"
+  },
+  {
+    "text": "\u062F",
+    "name": {
+      "head": "arabic letter dal",
+      "base": "دال"
+    },
+    "role": ["consonant"],
+    "link": "dal"
+  },
+  {
+    "text": "\u0630",
+    "name": {
+      "head": "arabic letter thal",
+      "base": "ذال"
+    },
+    "role": ["consonant"],
+    "link": "thal"
+  },
+  {
+    "text": "\u0631",
+    "name": {
+      "head": "arabic letter reh",
+      "base": "راء"
+    },
+    "role": ["consonant"],
+    "link": "reh"
+  },
+  {
+    "text": "\u0632",
+    "name": {
+      "head": "arabic letter zain",
+      "base": "زاي"
+    },
+    "role": ["consonant"],
+    "link": "zain"
+  },
+  {
+    "text": "\u0633",
+    "name": {
+      "head": "arabic letter seen",
+      "base": "سين"
+    },
+    "role": ["consonant"],
+    "link": "seen"
+  },
+  {
+    "text": "\u0634",
+    "name": {
+      "head": "arabic letter sheen",
+      "base": "شين"
+    },
+    "role": ["consonant"],
+    "link": "sheen"
+  },
+  {
+    "text": "\u0635",
+    "name": {
+      "head": "arabic letter sad",
+      "base": "صاد"
+    },
+    "role": ["consonant"],
+    "link": "sad"
+  },
+  {
+    "text": "\u0636",
+    "name": {
+      "head": "arabic letter dad",
+      "base": "ضاد"
+    },
+    "role": ["consonant"],
+    "link": "dad"
+  },
+  {
+    "text": "\u0637",
+    "name": {
+      "head": "arabic letter tah",
+      "base": "طاء"
+    },
+    "role": ["consonant"],
+    "link": "tah"
+  },
+  {
+    "text": "\u0638",
+    "name": {
+      "head": "arabic letter zah",
+      "base": "ظاء"
+    },
+    "role": ["consonant"],
+    "link": "zah"
+  },
+  {
+    "text": "\u0639",
+    "name": {
+      "head": "arabic letter ain",
+      "base": "عين"
+    },
+    "role": ["consonant"],
+    "link": "ain"
+  },
+  {
+    "text": "\u063A",
+    "name": {
+      "head": "arabic letter ghain",
+      "base": "غين"
+    },
+    "role": ["consonant"],
+    "link": "ghain"
+  },
+  {
+    "text": "\u063B",
+    "name": {
+      "head": "arabic letter keheh with two dots above",
+      "base": "كاف مع نقطتين فوق"
+    },
+    "role": ["consonant"],
+    "link": "keheh with two dots above"
+  },
+  {
+    "text": "\u063C",
+    "name": {
+      "head": "arabic letter keheh with three dots below",
+      "base": "كاف مع ثلاث نقاط تحت"
+    },
+    "role": ["consonant"],
+    "link": "keheh with three dots below"
+  },
+  {
+    "text": "\u063D",
+    "name": {
+      "head": "arabic letter farsi yeh with inverted v",
+      "base": "ياء فارسية مع مثلث مقلوب"
+    },
+    "role": ["consonant"],
+    "link": "farsi yeh with inverted v"
+  },
+  {
+    "text": "\u063E",
+    "name": {
+      "head": "arabic letter farsi yeh with two dots above",
+      "base": "ياء فارسية مع نقطتين فوق"
+    },
+    "role": ["consonant"],
+    "link": "farsi yeh with two dots above"
+  },
+  {
+    "text": "\u063F",
+    "name": {
+      "head": "arabic letter farsi yeh with three dots above",
+      "base": "ياء فارسية مع ثلاث نقاط فوق"
+    },
+    "role": ["consonant"],
+    "link": "farsi yeh with three dots above"
+  },
+  {
+    "text": "\u0640",
+    "name": {
+      "head": "arabic tatweel",
+      "base": "تطويل"
+    },
+    "role": ["modifier"],
+    "link": "tatweel"
+  },
+  {
+    "text": "\u0641",
+    "name": {
+      "head": "arabic letter feh",
+      "base": "فاء"
+    },
+    "role": ["consonant"],
+    "link": "feh"
+  },
+  {
+    "text": "\u0642",
+    "name": {
+      "head": "arabic letter qaf",
+      "base": "قاف"
+    },
+    "role": ["consonant"],
+    "link": "qaf"
+  },
+  {
+    "text": "\u0643",
+    "name": {
+      "head": "arabic letter kaf",
+      "base": "كاف"
+    },
+    "role": ["consonant"],
+    "link": "kaf"
+  },
+  {
+    "text": "\u0644",
+    "name": {
+      "head": "arabic letter lam",
+      "base": "لام"
+    },
+    "role": ["consonant"],
+    "link": "lam"
+  },
+  {
+    "text": "\u0645",
+    "name": {
+      "head": "arabic letter meem",
+      "base": "ميم"
+    },
+    "role": ["consonant"],
+    "link": "meem"
+  },
+  {
+    "text": "\u0646",
+    "name": {
+      "head": "arabic letter noon",
+      "link": "nūn",
+      "base": "نون"
+    },
+    "role": ["consonant"],
+    "link": "noon"
+  },
+  {
+    "text": "\u0647",
+    "name": {
+      "head": "arabic letter heh",
+      "link": "heh",
+      "base": "هاء"
+    },
+    "role": ["consonant"],
+    "link": "heh"
+  },
+  {
+    "text": "\u0648",
+    "name": {
+      "head": "arabic letter waw",
+      "base": "واو",
+      "link": "waw"
+    },
+    "role": ["consonant"],
+    "link": "waw"
+  },
+  {
+    "text": "\u0649",
+    "name": {
+      "head": "arabic letter alef maksura",
+      "base": "ألف مقصورة"
+    },
+    "role": ["consonant"],
+    "link": "alef maksura"
+  },
+  {
+    "text": "\u064A",
+    "name": {
+      "head": "arabic letter yeh",
+      "base": "ياء",
+      "link": "yeh"
+    },
+    "role": ["consonant"],
+    "link": "yeh"
+  },
+  {
+    "text": "\u064B",
+    "talk": "a?",
+    "name": {
+      "head": "arabic fathatan",
+      "base": "فتحتان",
+      "link": "fathatan"
+    },
+    "role": ["vowel", "bound"],
+    "link": "fathatan"
+  },
+  {
+    "text": "\u064C",
+    "talk": "u?",
+    "name": {
+      "head": "arabic dammatan",
+      "base": "ضمّتان",
+      "link": "dammatan"
+    },
+    "role": ["vowel", "bound"],
+    "link": "dammatan"
+  },
+  {
+    "text": "\u064D",
+    "talk": "i?",
+    "name": {
+      "head": "arabic kasratan",
+      "base": "كسرتان",
+      "link": "kasratan"
+    },
+    "role": ["vowel", "bound"],
+    "link": "kasratan"
+  },
+  {
+    "text": "\u064E",
+    "talk": "a?",
+    "name": {
+      "head": "arabic fatha",
+      "base": "فَتحة",
+      "link": "fatḥah"
+    },
+    "role": ["vowel", "bound"],
+    "link": "fatha"
+  },
+  {
+    "text": "\u064F",
+    "talk": "u?",
+    "name": {
+      "head": "arabic damma",
+      "base": "ضَمّة",
+      "link": "dammah"
+    },
+    "role": ["vowel", "bound"],
+    "link": "damma"
+  },
+  {
+    "text": "\u0650",
+    "talk": "i?",
+    "name": {
+      "head": "arabic kasra",
+      "base": "كَسرة",
+      "link": "kasrah"
+    },
+    "role": ["vowel", "bound"],
+    "link": "kasra"
+  },
+  {
+    "text": "\u0651",
+    "role": ["modifier"],
+    "name": {
+      "head": "arabic shadda",
+      "base": "شَدّة",
+      "link": "shadda"
+    },
+    "link": "shadda"
+  },
+  {
+    "text": "\u0652",
+    "role": ["modifier"],
+    "name": {
+      "head": "arabic sukun",
+      "base": "سُكون",
+      "link": "sukun"
+    },
+    "link": "sukun"
+  },
+  {
+    "text": "\u0653",
+    "name": {
+      "head": "arabic maddah above",
+      "base": "مَدّة"
+    },
+    "role": ["diacritic"],
+    "link": "maddah above"
+  },
+  {
+    "text": "\u0654",
+    "name": {
+      "head": "arabic hamza above",
+      "base": "همزة فوق"
+    },
+    "role": ["diacritic"],
+    "link": "hamza above"
+  },
+  {
+    "text": "\u0655",
+    "name": {
+      "head": "arabic hamza below",
+      "base": "همزة تحت"
+    },
+    "role": ["diacritic"],
+    "link": "hamza below"
+  },
+  {
+    "text": "\u0656",
+    "name": {
+      "head": "arabic subscript alef",
+      "base": "ألف صغيرة تحت"
+    },
+    "role": ["diacritic"],
+    "link": "subscript alef"
+  },
+  {
+    "text": "\u0657",
+    "name": {
+      "head": "arabic inverted damma",
+      "base": "ضمّة مقلوبة"
+    },
+    "role": ["diacritic"],
+    "link": "inverted damma"
+  },
+  {
+    "text": "\u0658",
+    "name": {
+      "head": "arabic mark noon ghunna",
+      "base": "علامة نون الغُنّة"
+    },
+    "role": ["diacritic"],
+    "link": "mark noon ghunna"
+  },
+  {
+    "text": "\u0659",
+    "name": {
+      "head": "arabic zwarakay",
+      "base": "زوركي"
+    },
+    "role": ["diacritic"],
+    "link": "zwarakay"
+  },
+  {
+    "text": "\u065A",
+    "name": {
+      "head": "arabic vowel sign small v above",
+      "base": "علامة حركة صغيرة على شكل حرف V فوق"
+    },
+    "role": ["vowel", "bound"],
+    "link": "vowel sign small v above"
+  },
+  {
+    "text": "\u065B",
+    "name": {
+      "head": "arabic vowel sign inverted small v above",
+      "base": "علامة حركة مقلوبة صغيرة على شكل حرف V فوق"
+    },
+    "role": ["vowel", "bound"],
+    "link": "vowel sign inverted small v above"
+  },
+  {
+    "text": "\u065C",
+    "name": {
+      "head": "arabic vowel sign dot below",
+      "base": "علامة حركة نقطة تحت"
+    },
+    "role": ["vowel", "bound"],
+    "link": "vowel sign dot below"
+  },
+  {
+    "text": "\u065D",
+    "name": {
+      "head": "arabic reversed damma",
+      "base": "ضمّة معكوسة"
+    },
+    "role": ["diacritic"],
+    "link": "reversed damma"
+  },
+  {
+    "text": "\u065E",
+    "name": {
+      "head": "arabic fatha with two dots",
+      "base": "فتحة مع نقطتين"
+    },
+    "role": ["diacritic"],
+    "link": "fatha with two dots"
+  },
+  {
+    "text": "\u065F",
+    "name": {
+      "head": "arabic wavy hamza below",
+      "base": "همزة متموجة تحت"
+    },
+    "role": ["diacritic"],
+    "link": "wavy hamza below"
+  },
+  {
+    "text": "\u0660",
+    "name": {
+      "head": "arabic-indic digit zero",
+      "base": "صفر عربي هندي"
+    },
+    "role": ["number"],
+    "link": "-indic digit zero"
+  },
+  {
+    "text": "\u0661",
+    "name": {
+      "head": "arabic-indic digit one",
+      "base": "واحد عربي هندي"
+    },
+    "role": ["number"],
+    "link": "-indic digit one"
+  },
+  {
+    "text": "\u0662",
+    "name": {
+      "head": "arabic-indic digit two",
+      "base": "اثنان عربي هندي"
+    },
+    "role": ["number"],
+    "link": "-indic digit two"
+  },
+  {
+    "text": "\u0663",
+    "name": {
+      "head": "arabic-indic digit three",
+      "base": "ثلاثة عربي هندي"
+    },
+    "role": ["number"],
+    "link": "-indic digit three"
+  },
+  {
+    "text": "\u0664",
+    "name": {
+      "head": "arabic-indic digit four",
+      "base": "أربعة عربي هندي"
+    },
+    "role": ["number"],
+    "link": "-indic digit four"
+  },
+  {
+    "text": "\u0665",
+    "name": {
+      "head": "arabic-indic digit five",
+      "base": "خمسة عربي هندي"
+    },
+    "role": ["number"],
+    "link": "-indic digit five"
+  },
+  {
+    "text": "\u0666",
+    "name": {
+      "head": "arabic-indic digit six",
+      "base": "ستة عربي هندي"
+    },
+    "role": ["number"],
+    "link": "-indic digit six"
+  },
+  {
+    "text": "\u0667",
+    "name": {
+      "head": "arabic-indic digit seven",
+      "base": "سبعة عربي هندي"
+    },
+    "role": ["number"],
+    "link": "-indic digit seven"
+  },
+  {
+    "text": "\u0668",
+    "name": {
+      "head": "arabic-indic digit eight",
+      "base": "ثمانية عربي هندي"
+    },
+    "role": ["number"],
+    "link": "-indic digit eight"
+  },
+  {
+    "text": "\u0669",
+    "name": {
+      "head": "arabic-indic digit nine",
+      "base": "تسعة عربي هندي"
+    },
+    "role": ["number"],
+    "link": "-indic digit nine"
+  },
+  {
+    "text": "\u066A",
+    "name": {
+      "head": "arabic percent sign",
+      "base": "علامة النسبة المئوية العربية"
+    },
+    "role": ["sign"],
+    "link": "percent sign"
+  },
+  {
+    "text": "\u066B",
+    "name": {
+      "head": "arabic decimal separator",
+      "base": "الفاصلة العشرية العربية"
+    },
+    "role": ["sign"],
+    "link": "decimal separator"
+  },
+  {
+    "text": "\u066C",
+    "name": {
+      "head": "arabic thousands separator",
+      "base": "فاصل الآلاف العربي"
+    },
+    "role": ["sign"],
+    "link": "thousands separator"
+  },
+  {
+    "text": "\u066D",
+    "name": {
+      "head": "arabic five pointed star",
+      "base": "نجمة عربية خماسية"
+    },
+    "role": ["sign"],
+    "link": "five pointed star"
+  },
+  {
+    "text": "\u066E",
+    "name": {
+      "head": "arabic letter dotless beh",
+      "base": "باء بدون نقطة"
+    },
+    "role": ["consonant"],
+    "link": "dotless beh"
+  },
+  {
+    "text": "\u066F",
+    "name": {
+      "head": "arabic letter dotless qaf",
+      "base": "قاف بدون نقطة"
+    },
+    "role": ["consonant"],
+    "link": "dotless qaf"
+  },
+  {
+    "text": "\u0670",
+    "name": {
+      "head": "arabic letter superscript alef",
+      "base": "ألف علوية"
+    },
+    "role": ["diacritic"],
+    "link": "superscript alef"
+  },
+  {
+    "text": "\u0671",
+    "name": {
+      "head": "arabic letter alef wasla",
+      "base": "ألف وصل"
+    },
+    "role": ["consonant"],
+    "link": "alef wasla"
+  },
+  {
+    "text": "\u0672",
+    "name": {
+      "head": "arabic letter alef with wavy hamza above",
+      "base": "ألف مع همزة متموجة فوق"
+    },
+    "role": ["consonant"],
+    "link": "alef with wavy hamza above"
+  },
+  {
+    "text": "\u0673",
+    "name": {
+      "head": "arabic letter alef with wavy hamza below",
+      "base": "ألف مع همزة متموجة تحت"
+    },
+    "role": ["consonant"],
+    "link": "alef with wavy hamza below"
+  },
+  {
+    "text": "\u0674",
+    "name": {
+      "head": "arabic letter high hamza",
+      "base": "همزة علوية"
+    },
+    "role": ["consonant"],
+    "link": "high hamza"
+  },
+  {
+    "text": "\u0675",
+    "name": {
+      "head": "arabic letter high hamza alef",
+      "base": "ألف مع همزة علوية"
+    },
+    "role": ["consonant"],
+    "link": "high hamza alef"
+  },
+  {
+    "text": "\u0676",
+    "name": {
+      "head": "arabic letter high hamza waw",
+      "base": "واو مع همزة علوية"
+    },
+    "role": ["consonant"],
+    "link": "high hamza waw"
+  },
+  {
+    "text": "\u0677",
+    "name": {
+      "head": "arabic letter u with hamza above",
+      "base": "واو مع همزة فوق"
+    },
+    "role": ["consonant"],
+    "link": "u with hamza above"
+  },
+  {
+    "text": "\u0678",
+    "name": {
+      "head": "arabic letter high hamza yeh",
+      "base": "ياء مع همزة علوية"
+    },
+    "role": ["consonant"],
+    "link": "high hamza yeh"
+  },
+  {
+    "text": "\u0679",
+    "name": {
+      "head": "arabic letter tteh",
+      "base": "طاء مع نقطتين"
+    },
+    "role": ["consonant"],
+    "link": "tteh"
+  },
+  {
+    "text": "\u067A",
+    "name": {
+      "head": "arabic letter tteheh",
+      "base": "ظاء مع نقطتين"
+    },
+    "role": ["consonant"],
+    "link": "tteheh"
+  },
+  {
+    "text": "\u067B",
+    "name": {
+      "head": "arabic letter beeh",
+      "base": "باء مع ثلاث نقاط تحت"
+    },
+    "role": ["consonant"],
+    "link": "beeh"
+  },
+  {
+    "text": "\u067C",
+    "name": {
+      "head": "arabic letter teh with ring",
+      "base": "تاء مع حلقة"
+    },
+    "role": ["consonant"],
+    "link": "teh with ring"
+  },
+  {
+    "text": "\u067D",
+    "name": {
+      "head": "arabic letter teh with three dots above downwards",
+      "base": "تاء مع ثلاث نقاط فوق للأسفل"
+    },
+    "role": ["consonant"],
+    "link": "teh with three dots above downwards"
+  },
+  {
+    "text": "\u067E",
+    "name": {
+      "head": "arabic letter peh",
+      "base": "باء مع ثلاث نقاط"
+    },
+    "role": ["consonant"],
+    "link": "peh"
+  },
+  {
+    "text": "\u067F",
+    "name": {
+      "head": "arabic letter teheh",
+      "base": "تاء مع نقطتين فوق ونقطة تحت"
+    },
+    "role": ["consonant"],
+    "link": "teheh"
+  },
+  {
+    "text": "\u0680",
+    "name": {
+      "head": "arabic letter beheh",
+      "base": "باء مع نقطة تحت ونقطتين فوق"
+    },
+    "role": ["consonant"],
+    "link": "beheh"
+  },
+  {
+    "text": "\u0681",
+    "name": {
+      "head": "arabic letter hah with hamza above",
+      "base": "حاء مع همزة فوق"
+    },
+    "role": ["consonant"],
+    "link": "hah with hamza above"
+  },
+  {
+    "text": "\u0682",
+    "name": {
+      "head": "arabic letter hah with two dots vertical above",
+      "base": "حاء مع نقطتين عموديتين فوق"
+    },
+    "role": ["consonant"],
+    "link": "hah with two dots vertical above"
+  },
+  {
+    "text": "\u0683",
+    "name": {
+      "head": "arabic letter nyeh",
+      "base": "نون مع ياء"
+    },
+    "role": ["consonant"],
+    "link": "nyeh"
+  },
+  {
+    "text": "\u0684",
+    "name": {
+      "head": "arabic letter dyeh",
+      "base": "دال مع ياء"
+    },
+    "role": ["consonant"],
+    "link": "dyeh"
+  },
+  {
+    "text": "\u0685",
+    "name": {
+      "head": "arabic letter hah with three dots above",
+      "base": "حاء مع ثلاث نقاط فوق"
+    },
+    "role": ["consonant"],
+    "link": "hah with three dots above"
+  },
+  {
+    "text": "\u0686",
+    "name": {
+      "head": "arabic letter tcheh",
+      "base": "جيم مع ثلاث نقاط"
+    },
+    "role": ["consonant"],
+    "link": "tcheh"
+  },
+  {
+    "text": "\u0687",
+    "name": {
+      "head": "arabic letter tcheheh",
+      "base": "جيم مع ثلاث نقاط فوق"
+    },
+    "role": ["consonant"],
+    "link": "tcheheh"
+  },
+  {
+    "text": "\u0688",
+    "name": {
+      "head": "arabic letter ddal",
+      "base": "دال مشددة"
+    },
+    "role": ["consonant"],
+    "link": "ddal"
+  },
+  {
+    "text": "\u0689",
+    "name": {
+      "head": "arabic letter dal with ring",
+      "base": "دال مع حلقة"
+    },
+    "role": ["consonant"],
+    "link": "dal with ring"
+  },
+  {
+    "text": "\u068A",
+    "name": {
+      "head": "arabic letter dal with dot below",
+      "base": "دال مع نقطة تحت"
+    },
+    "role": ["consonant"],
+    "link": "dal with dot below"
+  },
+  {
+    "text": "\u068B",
+    "name": {
+      "head": "arabic letter dal with dot below and small tah",
+      "base": "دال مع نقطة تحت وطاء صغيرة"
+    },
+    "role": ["consonant"],
+    "link": "dal with dot below and small tah"
+  },
+  {
+    "text": "\u068C",
+    "name": {
+      "head": "arabic letter dahal",
+      "base": "دال مع همزة"
+    },
+    "role": ["consonant"],
+    "link": "dahal"
+  },
+  {
+    "text": "\u068D",
+    "name": {
+      "head": "arabic letter ddahal",
+      "base": "دال مشددة مع همزة"
+    },
+    "role": ["consonant"],
+    "link": "ddahal"
+  },
+  {
+    "text": "\u068E",
+    "name": {
+      "head": "arabic letter dul",
+      "base": "دال مع واو صغيرة"
+    },
+    "role": ["consonant"],
+    "link": "dul"
+  },
+  {
+    "text": "\u068F",
+    "name": {
+      "head": "arabic letter dal with three dots above downwards",
+      "base": "دال مع ثلاث نقاط فوق للأسفل"
+    },
+    "role": ["consonant"],
+    "link": "dal with three dots above downwards"
+  },
+  {
+    "text": "\u0690",
+    "name": {
+      "head": "arabic letter dal with four dots above",
+      "base": "دال مع أربع نقاط فوق"
+    },
+    "role": ["consonant"],
+    "link": "dal with four dots above"
+  },
+  {
+    "text": "\u0691",
+    "name": {
+      "head": "arabic letter rreh",
+      "base": "راء مشددة"
+    },
+    "role": ["consonant"],
+    "link": "rreh"
+  },
+  {
+    "text": "\u0692",
+    "name": {
+      "head": "arabic letter reh with small v",
+      "base": "راء مع حرف V صغير"
+    },
+    "role": ["consonant"],
+    "link": "reh with small v"
+  },
+  {
+    "text": "\u0693",
+    "name": {
+      "head": "arabic letter reh with ring",
+      "base": "راء مع حلقة"
+    },
+    "role": ["consonant"],
+    "link": "reh with ring"
+  },
+  {
+    "text": "\u0694",
+    "name": {
+      "head": "arabic letter reh with dot below",
+      "base": "راء مع نقطة تحت"
+    },
+    "role": ["consonant"],
+    "link": "reh with dot below"
+  },
+  {
+    "text": "\u0695",
+    "name": {
+      "head": "arabic letter reh with small v below",
+      "base": "راء مع حرف V صغير تحت"
+    },
+    "role": ["consonant"],
+    "link": "reh with small v below"
+  },
+  {
+    "text": "\u0696",
+    "name": {
+      "head": "arabic letter reh with dot below and dot above",
+      "base": "راء مع نقطة تحت ونقطة فوق"
+    },
+    "role": ["consonant"],
+    "link": "reh with dot below and dot above"
+  },
+  {
+    "text": "\u0697",
+    "name": {
+      "head": "arabic letter reh with two dots above",
+      "base": "راء مع نقطتين فوق"
+    },
+    "role": ["consonant"],
+    "link": "reh with two dots above"
+  },
+  {
+    "text": "\u0698",
+    "name": {
+      "head": "arabic letter jeh",
+      "base": "جيم مع نقطة"
+    },
+    "role": ["consonant"],
+    "link": "jeh"
+  },
+  {
+    "text": "\u0699",
+    "name": {
+      "head": "arabic letter reh with four dots above",
+      "base": "راء مع أربع نقاط فوق"
+    },
+    "role": ["consonant"],
+    "link": "reh with four dots above"
+  },
+  {
+    "text": "\u069A",
+    "name": {
+      "head": "arabic letter seen with dot below and dot above",
+      "base": "سين مع نقطة تحت ونقطة فوق"
+    },
+    "role": ["consonant"],
+    "link": "seen with dot below and dot above"
+  },
+  {
+    "text": "\u069B",
+    "name": {
+      "head": "arabic letter seen with three dots below",
+      "base": "سين مع ثلاث نقاط تحت"
+    },
+    "role": ["consonant"],
+    "link": "seen with three dots below"
+  },
+  {
+    "text": "\u069C",
+    "name": {
+      "head": "arabic letter seen with three dots below and three dots above",
+      "base": "سين مع ثلاث نقاط تحت وثلاث نقاط فوق"
+    },
+    "role": ["consonant"],
+    "link": "seen with three dots below and three dots above"
+  },
+  {
+    "text": "\u069D",
+    "name": {
+      "head": "arabic letter sad with two dots below",
+      "base": "صاد مع نقطتين تحت"
+    },
+    "role": ["consonant"],
+    "link": "sad with two dots below"
+  },
+  {
+    "text": "\u069E",
+    "name": {
+      "head": "arabic letter sad with three dots above",
+      "base": "صاد مع ثلاث نقاط فوق"
+    },
+    "role": ["consonant"],
+    "link": "sad with three dots above"
+  },
+  {
+    "text": "\u069F",
+    "name": {
+      "head": "arabic letter tah with three dots above",
+      "base": "طاء مع ثلاث نقاط فوق"
+    },
+    "role": ["consonant"],
+    "link": "tah with three dots above"
+  },
+  {
+    "text": "\u06A0",
+    "name": {
+      "head": "arabic letter ain with three dots above",
+      "base": "عين مع ثلاث نقاط فوق"
+    },
+    "role": ["consonant"],
+    "link": "ain with three dots above"
+  },
+  {
+    "text": "\u06A1",
+    "name": {
+      "head": "arabic letter dotless feh",
+      "base": "فاء بدون نقطة"
+    },
+    "role": ["consonant"],
+    "link": "dotless feh"
+  },
+  {
+    "text": "\u06A2",
+    "name": {
+      "head": "arabic letter feh with dot moved below",
+      "base": "فاء مع نقطة منقولة تحت"
+    },
+    "role": ["consonant"],
+    "link": "feh with dot moved below"
+  },
+  {
+    "text": "\u06A3",
+    "name": {
+      "head": "arabic letter feh with dot below",
+      "base": "فاء مع نقطة تحت"
+    },
+    "role": ["consonant"],
+    "link": "feh with dot below"
+  },
+  {
+    "text": "\u06A4",
+    "name": {
+      "head": "arabic letter veh",
+      "base": "فاء مع ثلاث نقاط"
+    },
+    "role": ["consonant"],
+    "link": "veh"
+  },
+  {
+    "text": "\u06A5",
+    "name": {
+      "head": "arabic letter feh with three dots below",
+      "base": "فاء مع ثلاث نقاط تحت"
+    },
+    "role": ["consonant"],
+    "link": "feh with three dots below"
+  },
+  {
+    "text": "\u06A6",
+    "name": {
+      "head": "arabic letter peheh",
+      "base": "فاء مع أربع نقاط فوق"
+    },
+    "role": ["consonant"],
+    "link": "peheh"
+  },
+  {
+    "text": "\u06A7",
+    "name": {
+      "head": "arabic letter qaf with dot above",
+      "base": "قاف مع نقطة فوق"
+    },
+    "role": ["consonant"],
+    "link": "qaf with dot above"
+  },
+  {
+    "text": "\u06A8",
+    "name": {
+      "head": "arabic letter qaf with three dots above",
+      "base": "قاف مع ثلاث نقاط فوق"
+    },
+    "role": ["consonant"],
+    "link": "qaf with three dots above"
+  },
+  {
+    "text": "\u06A9",
+    "name": {
+      "head": "arabic letter keheh",
+      "base": "كاف مفتوحة"
+    },
+    "role": ["consonant"],
+    "link": "keheh"
+  },
+  {
+    "text": "\u06AA",
+    "name": {
+      "head": "arabic letter swash kaf",
+      "base": "كاف مزخرفة"
+    },
+    "role": ["consonant"],
+    "link": "swash kaf"
+  },
+  {
+    "text": "\u06AB",
+    "name": {
+      "head": "arabic letter kaf with ring",
+      "base": "كاف مع حلقة"
+    },
+    "role": ["consonant"],
+    "link": "kaf with ring"
+  },
+  {
+    "text": "\u06AC",
+    "name": {
+      "head": "arabic letter kaf with dot above",
+      "base": "كاف مع نقطة فوق"
+    },
+    "role": ["consonant"],
+    "link": "kaf with dot above"
+  },
+  {
+    "text": "\u06AD",
+    "name": {
+      "head": "arabic letter ng",
+      "base": "كاف مع نون"
+    },
+    "role": ["consonant"],
+    "link": "ng"
+  },
+  {
+    "text": "\u06AE",
+    "name": {
+      "head": "arabic letter kaf with three dots below",
+      "base": "كاف مع ثلاث نقاط تحت"
+    },
+    "role": ["consonant"],
+    "link": "kaf with three dots below"
+  },
+  {
+    "text": "\u06AF",
+    "name": {
+      "head": "arabic letter gaf",
+      "base": "كاف فارسية"
+    },
+    "role": ["consonant"],
+    "link": "gaf"
+  },
+  {
+    "text": "\u06B0",
+    "name": {
+      "head": "arabic letter gaf with ring",
+      "base": "كاف فارسية مع حلقة"
+    },
+    "role": ["consonant"],
+    "link": "gaf with ring"
+  },
+  {
+    "text": "\u06B1",
+    "name": {
+      "head": "arabic letter ngoeh",
+      "base": "كاف فارسية مع ثلاث نقاط"
+    },
+    "role": ["consonant"],
+    "link": "ngoeh"
+  },
+  {
+    "text": "\u06B2",
+    "name": {
+      "head": "arabic letter gaf with two dots below",
+      "base": "كاف فارسية مع نقطتين تحت"
+    },
+    "role": ["consonant"],
+    "link": "gaf with two dots below"
+  },
+  {
+    "text": "\u06B3",
+    "name": {
+      "head": "arabic letter gueh",
+      "base": "كاف مع واو صغيرة"
+    },
+    "role": ["consonant"],
+    "link": "gueh"
+  },
+  {
+    "text": "\u06B4",
+    "name": {
+      "head": "arabic letter gaf with three dots above",
+      "base": "كاف فارسية مع ثلاث نقاط فوق"
+    },
+    "role": ["consonant"],
+    "link": "gaf with three dots above"
+  },
+  {
+    "text": "\u06B5",
+    "name": {
+      "head": "arabic letter lam with small v",
+      "base": "لام مع حرف V صغير"
+    },
+    "role": ["consonant"],
+    "link": "lam with small v"
+  },
+  {
+    "text": "\u06B6",
+    "name": {
+      "head": "arabic letter lam with dot above",
+      "base": "لام مع نقطة فوق"
+    },
+    "role": ["consonant"],
+    "link": "lam with dot above"
+  },
+  {
+    "text": "\u06B7",
+    "name": {
+      "head": "arabic letter lam with three dots above",
+      "base": "لام مع ثلاث نقاط فوق"
+    },
+    "role": ["consonant"],
+    "link": "lam with three dots above"
+  },
+  {
+    "text": "\u06B8",
+    "name": {
+      "head": "arabic letter lam with three dots below",
+      "base": "لام مع ثلاث نقاط تحت"
+    },
+    "role": ["consonant"],
+    "link": "lam with three dots below"
+  },
+  {
+    "text": "\u06B9",
+    "name": {
+      "head": "arabic letter noon with dot below",
+      "base": "نون مع نقطة تحت"
+    },
+    "role": ["consonant"],
+    "link": "noon with dot below"
+  },
+  {
+    "text": "\u06BA",
+    "name": {
+      "head": "arabic letter noon ghunna",
+      "base": "نون غُنّة"
+    },
+    "role": ["consonant"],
+    "link": "noon ghunna"
+  },
+  {
+    "text": "\u06BB",
+    "name": {
+      "head": "arabic letter rnoon",
+      "base": "نون صغيرة"
+    },
+    "role": ["consonant"],
+    "link": "rnoon"
+  },
+  {
+    "text": "\u06BC",
+    "name": {
+      "head": "arabic letter noon with ring",
+      "base": "نون مع حلقة"
+    },
+    "role": ["consonant"],
+    "link": "noon with ring"
+  },
+  {
+    "text": "\u06BD",
+    "name": {
+      "head": "arabic letter noon with three dots above",
+      "base": "نون مع ثلاث نقاط فوق"
+    },
+    "role": ["consonant"],
+    "link": "noon with three dots above"
+  },
+  {
+    "text": "\u06BE",
+    "name": {
+      "head": "arabic letter heh doachashmee",
+      "base": "هاء دو چشمه"
+    },
+    "role": ["consonant"],
+    "link": "heh doachashmee"
+  },
+  {
+    "text": "\u06BF",
+    "name": {
+      "head": "arabic letter tcheh with dot above",
+      "base": "جيم مع ثلاث نقاط ونقطة فوق"
+    },
+    "role": ["consonant"],
+    "link": "tcheh with dot above"
+  },
+  {
+    "text": "\u06C0",
+    "name": {
+      "head": "arabic letter heh with yeh above",
+      "base": "هاء مع ياء فوق"
+    },
+    "role": ["consonant"],
+    "link": "heh with yeh above"
+  },
+  {
+    "text": "\u06C1",
+    "name": {
+      "head": "arabic letter heh goal",
+      "base": "هاء مفتوحة"
+    },
+    "role": ["consonant"],
+    "link": "heh goal"
+  },
+  {
+    "text": "\u06C2",
+    "name": {
+      "head": "arabic letter heh goal with hamza above",
+      "base": "هاء مفتوحة مع همزة فوق"
+    },
+    "role": ["consonant"],
+    "link": "heh goal with hamza above"
+  },
+  {
+    "text": "\u06C3",
+    "name": {
+      "head": "arabic letter teh marbuta goal",
+      "base": "تاء مربوطة مفتوحة"
+    },
+    "role": ["consonant"],
+    "link": "teh marbuta goal"
+  },
+  {
+    "text": "\u06C4",
+    "name": {
+      "head": "arabic letter waw with ring",
+      "base": "واو مع حلقة"
+    },
+    "role": ["consonant"],
+    "link": "waw with ring"
+  },
+  {
+    "text": "\u06C5",
+    "name": {
+      "head": "arabic letter kirghiz oe",
+      "base": "واو قرغيزية"
+    },
+    "role": ["consonant"],
+    "link": "kirghiz oe"
+  },
+  {
+    "text": "\u06C6",
+    "name": {
+      "head": "arabic letter oe",
+      "base": "واو مع همزة"
+    },
+    "role": ["consonant"],
+    "link": "oe"
+  },
+  {
+    "text": "\u06C7",
+    "name": {
+      "head": "arabic letter u",
+      "base": "واو مع ضمة"
+    },
+    "role": ["consonant"],
+    "link": "u"
+  },
+  {
+    "text": "\u06C8",
+    "name": {
+      "head": "arabic letter yu",
+      "base": "واو  مع ياء"
+    },
+    "role": ["consonant"],
+    "link": "yu"
+  },
+  {
+    "text": "\u06C9",
+    "name": {
+      "head": "arabic letter kirghiz yu",
+      "base": "واو قرغيزية مع ياء"
+    },
+    "role": ["consonant"],
+    "link": "kirghiz yu"
+  },
+  {
+    "text": "\u06CA",
+    "name": {
+      "head": "arabic letter waw with two dots above",
+      "base": "واو مع نقطتين فوق"
+    },
+    "role": ["consonant"],
+    "link": "waw with two dots above"
+  },
+  {
+    "text": "\u06CB",
+    "name": {
+      "head": "arabic letter ve",
+      "base": "فاء مع ثلاث نقاط"
+    },
+    "role": ["consonant"],
+    "link": "ve"
+  },
+  {
+    "text": "\u06CC",
+    "name": {
+      "head": "arabic letter farsi yeh",
+      "base": "ياء فارسية"
+    },
+    "role": ["consonant"],
+    "link": "farsi yeh"
+  },
+  {
+    "text": "\u06CD",
+    "name": {
+      "head": "arabic letter yeh with tail",
+      "base": "ياء مع ذيل"
+    },
+    "role": ["consonant"],
+    "link": "yeh with tail"
+  },
+  {
+    "text": "\u06CE",
+    "name": {
+      "head": "arabic letter yeh with small v",
+      "base": "ياء مع حرف V صغير"
+    },
+    "role": ["consonant"],
+    "link": "yeh with small v"
+  },
+  {
+    "text": "\u06CF",
+    "name": {
+      "head": "arabic letter waw with dot above",
+      "base": "واو مع نقطة فوق"
+    },
+    "role": ["consonant"],
+    "link": "waw with dot above"
+  },
+  {
+    "text": "\u06D0",
+    "name": {
+      "head": "arabic letter e",
+      "base": "همزة مع كسرة"
+    },
+    "role": ["consonant"],
+    "link": "e"
+  },
+  {
+    "text": "\u06D1",
+    "name": {
+      "head": "arabic letter yeh with three dots below",
+      "base": "ياء مع ثلاث نقاط تحت"
+    },
+    "role": ["consonant"],
+    "link": "yeh with three dots below"
+  },
+  {
+    "text": "\u06D2",
+    "name": {
+      "head": "arabic letter yeh barree",
+      "base": "ياء بري"
+    },
+    "role": ["consonant"],
+    "link": "yeh barree"
+  },
+  {
+    "text": "\u06D3",
+    "name": {
+      "head": "arabic letter yeh barree with hamza above",
+      "base": "ياء بري مع همزة فوق"
+    },
+    "role": ["consonant"],
+    "link": "yeh barree with hamza above"
+  },
+  {
+    "text": "\u06D4",
+    "name": {
+      "head": "arabic full stop",
+      "base": "النقطة العربية"
+    },
+    "role": ["punctuation"],
+    "link": "full stop"
+  },
+  {
+    "text": "\u06D5",
+    "name": {
+      "head": "arabic letter ae",
+      "base": "ألف مع همزة"
+    },
+    "role": ["consonant"],
+    "link": "ae"
+  },
+  {
+    "text": "\u06D6",
+    "name": {
+      "head": "arabic small high ligature sad with lam with alef maksura",
+      "base": "صاد مع لام مع ألف مقصورة صغيرة عالية"
+    },
+    "role": ["diacritic"],
+    "link": "small high ligature sad with lam with alef maksura"
+  },
+  {
+    "text": "\u06D7",
+    "name": {
+      "head": "arabic small high ligature qaf with lam with alef maksura",
+      "base": "قاف مع لام مع ألف مقصورة صغيرة عالية"
+    },
+    "role": ["diacritic"],
+    "link": "small high ligature qaf with lam with alef maksura"
+  },
+  {
+    "text": "\u06D8",
+    "name": {
+      "head": "arabic small high meem initial form",
+      "base": "ميم أولية صغيرة عالية"
+    },
+    "role": ["diacritic"],
+    "link": "small high meem initial form"
+  },
+  {
+    "text": "\u06D9",
+    "name": {
+      "head": "arabic small high lam alef",
+      "base": "لام ألف صغيرة عالية"
+    },
+    "role": ["diacritic"],
+    "link": "small high lam alef"
+  },
+  {
+    "text": "\u06DA",
+    "name": {
+      "head": "arabic small high jeem",
+      "base": "جيم صغيرة عالية"
+    },
+    "role": ["diacritic"],
+    "link": "small high jeem"
+  },
+  {
+    "text": "\u06DB",
+    "name": {
+      "head": "arabic small high three dots",
+      "base": "ثلاث نقاط صغيرة عالية"
+    },
+    "role": ["diacritic"],
+    "link": "small high three dots"
+  },
+  {
+    "text": "\u06DC",
+    "name": {
+      "head": "arabic small high seen",
+      "base": "سين صغيرة عالية"
+    },
+    "role": ["diacritic"],
+    "link": "small high seen"
+  },
+  {
+    "text": "\u06DD",
+    "name": {
+      "head": "arabic end of ayah",
+      "base": "نهاية الآية"
+    },
+    "role": ["punctuation"],
+    "link": "end of ayah"
+  },
+  {
+    "text": "\u06DE",
+    "name": {
+      "head": "arabic start of rub el hizb",
+      "base": "بداية ربع الحزب"
+    },
+    "role": ["punctuation"],
+    "link": "start of rub el hizb"
+  },
+  {
+    "text": "\u06DF",
+    "name": {
+      "head": "arabic small high rounded zero",
+      "base": "صفر مستدير صغير عالٍ"
+    },
+    "role": ["diacritic"],
+    "link": "small high rounded zero"
+  },
+  {
+    "text": "\u06E0",
+    "name": {
+      "head": "arabic small high upright rectangular zero",
+      "base": "صفر مستطيل قائم صغير عالٍ"
+    },
+    "role": ["diacritic"],
+    "link": "small high upright rectangular zero"
+  },
+  {
+    "text": "\u06E1",
+    "name": {
+      "head": "arabic small high dotless head of khah",
+      "base": "رأس خاء بدون نقطة صغيرة عالية"
+    },
+    "role": ["diacritic"],
+    "link": "small high dotless head of khah"
+  },
+  {
+    "text": "\u06E2",
+    "name": {
+      "head": "arabic small high meem isolated form",
+      "base": "ميم منفصلة صغيرة عالية"
+    },
+    "role": ["diacritic"],
+    "link": "small high meem isolated form"
+  },
+  {
+    "text": "\u06E3",
+    "name": {
+      "head": "arabic small low seen",
+      "base": "سين صغيرة منخفضة"
+    },
+    "role": ["diacritic"],
+    "link": "small low seen"
+  },
+  {
+    "text": "\u06E4",
+    "name": {
+      "head": "arabic small high madda",
+      "base": "مدّة صغيرة عالية"
+    },
+    "role": ["diacritic"],
+    "link": "small high madda"
+  },
+  {
+    "text": "\u06E5",
+    "name": {
+      "head": "arabic small waw",
+      "base": "واو صغيرة"
+    },
+    "role": ["diacritic"],
+    "link": "small waw"
+  },
+  {
+    "text": "\u06E6",
+    "name": {
+      "head": "arabic small yeh",
+      "base": "ياء صغيرة"
+    },
+    "role": ["diacritic"],
+    "link": "small yeh"
+  },
+  {
+    "text": "\u06E7",
+    "name": {
+      "head": "arabic small high yeh",
+      "base": "ياء صغيرة عالية"
+    },
+    "role": ["diacritic"],
+    "link": "small high yeh"
+  },
+  {
+    "text": "\u06E8",
+    "name": {
+      "head": "arabic small high noon",
+      "base": "نون صغيرة عالية"
+    },
+    "role": ["diacritic"],
+    "link": "small high noon"
+  },
+  {
+    "text": "\u06E9",
+    "name": {
+      "head": "arabic place of sajdah",
+      "base": "علامة السجدة"
+    },
+    "role": ["religious"],
+    "link": "place of sajdah"
+  },
+  {
+    "text": "\u06EA",
+    "name": {
+      "head": "arabic empty centre low stop",
+      "base": "وقف منخفض فارغ الوسط"
+    },
+    "role": ["punctuation"],
+    "link": "empty centre low stop"
+  },
+  {
+    "text": "\u06EB",
+    "name": {
+      "head": "arabic empty centre high stop",
+      "base": "وقف عالٍ فارغ الوسط"
+    },
+    "role": ["punctuation"],
+    "link": "empty centre high stop"
+  },
+  {
+    "text": "\u06EC",
+    "name": {
+      "head": "arabic rounded high stop with filled centre",
+      "base": "وقف عالٍ مستدير ممتلئ الوسط"
+    },
+    "role": ["punctuation"],
+    "link": "rounded high stop with filled centre"
+  },
+  {
+    "text": "\u06ED",
+    "name": {
+      "head": "arabic small low meem",
+      "base": "ميم صغيرة منخفضة"
+    },
+    "role": ["diacritic"],
+    "link": "small low meem"
+  },
+  {
+    "text": "\u06EE",
+    "name": {
+      "head": "arabic letter dal with inverted v",
+      "base": "دال مع مثلث مقلوب"
+    },
+    "role": ["consonant"],
+    "link": "dal with inverted v"
+  },
+  {
+    "text": "\u06EF",
+    "name": {
+      "head": "arabic letter reh with inverted v",
+      "base": "راء مع مثلث مقلوب"
+    },
+    "role": ["consonant"],
+    "link": "reh with inverted v"
+  },
+  {
+    "text": "\u06F0",
+    "name": {
+      "head": "extended arabic-indic digit zero",
+      "base": "صفر عربي هندي ممتد"
+    },
+    "role": ["number"],
+    "link": "extended arabic-indic digit zero"
+  },
+  {
+    "text": "\u06F1",
+    "name": {
+      "head": "extended arabic-indic digit one",
+      "base": "واحد عربي هندي ممتد"
+    },
+    "role": ["number"],
+    "link": "extended arabic-indic digit one"
+  },
+  {
+    "text": "\u06F2",
+    "name": {
+      "head": "extended arabic-indic digit two",
+      "base": "اثنان عربي هندي ممتد"
+    },
+    "role": ["number"],
+    "link": "extended arabic-indic digit two"
+  },
+  {
+    "text": "\u06F3",
+    "name": {
+      "head": "extended arabic-indic digit three",
+      "base": "ثلاثة عربي هندي ممتد"
+    },
+    "role": ["number"],
+    "link": "extended arabic-indic digit three"
+  },
+  {
+    "text": "\u06F4",
+    "name": {
+      "head": "extended arabic-indic digit four",
+      "base": "أربعة عربي هندي ممتد"
+    },
+    "role": ["number"],
+    "link": "extended arabic-indic digit four"
+  },
+  {
+    "text": "\u06F5",
+    "name": {
+      "head": "extended arabic-indic digit five",
+      "base": "خمسة عربي هندي ممتد"
+    },
+    "role": ["number"],
+    "link": "extended arabic-indic digit five"
+  },
+  {
+    "text": "\u06F6",
+    "name": {
+      "head": "extended arabic-indic digit six",
+      "base": "ستة عربي هندي ممتد"
+    },
+    "role": ["number"],
+    "link": "extended arabic-indic digit six"
+  },
+  {
+    "text": "\u06F7",
+    "name": {
+      "head": "extended arabic-indic digit seven",
+      "base": "سبعة عربي هندي ممتد"
+    },
+    "role": ["number"],
+    "link": "extended arabic-indic digit seven"
+  },
+  {
+    "text": "\u06F8",
+    "name": {
+      "head": "extended arabic-indic digit eight",
+      "base": "ثمانية عربي هندي ممتد"
+    },
+    "role": ["number"],
+    "link": "extended arabic-indic digit eight"
+  },
+  {
+    "text": "\u06F9",
+    "name": {
+      "head": "extended arabic-indic digit nine",
+      "base": "تسعة عربي هندي ممتد"
+    },
+    "role": ["number"],
+    "link": "extended arabic-indic digit nine"
+  },
+  {
+    "text": "\u06FA",
+    "name": {
+      "head": "arabic letter sheen with dot below",
+      "base": "شين مع نقطة تحت"
+    },
+    "role": ["consonant"],
+    "link": "sheen with dot below"
+  },
+  {
+    "text": "\u06FB",
+    "name": {
+      "head": "arabic letter dad with dot below",
+      "base": "ضاد مع نقطة تحت"
+    },
+    "role": ["consonant"],
+    "link": "dad with dot below"
+  },
+  {
+    "text": "\u06FC",
+    "name": {
+      "head": "arabic letter ghain with dot below",
+      "base": "غين مع نقطة تحت"
+    },
+    "role": ["consonant"],
+    "link": "ghain with dot below"
+  },
+  {
+    "text": "\u06FD",
+    "name": {
+      "head": "arabic sign sindhi ampersand",
+      "base": "علامة العطف السندية"
+    },
+    "role": ["sign"],
+    "link": "sign sindhi ampersand"
+  },
+  {
+    "text": "\u06FE",
+    "name": {
+      "head": "arabic sign sindhi postposition men",
+      "base": "علامة حرف الجر السندي \"من\""
+    },
+    "role": ["sign"],
+    "link": "sign sindhi postposition men"
+  },
+  {
+    "text": "\u06FF",
+    "name": {
+      "head": "arabic letter heh with inverted v",
+      "base": "هاء مع مثلث مقلوب"
+    },
+    "role": ["consonant"],
+    "link": "heh with inverted v"
+  }
+]

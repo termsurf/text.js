@@ -311,7 +311,7 @@ const vibe: Record<string, string> = {
   '\u200e': '', // ltr marker
 }
 
-const m: Record<string, string> = {
+export const m: Record<string, string> = {
   ...vibe,
   ...precomposedConsonants,
   ...codeHead,

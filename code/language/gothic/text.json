@@ -1,0 +1,272 @@
+[
+  {
+    "text": "𐌰",
+    "name": {
+      "head": "gothic letter ahsa"
+    },
+    "role": [
+      "consonant"
+    ],
+    "link": "ahsa"
+  },
+  {
+    "text": "𐌱",
+    "name": {
+      "head": "gothic letter bairkan"
+    },
+    "role": [
+      "consonant"
+    ],
+    "link": "bairkan"
+  },
+  {
+    "text": "𐌲",
+    "name": {
+      "head": "gothic letter giba"
+    },
+    "role": [
+      "consonant"
+    ],
+    "link": "giba"
+  },
+  {
+    "text": "𐌳",
+    "name": {
+      "head": "gothic letter dags"
+    },
+    "role": [
+      "consonant"
+    ],
+    "link": "dags"
+  },
+  {
+    "text": "𐌴",
+    "name": {
+      "head": "gothic letter aihvus"
+    },
+    "role": [
+      "vowel"
+    ],
+    "link": "aihvus"
+  },
+  {
+    "text": "𐌵",
+    "name": {
+      "head": "gothic letter qairthra"
+    },
+    "role": [
+      "consonant"
+    ],
+    "link": "qairthra"
+  },
+  {
+    "text": "𐌶",
+    "name": {
+      "head": "gothic letter iuja"
+    },
+    "role": [
+      "vowel"
+    ],
+    "link": "iuja"
+  },
+  {
+    "text": "𐌷",
+    "name": {
+      "head": "gothic letter hagl"
+    },
+    "role": [
+      "consonant"
+    ],
+    "link": "hagl"
+  },
+  {
+    "text": "𐌸",
+    "name": {
+      "head": "gothic letter thiuth"
+    },
+    "role": [
+      "consonant"
+    ],
+    "link": "thiuth"
+  },
+  {
+    "text": "𐌹",
+    "name": {
+      "head": "gothic letter eis"
+    },
+    "role": [
+      "vowel"
+    ],
+    "link": "eis"
+  },
+  {
+    "text": "𐌺",
+    "name": {
+      "head": "gothic letter kusma"
+    },
+    "role": [
+      "consonant"
+    ],
+    "link": "kusma"
+  },
+  {
+    "text": "𐌻",
+    "name": {
+      "head": "gothic letter lagus"
+    },
+    "role": [
+      "consonant"
+    ],
+    "link": "lagus"
+  },
+  {
+    "text": "𐌼",
+    "name": {
+      "head": "gothic letter manna"
+    },
+    "role": [
+      "consonant"
+    ],
+    "link": "manna"
+  },
+  {
+    "text": "𐌽",
+    "name": {
+      "head": "gothic letter nauths"
+    },
+    "role": [
+      "consonant"
+    ],
+    "link": "nauths"
+  },
+  {
+    "text": "𐌾",
+    "name": {
+      "head": "gothic letter jer"
+    },
+    "role": [
+      "vowel"
+    ],
+    "link": "jer"
+  },
+  {
+    "text": "𐌿",
+    "name": {
+      "head": "gothic letter urus"
+    },
+    "role": [
+      "vowel"
+    ],
+    "link": "urus"
+  },
+  {
+    "text": "𐍀",
+    "name": {
+      "head": "gothic letter pairthra"
+    },
+    "role": [
+      "consonant"
+    ],
+    "link": "pairthra"
+  },
+  {
+    "text": "𐍁",
+    "name": {
+      "head": "gothic letter ninety"
+    },
+    "role": [
+      "number"
+    ],
+    "link": "ninety"
+  },
+  {
+    "text": "𐍂",
+    "name": {
+      "head": "gothic letter raida"
+    },
+    "role": [
+      "consonant"
+    ],
+    "link": "raida"
+  },
+  {
+    "text": "𐍃",
+    "name": {
+      "head": "gothic letter sauil"
+    },
+    "role": [
+      "consonant"
+    ],
+    "link": "sauil"
+  },
+  {
+    "text": "𐍄",
+    "name": {
+      "head": "gothic letter teiws"
+    },
+    "role": [
+      "consonant"
+    ],
+    "link": "teiws"
+  },
+  {
+    "text": "𐍅",
+    "name": {
+      "head": "gothic letter winja"
+    },
+    "role": [
+      "consonant"
+    ],
+    "link": "winja"
+  },
+  {
+    "text": "𐍆",
+    "name": {
+      "head": "gothic letter faihu"
+    },
+    "role": [
+      "consonant"
+    ],
+    "link": "faihu"
+  },
+  {
+    "text": "𐍇",
+    "name": {
+      "head": "gothic letter iggws"
+    },
+    "role": [
+      "vowel"
+    ],
+    "link": "iggws"
+  },
+  {
+    "text": "𐍈",
+    "name": {
+      "head": "gothic letter hwair"
+    },
+    "role": [
+      "consonant"
+    ],
+    "link": "hwair"
+  },
+  {
+    "text": "𐍉",
+    "name": {
+      "head": "gothic letter othal"
+    },
+    "role": [
+      "vowel"
+    ],
+    "link": "othal"
+  },
+  {
+    "text": "𐍊",
+    "name": {
+      "head": "gothic letter nine hundred"
+    },
+    "role": [
+      "number"
+    ],
+    "link": "nine hundred"
+  }
+]

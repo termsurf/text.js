@@ -1,0 +1,839 @@
+[
+  {
+    "link": "number sign",
+    "talk": "#"
+  },
+  {
+    "link": "sign sanah"
+  },
+  {
+    "link": "footnote marker"
+  },
+  {
+    "link": "sign safha"
+  },
+  {
+    "link": "sign samvat"
+  },
+  {
+    "link": "number mark above"
+  },
+  {
+    "link": "indic cube root"
+  },
+  {
+    "link": "indic fourth root"
+  },
+  {
+    "link": "ray"
+  },
+  {
+    "link": "indic per mille sign"
+  },
+  {
+    "link": "indic per ten thousand sign"
+  },
+  {
+    "link": "afghani sign"
+  },
+  {
+    "link": "comma",
+    "talk": ","
+  },
+  {
+    "link": "date separator"
+  },
+  {
+    "link": "poetic verse sign"
+  },
+  {
+    "link": "sign misra"
+  },
+  {
+    "link": "sign sallallahou alayhe wassallam"
+  },
+  {
+    "link": "sign alayhe assallam"
+  },
+  {
+    "link": "sign rahmatullah alayhe"
+  },
+  {
+    "link": "sign radi allahou anhu"
+  },
+  {
+    "link": "sign takhallus"
+  },
+  {
+    "link": "small high tah"
+  },
+  {
+    "link": "small high ligature alef with lam with yeh (alias arabic small high ligature alef with yeh barree)"
+  },
+  {
+    "link": "small high zain"
+  },
+  {
+    "link": "small fatha"
+  },
+  {
+    "link": "small damma"
+  },
+  {
+    "link": "small kasra"
+  },
+  {
+    "link": "semicolon",
+    "talk": ";"
+  },
+  {
+    "link": "mark (alias alm)"
+  },
+  {
+    "link": "end of text mark"
+  },
+  {
+    "link": "triple dot punctuation mark"
+  },
+  {
+    "link": "question mark",
+    "talk": "?"
+  },
+  {
+    "link": "kashmiri yeh"
+  },
+  {
+    "link": "hamza",
+    "talk": "'"
+  },
+  {
+    "link": "alef with madda above",
+    "talk": "'a_"
+  },
+  {
+    "link": "alef with hamza above",
+    "talk": "'"
+  },
+  {
+    "link": "waw with hamza above",
+    "talk": "'w"
+  },
+  {
+    "link": "alef with hamza below",
+    "talk": "'i"
+  },
+  {
+    "link": "yeh with hamza above",
+    "talk": "'y"
+  },
+  {
+    "link": "alef",
+    "talk": "a_"
+  },
+  {
+    "link": "beh",
+    "talk": "b"
+  },
+  {
+    "link": "teh marbuta",
+    "talk": "at"
+  },
+  {
+    "link": "teh",
+    "talk": "t"
+  },
+  {
+    "link": "theh",
+    "talk": "c"
+  },
+  {
+    "link": "jeem",
+    "talk": "dj"
+  },
+  {
+    "link": "hah",
+    "talk": "hh~"
+  },
+  {
+    "link": "khah",
+    "talk": "H"
+  },
+  {
+    "link": "dal",
+    "talk": "d"
+  },
+  {
+    "link": "thal",
+    "talk": "C"
+  },
+  {
+    "link": "reh",
+    "talk": "r"
+  },
+  {
+    "link": "zain",
+    "talk": "z"
+  },
+  {
+    "link": "seen",
+    "talk": "s"
+  },
+  {
+    "link": "sheen",
+    "talk": "x"
+  },
+  {
+    "link": "sad",
+    "talk": "s`"
+  },
+  {
+    "link": "dad",
+    "talk": "d`"
+  },
+  {
+    "link": "tah",
+    "talk": "t`"
+  },
+  {
+    "link": "zah",
+    "talk": "C"
+  },
+  {
+    "link": "ain",
+    "talk": "'"
+  },
+  {
+    "link": "ghain",
+    "talk": "G"
+  },
+  {
+    "link": "keheh with two dots above"
+  },
+  {
+    "link": "keheh with three dots below"
+  },
+  {
+    "link": "farsi yeh with inverted v"
+  },
+  {
+    "link": "farsi yeh with two dots above"
+  },
+  {
+    "link": "farsi yeh with three dots above"
+  },
+  {
+    "link": "tatweel"
+  },
+  {
+    "link": "feh",
+    "talk": "f"
+  },
+  {
+    "link": "qaf",
+    "talk": "K"
+  },
+  {
+    "link": "kaf",
+    "talk": "k"
+  },
+  {
+    "link": "lam",
+    "talk": "l"
+  },
+  {
+    "link": "meem",
+    "talk": "m"
+  },
+  {
+    "link": "noon",
+    "talk": "n"
+  },
+  {
+    "link": "heh",
+    "talk": "h"
+  },
+  {
+    "link": "waw",
+    "talk": "w"
+  },
+  {
+    "link": "alef maksura",
+    "talk": "a_"
+  },
+  {
+    "link": "yeh",
+    "talk": "y"
+  },
+  {
+    "link": "fathatan",
+    "talk": "an"
+  },
+  {
+    "link": "dammatan",
+    "talk": "un"
+  },
+  {
+    "link": "kasratan",
+    "talk": "in"
+  },
+  {
+    "link": "fatha",
+    "talk": "a"
+  },
+  {
+    "link": "damma",
+    "talk": "u"
+  },
+  {
+    "link": "kasra",
+    "talk": "i"
+  },
+  {
+    "link": "shadda"
+  },
+  {
+    "link": "sukun"
+  },
+  {
+    "link": "maddah above"
+  },
+  {
+    "link": "hamza above"
+  },
+  {
+    "link": "hamza below"
+  },
+  {
+    "link": "subscript alef"
+  },
+  {
+    "link": "inverted damma"
+  },
+  {
+    "link": "mark noon ghunna"
+  },
+  {
+    "link": "zwarakay"
+  },
+  {
+    "link": "vowel sign small v above"
+  },
+  {
+    "link": "vowel sign inverted small v above"
+  },
+  {
+    "link": "vowel sign dot below"
+  },
+  {
+    "link": "reversed damma"
+  },
+  {
+    "link": "fatha with two dots"
+  },
+  {
+    "link": "wavy hamza below"
+  },
+  {
+    "link": "indic digit zero",
+    "talk": "0"
+  },
+  {
+    "link": "indic digit one",
+    "talk": "1"
+  },
+  {
+    "link": "indic digit two",
+    "talk": "2"
+  },
+  {
+    "link": "indic digit three",
+    "talk": "3"
+  },
+  {
+    "link": "indic digit four",
+    "talk": "4"
+  },
+  {
+    "link": "indic digit five",
+    "talk": "5"
+  },
+  {
+    "link": "indic digit six",
+    "talk": "6"
+  },
+  {
+    "link": "indic digit seven",
+    "talk": "7"
+  },
+  {
+    "link": "indic digit eight",
+    "talk": "8"
+  },
+  {
+    "link": "indic digit nine",
+    "talk": "9"
+  },
+  {
+    "link": "percent sign",
+    "talk": "%"
+  },
+  {
+    "link": "decimal separator",
+    "talk": "."
+  },
+  {
+    "link": "thousands separator"
+  },
+  {
+    "link": "five pointed star"
+  },
+  {
+    "link": "dotless beh"
+  },
+  {
+    "link": "dotless qaf"
+  },
+  {
+    "link": "superscript alef",
+    "talk": "a_"
+  },
+  {
+    "link": "alef wasla",
+    "talk": ""
+  },
+  {
+    "link": "alef with wavy hamza above"
+  },
+  {
+    "link": "alef with wavy hamza below"
+  },
+  {
+    "link": "high hamza"
+  },
+  {
+    "link": "high hamza alef"
+  },
+  {
+    "link": "high hamza waw"
+  },
+  {
+    "link": "u with hamza above"
+  },
+  {
+    "link": "high hamza yeh"
+  },
+  {
+    "link": "tteh"
+  },
+  {
+    "link": "tteheh"
+  },
+  {
+    "link": "beeh"
+  },
+  {
+    "link": "teh with ring"
+  },
+  {
+    "link": "teh with three dots above downwards"
+  },
+  {
+    "link": "peh",
+    "talk": "p"
+  },
+  {
+    "link": "teheh"
+  },
+  {
+    "link": "beheh"
+  },
+  {
+    "link": "hah with hamza above"
+  },
+  {
+    "link": "hah with two dots vertical above"
+  },
+  {
+    "link": "nyeh"
+  },
+  {
+    "link": "dyeh"
+  },
+  {
+    "link": "hah with three dots above"
+  },
+  {
+    "link": "tcheh",
+    "talk": "j"
+  },
+  {
+    "link": "tcheheh"
+  },
+  {
+    "link": "ddal"
+  },
+  {
+    "link": "dal with ring"
+  },
+  {
+    "link": "dal with dot below"
+  },
+  {
+    "link": "dal with dot below and small tah"
+  },
+  {
+    "link": "dahal"
+  },
+  {
+    "link": "ddahal"
+  },
+  {
+    "link": "dul"
+  },
+  {
+    "link": "dal with three dots above downwards"
+  },
+  {
+    "link": "dal with four dots above"
+  },
+  {
+    "link": "rreh"
+  },
+  {
+    "link": "reh with small v"
+  },
+  {
+    "link": "reh with ring"
+  },
+  {
+    "link": "reh with dot below"
+  },
+  {
+    "link": "reh with small v below"
+  },
+  {
+    "link": "reh with dot below and dot above"
+  },
+  {
+    "link": "reh with two dots above"
+  },
+  {
+    "link": "jeh"
+  },
+  {
+    "link": "reh with four dots above"
+  },
+  {
+    "link": "seen with dot below and dot above"
+  },
+  {
+    "link": "seen with three dots below"
+  },
+  {
+    "link": "seen with three dots below and three dots above"
+  },
+  {
+    "link": "sad with two dots below"
+  },
+  {
+    "link": "sad with three dots above"
+  },
+  {
+    "link": "tah with three dots above"
+  },
+  {
+    "link": "ain with three dots above"
+  },
+  {
+    "link": "dotless feh"
+  },
+  {
+    "link": "feh with dot moved below"
+  },
+  {
+    "link": "feh with dot below"
+  },
+  {
+    "link": "veh",
+    "talk": "v"
+  },
+  {
+    "link": "feh with three dots below",
+    "talk": "v"
+  },
+  {
+    "link": "peheh"
+  },
+  {
+    "link": "qaf with dot above"
+  },
+  {
+    "link": "qaf with three dots above",
+    "talk": "g"
+  },
+  {
+    "link": "keheh"
+  },
+  {
+    "link": "swash kaf"
+  },
+  {
+    "link": "kaf with ring"
+  },
+  {
+    "link": "kaf with dot above"
+  },
+  {
+    "link": "ng",
+    "talk": "g"
+  },
+  {
+    "link": "kaf with three dots below"
+  },
+  {
+    "link": "gaf",
+    "talk": "g"
+  },
+  {
+    "link": "gaf with ring"
+  },
+  {
+    "link": "ngoeh"
+  },
+  {
+    "link": "gaf with two dots below"
+  },
+  {
+    "link": "gueh"
+  },
+  {
+    "link": "gaf with three dots above"
+  },
+  {
+    "link": "lam with small v"
+  },
+  {
+    "link": "lam with dot above"
+  },
+  {
+    "link": "lam with three dots above"
+  },
+  {
+    "link": "lam with three dots below"
+  },
+  {
+    "link": "noon with dot below"
+  },
+  {
+    "link": "noon ghunna"
+  },
+  {
+    "link": "rnoon"
+  },
+  {
+    "link": "noon with ring"
+  },
+  {
+    "link": "noon with three dots above"
+  },
+  {
+    "link": "heh doachashmee"
+  },
+  {
+    "link": "tcheh with dot above"
+  },
+  {
+    "link": "heh with yeh above"
+  },
+  {
+    "link": "heh goal"
+  },
+  {
+    "link": "heh goal with hamza above"
+  },
+  {
+    "link": "teh marbuta goal"
+  },
+  {
+    "link": "waw with ring"
+  },
+  {
+    "link": "kirghiz oe"
+  },
+  {
+    "link": "oe"
+  },
+  {
+    "link": "u"
+  },
+  {
+    "link": "yu"
+  },
+  {
+    "link": "kirghiz yu"
+  },
+  {
+    "link": "waw with two dots above"
+  },
+  {
+    "link": "ve"
+  },
+  {
+    "link": "farsi yeh"
+  },
+  {
+    "link": "yeh with tail"
+  },
+  {
+    "link": "yeh with small v"
+  },
+  {
+    "link": "waw with dot above"
+  },
+  {
+    "link": "e"
+  },
+  {
+    "link": "yeh with three dots below"
+  },
+  {
+    "link": "yeh barree"
+  },
+  {
+    "link": "yeh barree with hamza above"
+  },
+  {
+    "link": "full stop",
+    "talk": "."
+  },
+  {
+    "link": "ae"
+  },
+  {
+    "link": "small high ligature sad with lam with alef maksura"
+  },
+  {
+    "link": "small high ligature qaf with lam with alef maksura"
+  },
+  {
+    "link": "small high meem initial form"
+  },
+  {
+    "link": "small high lam alef"
+  },
+  {
+    "link": "small high jeem"
+  },
+  {
+    "link": "small high three dots"
+  },
+  {
+    "link": "small high seen"
+  },
+  {
+    "link": "end of ayah"
+  },
+  {
+    "link": "start of rub el hizb"
+  },
+  {
+    "link": "small high rounded zero"
+  },
+  {
+    "link": "small high upright rectangular zero"
+  },
+  {
+    "link": "small high dotless head of khah",
+    "talk": ""
+  },
+  {
+    "link": "small high meem isolated form"
+  },
+  {
+    "link": "small low seen"
+  },
+  {
+    "link": "small high madda"
+  },
+  {
+    "link": "small waw"
+  },
+  {
+    "link": "small yeh"
+  },
+  {
+    "link": "small high yeh"
+  },
+  {
+    "link": "small high noon"
+  },
+  {
+    "link": "place of sajdah"
+  },
+  {
+    "link": "empty centre low stop"
+  },
+  {
+    "link": "empty centre high stop"
+  },
+  {
+    "link": "rounded high stop with filled centre"
+  },
+  {
+    "link": "small low meem"
+  },
+  {
+    "link": "dal with inverted v"
+  },
+  {
+    "link": "reh with inverted v"
+  },
+  {
+    "link": "extended arabic-indic digit zero"
+  },
+  {
+    "link": "extended arabic-indic digit one"
+  },
+  {
+    "link": "extended arabic-indic digit two"
+  },
+  {
+    "link": "extended arabic-indic digit three"
+  },
+  {
+    "link": "extended arabic-indic digit four"
+  },
+  {
+    "link": "extended arabic-indic digit five"
+  },
+  {
+    "link": "extended arabic-indic digit six"
+  },
+  {
+    "link": "extended arabic-indic digit seven"
+  },
+  {
+    "link": "extended arabic-indic digit eight"
+  },
+  {
+    "link": "extended arabic-indic digit nine"
+  },
+  {
+    "link": "sheen with dot below"
+  },
+  {
+    "link": "dad with dot below"
+  },
+  {
+    "link": "ghain with dot below"
+  },
+  {
+    "link": "sign sindhi ampersand"
+  },
+  {
+    "link": "sign sindhi postposition men"
+  },
+  {
+    "link": "heh with inverted v"
+  }
+]
