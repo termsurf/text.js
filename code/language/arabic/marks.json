@@ -3,435 +3,507 @@
     "text": "\u0600",
     "name": {
       "head": "arabic number sign"
-    }
+    },
+    "role": ["sign"]
   },
   {
     "text": "\u0601",
     "name": {
       "head": "arabic sign sanah"
-    }
+    },
+    "role": ["sign"]
   },
   {
     "text": "\u0602",
     "name": {
       "head": "arabic footnote marker"
-    }
+    },
+    "role": ["sign"]
   },
   {
     "text": "\u0603",
     "name": {
       "head": "arabic sign safha"
-    }
+    },
+    "role": ["sign"]
   },
   {
     "text": "\u0604",
     "name": {
       "head": "arabic sign samvat"
-    }
+    },
+    "role": ["sign"]
   },
   {
     "text": "\u0605",
     "name": {
       "head": "arabic number mark above"
-    }
+    },
+    "role": ["sign"]
   },
   {
     "text": "\u0606",
     "name": {
       "head": "arabic-indic cube root"
-    }
+    },
+    "role": ["mathematical"]
   },
   {
     "text": "\u0607",
     "name": {
       "head": "arabic-indic fourth root"
-    }
+    },
+    "role": ["mathematical"]
   },
   {
     "text": "\u0608",
     "name": {
       "head": "arabic ray"
-    }
+    },
+    "role": ["sign"]
   },
   {
     "text": "\u0609",
     "name": {
       "head": "arabic-indic per mille sign"
-    }
+    },
+    "role": ["sign"]
   },
   {
     "text": "\u060A",
     "name": {
       "head": "arabic-indic per ten thousand sign"
-    }
+    },
+    "role": ["sign"]
   },
   {
     "text": "\u060B",
     "name": {
       "head": "afghani sign"
-    }
+    },
+    "role": ["currency"]
   },
   {
     "text": "\u060C",
     "name": {
       "head": "arabic comma"
-    }
+    },
+    "role": ["punctuation"]
   },
   {
     "text": "\u060D",
     "name": {
       "head": "arabic date separator"
-    }
+    },
+    "role": ["punctuation"]
   },
   {
     "text": "\u060E",
     "name": {
       "head": "arabic poetic verse sign"
-    }
+    },
+    "role": ["sign"]
   },
   {
     "text": "\u060F",
     "name": {
       "head": "arabic sign misra"
-    }
+    },
+    "role": ["sign"]
   },
   {
     "text": "\u0610",
     "name": {
       "head": "arabic sign sallallahou alayhe wassallam"
-    }
+    },
+    "role": ["religious"]
   },
   {
     "text": "\u0611",
     "name": {
       "head": "arabic sign alayhe assallam"
-    }
+    },
+    "role": ["religious"]
   },
   {
     "text": "\u0612",
     "name": {
       "head": "arabic sign rahmatullah alayhe"
-    }
+    },
+    "role": ["religious"]
   },
   {
     "text": "\u0613",
     "name": {
       "head": "arabic sign radi allahou anhu"
-    }
+    },
+    "role": ["religious"]
   },
   {
     "text": "\u0614",
     "name": {
       "head": "arabic sign takhallus"
-    }
+    },
+    "role": ["sign"]
   },
   {
     "text": "\u0615",
     "name": {
       "head": "arabic small high tah"
-    }
+    },
+    "role": ["diacritic"]
   },
   {
     "text": "\u0616",
     "name": {
       "head": "arabic small high ligature alef with lam with yeh (alias arabic small high ligature alef with yeh barree)"
-    }
+    },
+    "role": ["diacritic"]
   },
   {
     "text": "\u0617",
     "name": {
       "head": "arabic small high zain"
-    }
+    },
+    "role": ["diacritic"]
   },
   {
     "text": "\u0618",
     "name": {
       "head": "arabic small fatha"
-    }
+    },
+    "role": ["vowel", "bound"]
   },
   {
     "text": "\u0619",
     "name": {
       "head": "arabic small damma"
-    }
+    },
+    "role": ["vowel", "bound"]
   },
   {
     "text": "\u061A",
     "name": {
       "head": "arabic small kasra"
-    }
+    },
+    "role": ["vowel", "bound"]
   },
   {
     "text": "\u061B",
     "name": {
       "head": "arabic semicolon"
-    }
+    },
+    "role": ["punctuation"]
   },
   {
     "text": "\u061C",
     "name": {
       "head": "arabic letter mark (alias alm)"
-    }
+    },
+    "role": ["sign"]
   },
   {
     "text": "\u061D",
     "name": {
       "head": "arabic end of text mark"
-    }
+    },
+    "role": ["punctuation"]
   },
   {
     "text": "\u061E",
     "name": {
       "head": "arabic triple dot punctuation mark"
-    }
+    },
+    "role": ["punctuation"]
   },
   {
     "text": "\u061F",
     "name": {
       "head": "arabic question mark"
-    }
+    },
+    "role": ["punctuation"]
   },
   {
     "text": "\u0620",
     "name": {
       "head": "arabic letter kashmiri yeh"
-    }
+    },
+    "role": ["consonant"]
   },
   {
     "text": "\u0621",
     "name": {
       "head": "arabic letter hamza"
-    }
+    },
+    "role": ["consonant"]
   },
   {
     "text": "\u0622",
     "name": {
       "head": "arabic letter alef with madda above"
-    }
+    },
+    "role": ["consonant"]
   },
   {
     "text": "\u0623",
     "name": {
       "head": "arabic letter alef with hamza above"
-    }
+    },
+    "role": ["consonant"]
   },
   {
     "text": "\u0624",
     "name": {
       "head": "arabic letter waw with hamza above"
-    }
+    },
+    "role": ["consonant"]
   },
   {
     "text": "\u0625",
     "name": {
       "head": "arabic letter alef with hamza below"
-    }
+    },
+    "role": ["consonant"]
   },
   {
     "text": "\u0626",
     "name": {
       "head": "arabic letter yeh with hamza above"
-    }
+    },
+    "role": ["consonant"]
   },
   {
     "text": "\u0627",
     "name": {
       "head": "arabic letter alef"
-    }
+    },
+    "role": ["consonant"]
   },
   {
     "text": "\u0628",
     "name": {
       "head": "arabic letter beh"
-    }
+    },
+    "role": ["consonant"]
   },
   {
     "text": "\u0629",
     "name": {
       "head": "arabic letter teh marbuta"
-    }
+    },
+    "role": ["consonant"]
   },
   {
     "text": "\u062A",
     "name": {
       "head": "arabic letter teh"
-    }
+    },
+    "role": ["consonant"]
   },
   {
     "text": "\u062B",
     "name": {
       "head": "arabic letter theh"
-    }
+    },
+    "role": ["consonant"]
   },
   {
     "text": "\u062C",
     "name": {
       "head": "arabic letter jeem"
-    }
+    },
+    "role": ["consonant"]
   },
   {
     "text": "\u062D",
     "name": {
       "head": "arabic letter hah"
-    }
+    },
+    "role": ["consonant"]
   },
   {
     "text": "\u062E",
     "name": {
       "head": "arabic letter khah"
-    }
+    },
+    "role": ["consonant"]
   },
   {
     "text": "\u062F",
     "name": {
       "head": "arabic letter dal"
-    }
+    },
+    "role": ["consonant"]
   },
   {
     "text": "\u0630",
     "name": {
       "head": "arabic letter thal"
-    }
+    },
+    "role": ["consonant"]
   },
   {
     "text": "\u0631",
     "name": {
       "head": "arabic letter reh"
-    }
+    },
+    "role": ["consonant"]
   },
   {
     "text": "\u0632",
     "name": {
       "head": "arabic letter zain"
-    }
+    },
+    "role": ["consonant"]
   },
   {
     "text": "\u0633",
     "name": {
       "head": "arabic letter seen"
-    }
+    },
+    "role": ["consonant"]
   },
   {
     "text": "\u0634",
     "name": {
       "head": "arabic letter sheen"
-    }
+    },
+    "role": ["consonant"]
   },
   {
     "text": "\u0635",
     "name": {
       "head": "arabic letter sad"
-    }
+    },
+    "role": ["consonant"]
   },
   {
     "text": "\u0636",
     "name": {
       "head": "arabic letter dad"
-    }
+    },
+    "role": ["consonant"]
   },
   {
     "text": "\u0637",
     "name": {
       "head": "arabic letter tah"
-    }
+    },
+    "role": ["consonant"]
   },
   {
     "text": "\u0638",
     "name": {
       "head": "arabic letter zah"
-    }
+    },
+    "role": ["consonant"]
   },
   {
     "text": "\u0639",
     "name": {
       "head": "arabic letter ain"
-    }
+    },
+    "role": ["consonant"]
   },
   {
     "text": "\u063A",
     "name": {
       "head": "arabic letter ghain"
-    }
+    },
+    "role": ["consonant"]
   },
   {
     "text": "\u063B",
     "name": {
       "head": "arabic letter keheh with two dots above"
-    }
+    },
+    "role": ["consonant"]
   },
   {
     "text": "\u063C",
     "name": {
       "head": "arabic letter keheh with three dots below"
-    }
+    },
+    "role": ["consonant"]
   },
   {
     "text": "\u063D",
     "name": {
       "head": "arabic letter farsi yeh with inverted v"
-    }
+    },
+    "role": ["consonant"]
   },
   {
     "text": "\u063E",
     "name": {
       "head": "arabic letter farsi yeh with two dots above"
-    }
+    },
+    "role": ["consonant"]
   },
   {
     "text": "\u063F",
     "name": {
       "head": "arabic letter farsi yeh with three dots above"
-    }
+    },
+    "role": ["consonant"]
   },
   {
     "text": "\u0640",
     "name": {
       "head": "arabic tatweel"
-    }
+    },
+    "role": ["modifier"]
   },
   {
     "text": "\u0641",
     "name": {
       "head": "arabic letter feh"
-    }
+    },
+    "role": ["consonant"]
   },
   {
     "text": "\u0642",
     "name": {
       "head": "arabic letter qaf"
-    }
+    },
+    "role": ["consonant"]
   },
   {
     "text": "\u0643",
     "name": {
       "head": "arabic letter kaf"
-    }
+    },
+    "role": ["consonant"]
   },
   {
     "text": "\u0644",
     "name": {
       "head": "arabic letter lam"
-    }
+    },
+    "role": ["consonant"]
   },
   {
     "text": "\u0645",
     "name": {
       "head": "arabic letter meem"
-    }
+    },
+    "role": ["consonant"]
   },
   {
     "text": "\u0646",
     "name": {
       "head": "arabic letter noon",
       "link": "nūn"
-    }
+    },
+    "role": ["consonant"]
   },
   {
     "text": "\u0647",
     "name": {
       "head": "arabic letter heh",
       "link": "heh"
-    }
+    },
+    "role": ["consonant"]
   },
   {
     "text": "\u0648",
@@ -439,13 +511,15 @@
       "head": "arabic letter waw",
       "base": "واو",
       "link": "waw"
-    }
+    },
+    "role": ["consonant"]
   },
   {
     "text": "\u0649",
     "name": {
       "head": "arabic letter alef maksura"
-    }
+    },
+    "role": ["consonant"]
   },
   {
     "text": "\u064A",
@@ -453,7 +527,8 @@
       "head": "arabic letter yeh",
       "base": "ياء",
       "link": "yeh"
-    }
+    },
+    "role": ["consonant"]
   },
   {
     "text": "\u064B",
@@ -462,7 +537,8 @@
       "head": "arabic fathatan",
       "base": "فتحتان",
       "link": "fathatan"
-    }
+    },
+    "role": ["vowel", "bound"]
   },
   {
     "text": "\u064C",
@@ -471,7 +547,8 @@
       "head": "arabic dammatan",
       "base": "ضَمَّتَان",
       "link": "dammatan"
-    }
+    },
+    "role": ["vowel", "bound"]
   },
   {
     "text": "\u064D",
@@ -480,7 +557,8 @@
       "head": "arabic kasratan",
       "base": "كَسْرَتَان",
       "link": "kasratan"
-    }
+    },
+    "role": ["vowel", "bound"]
   },
   {
     "text": "\u064E",
@@ -489,7 +567,8 @@
       "head": "arabic fatha",
       "base": "فَتْحَة",
       "link": "fatḥah"
-    }
+    },
+    "role": ["vowel", "bound"]
   },
   {
     "text": "\u064F",
@@ -498,7 +577,8 @@
       "head": "arabic damma",
       "base": "ضَمَّة",
       "link": "dammah"
-    }
+    },
+    "role": ["vowel", "bound"]
   },
   {
     "text": "\u0650",
@@ -507,7 +587,8 @@
       "head": "arabic kasra",
       "base": "كَسْرَة",
       "link": "kasrah"
-    }
+    },
+    "role": ["vowel", "bound"]
   },
   {
     "text": "\u0651",
@@ -531,1038 +612,1214 @@
     "text": "\u0653",
     "name": {
       "head": "arabic maddah above"
-    }
+    },
+    "role": ["diacritic"]
   },
   {
     "text": "\u0654",
     "name": {
       "head": "arabic hamza above"
-    }
+    },
+    "role": ["diacritic"]
   },
   {
     "text": "\u0655",
     "name": {
       "head": "arabic hamza below"
-    }
+    },
+    "role": ["diacritic"]
   },
   {
     "text": "\u0656",
     "name": {
       "head": "arabic subscript alef"
-    }
+    },
+    "role": ["diacritic"]
   },
   {
     "text": "\u0657",
     "name": {
       "head": "arabic inverted damma"
-    }
+    },
+    "role": ["diacritic"]
   },
   {
     "text": "\u0658",
     "name": {
       "head": "arabic mark noon ghunna"
-    }
+    },
+    "role": ["diacritic"]
   },
   {
     "text": "\u0659",
     "name": {
       "head": "arabic zwarakay"
-    }
+    },
+    "role": ["diacritic"]
   },
   {
     "text": "\u065A",
     "name": {
       "head": "arabic vowel sign small v above"
-    }
+    },
+    "role": ["vowel", "bound"]
   },
   {
     "text": "\u065B",
     "name": {
       "head": "arabic vowel sign inverted small v above"
-    }
+    },
+    "role": ["vowel", "bound"]
   },
   {
     "text": "\u065C",
     "name": {
       "head": "arabic vowel sign dot below"
-    }
+    },
+    "role": ["vowel", "bound"]
   },
   {
     "text": "\u065D",
     "name": {
       "head": "arabic reversed damma"
-    }
+    },
+    "role": ["diacritic"]
   },
   {
     "text": "\u065E",
     "name": {
       "head": "arabic fatha with two dots"
-    }
+    },
+    "role": ["diacritic"]
   },
   {
     "text": "\u065F",
     "name": {
       "head": "arabic wavy hamza below"
-    }
+    },
+    "role": ["diacritic"]
   },
   {
     "text": "\u0660",
     "name": {
       "head": "arabic-indic digit zero"
-    }
+    },
+    "role": ["number"]
   },
   {
     "text": "\u0661",
     "name": {
       "head": "arabic-indic digit one"
-    }
+    },
+    "role": ["number"]
   },
   {
     "text": "\u0662",
     "name": {
       "head": "arabic-indic digit two"
-    }
+    },
+    "role": ["number"]
   },
   {
     "text": "\u0663",
     "name": {
       "head": "arabic-indic digit three"
-    }
+    },
+    "role": ["number"]
   },
   {
     "text": "\u0664",
     "name": {
       "head": "arabic-indic digit four"
-    }
+    },
+    "role": ["number"]
   },
   {
     "text": "\u0665",
     "name": {
       "head": "arabic-indic digit five"
-    }
+    },
+    "role": ["number"]
   },
   {
     "text": "\u0666",
     "name": {
       "head": "arabic-indic digit six"
-    }
+    },
+    "role": ["number"]
   },
   {
     "text": "\u0667",
     "name": {
       "head": "arabic-indic digit seven"
-    }
+    },
+    "role": ["number"]
   },
   {
     "text": "\u0668",
     "name": {
       "head": "arabic-indic digit eight"
-    }
+    },
+    "role": ["number"]
   },
   {
     "text": "\u0669",
     "name": {
       "head": "arabic-indic digit nine"
-    }
+    },
+    "role": ["number"]
   },
   {
     "text": "\u066A",
     "name": {
       "head": "arabic percent sign"
-    }
+    },
+    "role": ["sign"]
   },
   {
     "text": "\u066B",
     "name": {
       "head": "arabic decimal separator"
-    }
+    },
+    "role": ["sign"]
   },
   {
     "text": "\u066C",
     "name": {
       "head": "arabic thousands separator"
-    }
+    },
+    "role": ["sign"]
   },
   {
     "text": "\u066D",
     "name": {
       "head": "arabic five pointed star"
-    }
+    },
+    "role": ["sign"]
   },
   {
     "text": "\u066E",
     "name": {
       "head": "arabic letter dotless beh"
-    }
+    },
+    "role": ["consonant"]
   },
   {
     "text": "\u066F",
     "name": {
       "head": "arabic letter dotless qaf"
-    }
+    },
+    "role": ["consonant"]
   },
   {
     "text": "\u0670",
     "name": {
       "head": "arabic letter superscript alef"
-    }
+    },
+    "role": ["diacritic"]
   },
   {
     "text": "\u0671",
     "name": {
       "head": "arabic letter alef wasla"
-    }
+    },
+    "role": ["consonant"]
   },
   {
     "text": "\u0672",
     "name": {
       "head": "arabic letter alef with wavy hamza above"
-    }
+    },
+    "role": ["consonant"]
   },
   {
     "text": "\u0673",
     "name": {
       "head": "arabic letter alef with wavy hamza below"
-    }
+    },
+    "role": ["consonant"]
   },
   {
     "text": "\u0674",
     "name": {
       "head": "arabic letter high hamza"
-    }
+    },
+    "role": ["consonant"]
   },
   {
     "text": "\u0675",
     "name": {
       "head": "arabic letter high hamza alef"
-    }
+    },
+    "role": ["consonant"]
   },
   {
     "text": "\u0676",
     "name": {
       "head": "arabic letter high hamza waw"
-    }
+    },
+    "role": ["consonant"]
   },
   {
     "text": "\u0677",
     "name": {
       "head": "arabic letter u with hamza above"
-    }
+    },
+    "role": ["consonant"]
   },
   {
     "text": "\u0678",
     "name": {
       "head": "arabic letter high hamza yeh"
-    }
+    },
+    "role": ["consonant"]
   },
   {
     "text": "\u0679",
     "name": {
       "head": "arabic letter tteh"
-    }
+    },
+    "role": ["consonant"]
   },
   {
     "text": "\u067A",
     "name": {
       "head": "arabic letter tteheh"
-    }
+    },
+    "role": ["consonant"]
   },
   {
     "text": "\u067B",
     "name": {
       "head": "arabic letter beeh"
-    }
+    },
+    "role": ["consonant"]
   },
   {
     "text": "\u067C",
     "name": {
       "head": "arabic letter teh with ring"
-    }
+    },
+    "role": ["consonant"]
   },
   {
     "text": "\u067D",
     "name": {
       "head": "arabic letter teh with three dots above downwards"
-    }
+    },
+    "role": ["consonant"]
   },
   {
     "text": "\u067E",
     "name": {
       "head": "arabic letter peh"
-    }
+    },
+    "role": ["consonant"]
   },
   {
     "text": "\u067F",
     "name": {
       "head": "arabic letter teheh"
-    }
+    },
+    "role": ["consonant"]
   },
   {
     "text": "\u0680",
     "name": {
       "head": "arabic letter beheh"
-    }
+    },
+    "role": ["consonant"]
   },
   {
     "text": "\u0681",
     "name": {
       "head": "arabic letter hah with hamza above"
-    }
+    },
+    "role": ["consonant"]
   },
   {
     "text": "\u0682",
     "name": {
       "head": "arabic letter hah with two dots vertical above"
-    }
+    },
+    "role": ["consonant"]
   },
   {
     "text": "\u0683",
     "name": {
       "head": "arabic letter nyeh"
-    }
+    },
+    "role": ["consonant"]
   },
   {
     "text": "\u0684",
     "name": {
       "head": "arabic letter dyeh"
-    }
+    },
+    "role": ["consonant"]
   },
   {
     "text": "\u0685",
     "name": {
       "head": "arabic letter hah with three dots above"
-    }
+    },
+    "role": ["consonant"]
   },
   {
     "text": "\u0686",
     "name": {
       "head": "arabic letter tcheh"
-    }
+    },
+    "role": ["consonant"]
   },
   {
     "text": "\u0687",
     "name": {
       "head": "arabic letter tcheheh"
-    }
+    },
+    "role": ["consonant"]
   },
   {
     "text": "\u0688",
     "name": {
       "head": "arabic letter ddal"
-    }
+    },
+    "role": ["consonant"]
   },
   {
     "text": "\u0689",
     "name": {
       "head": "arabic letter dal with ring"
-    }
+    },
+    "role": ["consonant"]
   },
   {
     "text": "\u068A",
     "name": {
       "head": "arabic letter dal with dot below"
-    }
+    },
+    "role": ["consonant"]
   },
   {
     "text": "\u068B",
     "name": {
       "head": "arabic letter dal with dot below and small tah"
-    }
+    },
+    "role": ["consonant"]
   },
   {
     "text": "\u068C",
     "name": {
       "head": "arabic letter dahal"
-    }
+    },
+    "role": ["consonant"]
   },
   {
     "text": "\u068D",
     "name": {
       "head": "arabic letter ddahal"
-    }
+    },
+    "role": ["consonant"]
   },
   {
     "text": "\u068E",
     "name": {
       "head": "arabic letter dul"
-    }
+    },
+    "role": ["consonant"]
   },
   {
     "text": "\u068F",
     "name": {
       "head": "arabic letter dal with three dots above downwards"
-    }
+    },
+    "role": ["consonant"]
   },
+
   {
     "text": "\u0690",
     "name": {
       "head": "arabic letter dal with four dots above"
-    }
+    },
+    "role": ["consonant"]
   },
   {
     "text": "\u0691",
     "name": {
       "head": "arabic letter rreh"
-    }
+    },
+    "role": ["consonant"]
   },
   {
     "text": "\u0692",
     "name": {
       "head": "arabic letter reh with small v"
-    }
+    },
+    "role": ["consonant"]
   },
   {
     "text": "\u0693",
     "name": {
       "head": "arabic letter reh with ring"
-    }
+    },
+    "role": ["consonant"]
   },
   {
     "text": "\u0694",
     "name": {
       "head": "arabic letter reh with dot below"
-    }
+    },
+    "role": ["consonant"]
   },
   {
     "text": "\u0695",
     "name": {
       "head": "arabic letter reh with small v below"
-    }
+    },
+    "role": ["consonant"]
   },
   {
     "text": "\u0696",
     "name": {
       "head": "arabic letter reh with dot below and dot above"
-    }
+    },
+    "role": ["consonant"]
   },
   {
     "text": "\u0697",
     "name": {
       "head": "arabic letter reh with two dots above"
-    }
+    },
+    "role": ["consonant"]
   },
   {
     "text": "\u0698",
     "name": {
       "head": "arabic letter jeh"
-    }
+    },
+    "role": ["consonant"]
   },
   {
     "text": "\u0699",
     "name": {
       "head": "arabic letter reh with four dots above"
-    }
+    },
+    "role": ["consonant"]
   },
   {
     "text": "\u069A",
     "name": {
       "head": "arabic letter seen with dot below and dot above"
-    }
+    },
+    "role": ["consonant"]
   },
   {
     "text": "\u069B",
     "name": {
       "head": "arabic letter seen with three dots below"
-    }
+    },
+    "role": ["consonant"]
   },
   {
     "text": "\u069C",
     "name": {
       "head": "arabic letter seen with three dots below and three dots above"
-    }
+    },
+    "role": ["consonant"]
   },
   {
     "text": "\u069D",
     "name": {
       "head": "arabic letter sad with two dots below"
-    }
+    },
+    "role": ["consonant"]
   },
   {
     "text": "\u069E",
     "name": {
       "head": "arabic letter sad with three dots above"
-    }
+    },
+    "role": ["consonant"]
   },
   {
     "text": "\u069F",
     "name": {
       "head": "arabic letter tah with three dots above"
-    }
+    },
+    "role": ["consonant"]
   },
   {
     "text": "\u06A0",
     "name": {
       "head": "arabic letter ain with three dots above"
-    }
+    },
+    "role": ["consonant"]
   },
   {
     "text": "\u06A1",
     "name": {
       "head": "arabic letter dotless feh"
-    }
+    },
+    "role": ["consonant"]
   },
   {
     "text": "\u06A2",
     "name": {
       "head": "arabic letter feh with dot moved below"
-    }
+    },
+    "role": ["consonant"]
   },
   {
     "text": "\u06A3",
     "name": {
       "head": "arabic letter feh with dot below"
-    }
+    },
+    "role": ["consonant"]
   },
   {
     "text": "\u06A4",
     "name": {
       "head": "arabic letter veh"
-    }
+    },
+    "role": ["consonant"]
   },
   {
     "text": "\u06A5",
     "name": {
       "head": "arabic letter feh with three dots below"
-    }
+    },
+    "role": ["consonant"]
   },
   {
     "text": "\u06A6",
     "name": {
       "head": "arabic letter peheh"
-    }
+    },
+    "role": ["consonant"]
   },
   {
     "text": "\u06A7",
     "name": {
       "head": "arabic letter qaf with dot above"
-    }
+    },
+    "role": ["consonant"]
   },
   {
     "text": "\u06A8",
     "name": {
       "head": "arabic letter qaf with three dots above"
-    }
+    },
+    "role": ["consonant"]
   },
   {
     "text": "\u06A9",
     "name": {
       "head": "arabic letter keheh"
-    }
+    },
+    "role": ["consonant"]
   },
   {
     "text": "\u06AA",
     "name": {
       "head": "arabic letter swash kaf"
-    }
+    },
+    "role": ["consonant"]
   },
   {
     "text": "\u06AB",
     "name": {
       "head": "arabic letter kaf with ring"
-    }
+    },
+    "role": ["consonant"]
   },
   {
     "text": "\u06AC",
     "name": {
       "head": "arabic letter kaf with dot above"
-    }
+    },
+    "role": ["consonant"]
   },
   {
     "text": "\u06AD",
     "name": {
       "head": "arabic letter ng"
-    }
+    },
+    "role": ["consonant"]
   },
   {
     "text": "\u06AE",
     "name": {
       "head": "arabic letter kaf with three dots below"
-    }
+    },
+    "role": ["consonant"]
   },
   {
     "text": "\u06AF",
     "name": {
       "head": "arabic letter gaf"
-    }
+    },
+    "role": ["consonant"]
   },
   {
     "text": "\u06B0",
     "name": {
       "head": "arabic letter gaf with ring"
-    }
+    },
+    "role": ["consonant"]
   },
   {
     "text": "\u06B1",
     "name": {
       "head": "arabic letter ngoeh"
-    }
+    },
+    "role": ["consonant"]
   },
   {
     "text": "\u06B2",
     "name": {
       "head": "arabic letter gaf with two dots below"
-    }
+    },
+    "role": ["consonant"]
   },
   {
     "text": "\u06B3",
     "name": {
       "head": "arabic letter gueh"
-    }
+    },
+    "role": ["consonant"]
   },
   {
     "text": "\u06B4",
     "name": {
       "head": "arabic letter gaf with three dots above"
-    }
+    },
+    "role": ["consonant"]
   },
   {
     "text": "\u06B5",
     "name": {
       "head": "arabic letter lam with small v"
-    }
+    },
+    "role": ["consonant"]
   },
   {
     "text": "\u06B6",
     "name": {
       "head": "arabic letter lam with dot above"
-    }
+    },
+    "role": ["consonant"]
   },
   {
     "text": "\u06B7",
     "name": {
       "head": "arabic letter lam with three dots above"
-    }
+    },
+    "role": ["consonant"]
   },
   {
     "text": "\u06B8",
     "name": {
       "head": "arabic letter lam with three dots below"
-    }
+    },
+    "role": ["consonant"]
   },
   {
     "text": "\u06B9",
     "name": {
       "head": "arabic letter noon with dot below"
-    }
+    },
+    "role": ["consonant"]
   },
   {
     "text": "\u06BA",
     "name": {
       "head": "arabic letter noon ghunna"
-    }
+    },
+    "role": ["consonant"]
   },
   {
     "text": "\u06BB",
     "name": {
       "head": "arabic letter rnoon"
-    }
+    },
+    "role": ["consonant"]
   },
   {
     "text": "\u06BC",
     "name": {
       "head": "arabic letter noon with ring"
-    }
+    },
+    "role": ["consonant"]
   },
   {
     "text": "\u06BD",
     "name": {
       "head": "arabic letter noon with three dots above"
-    }
+    },
+    "role": ["consonant"]
   },
   {
     "text": "\u06BE",
     "name": {
       "head": "arabic letter heh doachashmee"
-    }
+    },
+    "role": ["consonant"]
   },
   {
     "text": "\u06BF",
     "name": {
       "head": "arabic letter tcheh with dot above"
-    }
+    },
+    "role": ["consonant"]
   },
+
   {
     "text": "\u06C0",
     "name": {
       "head": "arabic letter heh with yeh above"
-    }
+    },
+    "role": ["consonant"]
   },
   {
     "text": "\u06C1",
     "name": {
       "head": "arabic letter heh goal"
-    }
+    },
+    "role": ["consonant"]
   },
   {
     "text": "\u06C2",
     "name": {
       "head": "arabic letter heh goal with hamza above"
-    }
+    },
+    "role": ["consonant"]
   },
   {
     "text": "\u06C3",
     "name": {
       "head": "arabic letter teh marbuta goal"
-    }
+    },
+    "role": ["consonant"]
   },
   {
     "text": "\u06C4",
     "name": {
       "head": "arabic letter waw with ring"
-    }
+    },
+    "role": ["consonant"]
   },
   {
     "text": "\u06C5",
     "name": {
       "head": "arabic letter kirghiz oe"
-    }
+    },
+    "role": ["consonant"]
   },
   {
     "text": "\u06C6",
     "name": {
       "head": "arabic letter oe"
-    }
+    },
+    "role": ["consonant"]
   },
   {
     "text": "\u06C7",
     "name": {
       "head": "arabic letter u"
-    }
+    },
+    "role": ["consonant"]
   },
   {
     "text": "\u06C8",
     "name": {
       "head": "arabic letter yu"
-    }
+    },
+    "role": ["consonant"]
   },
   {
     "text": "\u06C9",
     "name": {
       "head": "arabic letter kirghiz yu"
-    }
+    },
+    "role": ["consonant"]
   },
   {
     "text": "\u06CA",
     "name": {
       "head": "arabic letter waw with two dots above"
-    }
+    },
+    "role": ["consonant"]
   },
   {
     "text": "\u06CB",
     "name": {
       "head": "arabic letter ve"
-    }
+    },
+    "role": ["consonant"]
   },
   {
     "text": "\u06CC",
     "name": {
       "head": "arabic letter farsi yeh"
-    }
+    },
+    "role": ["consonant"]
   },
   {
     "text": "\u06CD",
     "name": {
       "head": "arabic letter yeh with tail"
-    }
+    },
+    "role": ["consonant"]
   },
   {
     "text": "\u06CE",
     "name": {
       "head": "arabic letter yeh with small v"
-    }
+    },
+    "role": ["consonant"]
   },
   {
     "text": "\u06CF",
     "name": {
       "head": "arabic letter waw with dot above"
-    }
+    },
+    "role": ["consonant"]
   },
   {
     "text": "\u06D0",
     "name": {
       "head": "arabic letter e"
-    }
+    },
+    "role": ["consonant"]
   },
   {
     "text": "\u06D1",
     "name": {
       "head": "arabic letter yeh with three dots below"
-    }
+    },
+    "role": ["consonant"]
   },
   {
     "text": "\u06D2",
     "name": {
       "head": "arabic letter yeh barree"
-    }
+    },
+    "role": ["consonant"]
   },
   {
     "text": "\u06D3",
     "name": {
       "head": "arabic letter yeh barree with hamza above"
-    }
+    },
+    "role": ["consonant"]
   },
   {
     "text": "\u06D4",
     "name": {
       "head": "arabic full stop"
-    }
+    },
+    "role": ["punctuation"]
   },
   {
     "text": "\u06D5",
     "name": {
       "head": "arabic letter ae"
-    }
+    },
+    "role": ["consonant"]
   },
   {
     "text": "\u06D6",
     "name": {
       "head": "arabic small high ligature sad with lam with alef maksura"
-    }
+    },
+    "role": ["diacritic"]
   },
   {
     "text": "\u06D7",
     "name": {
       "head": "arabic small high ligature qaf with lam with alef maksura"
-    }
+    },
+    "role": ["diacritic"]
   },
   {
     "text": "\u06D8",
     "name": {
       "head": "arabic small high meem initial form"
-    }
+    },
+    "role": ["diacritic"]
   },
   {
     "text": "\u06D9",
     "name": {
       "head": "arabic small high lam alef"
-    }
+    },
+    "role": ["diacritic"]
   },
   {
     "text": "\u06DA",
     "name": {
       "head": "arabic small high jeem"
-    }
+    },
+    "role": ["diacritic"]
   },
   {
     "text": "\u06DB",
     "name": {
       "head": "arabic small high three dots"
-    }
+    },
+    "role": ["diacritic"]
   },
   {
     "text": "\u06DC",
     "name": {
       "head": "arabic small high seen"
-    }
+    },
+    "role": ["diacritic"]
   },
   {
     "text": "\u06DD",
     "name": {
       "head": "arabic end of ayah"
-    }
+    },
+    "role": ["punctuation"]
   },
   {
     "text": "\u06DE",
     "name": {
       "head": "arabic start of rub el hizb"
-    }
+    },
+    "role": ["punctuation"]
   },
   {
     "text": "\u06DF",
     "name": {
       "head": "arabic small high rounded zero"
-    }
+    },
+    "role": ["diacritic"]
   },
   {
     "text": "\u06E0",
     "name": {
       "head": "arabic small high upright rectangular zero"
-    }
+    },
+    "role": ["diacritic"]
   },
   {
     "text": "\u06E1",
     "name": {
       "head": "arabic small high dotless head of khah"
-    }
+    },
+    "role": ["diacritic"]
   },
   {
     "text": "\u06E2",
     "name": {
       "head": "arabic small high meem isolated form"
-    }
+    },
+    "role": ["diacritic"]
   },
   {
     "text": "\u06E3",
     "name": {
       "head": "arabic small low seen"
-    }
+    },
+    "role": ["diacritic"]
   },
   {
     "text": "\u06E4",
     "name": {
       "head": "arabic small high madda"
-    }
+    },
+    "role": ["diacritic"]
   },
   {
     "text": "\u06E5",
     "name": {
       "head": "arabic small waw"
-    }
+    },
+    "role": ["diacritic"]
   },
   {
     "text": "\u06E6",
     "name": {
       "head": "arabic small yeh"
-    }
+    },
+    "role": ["diacritic"]
   },
   {
     "text": "\u06E7",
     "name": {
       "head": "arabic small high yeh"
-    }
+    },
+    "role": ["diacritic"]
   },
   {
     "text": "\u06E8",
     "name": {
       "head": "arabic small high noon"
-    }
+    },
+    "role": ["diacritic"]
   },
   {
     "text": "\u06E9",
     "name": {
       "head": "arabic place of sajdah"
-    }
+    },
+    "role": ["religious"]
   },
   {
     "text": "\u06EA",
     "name": {
       "head": "arabic empty centre low stop"
-    }
+    },
+    "role": ["punctuation"]
   },
   {
     "text": "\u06EB",
     "name": {
       "head": "arabic empty centre high stop"
-    }
+    },
+    "role": ["punctuation"]
   },
   {
     "text": "\u06EC",
     "name": {
       "head": "arabic rounded high stop with filled centre"
-    }
+    },
+    "role": ["punctuation"]
   },
   {
     "text": "\u06ED",
     "name": {
       "head": "arabic small low meem"
-    }
+    },
+    "role": ["diacritic"]
   },
   {
     "text": "\u06EE",
     "name": {
       "head": "arabic letter dal with inverted v"
-    }
+    },
+    "role": ["consonant"]
   },
   {
     "text": "\u06EF",
     "name": {
       "head": "arabic letter reh with inverted v"
-    }
+    },
+    "role": ["consonant"]
   },
   {
     "text": "\u06F0",
+
     "name": {
       "head": "extended arabic-indic digit zero"
-    }
+    },
+    "role": ["number"]
   },
   {
     "text": "\u06F1",
     "name": {
       "head": "extended arabic-indic digit one"
-    }
+    },
+    "role": ["number"]
   },
   {
     "text": "\u06F2",
     "name": {
       "head": "extended arabic-indic digit two"
-    }
+    },
+    "role": ["number"]
   },
   {
     "text": "\u06F3",
     "name": {
       "head": "extended arabic-indic digit three"
-    }
+    },
+    "role": ["number"]
   },
   {
     "text": "\u06F4",
     "name": {
       "head": "extended arabic-indic digit four"
-    }
+    },
+    "role": ["number"]
   },
   {
     "text": "\u06F5",
     "name": {
       "head": "extended arabic-indic digit five"
-    }
+    },
+    "role": ["number"]
   },
   {
     "text": "\u06F6",
     "name": {
       "head": "extended arabic-indic digit six"
-    }
+    },
+    "role": ["number"]
   },
   {
     "text": "\u06F7",
     "name": {
       "head": "extended arabic-indic digit seven"
-    }
+    },
+    "role": ["number"]
   },
   {
     "text": "\u06F8",
     "name": {
       "head": "extended arabic-indic digit eight"
-    }
+    },
+    "role": ["number"]
   },
   {
     "text": "\u06F9",
     "name": {
       "head": "extended arabic-indic digit nine"
-    }
+    },
+    "role": ["number"]
   },
   {
     "text": "\u06FA",
     "name": {
       "head": "arabic letter sheen with dot below"
-    }
+    },
+    "role": ["consonant"]
   },
   {
     "text": "\u06FB",
     "name": {
       "head": "arabic letter dad with dot below"
-    }
+    },
+    "role": ["consonant"]
   },
   {
     "text": "\u06FC",
     "name": {
       "head": "arabic letter ghain with dot below"
-    }
+    },
+    "role": ["consonant"]
   },
   {
     "text": "\u06FD",
     "name": {
       "head": "arabic sign sindhi ampersand"
-    }
+    },
+    "role": ["sign"]
   },
   {
     "text": "\u06FE",
     "name": {
       "head": "arabic sign sindhi postposition men"
-    }
+    },
+    "role": ["sign"]
   },
   {
     "text": "\u06FF",
     "name": {
       "head": "arabic letter heh with inverted v"
-    }
+    },
+    "role": ["consonant"]
   }
 ]

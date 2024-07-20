@@ -113,3 +113,11 @@ export function build(m: Map) {
 
   return s
 }
+
+export function load(talk: Array<any>, text: Array<any>) {
+  for (const a of talk) {
+    const b = text.find(x => x.link === a.link)!
+    a.text = b.text
+    a.role = b.role
+  }
+}

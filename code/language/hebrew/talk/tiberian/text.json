@@ -1,0 +1,396 @@
+[
+  {
+    "link": "accent etnahta"
+  },
+  {
+    "link": "accent segol"
+  },
+  {
+    "link": "accent shalshelet"
+  },
+  {
+    "link": "accent zaqef qatan"
+  },
+  {
+    "link": "accent zaqef gadol"
+  },
+  {
+    "link": "accent tipeha"
+  },
+  {
+    "link": "accent revia"
+  },
+  {
+    "link": "accent zarqa"
+  },
+  {
+    "link": "accent pashta"
+  },
+  {
+    "link": "accent yetiv"
+  },
+  {
+    "link": "accent tevir"
+  },
+  {
+    "link": "accent geresh"
+  },
+  {
+    "link": "accent geresh muqdam"
+  },
+  {
+    "link": "accent gershayim"
+  },
+  {
+    "link": "accent qarney para"
+  },
+  {
+    "link": "accent telisha gedola"
+  },
+  {
+    "link": "accent pazer"
+  },
+  {
+    "link": "accent atnah hafukh"
+  },
+  {
+    "link": "accent munah"
+  },
+  {
+    "link": "accent mahapakh"
+  },
+  {
+    "link": "accent merkha"
+  },
+  {
+    "link": "accent merkha kefula"
+  },
+  {
+    "link": "accent darga"
+  },
+  {
+    "link": "accent qadma"
+  },
+  {
+    "link": "accent telisha qetana"
+  },
+  {
+    "link": "accent yerah ben yomo"
+  },
+  {
+    "link": "accent ole"
+  },
+  {
+    "link": "accent iluy"
+  },
+  {
+    "link": "accent dehi"
+  },
+  {
+    "link": "accent zinor"
+  },
+  {
+    "link": "mark masora circle"
+  },
+  {
+    "link": "sheva",
+    "talk": "e"
+  },
+  {
+    "link": "hataf segol",
+    "talk": "e"
+  },
+  {
+    "link": "hataf patah",
+    "talk": "a"
+  },
+  {
+    "link": "hataf qamats",
+    "talk": "o"
+  },
+  {
+    "link": "hiriq",
+    "talk": "i"
+  },
+  {
+    "link": "tsere",
+    "talk": "e"
+  },
+  {
+    "link": "segol",
+    "talk": "e"
+  },
+  {
+    "link": "patah",
+    "talk": "a"
+  },
+  {
+    "link": "qamats",
+    "talk": "a"
+  },
+  {
+    "link": "holam",
+    "talk": "o"
+  },
+  {
+    "link": "holam haser for vav",
+    "talk": "o"
+  },
+  {
+    "link": "qubuts",
+    "talk": "u"
+  },
+  {
+    "link": "dagesh"
+  },
+  {
+    "link": "mapiq"
+  },
+  {
+    "link": "meteg",
+    "talk": ","
+  },
+  {
+    "link": "punctuation maqaf",
+    "talk": "-"
+  },
+  {
+    "link": "rafe"
+  },
+  {
+    "link": "punctuation paseq",
+    "talk": "|"
+  },
+  {
+    "link": "shin dot"
+  },
+  {
+    "link": "sin dot"
+  },
+  {
+    "link": "sof pasuq",
+    "talk": "."
+  },
+  {
+    "link": "mark upper dot"
+  },
+  {
+    "link": "mark lower dot"
+  },
+  {
+    "link": "punctuation nun hafukha"
+  },
+  {
+    "link": "qamats qatan",
+    "talk": "o"
+  },
+  {
+    "link": "alef",
+    "talk": "'"
+  },
+  {
+    "link": "bet",
+    "talk": "v"
+  },
+  {
+    "link": "bet with dagesh",
+    "talk": "b"
+  },
+  {
+    "link": "gimel",
+    "talk": "g"
+  },
+  {
+    "link": "dalet with garesh",
+    "talk": "d"
+  },
+  {
+    "link": "dalet",
+    "talk": "C"
+  },
+  {
+    "link": "he",
+    "talk": "h"
+  },
+  {
+    "link": "he with mapiq",
+    "talk": "h"
+  },
+  {
+    "link": "vav shruka",
+    "talk": "u_"
+  },
+  {
+    "link": "vav chaluma",
+    "talk": "o_"
+  },
+  {
+    "link": "double vav",
+    "talk": "w"
+  },
+  {
+    "link": "vav",
+    "talk": "w"
+  },
+  {
+    "link": "zayin with garesh",
+    "talk": "j"
+  },
+  {
+    "link": "zayin",
+    "talk": "z"
+  },
+  {
+    "link": "het with garesh",
+    "talk": "H"
+  },
+  {
+    "link": "het",
+    "talk": "H"
+  },
+  {
+    "link": "tet",
+    "talk": "t"
+  },
+  {
+    "link": "yod",
+    "talk": "y"
+  },
+  {
+    "link": "yod with hiriq",
+    "talk": "i_"
+  },
+  {
+    "link": "final kaf with dagesh",
+    "talk": "H"
+  },
+  {
+    "link": "kaf with dagesh",
+    "talk": "H"
+  },
+  {
+    "link": "final kaf",
+    "talk": "k"
+  },
+  {
+    "link": "kaf",
+    "talk": "k"
+  },
+  {
+    "link": "lamed",
+    "talk": "l"
+  },
+  {
+    "link": "final mem",
+    "talk": "m"
+  },
+  {
+    "link": "mem",
+    "talk": "m"
+  },
+  {
+    "link": "final nun",
+    "talk": "n~"
+  },
+  {
+    "link": "nun",
+    "talk": "n~"
+  },
+  {
+    "link": "samekh",
+    "talk": "s"
+  },
+  {
+    "link": "ayin with garesh",
+    "talk": "G"
+  },
+  {
+    "link": "ayin",
+    "talk": "\""
+  },
+  {
+    "link": "final pe with dagesh",
+    "talk": "p"
+  },
+  {
+    "link": "pe with dagesh",
+    "talk": "p"
+  },
+  {
+    "link": "final pe",
+    "talk": "f"
+  },
+  {
+    "link": "pe",
+    "talk": "f"
+  },
+  {
+    "link": "tsadi with garesh",
+    "talk": "tx"
+  },
+  {
+    "link": "final tsadi",
+    "talk": "ts"
+  },
+  {
+    "link": "tsadi",
+    "talk": "ts"
+  },
+  {
+    "link": "qof",
+    "talk": "k"
+  },
+  {
+    "link": "resh with garesh",
+    "talk": "G"
+  },
+  {
+    "link": "resh",
+    "talk": "G"
+  },
+  {
+    "link": "shin with right dot",
+    "talk": "x"
+  },
+  {
+    "link": "shin with left dot",
+    "talk": "s"
+  },
+  {
+    "link": "shin",
+    "talk": "s"
+  },
+  {
+    "link": "tav with garesh",
+    "talk": "c"
+  },
+  {
+    "link": "tav",
+    "talk": "t"
+  },
+  {
+    "link": "yod triangle"
+  },
+  {
+    "link": "ligature yiddish double vav",
+    "talk": "v"
+  },
+  {
+    "link": "ligature yiddish vav yod",
+    "talk": "v"
+  },
+  {
+    "link": "ligature yiddish double yod",
+    "talk": "y"
+  },
+  {
+    "link": "gimel with garesh",
+    "talk": "dj"
+  },
+  {
+    "link": "garesh"
+  },
+  {
+    "link": "punctuation gershayim"
+  }
+]

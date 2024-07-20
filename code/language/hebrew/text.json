@@ -1,0 +1,1060 @@
+[
+  {
+    "code": "■",
+    "link": "accent etnahta",
+    "name": {
+      "head": "hebrew accent etnahta",
+      "base": "אֶתְנַחְתָּא"
+    },
+    "role": ["modifier", "punctuation", "annotation"],
+    "text": "\u0591"
+  },
+  {
+    "code": "●",
+    "link": "accent segol",
+    "name": {
+      "head": "hebrew accent segol",
+      "base": "סֶגּוֹל"
+    },
+    "role": ["modifier", "punctuation", "annotation"],
+    "text": "\u0592"
+  },
+  {
+    "code": "▲",
+    "link": "accent shalshelet",
+    "name": {
+      "head": "hebrew accent shalshelet",
+      "base": "שַלְשֶלֶת"
+    },
+    "role": ["modifier", "punctuation", "annotation"],
+    "text": "\u0593"
+  },
+  {
+    "code": "◥",
+    "link": "accent zaqef qatan",
+    "name": {
+      "head": "hebrew accent zaqef qatan",
+      "base": "זָקֵף קָטָ֔ן"
+    },
+    "role": ["modifier", "punctuation", "annotation"],
+    "text": "\u0594"
+  },
+  {
+    "code": "▯",
+    "link": "accent zaqef gadol",
+    "name": {
+      "head": "hebrew accent zaqef gadol",
+      "base": "זָקֵף גָּד֕וֹל"
+    },
+    "role": ["modifier", "punctuation", "annotation"],
+    "text": "\u0595"
+  },
+  {
+    "code": "△",
+    "link": "accent tipeha",
+    "name": {
+      "head": "hebrew accent tipeha",
+      "base": "טִפְחָ֖א"
+    },
+    "role": ["modifier", "punctuation", "annotation"],
+    "text": "\u0596"
+  },
+  {
+    "code": "⬢",
+    "link": "accent revia",
+    "name": {
+      "head": "hebrew accent revia",
+      "base": "רְבִיעַ"
+    },
+    "role": ["modifier", "punctuation", "annotation"],
+    "text": "\u0597"
+  },
+  {
+    "code": "⬣",
+    "link": "accent zarqa",
+    "name": {
+      "head": "hebrew accent zarqa",
+      "base": "זַרְקָא֮"
+    },
+    "role": ["modifier", "punctuation", "annotation"],
+    "text": "\u0598"
+  },
+  {
+    "code": "◇",
+    "link": "accent pashta",
+    "name": {
+      "head": "hebrew accent pashta",
+      "base": "פַּשְׁטָא֙"
+    },
+    "role": ["modifier", "punctuation", "annotation"],
+    "text": "\u0599"
+  },
+  {
+    "code": "◆",
+    "link": "accent yetiv",
+    "name": {
+      "head": "hebrew accent yetiv",
+      "base": "יְ֚תִיב"
+    },
+    "role": ["modifier", "punctuation", "annotation"],
+    "text": "\u059A"
+  },
+  {
+    "code": "◭",
+    "link": "accent tevir",
+    "name": {
+      "head": "hebrew accent tevir",
+      "base": "תְּבִ֛יר"
+    },
+    "role": ["modifier", "punctuation", "annotation"],
+    "text": "\u059B"
+  },
+  {
+    "code": "◮",
+    "link": "accent geresh",
+    "name": {
+      "head": "hebrew accent geresh",
+      "base": "גֵּ֜רֵשׁ"
+    },
+    "role": ["modifier", "punctuation", "annotation"],
+    "text": "\u059C"
+  },
+  {
+    "code": "▽",
+    "link": "accent geresh muqdam",
+    "name": {
+      "head": "hebrew accent geresh muqdam",
+      "base": "גֵּרֵשׁ מֻקְדָּם֝"
+    },
+    "role": ["modifier", "punctuation", "annotation"],
+    "text": "\u059D"
+  },
+  {
+    "code": "◁",
+    "link": "accent gershayim",
+    "name": {
+      "head": "hebrew accent gershayim",
+      "base": "גֵּרְשַׁ֞יִם"
+    },
+    "role": ["modifier", "punctuation", "annotation"],
+    "text": "\u059E"
+  },
+  {
+    "code": "◊",
+    "link": "accent qarney para",
+    "name": {
+      "head": "hebrew accent qarney para",
+      "base": "קַרְנֵי פָרָ֟ה"
+    },
+    "role": ["modifier", "punctuation", "annotation"],
+    "text": "\u059F"
+  },
+  {
+    "code": "▷",
+    "link": "accent telisha gedola",
+    "name": {
+      "head": "hebrew accent telisha gedola",
+      "base": "תְּ֠לִישָא גְדוֹלָה"
+    },
+    "role": ["modifier", "punctuation", "annotation"],
+    "text": "\u05A0"
+  },
+  {
+    "code": "▫",
+    "link": "accent pazer",
+    "name": {
+      "head": "hebrew accent pazer",
+      "base": "פָּזֵ֡ר"
+    },
+    "role": ["modifier", "punctuation", "annotation"],
+    "text": "\u05A1"
+  },
+  {
+    "code": "▼",
+    "link": "accent atnah hafukh",
+    "name": {
+      "head": "hebrew accent atnah hafukh",
+      "base": "אֶתְנָח הָפוּךְ֢"
+    },
+    "role": ["modifier", "punctuation", "annotation"],
+    "text": "\u05A2"
+  },
+  {
+    "code": "▱",
+    "link": "accent munah",
+    "name": {
+      "head": "hebrew accent munah",
+      "base": "מֻנַּ֣ח"
+    },
+    "role": ["modifier", "punctuation", "annotation"],
+    "text": "\u05A3"
+  },
+  {
+    "code": "◀",
+    "link": "accent mahapakh",
+    "name": {
+      "head": "hebrew accent mahapakh",
+      "base": "מַהְפַּ֤ך"
+    },
+    "role": ["modifier", "punctuation", "annotation"],
+    "text": "\u05A4"
+  },
+  {
+    "code": "▶",
+    "link": "accent merkha",
+    "name": {
+      "head": "hebrew accent merkha",
+      "base": "מֵרְכָ֥א"
+    },
+    "role": ["modifier", "punctuation", "annotation"],
+    "text": "\u05A5"
+  },
+  {
+    "code": "◼",
+    "link": "accent merkha kefula",
+    "name": {
+      "head": "hebrew accent merkha kefula",
+      "base": "מֵרְכָא כְּפוּלָ֦ה"
+    },
+    "role": ["modifier", "punctuation", "annotation"],
+    "text": "\u05A6"
+  },
+  {
+    "code": "▮",
+    "link": "accent darga",
+    "name": {
+      "head": "hebrew accent darga",
+      "base": "דַּרְגָּ֧א"
+    },
+    "role": ["modifier", "punctuation", "annotation"],
+    "text": "\u05A7"
+  },
+  {
+    "code": "◤",
+    "link": "accent qadma",
+    "name": {
+      "head": "hebrew accent qadma",
+      "base": "קַדְמָ֨א"
+    },
+    "role": ["modifier", "punctuation", "annotation"],
+    "text": "\u05A8"
+  },
+  {
+    "code": "◣",
+    "link": "accent telisha qetana",
+    "name": {
+      "head": "hebrew accent telisha qetana",
+      "base": "תְּלִישָא קְטַנָּה֩"
+    },
+    "role": ["modifier", "punctuation", "annotation"],
+    "text": "\u05A9"
+  },
+  {
+    "code": "◢",
+    "link": "accent yerah ben yomo",
+    "name": {
+      "head": "hebrew accent yerah ben yomo",
+      "base": "יֶרַח בֶּן יוֹמ֪וֹ"
+    },
+    "role": ["modifier", "punctuation", "annotation"],
+    "text": "\u05AA"
+  },
+  {
+    "code": "◐",
+    "link": "accent ole",
+    "name": {
+      "head": "hebrew accent ole",
+      "base": "עוֹלֶה֫"
+    },
+    "role": ["modifier", "punctuation", "annotation"],
+    "text": "\u05AB"
+  },
+  {
+    "code": "◑",
+    "link": "accent iluy",
+    "name": {
+      "head": "hebrew accent iluy",
+      "base": "עִלּוּי֬"
+    },
+    "role": ["modifier", "punctuation", "annotation"],
+    "text": "\u05AC"
+  },
+  {
+    "code": "◒",
+    "link": "accent dehi",
+    "name": {
+      "head": "hebrew accent dehi",
+      "base": "דֶּחִי֭"
+    },
+    "role": ["modifier", "punctuation", "annotation"],
+    "text": "\u05AD"
+  },
+  {
+    "code": "◓",
+    "link": "accent zinor",
+    "name": {
+      "head": "hebrew accent zinor",
+      "base": "צִנּוֹרִת֘"
+    },
+    "role": ["modifier", "punctuation", "annotation"],
+    "text": "\u05AE"
+  },
+  {
+    "link": "mark masora circle",
+    "name": {
+      "head": "hebrew mark masora circle"
+    },
+    "role": ["modifier"],
+    "text": "\u05AF"
+  },
+  {
+    "code": "°",
+    "link": "sheva",
+    "name": {
+      "head": "hebrew point sheva",
+      "base": "שְׁוָא"
+    },
+    "role": ["bound", "vowel"],
+    "text": "\u05B0"
+  },
+  {
+    "code": "ë",
+    "link": "hataf segol",
+    "name": {
+      "head": "hebrew point hataf segol",
+      "base": "חֲטַף סֶגּוֹל"
+    },
+    "role": ["bound", "vowel"],
+    "text": "\u05B1"
+  },
+  {
+    "code": "ä",
+    "link": "hataf patah",
+    "name": {
+      "head": "hebrew point hataf patah",
+      "base": "חֲטַף פַּתָּח"
+    },
+    "role": ["bound", "vowel"],
+    "text": "\u05B2"
+  },
+  {
+    "code": "ŏ",
+    "link": "hataf qamats",
+    "name": {
+      "head": "hebrew point hataf qamats",
+      "base": "חֲטַף קָמָץ"
+    },
+    "role": ["bound", "vowel"],
+    "text": "\u05B3"
+  },
+  {
+    "code": "i",
+    "link": "hiriq",
+    "name": {
+      "head": "hebrew point hiriq",
+      "base": "חִירִיק"
+    },
+    "role": ["bound", "vowel"],
+    "text": "\u05B4"
+  },
+  {
+    "code": "ë",
+    "link": "tsere",
+    "name": {
+      "head": "hebrew point tsere",
+      "base": "צֵירֵי"
+    },
+    "role": ["bound", "vowel"],
+    "text": "\u05B5"
+  },
+  {
+    "code": "ȩ",
+    "link": "segol",
+    "name": {
+      "head": "hebrew point segol",
+      "base": "סֶגּוֹל"
+    },
+    "role": ["bound", "vowel"],
+    "text": "\u05B6"
+  },
+  {
+    "code": "a",
+    "link": "patah",
+    "name": {
+      "head": "hebrew point patah",
+      "base": "פַּתָּח"
+    },
+    "role": ["bound", "vowel"],
+    "text": "\u05B7"
+  },
+  {
+    "code": "ȧ",
+    "link": "qamats",
+    "name": {
+      "head": "hebrew point qamats",
+      "base": "קָמָץ"
+    },
+    "role": ["bound", "vowel"],
+    "text": "\u05B8"
+  },
+  {
+    "code": "o",
+    "link": "holam",
+    "name": {
+      "head": "hebrew point holam",
+      "base": "חוֹלָם"
+    },
+    "role": ["bound", "vowel"],
+    "text": "\u05B9"
+  },
+  {
+    "code": "ô",
+    "link": "holam haser for vav",
+    "name": {
+      "head": "hebrew point holam haser for vav",
+      "base": "חוֹלָם"
+    },
+    "role": ["bound", "vowel"],
+    "text": "\u05BA"
+  },
+  {
+    "code": "u",
+    "link": "qubuts",
+    "name": {
+      "head": "hebrew point qubuts",
+      "base": "קֻבּוּץ"
+    },
+    "role": ["bound", "vowel"],
+    "text": "\u05BB"
+  },
+  {
+    "code": "ḩ",
+    "link": "dagesh",
+    "name": {
+      "head": "hebrew point dagesh",
+      "base": "דָּגֵשׁ"
+    },
+    "role": ["modifier"],
+    "text": "\u05BC"
+  },
+  {
+    "code": "ɦ",
+    "link": "mapiq",
+    "name": {
+      "head": "hebrew point mapiq",
+      "base": "מַפִּיק"
+    },
+    "role": ["modifier"],
+    "text": "\u05BC"
+  },
+  {
+    "code": ",",
+    "link": "meteg",
+    "name": {
+      "head": "hebrew point meteg",
+      "base": "מֶתֶג"
+    },
+    "role": ["modifier"],
+    "text": "\u05BD"
+  },
+  {
+    "code": "-",
+    "link": "punctuation maqaf",
+    "name": {
+      "head": "hebrew punctuation maqaf",
+      "base": "מַקָּף"
+    },
+    "role": ["punctuation"],
+    "text": "\u05BE"
+  },
+  {
+    "link": "rafe",
+    "name": {
+      "head": "hebrew point rafe",
+      "base": "רָפֵה"
+    },
+    "role": ["modifier"],
+    "text": "\u05BF"
+  },
+  {
+    "link": "punctuation paseq",
+    "name": {
+      "head": "hebrew punctuation paseq",
+      "base": "פָּסֵק"
+    },
+    "role": ["punctuation"],
+    "text": "\u05C0"
+  },
+  {
+    "link": "shin dot",
+    "name": {
+      "head": "hebrew point shin dot",
+      "base": "שִׁי\"ן"
+    },
+    "role": ["modifier"],
+    "text": "\u05C1"
+  },
+  {
+    "link": "sin dot",
+    "name": {
+      "head": "hebrew point sin dot",
+      "base": "שִׂי\"ן"
+    },
+    "role": ["modifier"],
+    "text": "\u05C2"
+  },
+  {
+    "code": ".",
+    "link": "sof pasuq",
+    "name": {
+      "head": "hebrew punctuation sof pasuq",
+      "base": "סוֹף פָּסוּק"
+    },
+    "role": ["period", "punctuation"],
+    "text": "\u05C3"
+  },
+  {
+    "link": "mark upper dot",
+    "name": {
+      "head": "hebrew mark upper dot"
+    },
+    "role": ["modifier"],
+    "text": "\u05C4"
+  },
+  {
+    "link": "mark lower dot",
+    "name": {
+      "head": "hebrew mark lower dot"
+    },
+    "role": ["modifier"],
+    "text": "\u05C5"
+  },
+  {
+    "link": "punctuation nun hafukha",
+    "name": {
+      "head": "hebrew punctuation nun hafukha",
+      "base": "נוּן הֲפוּכָה"
+    },
+    "role": ["punctuation"],
+    "text": "\u05C6"
+  },
+  {
+    "code": "ȯ",
+    "link": "qamats qatan",
+    "name": {
+      "head": "hebrew point qamats qatan",
+      "base": "קָמָץ קָטָן"
+    },
+    "role": ["bound", "vowel"],
+    "text": "\u05C7"
+  },
+  {
+    "code": "’",
+    "link": "alef",
+    "name": {
+      "head": "hebrew letter alef",
+      "base": "אָלֶף"
+    },
+    "role": ["consonant"],
+    "text": "\u05D0"
+  },
+  {
+    "code": "v̇",
+    "link": "bet",
+    "name": {
+      "head": "hebrew letter bet",
+      "base": "בֵּית"
+    },
+    "role": ["consonant"],
+    "text": "\u05D1"
+  },
+  {
+    "code": "b",
+    "link": "bet with dagesh",
+    "name": {
+      "head": "hebrew letter bet with dagesh"
+    },
+    "role": ["consonant"],
+    "text": "\u05D1\u05BC"
+  },
+  {
+    "code": "g",
+    "link": "gimel",
+    "name": {
+      "head": "hebrew letter gimel",
+      "base": "גִּימֵל"
+    },
+    "role": ["consonant"],
+    "text": "\u05D2"
+  },
+  {
+    "code": "ḍ",
+    "link": "dalet with garesh",
+    "name": {
+      "head": "hebrew letter dalet with garesh"
+    },
+    "role": ["consonant"],
+    "text": "\u05D3\u05F3"
+  },
+  {
+    "code": "d",
+    "link": "dalet",
+    "name": {
+      "head": "hebrew letter dalet",
+      "base": "דָּלֶת"
+    },
+    "role": ["consonant"],
+    "text": "\u05D3"
+  },
+  {
+    "code": "h",
+    "link": "he",
+    "name": {
+      "head": "hebrew letter he",
+      "base": "הֵא"
+    },
+    "role": ["consonant"],
+    "text": "\u05D4"
+  },
+  {
+    "code": "H",
+    "link": "he with mapiq",
+    "name": {
+      "head": "hebrew letter he with mapiq"
+    },
+    "role": ["consonant"],
+    "text": "\u05D4\u05BC"
+  },
+  {
+    "code": "ū",
+    "link": "vav shruka",
+    "name": {
+      "base": "ו׳ שרוקה",
+      "head": "hebrew letter vav shruka"
+    },
+    "role": ["consonant"],
+    "text": "\u05D5\u05BC"
+  },
+  {
+    "code": "ō",
+    "link": "vav chaluma",
+    "name": {
+      "base": "ו׳ חלומה",
+      "head": "hebrew lettter vav chaluma"
+    },
+    "role": ["bound", "vowel"],
+    "text": "\u05D5\u05B9"
+  },
+  {
+    "code": "w",
+    "link": "double vav",
+    "name": {
+      "head": "hebrew letter double vav"
+    },
+    "role": ["consonant"],
+    "text": "\u05D5\u05D5"
+  },
+  {
+    "code": "v",
+    "link": "vav",
+    "name": {
+      "head": "hebrew letter vav",
+      "base": "וָו"
+    },
+    "role": ["consonant"],
+    "text": "\u05D5"
+  },
+  {
+    "code": "ž",
+    "link": "zayin with garesh",
+    "name": {
+      "head": "hebrew letter zayin with garesh"
+    },
+    "role": ["consonant"],
+    "text": "\u05D6\u05F3"
+  },
+  {
+    "code": "z",
+    "link": "zayin",
+    "name": {
+      "head": "hebrew letter zayin",
+      "base": "זַיִן"
+    },
+    "role": ["consonant"],
+    "text": "\u05D6"
+  },
+  {
+    "code": "Ḥ",
+    "link": "het with garesh",
+    "name": {
+      "head": "hebrew letter het with garesh"
+    },
+    "role": ["consonant"],
+    "text": "\u05D7\u05F3"
+  },
+  {
+    "code": "ḥ",
+    "link": "het",
+    "name": {
+      "head": "hebrew letter het",
+      "base": "חֵית"
+    },
+    "role": ["consonant"],
+    "text": "\u05D7"
+  },
+  {
+    "code": "ṭ",
+    "link": "tet",
+    "name": {
+      "head": "hebrew letter tet",
+      "base": "טֵית"
+    },
+    "role": ["consonant"],
+    "text": "\u05D8"
+  },
+  {
+    "code": "y",
+    "link": "yod",
+    "name": {
+      "head": "hebrew letter yod",
+      "base": "יוֹד"
+    },
+    "role": ["consonant"],
+    "text": "\u05D9"
+  },
+  {
+    "code": "ī",
+    "link": "yod with hiriq",
+    "name": {
+      "head": "hebrew letter yod with hiriq"
+    },
+    "role": ["bound", "vowel"],
+    "text": "\u05D9\u05B4"
+  },
+  {
+    "code": "K",
+    "link": "final kaf with dagesh",
+    "name": {
+      "head": "hebrew letter final kaf with dagesh"
+    },
+    "role": ["consonant"],
+    "text": "\u05DA"
+  },
+  {
+    "code": "k",
+    "link": "kaf with dagesh",
+    "name": {
+      "head": "hebrew letter kaf with dagesh"
+    },
+    "role": ["consonant"],
+    "text": "\u05DB"
+  },
+  {
+    "code": "Ḳ",
+    "link": "final kaf",
+    "name": {
+      "head": "hebrew letter final kaf",
+      "base": "כַּף סוֹפִית"
+    },
+    "role": ["consonant"],
+    "text": "\u05DA\u05BC"
+  },
+  {
+    "code": "ḳ",
+    "link": "kaf",
+    "name": {
+      "head": "hebrew letter kaf",
+      "base": "כַּף"
+    },
+    "role": ["consonant"],
+    "text": "\u05DB\u05BC"
+  },
+  {
+    "code": "l",
+    "link": "lamed",
+    "name": {
+      "head": "hebrew letter lamed",
+      "base": "לָמֶד"
+    },
+    "role": ["consonant"],
+    "text": "\u05DC"
+  },
+  {
+    "code": "M",
+    "link": "final mem",
+    "name": {
+      "head": "hebrew letter final mem",
+      "base": "מֵם סוֹפִית"
+    },
+    "role": ["consonant"],
+    "text": "\u05DD"
+  },
+  {
+    "code": "m",
+    "link": "mem",
+    "name": {
+      "head": "hebrew letter mem",
+      "base": "מֵם"
+    },
+    "role": ["consonant"],
+    "text": "\u05DE"
+  },
+  {
+    "code": "N",
+    "link": "final nun",
+    "name": {
+      "head": "hebrew letter final nun",
+      "base": "נוּן סוֹפִית"
+    },
+    "role": ["consonant"],
+    "text": "\u05DF"
+  },
+  {
+    "code": "n",
+    "link": "nun",
+    "name": {
+      "head": "hebrew letter nun",
+      "base": "נוּן"
+    },
+    "role": ["consonant"],
+    "text": "\u05E0"
+  },
+  {
+    "code": "s",
+    "link": "samekh",
+    "name": {
+      "head": "hebrew letter samekh",
+      "base": "סָמֶךְ"
+    },
+    "role": ["consonant"],
+    "text": "\u05E1"
+  },
+  {
+    "code": "ṙ",
+    "link": "ayin with garesh",
+    "name": {
+      "head": "hebrew letter ayin with garesh"
+    },
+    "role": ["consonant"],
+    "text": "\u05E2\u05F3"
+  },
+  {
+    "code": "‘",
+    "link": "ayin",
+    "name": {
+      "head": "hebrew letter ayin",
+      "base": "עַיִן"
+    },
+    "role": ["consonant"],
+    "text": "\u05E2"
+  },
+  {
+    "code": "P",
+    "link": "final pe with dagesh",
+    "name": {
+      "head": "hebrew letter final pe with dagesh"
+    },
+    "role": ["consonant"],
+    "text": "\u05E3"
+  },
+  {
+    "code": "p",
+    "link": "pe with dagesh",
+    "name": {
+      "head": "hebrew letter pe with dagesh"
+    },
+    "role": ["consonant"],
+    "text": "\u05E4"
+  },
+  {
+    "code": "F",
+    "link": "final pe",
+    "name": {
+      "head": "hebrew letter final pe",
+      "base": "פֵּא סוֹפִית"
+    },
+    "role": ["consonant"],
+    "text": "\u05E3\u05BC"
+  },
+  {
+    "code": "f",
+    "link": "pe",
+    "name": {
+      "head": "hebrew letter pe",
+      "base": "פֵּא"
+    },
+    "role": ["consonant"],
+    "text": "\u05E4\u05BC"
+  },
+  {
+    "code": "č",
+    "link": "tsadi with garesh",
+    "name": {
+      "head": "hebrew letter tsadi with garesh"
+    },
+    "role": ["consonant"],
+    "text": "\u05E6\u05F3"
+  },
+  {
+    "code": "Š",
+    "link": "final tsadi",
+    "name": {
+      "head": "hebrew letter final tsadi",
+      "base": "צָדִי סוֹפִית"
+    },
+    "role": ["consonant"],
+    "text": "\u05E5"
+  },
+  {
+    "code": "š",
+    "link": "tsadi",
+    "name": {
+      "head": "hebrew letter tsadi",
+      "base": "צָדִי"
+    },
+    "role": ["consonant"],
+    "text": "\u05E6"
+  },
+  {
+    "code": "q",
+    "link": "qof",
+    "name": {
+      "head": "hebrew letter qof",
+      "base": "קוֹף"
+    },
+    "role": ["consonant"],
+    "text": "\u05E7"
+  },
+  {
+    "code": "Ṙ",
+    "link": "resh with garesh",
+    "name": {
+      "head": "hebrew letter resh with garesh"
+    },
+    "role": ["consonant"],
+    "text": "\u05E8\u05F3"
+  },
+  {
+    "code": "ġ",
+    "link": "resh",
+    "name": {
+      "head": "hebrew letter resh",
+      "base": "רֵישׁ"
+    },
+    "role": ["consonant"],
+    "text": "\u05E8"
+  },
+  {
+    "code": "x",
+    "link": "shin with right dot",
+    "name": {
+      "head": "hebrew point shin with right dot"
+    },
+    "role": ["consonant"],
+    "text": "\u05E9\u05C1"
+  },
+  {
+    "code": "ṡ",
+    "link": "shin with left dot",
+    "name": {
+      "head": "hebrew point shin with left dot"
+    },
+    "role": ["consonant"],
+    "text": "\u05E9\u05C2"
+  },
+  {
+    "code": "ś",
+    "link": "shin",
+    "name": {
+      "head": "hebrew letter shin",
+      "base": "שִׁין"
+    },
+    "role": ["consonant"],
+    "text": "\u05E9"
+  },
+  {
+    "code": "ƫ",
+    "link": "tav with garesh",
+    "name": {
+      "head": "hebrew letter tav with garesh"
+    },
+    "role": ["consonant"],
+    "text": "\u05EA\u05F3"
+  },
+  {
+    "code": "t",
+    "link": "tav",
+    "name": {
+      "head": "hebrew letter tav",
+      "base": "תָּו"
+    },
+    "role": ["consonant"],
+    "text": "\u05EA"
+  },
+  {
+    "link": "yod triangle",
+    "name": {
+      "head": "hebrew yod triangle"
+    },
+    "role": ["sign"],
+    "text": "\u05EF"
+  },
+  {
+    "code": "ẅ",
+    "link": "ligature yiddish double vav",
+    "name": {
+      "head": "hebrew ligature yiddish double vav",
+      "base": "צַוַּי ווּאָון"
+    },
+    "role": ["vowel", "bound", "ligature"],
+    "text": "\u05F0"
+  },
+  {
+    "code": "ẇ",
+    "link": "ligature yiddish vav yod",
+    "name": {
+      "head": "hebrew ligature yiddish vav yod",
+      "base": "ווּ-יוֹד"
+    },
+    "role": ["vowel", "bound", "ligature"],
+    "text": "\u05F1"
+  },
+  {
+    "link": "ligature yiddish double yod",
+    "name": {
+      "head": "hebrew ligature yiddish double yod",
+      "base": "צַוַּי יוּדָן"
+    },
+    "role": ["vowel", "bound", "ligature"],
+    "text": "\u05F2"
+  },
+  {
+    "code": "ǧ",
+    "link": "gimel with garesh",
+    "name": {
+      "head": "hebrew letter gimel with geresh"
+    },
+    "role": ["consonant"],
+    "text": "\u05D2\u05F3"
+  },
+  {
+    "code": "‹",
+    "link": "garesh",
+    "name": {
+      "head": "hebrew punctuation geresh",
+      "base": "גֵּ֜רֵשׁ"
+    },
+    "role": ["punctuation"],
+    "text": "\u05F3"
+  },
+  {
+    "code": "«",
+    "link": "punctuation gershayim",
+    "name": {
+      "head": "hebrew punctuation gershayim",
+      "base": "גֵּרְשַׁ֞יִם"
+    },
+    "role": ["punctuation"],
+    "text": "\u05F4"
+  }
+]

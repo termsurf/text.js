@@ -31,6 +31,7 @@
     "eslint-plugin-typescript-sort-keys": "^2.1.0",
     "lodash": "^4.17.21",
     "prettier": "^2.8.1",
+    "sort-keys-recursive": "^2.1.10",
     "ts-node": "^10.9.1",
     "tsc-alias": "^1.8.2",
     "tsx": "^3.12.7",

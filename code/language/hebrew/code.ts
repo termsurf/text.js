@@ -1,31 +1,33 @@
 import { Map, Mark, build, transform } from '../base'
-import * as groups from './groups'
+import marks from './text.json'
 
-const boundVowelsToCode = groups.boundVowels.reduce(
-  (m: Map, x: Mark) => {
+const boundVowelsToCode = marks
+  .filter(x => x.role?.includes('vowel') && x.role.includes('bound'))
+  .reduce((m: Map, x: Mark) => {
     m[x.text] = x.code!
     return m
-  },
-  {},
-)
+  }, {})
 
-const consonantsToCode = groups.consonants.reduce((m: Map, x: Mark) => {
-  m[x.text] = x.code!
-  return m
-}, {})
-
-const punctuationsToCode = groups.punctuations.reduce(
-  (m: Map, x: Mark) => {
+const consonantsToCode = marks
+  .filter(x => x.role?.includes('consonant'))
+  .reduce((m: Map, x: Mark) => {
     m[x.text] = x.code!
     return m
-  },
-  {},
-)
+  }, {})
 
-const modifiersToCode = groups.modifiers.reduce((m: Map, x: Mark) => {
-  m[x.text] = x.code!
-  return m
-}, {})
+const punctuationsToCode = marks
+  .filter(x => x.role?.includes('punctuation'))
+  .reduce((m: Map, x: Mark) => {
+    m[x.text] = x.code!
+    return m
+  }, {})
+
+const modifiersToCode = marks
+  .filter(x => x.role?.includes('modifier'))
+  .reduce((m: Map, x: Mark) => {
+    m[x.text] = x.code!
+    return m
+  }, {})
 
 const mapToCode: Map = {
   ...boundVowelsToCode,
@@ -38,34 +40,33 @@ const treeToCode = build(mapToCode)
 
 export const to = (t: string) => transform(t, treeToCode, mapToCode)
 
-const boundVowelsFromCode = groups.boundVowels.reduce(
-  (m: Map, x: Mark) => {
+const boundVowelsFromCode = marks
+  .filter(x => x.role?.includes('vowel') && x.role.includes('bound'))
+  .reduce((m: Map, x: Mark) => {
     m[x.code!] = x.text
     return m
-  },
-  {},
-)
+  }, {})
 
-const consonantsFromCode = groups.consonants.reduce(
-  (m: Map, x: Mark) => {
+const consonantsFromCode = marks
+  .filter(x => x.role?.includes('consonant'))
+  .reduce((m: Map, x: Mark) => {
     m[x.code!] = x.text
     return m
-  },
-  {},
-)
+  }, {})
 
-const punctuationsFromCode = groups.punctuations.reduce(
-  (m: Map, x: Mark) => {
+const punctuationsFromCode = marks
+  .filter(x => x.role?.includes('punctuation'))
+  .reduce((m: Map, x: Mark) => {
     m[x.code!] = x.text
     return m
-  },
-  {},
-)
+  }, {})
 
-const modifiersFromCode = groups.modifiers.reduce((m: Map, x: Mark) => {
-  m[x.code!] = x.text
-  return m
-}, {})
+const modifiersFromCode = marks
+  .filter(x => x.role?.includes('modifier'))
+  .reduce((m: Map, x: Mark) => {
+    m[x.code!] = x.text
+    return m
+  }, {})
 
 const mapFromCode: Map = {
   ...boundVowelsFromCode,

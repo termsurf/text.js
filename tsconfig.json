@@ -15,7 +15,7 @@
     "noErrorTruncation": true,
     "types": ["node"],
     "typeRoots": ["node_modules/@types"],
-    "noImplicitAny": true,
+    "noImplicitAny": false,
     "declaration": true,
     "resolveJsonModule": true
   },
