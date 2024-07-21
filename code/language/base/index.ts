@@ -1,4 +1,7 @@
-export type Map = Record<string, string | ((m: Array<string>) => void)>
+export type Map = Record<
+  string,
+  string | ((m: Array<string>, n: string) => void)
+>
 
 export type Mark = {
   text: string // traditional text
@@ -75,7 +78,7 @@ export function transform(i: string, s: Tree, m: Map) {
     const k = m[z]
 
     if (typeof k == 'function') {
-      k(o)
+      k(o, i.slice(v))
     } else if (typeof k === 'string') {
       o.push(k)
     }

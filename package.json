@@ -1,6 +1,6 @@
 {
   "name": "@termsurf/text",
-  "version": "0.1.2",
+  "version": "0.1.4",
   "scripts": {
     "make": "tsc && tsc-alias",
     "move": "pnpm make && git add . && git commit -am 'save' && npm version patch && pnpm host && git push",
