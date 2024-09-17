@@ -56,19 +56,43 @@ detect([...'美丽的']) //=> { form: 'chinese', rank: 1 }
 
 For these languages you can currently call `make`:
 
-- akkadian
-- arabic
-- chinese
-- coptic
-- devanagari
-- finnish
-- french
-- geez
-- georgian
-- gothic
-- gujarati
-- gurmukhi
-- TODO...
+| language    | status |
+| :---------- | :----- |
+| akkadian    | ✔      |
+| arabic      | ✔      |
+| chinese     | ✔      |
+| coptic      | ✔      |
+| devanagari  | ✔      |
+| finnish     | ✔      |
+| french      | ✔      |
+| geez        | ✔      |
+| georgian    | ✔      |
+| gothic      | ✔      |
+| gujarati    | ✔      |
+| gurmukhi    | ✔      |
+| hebrew      | 🔧     |
+| irish       | 🔧     |
+| italian     | 🔧     |
+| japanese    | 🔧     |
+| kannada     | 🔧     |
+| korean      | 🔧     |
+| latin       | 🔧     |
+| malayalam   | 🔧     |
+| navajo      | 🔧     |
+| old-norse   | 🔧     |
+| old-persian | 🔧     |
+| oriya       | 🔧     |
+| pali        | 🔧     |
+| runic       | 🔧     |
+| swahili     | 🔧     |
+| tamil       | 🔧     |
+| telugu      | 🔧     |
+| thai        | 🔧     |
+| tibetan     | 🔧     |
+| turkish     | 🔧     |
+| ugaritic    | 🔧     |
+| vietnamese  | 🔧     |
+| welsh       | 🔧     |
 
 #### Arabic
 
