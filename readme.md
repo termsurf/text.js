@@ -17,7 +17,7 @@
 
 ## Welcome
 
-Talk is a TypeScript library which does a few things:
+**Text** is a TypeScript library which does a few things:
 
 1. **Transforms traditional orthography into Latin/Romanized text**,
    calling it ReadText, which maintains a one-to-one correspondence
@@ -28,13 +28,14 @@ Talk is a TypeScript library which does a few things:
    [ToneText](https://github.com/termsurf/tone), which is a unique and
    modern rune-like writing system for pronunciations.
 
-Caveat: It's not always possible to do transform traditional orthography
-into pronunciation text across every language, especially on a language
-like English, where it is impossible to generate pronunciation based on
-written words. You must memorize individual cases in English, and in
-some other languages. However, some languages do have the ability to get
-pretty close to correct pronunciation based purely on the native
-spelling, which is pretty cool. Taking advantage of that fact here!
+_Caveat: It's not always possible to do transform traditional
+orthography into pronunciation text across every language, especially on
+a language like English, where it is impossible to generate
+pronunciation based on written words. You must memorize individual cases
+in English, and in some other languages. However, some languages do have
+the ability to get pretty close to correct pronunciation based purely on
+the native spelling, which is pretty cool. Taking advantage of that fact
+here!_
 
 ## Goals
 
