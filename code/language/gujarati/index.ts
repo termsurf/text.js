@@ -1,4 +1,4 @@
-import { Map, build, transform } from '../base'
+import { Map, build, transform } from '~/language/base'
 
 const virama = '\u0D4d'
 

@@ -1,6 +1,6 @@
 // https://en.wikipedia.org/wiki/Gurmukhi
 
-import { Map, build, transform } from '../base'
+import { Map, build, transform } from '~/language/base'
 
 export const virama = '\u0A4d'
 export const tippi = '\u0a70'

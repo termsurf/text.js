@@ -1,4 +1,4 @@
-import { Map, build, transform } from '../base'
+import { Map, build, transform } from '~/language/base'
 
 export const vowels: Map = {
   i: 'i',

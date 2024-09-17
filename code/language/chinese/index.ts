@@ -1,6 +1,6 @@
 /* eslint-disable sort-keys/sort-keys-fix */
 
-import { build, transform } from '../base'
+import { build, transform } from '~/language/base'
 
 const map = {
   b: 'p',

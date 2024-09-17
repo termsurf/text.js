@@ -11,17 +11,25 @@
     "strict": true,
     "esModuleInterop": true,
     "noUncheckedIndexedAccess": true,
-    "baseUrl": ".",
+    "baseUrl": "code",
     "noErrorTruncation": true,
     "types": ["node"],
     "typeRoots": ["node_modules/@types"],
     "noImplicitAny": false,
     "declaration": true,
-    "resolveJsonModule": true
+    "resolveJsonModule": true,
+    "paths": {
+      "~/*": ["./*"]
+    }
   },
   "ts-node": {
     "files": true
   },
   "include": ["*.ts", "**/*.ts", "*.d.ts"],
-  "exclude": ["node_modules", "host", "tmp"]
+  "exclude": [
+    "node_modules",
+    "host",
+    "tmp",
+    "code/language/hebrew/**/*.ts"
+  ]
 }

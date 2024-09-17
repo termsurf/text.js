@@ -1,4 +1,4 @@
-import { Map, Mark, build, transform } from '../base'
+import { Map, Mark, build, transform } from '~/language/base'
 import marks from './symbols.json'
 
 const boundVowelsToCode = marks

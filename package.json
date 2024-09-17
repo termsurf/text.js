@@ -1,12 +1,12 @@
 {
   "name": "@termsurf/text",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "scripts": {
-    "make": "tsc && tsc-alias",
-    "move": "pnpm make && git add . && git commit -am 'save' && npm version patch && pnpm host && git push",
+    "toss": "rm -rf host",
+    "make": "pnpm toss && tsc && tsc-alias && cp package.json host/code/package.json",
     "scan": "concurrently --kill-others \"tsc -w\" \"tsc-alias -w\"",
     "test": "tsx test.ts",
-    "host": "rm -rf host && pnpm make && npm publish --access=public"
+    "host": "pnpm make && cd host/code && npm publish --access=public"
   },
   "devDependencies": {
     "@trivago/prettier-plugin-sort-imports": "^4.0.0",

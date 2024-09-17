@@ -7,7 +7,7 @@
 // https://github.com/Sandhi-IITBombay/Shobhika
 // https://github.com/Omnibus-Type/Jaldi
 
-import { build, transform } from '../base'
+import { build, transform } from '~/language/base'
 
 const CLUSTER_PATTERN =
   /^(bl|br|dr|dw|fl|fr|gl|gr|kl|kr|kw|pl|pr|sk|skr|skw|sl|sm|sn|sp|spl|spr|st|str|sw|xr|tr|tw)/

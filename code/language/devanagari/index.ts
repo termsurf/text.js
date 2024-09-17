@@ -1,4 +1,4 @@
-import { Map, Mark, build, transform } from '../base'
+import { Map, Mark, build, transform } from '~/language/base'
 import symbols from './symbols.json'
 
 export const consonants = symbols.filter(x =>

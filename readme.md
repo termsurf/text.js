@@ -36,6 +36,12 @@ some other languages. However, some languages do have the ability to get
 pretty close to correct pronunciation based purely on the native
 spelling, which is pretty cool. Taking advantage of that fact here!
 
+## Installation
+
+```bash
+npm install @termsurf/text
+```
+
 ## Table of Languages
 
 Here is a table explaining which languages we've looked at so far which
@@ -66,20 +72,6 @@ can and can't have pronunciations automatically done.
   for various languages.
 - Have structured script data, such as what are the vowels, etc..
 - Script detection.
-
-```ts
-export type Mark = {
-  text: string // traditional text
-  code: string // romanized orthography mapping
-  talk: string // pronunciation text
-  name?: {
-    base?: string // Traditional name
-    head: string // English
-    link: string // Slug English.
-  }
-  role: Array<string> | string // vowel, punctuation, etc..
-}
-```
 
 ## License
 

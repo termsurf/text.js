@@ -1,4 +1,4 @@
-import { build, transform } from '../base'
+import { build, transform } from '~/language/base'
 import symbolsBase from './symbols.json'
 
 const numeralsMap = {

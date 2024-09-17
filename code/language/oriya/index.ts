@@ -1,6 +1,6 @@
 const x = {}
 export default x
-// import { build, transform } from '../base'
+// import { build, transform } from '~/language/base'
 
 // const virama = '\u0B4d'
 

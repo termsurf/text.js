@@ -1,7 +1,7 @@
 /* eslint-disable sort-keys/sort-keys-fix */
 // https://en.wiktionary.org/wiki/Category:Gothic_terms_with_IPA_pronunciation
 
-import { build, transform } from '../base'
+import { build, transform } from '~/language/base'
 import symbolsBase from './symbols.json'
 
 const map = {

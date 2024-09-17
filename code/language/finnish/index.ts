@@ -1,5 +1,5 @@
 /* eslint-disable sort-keys/sort-keys-fix */
-import { Map, build, transform } from '../base'
+import { Map, build, transform } from '~/language/base'
 
 /**
  * Finnish.
