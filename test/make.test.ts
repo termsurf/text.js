@@ -1,5 +1,10 @@
 import makeChinese from '~/system/chinese'
 import makeArabic from '~/system/arabic'
+import makeTibetanWylie from '~/system/tibetan/wylie/to'
+import makeWylieTibetan from '~/system/tibetan/wylie/from'
 
 console.log(makeChinese('měi lì de'))
 console.log(makeArabic('جَمِيل'))
+
+console.log(makeTibetanWylie('རིག་པ་'))
+console.log(makeWylieTibetan('rig pa'))

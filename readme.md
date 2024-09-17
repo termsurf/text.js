@@ -128,6 +128,16 @@ import make from '@termsurf/text/system/chinese'
 make('měi lì de') //=> "me\\/i li\\ tO"
 ```
 
+#### Tibetan
+
+```ts
+import toWylie from '@termsurf/text/system/tibetan/wylie/to'
+import fromWylie from '@termsurf/text/system/tibetan/wylie/from'
+
+toWylie('རིག་པ་') //=> "rig pa"
+fromWylie('rig pa') //=> "རིག་པ"
+```
+
 ## Derivable Pronunciations
 
 Here is a table explaining which languages we've looked at so far which

@@ -249,9 +249,9 @@ export const characters: Record<string, string> = {
 
 const s = build(characters)
 
-const form = (t: string) => transform(t, s, characters)
+const make = (t: string) => transform(t, s, characters)
 
-export default form
+export default make
 
 export const clusters = getClusters()
 
