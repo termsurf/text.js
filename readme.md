@@ -159,9 +159,10 @@ convert it into a format compatible with
 [ToneText](https://github.com/termsurf/tone) fonts.
 
 ```ts
+import talk from '@termsurf/text/system/chinese'
 import tone from '@termsurf/tone'
 
-tone('měi lì de') //=> "me8i li6 tO"
+tone(talk('měi lì de')) //=> "me8i li6 tO"
 ```
 
 ...which is [rendered](https://tone.surf) as:
