@@ -109,7 +109,7 @@ import make, {
   vowels,
   boundVowels,
   consonants,
-} from '@termsurf/text/system/arabic'
+} from '@termsurf/text/arabic'
 
 make('جَمِيل') //=> "djami_l"
 
@@ -119,7 +119,7 @@ vowels.forEach(console.log)
 #### Chinese
 
 ```ts
-import make from '@termsurf/text/system/chinese'
+import make from '@termsurf/text/chinese'
 
 make('měi lì de') //=> "me\\/i li\\ tO"
 ```
@@ -127,8 +127,8 @@ make('měi lì de') //=> "me\\/i li\\ tO"
 #### Tibetan
 
 ```ts
-import toWylie from '@termsurf/text/system/tibetan/wylie/to'
-import fromWylie from '@termsurf/text/system/tibetan/wylie/from'
+import toWylie from '@termsurf/text/tibetan/wylie/to'
+import fromWylie from '@termsurf/text/tibetan/wylie/from'
 
 toWylie('རིག་པ་') //=> "rig pa"
 fromWylie('rig pa') //=> "རིག་པ"
@@ -155,7 +155,7 @@ convert it into a format compatible with
 [ToneText](https://github.com/termsurf/tone) fonts.
 
 ```ts
-import talk from '@termsurf/text/system/chinese'
+import talk from '@termsurf/text/chinese'
 import tone from '@termsurf/tone'
 
 tone(talk('měi lì de')) //=> "me8i li6 tO"

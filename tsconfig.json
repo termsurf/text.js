@@ -26,10 +26,5 @@
     "files": true
   },
   "include": ["*.ts", "**/*.ts", "*.d.ts"],
-  "exclude": [
-    "node_modules",
-    "host",
-    "tmp",
-    "code/language/hebrew/**/*.ts"
-  ]
+  "exclude": ["node_modules", "host", "tmp", "code/hebrew/**/*.ts"]
 }

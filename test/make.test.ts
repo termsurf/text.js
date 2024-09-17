@@ -1,7 +1,7 @@
-import makeChinese from '~/system/chinese'
-import makeArabic from '~/system/arabic'
-import makeTibetanWylie from '~/system/tibetan/wylie/to'
-import makeWylieTibetan from '~/system/tibetan/wylie/from'
+import makeChinese from '~/chinese'
+import makeArabic from '~/arabic'
+import makeTibetanWylie from '~/tibetan/wylie/to'
+import makeWylieTibetan from '~/tibetan/wylie/from'
 import tone from '@termsurf/tone'
 import talk from '@termsurf/talk'
 
