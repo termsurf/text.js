@@ -11,5 +11,5 @@ console.log(makeArabic('جَمِيل'))
 console.log(makeTibetanWylie('རིག་པ་'))
 console.log(makeWylieTibetan('rig pa'))
 
-console.log(tone('rIg ph~a'))
+console.log(tone(makeChinese('měi lì de')))
 console.log(talk('rIg ph~a'))

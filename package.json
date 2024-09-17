@@ -10,7 +10,7 @@
   },
   "devDependencies": {
     "@termsurf/talk": "^3.1.0",
-    "@termsurf/tone": "^3.3.0",
+    "@termsurf/tone": "^3.3.4",
     "@trivago/prettier-plugin-sort-imports": "^4.0.0",
     "@types/lodash": "^4.17.7",
     "@types/node": "^18.11.17",

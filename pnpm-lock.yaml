@@ -16,8 +16,8 @@ importers:
         specifier: ^3.1.0
         version: 3.1.0
       '@termsurf/tone':
-        specifier: ^3.3.0
-        version: 3.3.0
+        specifier: ^3.3.4
+        version: 3.3.4
       '@trivago/prettier-plugin-sort-imports':
         specifier: ^4.0.0
         version: 4.0.0(@vue/compiler-sfc@3.3.4)(prettier@2.8.1)
@@ -427,8 +427,8 @@ packages:
   '@termsurf/talk@3.1.0':
     resolution: {integrity: sha512-APkxJrFk1UVDeYZ8DoP27hHiQ6UtgX7ul3slMIy4cVQkWc8qufpI1570JysiU2/CnwUbSr663jUnNsAQ/oArjA==}
 
-  '@termsurf/tone@3.3.0':
-    resolution: {integrity: sha512-heK4GlgqnBKULJdmPJKl2N04zEX0/0UGe9/y1xRdTBYWNkXzSAI98FYPMUsN6zpYKyrIfrL4D55iiTLb1H7kzw==}
+  '@termsurf/tone@3.3.4':
+    resolution: {integrity: sha512-Agr/xwNyN9zidMWYkzB9pDu0mVtieYf1vex5++xG+LbO9fpFHoaZc90G6/0t+Xm5uIjca2FXABFbuWpR3aGAIg==}
 
   '@trivago/prettier-plugin-sort-imports@4.0.0':
     resolution: {integrity: sha512-Tyuk5ZY4a0e2MNFLdluQO9F6d1awFQYXVVujEPFfvKPPXz8DADNHzz73NMhwCSXGSuGGZcA/rKOyZBrxVNMxaA==}
@@ -2223,7 +2223,7 @@ snapshots:
     dependencies:
       '@lancejpollard/script-tree': 1.1.2
 
-  '@termsurf/tone@3.3.0':
+  '@termsurf/tone@3.3.4':
     dependencies:
       '@lancejpollard/script-tree': 1.1.2
 

@@ -162,8 +162,12 @@ human readable, it's for the font format).
 ```ts
 import tone from '@termsurf/tone'
 
-tone('rIg ph~a') //=> "rIg p%a"
+tone('měi lì de') //=> "me8i li6 tO"
 ```
+
+<p align='center'>
+  <img src="https://github.com/termsurf/text.js/tree/make/view/tone-example.png?raw=true" width="360" />
+</p>
 
 ## Derivable Pronunciations
 
