@@ -138,6 +138,33 @@ toWylie('རིག་པ་') //=> "rig pa"
 fromWylie('rig pa') //=> "རིག་པ"
 ```
 
+## Integrations
+
+### Talk
+
+Take the generated [TalkText](https://github.com/termsurf/talk) (the
+ASCII output from the base `make` calls), and convert it into a more
+compact, human readable, "simplified" form.
+
+```ts
+import talk from '@termsurf/talk'
+
+talk('rIg ph~a') //=> "ṙịg pɦa"
+```
+
+### Tone
+
+Take the generated [TalkText](https://github.com/termsurf/talk) and
+convert it into a format compatible with
+[ToneText](https://github.com/termsurf/tone) fonts (this isn't really
+human readable, it's for the font format).
+
+```ts
+import tone from '@termsurf/tone'
+
+tone('rIg ph~a') //=> "rIg p%a"
+```
+
 ## Derivable Pronunciations
 
 Here is a table explaining which languages we've looked at so far which

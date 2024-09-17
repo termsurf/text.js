@@ -12,6 +12,12 @@ importers:
         specifier: ^1.0.1
         version: 1.0.1
     devDependencies:
+      '@termsurf/talk':
+        specifier: ^3.1.0
+        version: 3.1.0
+      '@termsurf/tone':
+        specifier: ^3.3.0
+        version: 3.3.0
       '@trivago/prettier-plugin-sort-imports':
         specifier: ^4.0.0
         version: 4.0.0(@vue/compiler-sfc@3.3.4)(prettier@2.8.1)
@@ -399,6 +405,9 @@ packages:
   '@jridgewell/trace-mapping@0.3.9':
     resolution: {integrity: sha512-3Belt6tdc8bPgAtbcmdtNJlirVoTmEb5e2gC94PnkwEW9jI6CAHUeoG85tjWP5WquqfavoMtMwiG4P926ZKKuQ==}
 
+  '@lancejpollard/script-tree@1.1.2':
+    resolution: {integrity: sha512-DFszYrcy0hZOwKi1orH3usMt+bV17TzKe2OUCwGp+qs/HWzT5NSay+0iS5QmagAy3HxabSRw7WX/5WU/5bNsjw==}
+
   '@nodelib/fs.scandir@2.1.5':
     resolution: {integrity: sha512-vq24Bq3ym5HEQm2NKCr3yXDwjc7vTsEThRDnkp2DK9p1uqLR+DHurm/NOTo0KG7HYHU7eppKZj3MyqYuMBf62g==}
     engines: {node: '>= 8'}
@@ -414,6 +423,12 @@ packages:
   '@pkgr/utils@2.4.2':
     resolution: {integrity: sha512-POgTXhjrTfbTV63DiFXav4lBHiICLKKwDeaKn9Nphwj7WH6m0hMMCaJkMyRWjgtPFyRKRVoMXXjczsTQRDEhYw==}
     engines: {node: ^12.20.0 || ^14.18.0 || >=16.0.0}
+
+  '@termsurf/talk@3.1.0':
+    resolution: {integrity: sha512-APkxJrFk1UVDeYZ8DoP27hHiQ6UtgX7ul3slMIy4cVQkWc8qufpI1570JysiU2/CnwUbSr663jUnNsAQ/oArjA==}
+
+  '@termsurf/tone@3.3.0':
+    resolution: {integrity: sha512-heK4GlgqnBKULJdmPJKl2N04zEX0/0UGe9/y1xRdTBYWNkXzSAI98FYPMUsN6zpYKyrIfrL4D55iiTLb1H7kzw==}
 
   '@trivago/prettier-plugin-sort-imports@4.0.0':
     resolution: {integrity: sha512-Tyuk5ZY4a0e2MNFLdluQO9F6d1awFQYXVVujEPFfvKPPXz8DADNHzz73NMhwCSXGSuGGZcA/rKOyZBrxVNMxaA==}
@@ -2181,6 +2196,8 @@ snapshots:
       '@jridgewell/resolve-uri': 3.1.1
       '@jridgewell/sourcemap-codec': 1.4.15
 
+  '@lancejpollard/script-tree@1.1.2': {}
+
   '@nodelib/fs.scandir@2.1.5':
     dependencies:
       '@nodelib/fs.stat': 2.0.5
@@ -2201,6 +2218,14 @@ snapshots:
       open: 9.1.0
       picocolors: 1.0.0
       tslib: 2.6.2
+
+  '@termsurf/talk@3.1.0':
+    dependencies:
+      '@lancejpollard/script-tree': 1.1.2
+
+  '@termsurf/tone@3.3.0':
+    dependencies:
+      '@lancejpollard/script-tree': 1.1.2
 
   '@trivago/prettier-plugin-sort-imports@4.0.0(@vue/compiler-sfc@3.3.4)(prettier@2.8.1)':
     dependencies:
