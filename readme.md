@@ -17,16 +17,11 @@
 
 ## Welcome
 
-**Text** is a TypeScript library which does a few things:
-
-1. **Transforms traditional orthography into Latin/Romanized text**,
-   calling it ReadText, which maintains a one-to-one correspondence
-   between the original script and the Latin script, where possible
-   (i.e. not for Chinese, where Pinyin already exists).
-2. **Transforms traditional orthography into pronunciation text**,
-   calling it TalkText. TalkText can be used to render
-   [ToneText](https://github.com/termsurf/tone), which is a unique and
-   modern rune-like writing system for pronunciations.
+**Text** is a TypeScript library which **transforms traditional
+orthography into Latin/Romanized text**, using the
+[Talk](https://github.com/termsurf/talk) spec. TalkText can be used to
+render [Tone](https://github.com/termsurf/tone), which is a unique and
+modern rune-like writing system for pronunciations.
 
 _Caveat: It's not always possible to do transform traditional
 orthography into pronunciation text across every language, especially on
