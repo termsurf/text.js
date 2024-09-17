@@ -164,7 +164,7 @@ import tone from '@termsurf/tone'
 tone('měi lì de') //=> "me8i li6 tO"
 ```
 
-...which is rendered as:
+...which is [rendered](https://tone.surf) as:
 
 <p align='center'>
   <img src="https://github.com/termsurf/text.js/blob/make/view/tone-example.png?raw=true" width="360" />
