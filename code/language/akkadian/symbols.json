@@ -1,0 +1,299 @@
+[
+  {
+    "text": "b",
+    "name": {
+      "head": "latin letter b"
+    },
+    "talk": "b",
+    "roles": ["consonant"],
+    "link": "letter b"
+  },
+  {
+    "text": "d",
+    "name": {
+      "head": "latin letter d"
+    },
+    "talk": "d",
+    "roles": ["consonant"],
+    "link": "letter d"
+  },
+  {
+    "text": "g",
+    "name": {
+      "head": "latin letter g"
+    },
+    "talk": "g",
+    "roles": ["consonant"],
+    "link": "letter g"
+  },
+  {
+    "text": "ḫ",
+    "name": {
+      "head": "latin letter ḫ"
+    },
+    "talk": "H",
+    "roles": ["consonant"],
+    "link": "letter ḫ"
+  },
+  {
+    "text": "k",
+    "name": {
+      "head": "latin letter k"
+    },
+    "talk": "k",
+    "roles": ["consonant"],
+    "link": "letter k"
+  },
+  {
+    "text": "l",
+    "name": {
+      "head": "latin letter l"
+    },
+    "talk": "l",
+    "roles": ["consonant"],
+    "link": "letter l"
+  },
+  {
+    "text": "m",
+    "name": {
+      "head": "latin letter m"
+    },
+    "talk": "m",
+    "roles": ["consonant"],
+    "link": "letter m"
+  },
+  {
+    "text": "n",
+    "name": {
+      "head": "latin letter n"
+    },
+    "talk": "n",
+    "roles": ["consonant"],
+    "link": "letter n"
+  },
+  {
+    "text": "p",
+    "name": {
+      "head": "latin letter p"
+    },
+    "talk": "p",
+    "roles": ["consonant"],
+    "link": "letter p"
+  },
+  {
+    "text": "q",
+    "name": {
+      "head": "latin letter q"
+    },
+    "talk": "K",
+    "roles": ["consonant"],
+    "link": "letter q"
+  },
+  {
+    "text": "r",
+    "name": {
+      "head": "latin letter r"
+    },
+    "talk": "r",
+    "roles": ["consonant"],
+    "link": "letter r"
+  },
+  {
+    "text": "s",
+    "name": {
+      "head": "latin letter s"
+    },
+    "talk": "s",
+    "roles": ["consonant"],
+    "link": "letter s"
+  },
+  {
+    "text": "ṣ",
+    "name": {
+      "head": "latin letter s with dot"
+    },
+    "talk": "sQ~",
+    "roles": ["consonant"],
+    "link": "letter s with dot"
+  },
+  {
+    "text": "š",
+    "name": {
+      "head": "latin letter s with caron"
+    },
+    "talk": "x",
+    "roles": ["consonant"],
+    "link": "letter s with caron"
+  },
+  {
+    "text": "t",
+    "name": {
+      "head": "latin letter t"
+    },
+    "talk": "t",
+    "roles": ["consonant"],
+    "link": "letter t"
+  },
+  {
+    "text": "ṭ",
+    "name": {
+      "head": "latin letter t with dot"
+    },
+    "talk": "tQ~",
+    "roles": ["consonant"],
+    "link": "letter t with dot"
+  },
+  {
+    "text": "w",
+    "name": {
+      "head": "latin letter w"
+    },
+    "talk": "w",
+    "roles": ["consonant"],
+    "link": "letter w"
+  },
+  {
+    "text": "y",
+    "name": {
+      "head": "latin letter y"
+    },
+    "talk": "y",
+    "roles": ["consonant"],
+    "link": "letter y"
+  },
+  {
+    "text": "z",
+    "name": {
+      "head": "latin letter z"
+    },
+    "talk": "z",
+    "roles": ["consonant"],
+    "link": "letter z"
+  },
+  {
+    "text": "ŋ",
+    "name": {
+      "head": "latin letter eng"
+    },
+    "talk": "q",
+    "roles": ["consonant"],
+    "link": "letter eng"
+  },
+  {
+    "text": "ʾ",
+    "name": {
+      "head": "modifier letter right half ring"
+    },
+    "talk": "'",
+    "roles": ["consonant"],
+    "link": "right half ring"
+  },
+  {
+    "text": "a",
+    "name": {
+      "head": "latin letter a"
+    },
+    "talk": "a",
+    "link": "letter a",
+    "roles": ["vowel"]
+  },
+  {
+    "text": "ā",
+    "name": {
+      "head": "latin letter a with macron"
+    },
+    "talk": "a",
+    "link": "letter a with macron",
+    "roles": ["vowel"]
+  },
+  {
+    "text": "â",
+    "name": {
+      "head": "latin letter a with circumflex"
+    },
+    "talk": "a",
+    "link": "letter a with circumflex",
+    "roles": ["vowel"]
+  },
+  {
+    "text": "e",
+    "name": {
+      "head": "latin letter e"
+    },
+    "talk": "E",
+    "link": "letter e",
+    "roles": ["vowel"]
+  },
+  {
+    "text": "ē",
+    "name": {
+      "head": "latin letter e with macron"
+    },
+    "talk": "e",
+    "link": "letter e with macron",
+    "roles": ["vowel"]
+  },
+  {
+    "text": "ê",
+    "name": {
+      "head": "latin letter e with circumflex"
+    },
+    "talk": "e",
+    "link": "letter e with circumflex",
+    "roles": ["vowel"]
+  },
+  {
+    "text": "i",
+    "name": {
+      "head": "latin letter i"
+    },
+    "talk": "I",
+    "link": "letter i",
+    "roles": ["vowel"]
+  },
+  {
+    "text": "ī",
+    "name": {
+      "head": "latin letter i with macron"
+    },
+    "talk": "i",
+    "link": "letter i with macron",
+    "roles": ["vowel"]
+  },
+  {
+    "text": "î",
+    "name": {
+      "head": "latin letter i with circumflex"
+    },
+    "talk": "i",
+    "link": "letter i with circumflex",
+    "roles": ["vowel"]
+  },
+  {
+    "text": "u",
+    "name": {
+      "head": "latin letter u"
+    },
+    "talk": "O",
+    "link": "letter u",
+    "roles": ["vowel"]
+  },
+  {
+    "text": "ū",
+    "name": {
+      "head": "latin letter u with macron"
+    },
+    "talk": "u",
+    "link": "letter u with macron",
+    "roles": ["vowel"]
+  },
+  {
+    "text": "û",
+    "name": {
+      "head": "latin letter u with circumflex"
+    },
+    "talk": "u",
+    "link": "letter u with circumflex",
+    "roles": ["vowel"]
+  }
+]

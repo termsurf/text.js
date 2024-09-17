@@ -1,231 +1,168 @@
 [
   {
-    "role": [
-      "vowel"
-    ],
+    "roles": ["vowel"],
     "text": "\u0904",
     "talk": "a!",
-    "code": "Ạ",
     "name": {
       "head": "devanagari letter short a"
     }
   },
   {
-    "role": [
-      "vowel"
-    ],
+    "roles": ["vowel"],
     "text": "\u0905",
     "talk": "a",
-    "code": "A",
     "name": {
       "head": "devanagari letter a"
     }
   },
   {
-    "role": [
-      "vowel"
-    ],
+    "roles": ["vowel"],
     "text": "\u0905",
     "talk": "H",
-    "code": "ḥ",
     "name": {
       "head": "devanagari letter a"
     }
   },
   {
-    "role": [
-      "vowel"
-    ],
+    "roles": ["vowel"],
     "text": "\u0906",
     "talk": "a_",
-    "code": "Ā",
     "name": {
       "head": "devanagari letter aa"
     }
   },
   {
-    "role": [
-      "vowel"
-    ],
+    "roles": ["vowel"],
     "text": "\u0907",
     "talk": "i",
-    "code": "I",
     "name": {
       "head": "devanagari letter i"
     }
   },
   {
-    "role": [
-      "vowel"
-    ],
+    "roles": ["vowel"],
     "text": "\u0908",
     "talk": "i_",
-    "code": "Ī",
     "name": {
       "head": "devanagari letter ii"
     }
   },
   {
-    "role": [
-      "vowel"
-    ],
+    "roles": ["vowel"],
     "text": "\u0909",
     "talk": "u",
-    "code": "U",
     "name": {
       "head": "devanagari letter u"
     }
   },
   {
-    "role": [
-      "vowel"
-    ],
+    "roles": ["vowel"],
     "text": "\u090A",
     "talk": "u_",
-    "code": "Ū",
     "name": {
       "head": "devanagari letter uu"
     }
   },
   {
-    "role": [
-      "vowel"
-    ],
+    "roles": ["vowel"],
     "text": "\u090B",
     "talk": "u$",
-    "code": "Ṛ",
     "name": {
       "head": "devanagari letter vocalic r"
     }
   },
   {
-    "role": [
-      "vowel"
-    ],
+    "roles": ["vowel"],
     "text": "\u090C",
     "talk": "l",
-    "code": "Ḷ",
     "name": {
       "head": "devanagari letter vocalic l"
     }
   },
   {
-    "role": [
-      "vowel"
-    ],
+    "roles": ["vowel"],
     "text": "\u090D",
     "talk": "A",
-    "code": "Ê",
     "name": {
       "head": "devanagari letter candra e"
     }
   },
   {
-    "role": [
-      "vowel"
-    ],
+    "roles": ["vowel"],
     "text": "\u090F",
     "talk": "e_",
-    "code": "E",
     "name": {
       "head": "devanagari letter e"
     }
   },
   {
-    "role": [
-      "vowel"
-    ],
+    "roles": ["vowel"],
     "text": "\u090E",
     "talk": "e!",
-    "code": "Ė",
     "name": {
       "head": "devanagari letter short e"
     }
   },
   {
-    "role": [
-      "vowel"
-    ],
+    "roles": ["vowel"],
     "text": "\u0910",
     "talk": "ai",
-    "code": "Î",
     "name": {
       "head": "devanagari letter ai"
     }
   },
   {
-    "role": [
-      "vowel"
-    ],
+    "roles": ["vowel"],
     "text": "\u0911",
     "talk": "o",
-    "code": "Ȯ",
     "name": {
       "head": "devanagari letter candra o"
     }
   },
   {
-    "role": [
-      "vowel"
-    ],
+    "roles": ["vowel"],
     "text": "\u0912",
     "talk": "o!",
-    "code": "Ó",
     "name": {
       "head": "devanagari letter short o"
     }
   },
   {
-    "role": [
-      "vowel"
-    ],
+    "roles": ["vowel"],
     "text": "\u0913",
     "talk": "o",
-    "code": "O",
     "name": {
       "head": "devanagari letter o"
     }
   },
   {
-    "role": [
-      "vowel"
-    ],
+    "roles": ["vowel"],
     "text": "\u0914",
     "talk": "au",
-    "code": "Ü",
     "name": {
       "head": "devanagari letter au"
     }
   },
   {
-    "role": [
-      "vowel"
-    ],
+    "roles": ["vowel"],
     "text": "\u0960",
     "talk": "u$_",
-    "code": "Ṝ",
     "name": {
       "head": "devanagari letter vocalic rr"
     }
   },
   {
-    "role": [
-      "vowel"
-    ],
+    "roles": ["vowel"],
     "text": "\u0961",
     "talk": "ll",
-    "code": "Ḹ",
     "name": {
       "head": "devanagari letter vocalic ll"
     }
   },
   {
-    "role": [
-      "vowel"
-    ],
+    "roles": ["vowel"],
     "text": "\u0972",
     "talk": "A",
-    "code": "Á",
     "name": {
       "head": "devanagari letter candra a"
     }
@@ -233,11 +170,7 @@
   {
     "text": "\u093A",
     "talk": "oe",
-    "code": "ô",
-    "role": [
-      "vowel",
-      "bound"
-    ],
+    "roles": ["vowel", "bound"],
     "name": {
       "head": "devanagari vowel sign oe"
     }
@@ -245,11 +178,7 @@
   {
     "text": "\u093B",
     "talk": "o_e",
-    "code": "ō̂",
-    "role": [
-      "vowel",
-      "bound"
-    ],
+    "roles": ["vowel", "bound"],
     "name": {
       "head": "devanagari vowel sign ooe"
     }
@@ -257,11 +186,7 @@
   {
     "text": "\u093E",
     "talk": "a_",
-    "code": "ā",
-    "role": [
-      "vowel",
-      "bound"
-    ],
+    "roles": ["vowel", "bound"],
     "name": {
       "head": "devanagari vowel sign aa"
     }
@@ -269,11 +194,7 @@
   {
     "text": "\u093F",
     "talk": "i",
-    "code": "i",
-    "role": [
-      "vowel",
-      "bound"
-    ],
+    "roles": ["vowel", "bound"],
     "name": {
       "head": "devanagari vowel sign i"
     }
@@ -281,11 +202,7 @@
   {
     "text": "\u0940",
     "talk": "i_",
-    "code": "ī",
-    "role": [
-      "vowel",
-      "bound"
-    ],
+    "roles": ["vowel", "bound"],
     "name": {
       "head": "devanagari vowel sign ii"
     }
@@ -293,11 +210,7 @@
   {
     "text": "\u0941",
     "talk": "u",
-    "code": "u",
-    "role": [
-      "vowel",
-      "bound"
-    ],
+    "roles": ["vowel", "bound"],
     "name": {
       "head": "devanagari vowel sign u"
     }
@@ -305,11 +218,7 @@
   {
     "text": "\u0942",
     "talk": "u_",
-    "code": "ū",
-    "role": [
-      "vowel",
-      "bound"
-    ],
+    "roles": ["vowel", "bound"],
     "name": {
       "head": "devanagari vowel sign uu"
     }
@@ -317,11 +226,7 @@
   {
     "text": "\u0943",
     "talk": "u$",
-    "code": "ṛ",
-    "role": [
-      "vowel",
-      "bound"
-    ],
+    "roles": ["vowel", "bound"],
     "name": {
       "head": "devanagari vowel sign vocalic r"
     }
@@ -329,11 +234,7 @@
   {
     "text": "\u0944",
     "talk": "u$_",
-    "code": "ṝ",
-    "role": [
-      "vowel",
-      "bound"
-    ],
+    "roles": ["vowel", "bound"],
     "name": {
       "head": "devanagari vowel sign vocalic rr"
     }
@@ -341,11 +242,7 @@
   {
     "text": "\u0945",
     "talk": "A",
-    "code": "ê",
-    "role": [
-      "vowel",
-      "bound"
-    ],
+    "roles": ["vowel", "bound"],
     "name": {
       "head": "devanagari vowel sign candra e"
     }
@@ -353,11 +250,7 @@
   {
     "text": "\u0946",
     "talk": "e!",
-    "code": "ė",
-    "role": [
-      "vowel",
-      "bound"
-    ],
+    "roles": ["vowel", "bound"],
     "name": {
       "head": "devanagari vowel sign short e"
     }
@@ -365,11 +258,7 @@
   {
     "text": "\u0947",
     "talk": "e_",
-    "code": "e",
-    "role": [
-      "vowel",
-      "bound"
-    ],
+    "roles": ["vowel", "bound"],
     "name": {
       "head": "devanagari vowel sign e"
     }
@@ -377,11 +266,7 @@
   {
     "text": "\u0948",
     "talk": "ai",
-    "code": "î",
-    "role": [
-      "vowel",
-      "bound"
-    ],
+    "roles": ["vowel", "bound"],
     "name": {
       "head": "devanagari vowel sign ai"
     }
@@ -389,11 +274,7 @@
   {
     "text": "\u0949",
     "talk": "o",
-    "code": "ȯ",
-    "role": [
-      "vowel",
-      "bound"
-    ],
+    "roles": ["vowel", "bound"],
     "name": {
       "head": "devanagari vowel sign candra o"
     }
@@ -401,11 +282,7 @@
   {
     "text": "\u094A",
     "talk": "o!",
-    "code": "ó",
-    "role": [
-      "vowel",
-      "bound"
-    ],
+    "roles": ["vowel", "bound"],
     "name": {
       "head": "devanagari vowel sign short o"
     }
@@ -413,11 +290,7 @@
   {
     "text": "\u094B",
     "talk": "o",
-    "code": "o",
-    "role": [
-      "vowel",
-      "bound"
-    ],
+    "roles": ["vowel", "bound"],
     "name": {
       "head": "devanagari vowel sign o"
     }
@@ -425,11 +298,7 @@
   {
     "text": "\u094C",
     "talk": "au",
-    "code": "ü",
-    "role": [
-      "vowel",
-      "bound"
-    ],
+    "roles": ["vowel", "bound"],
     "name": {
       "head": "devanagari vowel sign au"
     }
@@ -437,11 +306,7 @@
   {
     "text": "\u094E",
     "talk": "e",
-    "code": "ë",
-    "role": [
-      "vowel",
-      "bound"
-    ],
+    "roles": ["vowel", "bound"],
     "name": {
       "head": "devanagari vowel sign prishthamatra e"
     }
@@ -449,11 +314,7 @@
   {
     "text": "\u094F",
     "talk": "a",
-    "code": "ä",
-    "role": [
-      "vowel",
-      "bound"
-    ],
+    "roles": ["vowel", "bound"],
     "name": {
       "head": "devanagari vowel sign aw"
     }
@@ -461,11 +322,7 @@
   {
     "text": "\u0955",
     "talk": "e_",
-    "code": "ē",
-    "role": [
-      "vowel",
-      "bound"
-    ],
+    "roles": ["vowel", "bound"],
     "name": {
       "head": "devanagari vowel sign candra long e"
     }
@@ -473,11 +330,7 @@
   {
     "text": "\u0956",
     "talk": "ue",
-    "code": "é",
-    "role": [
-      "vowel",
-      "bound"
-    ],
+    "roles": ["vowel", "bound"],
     "name": {
       "head": "devanagari vowel sign ue"
     }
@@ -485,11 +338,7 @@
   {
     "text": "\u0962",
     "talk": "l",
-    "code": "ḷ",
-    "role": [
-      "vowel",
-      "bound"
-    ],
+    "roles": ["vowel", "bound"],
     "name": {
       "head": "devanagari vowel sign vocalic l"
     }
@@ -497,11 +346,7 @@
   {
     "text": "\u0963",
     "talk": "ll",
-    "code": "ḹ",
-    "role": [
-      "vowel",
-      "bound"
-    ],
+    "roles": ["vowel", "bound"],
     "name": {
       "head": "devanagari vowel sign vocalic ll"
     }
@@ -513,9 +358,7 @@
       "head": "devanagari sign virama"
     },
     "text": "\u094D",
-    "role": [
-      "modifier"
-    ]
+    "roles": ["modifier"]
   },
   {
     "name": {
@@ -525,10 +368,7 @@
     },
     "text": "\u0902",
     "talk": "&",
-    "code": "ṁ",
-    "role": [
-      "modifier"
-    ]
+    "roles": ["modifier"]
   },
   {
     "name": {
@@ -538,10 +378,7 @@
     },
     "text": "\u0903",
     "talk": "h",
-    "code": "ḩ",
-    "role": [
-      "modifier"
-    ]
+    "roles": ["modifier"]
   },
   {
     "name": {
@@ -551,19 +388,32 @@
     },
     "text": "\u0970",
     "talk": ".",
-    "code": ".",
-    "role": [
-      "punctuation",
-      "period"
-    ]
+    "roles": ["punctuation", "period"]
+  },
+  {
+    "name": {
+      "link": "danda",
+      "base": "दण्ड",
+      "head": "devanagari danda"
+    },
+    "text": "।",
+    "talk": ".",
+    "roles": ["punctuation", "period"]
+  },
+  {
+    "name": {
+      "link": "double danda",
+      "base": "द्विगुण दण्ड",
+      "head": "devanagari double danda"
+    },
+    "text": "॥",
+    "talk": ".",
+    "roles": ["punctuation", "period"]
   },
   {
     "text": "\u0915",
     "talk": "ka",
-    "role": [
-      "consonant"
-    ],
-    "code": "ka",
+    "roles": ["consonant"],
     "name": {
       "head": "devanagari letter ka"
     }
@@ -571,10 +421,7 @@
   {
     "text": "\u0916",
     "talk": "kh~a",
-    "role": [
-      "consonant"
-    ],
-    "code": "kħa",
+    "roles": ["consonant"],
     "name": {
       "head": "devanagari letter kha"
     }
@@ -582,10 +429,7 @@
   {
     "text": "\u0917",
     "talk": "ga",
-    "role": [
-      "consonant"
-    ],
-    "code": "ga",
+    "roles": ["consonant"],
     "name": {
       "head": "devanagari letter ga"
     }
@@ -593,10 +437,7 @@
   {
     "text": "\u0918",
     "talk": "gh~a",
-    "role": [
-      "consonant"
-    ],
-    "code": "għa",
+    "roles": ["consonant"],
     "name": {
       "head": "devanagari letter gha"
     }
@@ -604,10 +445,7 @@
   {
     "text": "\u0919",
     "talk": "qa",
-    "role": [
-      "consonant"
-    ],
-    "code": "ṅa",
+    "roles": ["consonant"],
     "name": {
       "head": "devanagari letter nga"
     }
@@ -615,10 +453,7 @@
   {
     "text": "\u091A",
     "talk": "txa",
-    "role": [
-      "consonant"
-    ],
-    "code": "ća",
+    "roles": ["consonant"],
     "name": {
       "head": "devanagari letter ca"
     }
@@ -626,10 +461,7 @@
   {
     "text": "\u091B",
     "talk": "txh~a",
-    "role": [
-      "consonant"
-    ],
-    "code": "ćħa",
+    "roles": ["consonant"],
     "name": {
       "head": "devanagari letter cha"
     }
@@ -637,10 +469,7 @@
   {
     "text": "\u091C",
     "talk": "dja",
-    "role": [
-      "consonant"
-    ],
-    "code": "ja",
+    "roles": ["consonant"],
     "name": {
       "head": "devanagari letter ja"
     }
@@ -648,10 +477,7 @@
   {
     "text": "\u091D",
     "talk": "djh~a",
-    "role": [
-      "consonant"
-    ],
-    "code": "jħa",
+    "roles": ["consonant"],
     "name": {
       "head": "devanagari letter jha"
     }
@@ -659,10 +485,7 @@
   {
     "text": "\u091E",
     "talk": "ny~a",
-    "role": [
-      "consonant"
-    ],
-    "code": "ña",
+    "roles": ["consonant"],
     "name": {
       "head": "devanagari letter nya"
     }
@@ -670,10 +493,7 @@
   {
     "text": "\u091F",
     "talk": "Ta",
-    "role": [
-      "consonant"
-    ],
-    "code": "ṭa",
+    "roles": ["consonant"],
     "name": {
       "head": "devanagari letter tta"
     }
@@ -681,10 +501,7 @@
   {
     "text": "\u0920",
     "talk": "Th~a",
-    "role": [
-      "consonant"
-    ],
-    "code": "ṭħa",
+    "roles": ["consonant"],
     "name": {
       "head": "devanagari letter ttha"
     }
@@ -692,10 +509,7 @@
   {
     "text": "\u0921",
     "talk": "Da",
-    "role": [
-      "consonant"
-    ],
-    "code": "ḍa",
+    "roles": ["consonant"],
     "name": {
       "head": "devanagari letter dda"
     }
@@ -703,10 +517,7 @@
   {
     "text": "\u0922",
     "talk": "Dh~a",
-    "role": [
-      "consonant"
-    ],
-    "code": "ḍħa",
+    "roles": ["consonant"],
     "name": {
       "head": "devanagari letter ddha"
     }
@@ -714,10 +525,7 @@
   {
     "text": "\u0923",
     "talk": "Na",
-    "role": [
-      "consonant"
-    ],
-    "code": "ṇa",
+    "roles": ["consonant"],
     "name": {
       "head": "devanagari letter nna"
     }
@@ -725,10 +533,7 @@
   {
     "text": "\u0924",
     "talk": "ta",
-    "role": [
-      "consonant"
-    ],
-    "code": "ta",
+    "roles": ["consonant"],
     "name": {
       "head": "devanagari letter ta"
     }
@@ -736,10 +541,7 @@
   {
     "text": "\u0925",
     "talk": "th~a",
-    "role": [
-      "consonant"
-    ],
-    "code": "tħa",
+    "roles": ["consonant"],
     "name": {
       "head": "devanagari letter tha"
     }
@@ -747,10 +549,7 @@
   {
     "text": "\u0926",
     "talk": "da",
-    "role": [
-      "consonant"
-    ],
-    "code": "da",
+    "roles": ["consonant"],
     "name": {
       "head": "devanagari letter da"
     }
@@ -758,10 +557,7 @@
   {
     "text": "\u0927",
     "talk": "dh~a",
-    "role": [
-      "consonant"
-    ],
-    "code": "dħa",
+    "roles": ["consonant"],
     "name": {
       "head": "devanagari letter dha"
     }
@@ -769,10 +565,7 @@
   {
     "text": "\u0928",
     "talk": "na",
-    "role": [
-      "consonant"
-    ],
-    "code": "na",
+    "roles": ["consonant"],
     "name": {
       "head": "devanagari letter na"
     }
@@ -780,10 +573,7 @@
   {
     "text": "\u092A",
     "talk": "pa",
-    "role": [
-      "consonant"
-    ],
-    "code": "pa",
+    "roles": ["consonant"],
     "name": {
       "head": "devanagari letter pa"
     }
@@ -791,10 +581,7 @@
   {
     "text": "\u092B",
     "talk": "ph~a",
-    "role": [
-      "consonant"
-    ],
-    "code": "pħa",
+    "roles": ["consonant"],
     "name": {
       "head": "devanagari letter pha"
     }
@@ -802,10 +589,7 @@
   {
     "text": "\u092C",
     "talk": "ba",
-    "role": [
-      "consonant"
-    ],
-    "code": "ba",
+    "roles": ["consonant"],
     "name": {
       "head": "devanagari letter ba"
     }
@@ -813,10 +597,7 @@
   {
     "text": "\u092D",
     "talk": "bh~a",
-    "role": [
-      "consonant"
-    ],
-    "code": "bħa",
+    "roles": ["consonant"],
     "name": {
       "head": "devanagari letter bha"
     }
@@ -824,10 +605,7 @@
   {
     "text": "\u092E",
     "talk": "ma",
-    "role": [
-      "consonant"
-    ],
-    "code": "ma",
+    "roles": ["consonant"],
     "name": {
       "head": "devanagari letter ma"
     }
@@ -835,10 +613,7 @@
   {
     "text": "\u092F",
     "talk": "ya",
-    "role": [
-      "consonant"
-    ],
-    "code": "ya",
+    "roles": ["consonant"],
     "name": {
       "head": "devanagari letter ya"
     }
@@ -846,10 +621,7 @@
   {
     "text": "\u0930",
     "talk": "ra",
-    "role": [
-      "consonant"
-    ],
-    "code": "ra",
+    "roles": ["consonant"],
     "name": {
       "head": "devanagari letter ra"
     }
@@ -857,10 +629,7 @@
   {
     "text": "\u0932",
     "talk": "la",
-    "role": [
-      "consonant"
-    ],
-    "code": "la",
+    "roles": ["consonant"],
     "name": {
       "head": "devanagari letter la"
     }
@@ -868,10 +637,7 @@
   {
     "text": "\u0935",
     "talk": "Va",
-    "role": [
-      "consonant"
-    ],
-    "code": "va",
+    "roles": ["consonant"],
     "name": {
       "head": "devanagari letter va"
     }
@@ -879,10 +645,7 @@
   {
     "text": "\u0936",
     "talk": "xa",
-    "role": [
-      "consonant"
-    ],
-    "code": "śa",
+    "roles": ["consonant"],
     "name": {
       "head": "devanagari letter sha"
     }
@@ -890,10 +653,7 @@
   {
     "text": "\u0937",
     "talk": "Xa",
-    "role": [
-      "consonant"
-    ],
-    "code": "ṣa",
+    "roles": ["consonant"],
     "name": {
       "head": "devanagari letter ssa"
     }
@@ -901,10 +661,7 @@
   {
     "text": "\u0938",
     "talk": "sa",
-    "role": [
-      "consonant"
-    ],
-    "code": "sa",
+    "roles": ["consonant"],
     "name": {
       "head": "devanagari letter sa"
     }
@@ -912,10 +669,7 @@
   {
     "text": "\u0939",
     "talk": "ha",
-    "role": [
-      "consonant"
-    ],
-    "code": "ha",
+    "roles": ["consonant"],
     "name": {
       "head": "devanagari letter ha"
     }
@@ -923,11 +677,7 @@
   {
     "text": "\u0933",
     "talk": "la",
-    "code": "ƚa",
-    "role": [
-      "consonant",
-      "extension"
-    ],
+    "roles": ["consonant", "extension"],
     "name": {
       "head": "devanagari letter lla"
     }
@@ -935,11 +685,7 @@
   {
     "text": "\u0915",
     "talk": "kxa",
-    "code": "ça",
-    "role": [
-      "consonant",
-      "extension"
-    ],
+    "roles": ["consonant", "extension"],
     "name": {
       "head": "devanagari letter ka"
     }
@@ -947,11 +693,7 @@
   {
     "text": "\u0924",
     "talk": "tra",
-    "code": "ƫa",
-    "role": [
-      "consonant",
-      "extension"
-    ],
+    "roles": ["consonant", "extension"],
     "name": {
       "head": "devanagari letter ta"
     }
@@ -959,11 +701,7 @@
   {
     "text": "\u091C",
     "talk": "jny~a",
-    "code": "ĵa",
-    "role": [
-      "consonant",
-      "extension"
-    ],
+    "roles": ["consonant", "extension"],
     "name": {
       "head": "devanagari letter ja"
     }
@@ -971,11 +709,7 @@
   {
     "text": "\u0936",
     "talk": "xa",
-    "code": "xa",
-    "role": [
-      "consonant",
-      "extension"
-    ],
+    "roles": ["consonant", "extension"],
     "name": {
       "head": "devanagari letter sha"
     }
@@ -983,11 +717,7 @@
   {
     "text": "\u0915",
     "talk": "ka",
-    "code": "qa",
-    "role": [
-      "consonant",
-      "extension"
-    ],
+    "roles": ["consonant", "extension"],
     "name": {
       "head": "devanagari letter ka"
     }
@@ -995,11 +725,7 @@
   {
     "text": "\u0916",
     "talk": "kh~a",
-    "code": "qħa",
-    "role": [
-      "consonant",
-      "extension"
-    ],
+    "roles": ["consonant", "extension"],
     "name": {
       "head": "devanagari letter kha"
     }
@@ -1007,11 +733,7 @@
   {
     "text": "\u0917",
     "talk": "Ga",
-    "code": "ġa",
-    "role": [
-      "consonant",
-      "extension"
-    ],
+    "roles": ["consonant", "extension"],
     "name": {
       "head": "devanagari letter ga"
     }
@@ -1019,11 +741,7 @@
   {
     "text": "\u091C",
     "talk": "za",
-    "code": "za",
-    "role": [
-      "consonant",
-      "extension"
-    ],
+    "roles": ["consonant", "extension"],
     "name": {
       "head": "devanagari letter ja"
     }
@@ -1031,11 +749,7 @@
   {
     "text": "\u092B",
     "talk": "fa",
-    "code": "fa",
-    "role": [
-      "consonant",
-      "extension"
-    ],
+    "roles": ["consonant", "extension"],
     "name": {
       "head": "devanagari letter pha"
     }
@@ -1043,11 +757,7 @@
   {
     "text": "\u0921",
     "talk": "ra",
-    "code": "ɽa",
-    "role": [
-      "consonant",
-      "extension"
-    ],
+    "roles": ["consonant", "extension"],
     "name": {
       "head": "devanagari letter dda"
     }
@@ -1055,24 +765,97 @@
   {
     "text": "\u0922",
     "talk": "rh~a",
-    "code": "ɽħa",
-    "role": [
-      "consonant",
-      "extension"
-    ],
+    "roles": ["consonant", "extension"],
     "name": {
       "head": "devanagari letter ddha"
     }
   },
   {
     "text": "\u0950",
-    "code": "ṃ",
     "talk": "o_m",
-    "role": [
-      "sound"
-    ],
+    "roles": ["sound"],
     "name": {
       "head": "devanagari om"
     }
+  },
+  {
+    "text": "०",
+    "talk": "0",
+    "name": {
+      "head": "devanagari numeral 0"
+    },
+    "roles": ["numeral"]
+  },
+  {
+    "text": "१",
+    "talk": "1",
+    "name": {
+      "head": "devanagari numeral 1"
+    },
+    "roles": ["numeral"]
+  },
+  {
+    "text": "२",
+    "talk": "2",
+    "name": {
+      "head": "devanagari numeral 2"
+    },
+    "roles": ["numeral"]
+  },
+  {
+    "text": "३",
+    "talk": "3",
+    "name": {
+      "head": "devanagari numeral 3"
+    },
+    "roles": ["numeral"]
+  },
+  {
+    "text": "४",
+    "talk": "4",
+    "name": {
+      "head": "devanagari numeral 4"
+    },
+    "roles": ["numeral"]
+  },
+  {
+    "text": "५",
+    "talk": "5",
+    "name": {
+      "head": "devanagari numeral 5"
+    },
+    "roles": ["numeral"]
+  },
+  {
+    "text": "६",
+    "talk": "6",
+    "name": {
+      "head": "devanagari numeral 6"
+    },
+    "roles": ["numeral"]
+  },
+  {
+    "text": "७",
+    "talk": "7",
+    "name": {
+      "head": "devanagari numeral 7"
+    },
+    "roles": ["numeral"]
+  },
+  {
+    "text": "८",
+    "talk": "8",
+    "name": {
+      "head": "devanagari numeral 8"
+    },
+    "roles": ["numeral"]
+  },
+  {
+    "text": "९",
+    "talk": "9",
+    "name": {
+      "head": "devanagari numeral 9"
+    },
+    "roles": ["numeral"]
   }
 ]

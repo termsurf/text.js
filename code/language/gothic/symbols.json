@@ -4,9 +4,7 @@
     "name": {
       "head": "gothic letter ahsa"
     },
-    "role": [
-      "consonant"
-    ],
+    "roles": ["consonant"],
     "link": "ahsa"
   },
   {
@@ -14,9 +12,7 @@
     "name": {
       "head": "gothic letter bairkan"
     },
-    "role": [
-      "consonant"
-    ],
+    "roles": ["consonant"],
     "link": "bairkan"
   },
   {
@@ -24,9 +20,7 @@
     "name": {
       "head": "gothic letter giba"
     },
-    "role": [
-      "consonant"
-    ],
+    "roles": ["consonant"],
     "link": "giba"
   },
   {
@@ -34,9 +28,7 @@
     "name": {
       "head": "gothic letter dags"
     },
-    "role": [
-      "consonant"
-    ],
+    "roles": ["consonant"],
     "link": "dags"
   },
   {
@@ -44,9 +36,7 @@
     "name": {
       "head": "gothic letter aihvus"
     },
-    "role": [
-      "vowel"
-    ],
+    "roles": ["vowel"],
     "link": "aihvus"
   },
   {
@@ -54,9 +44,7 @@
     "name": {
       "head": "gothic letter qairthra"
     },
-    "role": [
-      "consonant"
-    ],
+    "roles": ["consonant"],
     "link": "qairthra"
   },
   {
@@ -64,9 +52,7 @@
     "name": {
       "head": "gothic letter iuja"
     },
-    "role": [
-      "vowel"
-    ],
+    "roles": ["vowel"],
     "link": "iuja"
   },
   {
@@ -74,9 +60,7 @@
     "name": {
       "head": "gothic letter hagl"
     },
-    "role": [
-      "consonant"
-    ],
+    "roles": ["consonant"],
     "link": "hagl"
   },
   {
@@ -84,9 +68,7 @@
     "name": {
       "head": "gothic letter thiuth"
     },
-    "role": [
-      "consonant"
-    ],
+    "roles": ["consonant"],
     "link": "thiuth"
   },
   {
@@ -94,9 +76,7 @@
     "name": {
       "head": "gothic letter eis"
     },
-    "role": [
-      "vowel"
-    ],
+    "roles": ["vowel"],
     "link": "eis"
   },
   {
@@ -104,9 +84,7 @@
     "name": {
       "head": "gothic letter kusma"
     },
-    "role": [
-      "consonant"
-    ],
+    "roles": ["consonant"],
     "link": "kusma"
   },
   {
@@ -114,9 +92,7 @@
     "name": {
       "head": "gothic letter lagus"
     },
-    "role": [
-      "consonant"
-    ],
+    "roles": ["consonant"],
     "link": "lagus"
   },
   {
@@ -124,9 +100,7 @@
     "name": {
       "head": "gothic letter manna"
     },
-    "role": [
-      "consonant"
-    ],
+    "roles": ["consonant"],
     "link": "manna"
   },
   {
@@ -134,9 +108,7 @@
     "name": {
       "head": "gothic letter nauths"
     },
-    "role": [
-      "consonant"
-    ],
+    "roles": ["consonant"],
     "link": "nauths"
   },
   {
@@ -144,9 +116,7 @@
     "name": {
       "head": "gothic letter jer"
     },
-    "role": [
-      "vowel"
-    ],
+    "roles": ["vowel"],
     "link": "jer"
   },
   {
@@ -154,9 +124,7 @@
     "name": {
       "head": "gothic letter urus"
     },
-    "role": [
-      "vowel"
-    ],
+    "roles": ["vowel"],
     "link": "urus"
   },
   {
@@ -164,9 +132,7 @@
     "name": {
       "head": "gothic letter pairthra"
     },
-    "role": [
-      "consonant"
-    ],
+    "roles": ["consonant"],
     "link": "pairthra"
   },
   {
@@ -174,9 +140,7 @@
     "name": {
       "head": "gothic letter ninety"
     },
-    "role": [
-      "number"
-    ],
+    "roles": ["number"],
     "link": "ninety"
   },
   {
@@ -184,9 +148,7 @@
     "name": {
       "head": "gothic letter raida"
     },
-    "role": [
-      "consonant"
-    ],
+    "roles": ["consonant"],
     "link": "raida"
   },
   {
@@ -194,9 +156,7 @@
     "name": {
       "head": "gothic letter sauil"
     },
-    "role": [
-      "consonant"
-    ],
+    "roles": ["consonant"],
     "link": "sauil"
   },
   {
@@ -204,9 +164,7 @@
     "name": {
       "head": "gothic letter teiws"
     },
-    "role": [
-      "consonant"
-    ],
+    "roles": ["consonant"],
     "link": "teiws"
   },
   {
@@ -214,9 +172,7 @@
     "name": {
       "head": "gothic letter winja"
     },
-    "role": [
-      "consonant"
-    ],
+    "roles": ["consonant"],
     "link": "winja"
   },
   {
@@ -224,9 +180,7 @@
     "name": {
       "head": "gothic letter faihu"
     },
-    "role": [
-      "consonant"
-    ],
+    "roles": ["consonant"],
     "link": "faihu"
   },
   {
@@ -234,9 +188,7 @@
     "name": {
       "head": "gothic letter iggws"
     },
-    "role": [
-      "vowel"
-    ],
+    "roles": ["vowel"],
     "link": "iggws"
   },
   {
@@ -244,9 +196,7 @@
     "name": {
       "head": "gothic letter hwair"
     },
-    "role": [
-      "consonant"
-    ],
+    "roles": ["consonant"],
     "link": "hwair"
   },
   {
@@ -254,9 +204,7 @@
     "name": {
       "head": "gothic letter othal"
     },
-    "role": [
-      "vowel"
-    ],
+    "roles": ["vowel"],
     "link": "othal"
   },
   {
@@ -264,9 +212,7 @@
     "name": {
       "head": "gothic letter nine hundred"
     },
-    "role": [
-      "number"
-    ],
+    "roles": ["number"],
     "link": "nine hundred"
   }
 ]

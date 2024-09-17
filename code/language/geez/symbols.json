@@ -1,0 +1,1546 @@
+[
+  {
+    "text": "ሀ",
+    "talk": "hA",
+    "roles": ["syllable"]
+  },
+  {
+    "text": "ሁ",
+    "talk": "hu",
+    "roles": ["syllable"]
+  },
+  {
+    "text": "ሂ",
+    "talk": "hi",
+    "roles": ["syllable"]
+  },
+  {
+    "text": "ሃ",
+    "talk": "ha",
+    "roles": ["syllable"]
+  },
+  {
+    "text": "ሄ",
+    "talk": "he",
+    "roles": ["syllable"]
+  },
+  {
+    "text": "ህ",
+    "talk": "hi$",
+    "roles": ["syllable"]
+  },
+  {
+    "text": "ሆ",
+    "talk": "ho",
+    "roles": ["syllable"]
+  },
+  {
+    "text": "ለ",
+    "talk": "lA",
+    "roles": ["syllable"]
+  },
+  {
+    "text": "ሉ",
+    "talk": "lu",
+    "roles": ["syllable"]
+  },
+  {
+    "text": "ሊ",
+    "talk": "li",
+    "roles": ["syllable"]
+  },
+  {
+    "text": "ላ",
+    "talk": "la",
+    "roles": ["syllable"]
+  },
+  {
+    "text": "ሌ",
+    "talk": "le",
+    "roles": ["syllable"]
+  },
+  {
+    "text": "ል",
+    "talk": "li$",
+    "roles": ["syllable"]
+  },
+  {
+    "text": "ሎ",
+    "talk": "lo",
+    "roles": ["syllable"]
+  },
+  {
+    "text": "ሏ",
+    "talk": "lw~a",
+    "roles": ["syllable"]
+  },
+  {
+    "text": "ሐ",
+    "talk": "hA",
+    "roles": ["syllable"]
+  },
+  {
+    "text": "ሑ",
+    "talk": "hu",
+    "roles": ["syllable"]
+  },
+  {
+    "text": "ሒ",
+    "talk": "hi",
+    "roles": ["syllable"]
+  },
+  {
+    "text": "ሓ",
+    "talk": "ha",
+    "roles": ["syllable"]
+  },
+  {
+    "text": "ሔ",
+    "talk": "he",
+    "roles": ["syllable"]
+  },
+  {
+    "text": "ሕ",
+    "talk": "hi$",
+    "roles": ["syllable"]
+  },
+  {
+    "text": "ሖ",
+    "talk": "ho",
+    "roles": ["syllable"]
+  },
+  {
+    "text": "ሗ",
+    "talk": "hw~a",
+    "roles": ["syllable"]
+  },
+  {
+    "text": "መ",
+    "talk": "mA",
+    "roles": ["syllable"]
+  },
+  {
+    "text": "ሙ",
+    "talk": "mu",
+    "roles": ["syllable"]
+  },
+  {
+    "text": "ሚ",
+    "talk": "mi",
+    "roles": ["syllable"]
+  },
+  {
+    "text": "ማ",
+    "talk": "ma",
+    "roles": ["syllable"]
+  },
+  {
+    "text": "ሜ",
+    "talk": "me",
+    "roles": ["syllable"]
+  },
+  {
+    "text": "ም",
+    "talk": "mi$",
+    "roles": ["syllable"]
+  },
+  {
+    "text": "ሞ",
+    "talk": "mo",
+    "roles": ["syllable"]
+  },
+  {
+    "text": "ሟ",
+    "talk": "mw~a",
+    "roles": ["syllable"]
+  },
+  {
+    "text": "ሠ",
+    "talk": "sA",
+    "roles": ["syllable"]
+  },
+  {
+    "text": "ሡ",
+    "talk": "su",
+    "roles": ["syllable"]
+  },
+  {
+    "text": "ሢ",
+    "talk": "si",
+    "roles": ["syllable"]
+  },
+  {
+    "text": "ሣ",
+    "talk": "sa",
+    "roles": ["syllable"]
+  },
+  {
+    "text": "ሤ",
+    "talk": "se",
+    "roles": ["syllable"]
+  },
+  {
+    "text": "ሥ",
+    "talk": "si$",
+    "roles": ["syllable"]
+  },
+  {
+    "text": "ሦ",
+    "talk": "so",
+    "roles": ["syllable"]
+  },
+  {
+    "text": "ሧ",
+    "talk": "sw~a",
+    "roles": ["syllable"]
+  },
+  {
+    "text": "ረ",
+    "talk": "rA",
+    "roles": ["syllable"]
+  },
+  {
+    "text": "ሩ",
+    "talk": "ru",
+    "roles": ["syllable"]
+  },
+  {
+    "text": "ሪ",
+    "talk": "ri",
+    "roles": ["syllable"]
+  },
+  {
+    "text": "ራ",
+    "talk": "ra",
+    "roles": ["syllable"]
+  },
+  {
+    "text": "ሬ",
+    "talk": "re",
+    "roles": ["syllable"]
+  },
+  {
+    "text": "ር",
+    "talk": "ri$",
+    "roles": ["syllable"]
+  },
+  {
+    "text": "ሮ",
+    "talk": "ro",
+    "roles": ["syllable"]
+  },
+  {
+    "text": "ሯ",
+    "talk": "rw~a",
+    "roles": ["syllable"]
+  },
+  {
+    "text": "ሰ",
+    "talk": "sA",
+    "roles": ["syllable"]
+  },
+  {
+    "text": "ሱ",
+    "talk": "su",
+    "roles": ["syllable"]
+  },
+  {
+    "text": "ሲ",
+    "talk": "si",
+    "roles": ["syllable"]
+  },
+  {
+    "text": "ሳ",
+    "talk": "sa",
+    "roles": ["syllable"]
+  },
+  {
+    "text": "ሴ",
+    "talk": "se",
+    "roles": ["syllable"]
+  },
+  {
+    "text": "ስ",
+    "talk": "si$",
+    "roles": ["syllable"]
+  },
+  {
+    "text": "ሶ",
+    "talk": "so",
+    "roles": ["syllable"]
+  },
+  {
+    "text": "ሷ",
+    "talk": "sw~a",
+    "roles": ["syllable"]
+  },
+  {
+    "text": "ሸ",
+    "talk": "xA",
+    "roles": ["syllable"]
+  },
+  {
+    "text": "ሹ",
+    "talk": "xu",
+    "roles": ["syllable"]
+  },
+  {
+    "text": "ሺ",
+    "talk": "xi",
+    "roles": ["syllable"]
+  },
+  {
+    "text": "ሻ",
+    "talk": "xa",
+    "roles": ["syllable"]
+  },
+  {
+    "text": "ሼ",
+    "talk": "xe",
+    "roles": ["syllable"]
+  },
+  {
+    "text": "ሽ",
+    "talk": "xi$",
+    "roles": ["syllable"]
+  },
+  {
+    "text": "ሾ",
+    "talk": "xo",
+    "roles": ["syllable"]
+  },
+  {
+    "text": "ሿ",
+    "talk": "xw~a",
+    "roles": ["syllable"]
+  },
+  {
+    "text": "ቀ",
+    "talk": "k!A",
+    "roles": ["syllable"]
+  },
+  {
+    "text": "ቁ",
+    "talk": "k!u",
+    "roles": ["syllable"]
+  },
+  {
+    "text": "ቂ",
+    "talk": "k!i",
+    "roles": ["syllable"]
+  },
+  {
+    "text": "ቃ",
+    "talk": "k!a",
+    "roles": ["syllable"]
+  },
+  {
+    "text": "ቄ",
+    "talk": "k!e",
+    "roles": ["syllable"]
+  },
+  {
+    "text": "ቅ",
+    "talk": "k!i$",
+    "roles": ["syllable"]
+  },
+  {
+    "text": "ቆ",
+    "talk": "k!o",
+    "roles": ["syllable"]
+  },
+  {
+    "text": "ቈ",
+    "talk": "k!w~A",
+    "roles": ["syllable"]
+  },
+  {
+    "text": "ቊ",
+    "talk": "k!w~i",
+    "roles": ["syllable"]
+  },
+  {
+    "text": "ቋ",
+    "talk": "k!w~a",
+    "roles": ["syllable"]
+  },
+  {
+    "text": "ቌ",
+    "talk": "k!w~e",
+    "roles": ["syllable"]
+  },
+  {
+    "text": "ቍ",
+    "talk": "k!w~i$",
+    "roles": ["syllable"]
+  },
+  {
+    "text": "በ",
+    "talk": "bA",
+    "roles": ["syllable"]
+  },
+  {
+    "text": "ቡ",
+    "talk": "bu",
+    "roles": ["syllable"]
+  },
+  {
+    "text": "ቢ",
+    "talk": "bi",
+    "roles": ["syllable"]
+  },
+  {
+    "text": "ባ",
+    "talk": "ba",
+    "roles": ["syllable"]
+  },
+  {
+    "text": "ቤ",
+    "talk": "be",
+    "roles": ["syllable"]
+  },
+  {
+    "text": "ብ",
+    "talk": "bi$",
+    "roles": ["syllable"]
+  },
+  {
+    "text": "ቦ",
+    "talk": "bo",
+    "roles": ["syllable"]
+  },
+  {
+    "text": "ቧ",
+    "talk": "bw~a",
+    "roles": ["syllable"]
+  },
+  {
+    "text": "ቨ",
+    "talk": "vA",
+    "roles": ["syllable"]
+  },
+  {
+    "text": "ቩ",
+    "talk": "vu",
+    "roles": ["syllable"]
+  },
+  {
+    "text": "ቪ",
+    "talk": "vi",
+    "roles": ["syllable"]
+  },
+  {
+    "text": "ቫ",
+    "talk": "va",
+    "roles": ["syllable"]
+  },
+  {
+    "text": "ቬ",
+    "talk": "ve",
+    "roles": ["syllable"]
+  },
+  {
+    "text": "ቭ",
+    "talk": "vi$",
+    "roles": ["syllable"]
+  },
+  {
+    "text": "ቮ",
+    "talk": "vo",
+    "roles": ["syllable"]
+  },
+  {
+    "text": "ቯ",
+    "talk": "vw~a",
+    "roles": ["syllable"]
+  },
+  {
+    "text": "ተ",
+    "talk": "tA",
+    "roles": ["syllable"]
+  },
+  {
+    "text": "ቱ",
+    "talk": "tu",
+    "roles": ["syllable"]
+  },
+  {
+    "text": "ቲ",
+    "talk": "ti",
+    "roles": ["syllable"]
+  },
+  {
+    "text": "ታ",
+    "talk": "ta",
+    "roles": ["syllable"]
+  },
+  {
+    "text": "ቴ",
+    "talk": "te",
+    "roles": ["syllable"]
+  },
+  {
+    "text": "ት",
+    "talk": "ti$",
+    "roles": ["syllable"]
+  },
+  {
+    "text": "ቶ",
+    "talk": "to",
+    "roles": ["syllable"]
+  },
+  {
+    "text": "ቷ",
+    "talk": "tw~a",
+    "roles": ["syllable"]
+  },
+  {
+    "text": "ቸ",
+    "talk": "txA",
+    "roles": ["syllable"]
+  },
+  {
+    "text": "ቹ",
+    "talk": "txu",
+    "roles": ["syllable"]
+  },
+  {
+    "text": "ቺ",
+    "talk": "txi",
+    "roles": ["syllable"]
+  },
+  {
+    "text": "ቻ",
+    "talk": "txa",
+    "roles": ["syllable"]
+  },
+  {
+    "text": "ቼ",
+    "talk": "txe",
+    "roles": ["syllable"]
+  },
+  {
+    "text": "ች",
+    "talk": "txi$",
+    "roles": ["syllable"]
+  },
+  {
+    "text": "ቾ",
+    "talk": "txo",
+    "roles": ["syllable"]
+  },
+  {
+    "text": "ቿ",
+    "talk": "txw~a",
+    "roles": ["syllable"]
+  },
+  {
+    "text": "ኀ",
+    "talk": "hA",
+    "roles": ["syllable"]
+  },
+  {
+    "text": "ኁ",
+    "talk": "hu",
+    "roles": ["syllable"]
+  },
+  {
+    "text": "ኂ",
+    "talk": "hi",
+    "roles": ["syllable"]
+  },
+  {
+    "text": "ኃ",
+    "talk": "ha",
+    "roles": ["syllable"]
+  },
+  {
+    "text": "ኄ",
+    "talk": "he",
+    "roles": ["syllable"]
+  },
+  {
+    "text": "ኅ",
+    "talk": "hi$",
+    "roles": ["syllable"]
+  },
+  {
+    "text": "ኆ",
+    "talk": "ho",
+    "roles": ["syllable"]
+  },
+  {
+    "text": "ኈ",
+    "talk": "hy~A",
+    "roles": ["syllable"]
+  },
+  {
+    "text": "ኊ",
+    "talk": "hw~i",
+    "roles": ["syllable"]
+  },
+  {
+    "text": "ኋ",
+    "talk": "hw~a",
+    "roles": ["syllable"]
+  },
+  {
+    "text": "ኌ",
+    "talk": "hw~e",
+    "roles": ["syllable"]
+  },
+  {
+    "text": "ኍ",
+    "talk": "hw~i$",
+    "roles": ["syllable"]
+  },
+  {
+    "text": "ነ",
+    "talk": "nA",
+    "roles": ["syllable"]
+  },
+  {
+    "text": "ኑ",
+    "talk": "nu",
+    "roles": ["syllable"]
+  },
+  {
+    "text": "ኒ",
+    "talk": "ni",
+    "roles": ["syllable"]
+  },
+  {
+    "text": "ና",
+    "talk": "na",
+    "roles": ["syllable"]
+  },
+  {
+    "text": "ኔ",
+    "talk": "ne",
+    "roles": ["syllable"]
+  },
+  {
+    "text": "ን",
+    "talk": "ni$",
+    "roles": ["syllable"]
+  },
+  {
+    "text": "ኖ",
+    "talk": "no",
+    "roles": ["syllable"]
+  },
+  {
+    "text": "ኗ",
+    "talk": "nw~a",
+    "roles": ["syllable"]
+  },
+  {
+    "text": "ኘ",
+    "talk": "ny~A",
+    "roles": ["syllable"]
+  },
+  {
+    "text": "ኙ",
+    "talk": "ny~u",
+    "roles": ["syllable"]
+  },
+  {
+    "text": "ኚ",
+    "talk": "ny~i",
+    "roles": ["syllable"]
+  },
+  {
+    "text": "ኛ",
+    "talk": "ny~a",
+    "roles": ["syllable"]
+  },
+  {
+    "text": "ኜ",
+    "talk": "ny~e",
+    "roles": ["syllable"]
+  },
+  {
+    "text": "ኝ",
+    "talk": "ny~i$",
+    "roles": ["syllable"]
+  },
+  {
+    "text": "ኞ",
+    "talk": "ny~o",
+    "roles": ["syllable"]
+  },
+  {
+    "text": "ኟ",
+    "talk": "ny~w~a",
+    "roles": ["syllable"]
+  },
+  {
+    "text": "አ",
+    "talk": "'A",
+    "roles": ["syllable"]
+  },
+  {
+    "text": "ኡ",
+    "talk": "'u",
+    "roles": ["syllable"]
+  },
+  {
+    "text": "ኢ",
+    "talk": "'i",
+    "roles": ["syllable"]
+  },
+  {
+    "text": "ኣ",
+    "talk": "'a",
+    "roles": ["syllable"]
+  },
+  {
+    "text": "ኤ",
+    "talk": "'e",
+    "roles": ["syllable"]
+  },
+  {
+    "text": "እ",
+    "talk": "'i$",
+    "roles": ["syllable"]
+  },
+  {
+    "text": "ኦ",
+    "talk": "'o",
+    "roles": ["syllable"]
+  },
+  {
+    "text": "ኧ",
+    "talk": "'w~a",
+    "roles": ["syllable"]
+  },
+  {
+    "text": "ከ",
+    "talk": "kA",
+    "roles": ["syllable"]
+  },
+  {
+    "text": "ኩ",
+    "talk": "ku",
+    "roles": ["syllable"]
+  },
+  {
+    "text": "ኪ",
+    "talk": "ki",
+    "roles": ["syllable"]
+  },
+  {
+    "text": "ካ",
+    "talk": "ka",
+    "roles": ["syllable"]
+  },
+  {
+    "text": "ኬ",
+    "talk": "ke",
+    "roles": ["syllable"]
+  },
+  {
+    "text": "ክ",
+    "talk": "ki$",
+    "roles": ["syllable"]
+  },
+  {
+    "text": "ኮ",
+    "talk": "ko",
+    "roles": ["syllable"]
+  },
+  {
+    "text": "ኰ",
+    "talk": "ky~A",
+    "roles": ["syllable"]
+  },
+  {
+    "text": "ኲ",
+    "talk": "kw~i",
+    "roles": ["syllable"]
+  },
+  {
+    "text": "ኳ",
+    "talk": "kw~a",
+    "roles": ["syllable"]
+  },
+  {
+    "text": "ኴ",
+    "talk": "kw~e",
+    "roles": ["syllable"]
+  },
+  {
+    "text": "ኵ",
+    "talk": "kw~i$",
+    "roles": ["syllable"]
+  },
+  {
+    "text": "ኸ",
+    "talk": "hA",
+    "roles": ["syllable"]
+  },
+  {
+    "text": "ኹ",
+    "talk": "hu",
+    "roles": ["syllable"]
+  },
+  {
+    "text": "ኺ",
+    "talk": "hi",
+    "roles": ["syllable"]
+  },
+  {
+    "text": "ኻ",
+    "talk": "ha",
+    "roles": ["syllable"]
+  },
+  {
+    "text": "ኼ",
+    "talk": "he",
+    "roles": ["syllable"]
+  },
+  {
+    "text": "ኽ",
+    "talk": "hi$",
+    "roles": ["syllable"]
+  },
+  {
+    "text": "ኾ",
+    "talk": "ho",
+    "roles": ["syllable"]
+  },
+  {
+    "text": "ዀ",
+    "talk": "hy~A",
+    "roles": ["syllable"]
+  },
+  {
+    "text": "ዂ",
+    "talk": "hw~i",
+    "roles": ["syllable"]
+  },
+  {
+    "text": "ዃ",
+    "talk": "hw~a",
+    "roles": ["syllable"]
+  },
+  {
+    "text": "ዄ",
+    "talk": "hw~e",
+    "roles": ["syllable"]
+  },
+  {
+    "text": "ዅ",
+    "talk": "hw~i$",
+    "roles": ["syllable"]
+  },
+  {
+    "text": "ወ",
+    "talk": "wA",
+    "roles": ["syllable"]
+  },
+  {
+    "text": "ዉ",
+    "talk": "wu",
+    "roles": ["syllable"]
+  },
+  {
+    "text": "ዊ",
+    "talk": "wi",
+    "roles": ["syllable"]
+  },
+  {
+    "text": "ዋ",
+    "talk": "wa",
+    "roles": ["syllable"]
+  },
+  {
+    "text": "ዌ",
+    "talk": "we",
+    "roles": ["syllable"]
+  },
+  {
+    "text": "ው",
+    "talk": "wi$",
+    "roles": ["syllable"]
+  },
+  {
+    "text": "ዎ",
+    "talk": "wo",
+    "roles": ["syllable"]
+  },
+  {
+    "text": "ዐ",
+    "talk": "'A",
+    "roles": ["syllable"]
+  },
+  {
+    "text": "ዑ",
+    "talk": "'u",
+    "roles": ["syllable"]
+  },
+  {
+    "text": "ዒ",
+    "talk": "'i",
+    "roles": ["syllable"]
+  },
+  {
+    "text": "ዓ",
+    "talk": "'a",
+    "roles": ["syllable"]
+  },
+  {
+    "text": "ዔ",
+    "talk": "'e",
+    "roles": ["syllable"]
+  },
+  {
+    "text": "ዕ",
+    "talk": "'i$",
+    "roles": ["syllable"]
+  },
+  {
+    "text": "ዖ",
+    "talk": "'o",
+    "roles": ["syllable"]
+  },
+  {
+    "text": "ዘ",
+    "talk": "zA",
+    "roles": ["syllable"]
+  },
+  {
+    "text": "ዙ",
+    "talk": "zu",
+    "roles": ["syllable"]
+  },
+  {
+    "text": "ዚ",
+    "talk": "zi",
+    "roles": ["syllable"]
+  },
+  {
+    "text": "ዛ",
+    "talk": "za",
+    "roles": ["syllable"]
+  },
+  {
+    "text": "ዜ",
+    "talk": "ze",
+    "roles": ["syllable"]
+  },
+  {
+    "text": "ዝ",
+    "talk": "zi$",
+    "roles": ["syllable"]
+  },
+  {
+    "text": "ዞ",
+    "talk": "zo",
+    "roles": ["syllable"]
+  },
+  {
+    "text": "ዟ",
+    "talk": "zw~a",
+    "roles": ["syllable"]
+  },
+  {
+    "text": "ዠ",
+    "talk": "jA",
+    "roles": ["syllable"]
+  },
+  {
+    "text": "ዡ",
+    "talk": "ju",
+    "roles": ["syllable"]
+  },
+  {
+    "text": "ዢ",
+    "talk": "ji",
+    "roles": ["syllable"]
+  },
+  {
+    "text": "ዣ",
+    "talk": "ja",
+    "roles": ["syllable"]
+  },
+  {
+    "text": "ዤ",
+    "talk": "je",
+    "roles": ["syllable"]
+  },
+  {
+    "text": "ዥ",
+    "talk": "ji$",
+    "roles": ["syllable"]
+  },
+  {
+    "text": "ዦ",
+    "talk": "jo",
+    "roles": ["syllable"]
+  },
+  {
+    "text": "ዧ",
+    "talk": "jw~a",
+    "roles": ["syllable"]
+  },
+  {
+    "text": "የ",
+    "talk": "yA",
+    "roles": ["syllable"]
+  },
+  {
+    "text": "ዩ",
+    "talk": "yu",
+    "roles": ["syllable"]
+  },
+  {
+    "text": "ዪ",
+    "talk": "yi",
+    "roles": ["syllable"]
+  },
+  {
+    "text": "ያ",
+    "talk": "ya",
+    "roles": ["syllable"]
+  },
+  {
+    "text": "ዬ",
+    "talk": "ye",
+    "roles": ["syllable"]
+  },
+  {
+    "text": "ይ",
+    "talk": "yi$",
+    "roles": ["syllable"]
+  },
+  {
+    "text": "ዮ",
+    "talk": "yo",
+    "roles": ["syllable"]
+  },
+  {
+    "text": "ደ",
+    "talk": "dA",
+    "roles": ["syllable"]
+  },
+  {
+    "text": "ዱ",
+    "talk": "du",
+    "roles": ["syllable"]
+  },
+  {
+    "text": "ዲ",
+    "talk": "di",
+    "roles": ["syllable"]
+  },
+  {
+    "text": "ዳ",
+    "talk": "da",
+    "roles": ["syllable"]
+  },
+  {
+    "text": "ዴ",
+    "talk": "de",
+    "roles": ["syllable"]
+  },
+  {
+    "text": "ድ",
+    "talk": "di$",
+    "roles": ["syllable"]
+  },
+  {
+    "text": "ዶ",
+    "talk": "do",
+    "roles": ["syllable"]
+  },
+  {
+    "text": "ዷ",
+    "talk": "dw~a",
+    "roles": ["syllable"]
+  },
+  {
+    "text": "ጀ",
+    "talk": "djA",
+    "roles": ["syllable"]
+  },
+  {
+    "text": "ጁ",
+    "talk": "dju",
+    "roles": ["syllable"]
+  },
+  {
+    "text": "ጂ",
+    "talk": "dji",
+    "roles": ["syllable"]
+  },
+  {
+    "text": "ጃ",
+    "talk": "dja",
+    "roles": ["syllable"]
+  },
+  {
+    "text": "ጄ",
+    "talk": "dje",
+    "roles": ["syllable"]
+  },
+  {
+    "text": "ጅ",
+    "talk": "dji$",
+    "roles": ["syllable"]
+  },
+  {
+    "text": "ጆ",
+    "talk": "djo",
+    "roles": ["syllable"]
+  },
+  {
+    "text": "ጇ",
+    "talk": "djw~a",
+    "roles": ["syllable"]
+  },
+  {
+    "text": "ገ",
+    "talk": "gA",
+    "roles": ["syllable"]
+  },
+  {
+    "text": "ጉ",
+    "talk": "gu",
+    "roles": ["syllable"]
+  },
+  {
+    "text": "ጊ",
+    "talk": "gi",
+    "roles": ["syllable"]
+  },
+  {
+    "text": "ጋ",
+    "talk": "ga",
+    "roles": ["syllable"]
+  },
+  {
+    "text": "ጌ",
+    "talk": "ge",
+    "roles": ["syllable"]
+  },
+  {
+    "text": "ግ",
+    "talk": "gi$",
+    "roles": ["syllable"]
+  },
+  {
+    "text": "ጎ",
+    "talk": "go",
+    "roles": ["syllable"]
+  },
+  {
+    "text": "ጐ",
+    "talk": "gy~A",
+    "roles": ["syllable"]
+  },
+  {
+    "text": "ጒ",
+    "talk": "gw~i",
+    "roles": ["syllable"]
+  },
+  {
+    "text": "ጓ",
+    "talk": "gw~a",
+    "roles": ["syllable"]
+  },
+  {
+    "text": "ጔ",
+    "talk": "gw~e",
+    "roles": ["syllable"]
+  },
+  {
+    "text": "ጕ",
+    "talk": "gw~i$",
+    "roles": ["syllable"]
+  },
+  {
+    "text": "ጠ",
+    "talk": "t!A",
+    "roles": ["syllable"]
+  },
+  {
+    "text": "ጡ",
+    "talk": "t!u",
+    "roles": ["syllable"]
+  },
+  {
+    "text": "ጢ",
+    "talk": "t!i",
+    "roles": ["syllable"]
+  },
+  {
+    "text": "ጣ",
+    "talk": "t!a",
+    "roles": ["syllable"]
+  },
+  {
+    "text": "ጤ",
+    "talk": "t!e",
+    "roles": ["syllable"]
+  },
+  {
+    "text": "ጥ",
+    "talk": "t!i$",
+    "roles": ["syllable"]
+  },
+  {
+    "text": "ጦ",
+    "talk": "t!o",
+    "roles": ["syllable"]
+  },
+  {
+    "text": "ጧ",
+    "talk": "t!w~a",
+    "roles": ["syllable"]
+  },
+  {
+    "text": "ጨ",
+    "talk": "tx!A",
+    "roles": ["syllable"]
+  },
+  {
+    "text": "ጩ",
+    "talk": "tx!u",
+    "roles": ["syllable"]
+  },
+  {
+    "text": "ጪ",
+    "talk": "tx!i",
+    "roles": ["syllable"]
+  },
+  {
+    "text": "ጫ",
+    "talk": "tx!a",
+    "roles": ["syllable"]
+  },
+  {
+    "text": "ጬ",
+    "talk": "tx!e",
+    "roles": ["syllable"]
+  },
+  {
+    "text": "ጭ",
+    "talk": "tx!i$",
+    "roles": ["syllable"]
+  },
+  {
+    "text": "ጮ",
+    "talk": "tx!o",
+    "roles": ["syllable"]
+  },
+  {
+    "text": "ጯ",
+    "talk": "tx!w~a",
+    "roles": ["syllable"]
+  },
+  {
+    "text": "ጰ",
+    "talk": "p!A",
+    "roles": ["syllable"]
+  },
+  {
+    "text": "ጱ",
+    "talk": "p!u",
+    "roles": ["syllable"]
+  },
+  {
+    "text": "ጲ",
+    "talk": "p!i",
+    "roles": ["syllable"]
+  },
+  {
+    "text": "ጳ",
+    "talk": "p!a",
+    "roles": ["syllable"]
+  },
+  {
+    "text": "ጴ",
+    "talk": "p!e",
+    "roles": ["syllable"]
+  },
+  {
+    "text": "ጵ",
+    "talk": "p!i$",
+    "roles": ["syllable"]
+  },
+  {
+    "text": "ጶ",
+    "talk": "p!o",
+    "roles": ["syllable"]
+  },
+  {
+    "text": "ጷ",
+    "talk": "p!w~a",
+    "roles": ["syllable"]
+  },
+  {
+    "text": "ጸ",
+    "talk": "ts!A",
+    "roles": ["syllable"]
+  },
+  {
+    "text": "ጹ",
+    "talk": "ts!u",
+    "roles": ["syllable"]
+  },
+  {
+    "text": "ጺ",
+    "talk": "ts!i",
+    "roles": ["syllable"]
+  },
+  {
+    "text": "ጻ",
+    "talk": "ts!a",
+    "roles": ["syllable"]
+  },
+  {
+    "text": "ጼ",
+    "talk": "ts!e",
+    "roles": ["syllable"]
+  },
+  {
+    "text": "ጽ",
+    "talk": "ts!i$",
+    "roles": ["syllable"]
+  },
+  {
+    "text": "ጾ",
+    "talk": "ts!o",
+    "roles": ["syllable"]
+  },
+  {
+    "text": "ጿ",
+    "talk": "ts!w~a",
+    "roles": ["syllable"]
+  },
+  {
+    "text": "ፀ",
+    "talk": "ts!A",
+    "roles": ["syllable"]
+  },
+  {
+    "text": "ፁ",
+    "talk": "ts!u",
+    "roles": ["syllable"]
+  },
+  {
+    "text": "ፂ",
+    "talk": "ts!i",
+    "roles": ["syllable"]
+  },
+  {
+    "text": "ፃ",
+    "talk": "ts!a",
+    "roles": ["syllable"]
+  },
+  {
+    "text": "ፄ",
+    "talk": "ts!e",
+    "roles": ["syllable"]
+  },
+  {
+    "text": "ፅ",
+    "talk": "ts!i$",
+    "roles": ["syllable"]
+  },
+  {
+    "text": "ፆ",
+    "talk": "ts!o",
+    "roles": ["syllable"]
+  },
+  {
+    "text": "ፈ",
+    "talk": "fA",
+    "roles": ["syllable"]
+  },
+  {
+    "text": "ፉ",
+    "talk": "fu",
+    "roles": ["syllable"]
+  },
+  {
+    "text": "ፊ",
+    "talk": "fi",
+    "roles": ["syllable"]
+  },
+  {
+    "text": "ፋ",
+    "talk": "fa",
+    "roles": ["syllable"]
+  },
+  {
+    "text": "ፌ",
+    "talk": "fe",
+    "roles": ["syllable"]
+  },
+  {
+    "text": "ፍ",
+    "talk": "fi$",
+    "roles": ["syllable"]
+  },
+  {
+    "text": "ፎ",
+    "talk": "fo",
+    "roles": ["syllable"]
+  },
+  {
+    "text": "ፏ",
+    "talk": "fw~a",
+    "roles": ["syllable"]
+  },
+  {
+    "text": "ፐ",
+    "talk": "pA",
+    "roles": ["syllable"]
+  },
+  {
+    "text": "ፑ",
+    "talk": "pu",
+    "roles": ["syllable"]
+  },
+  {
+    "text": "ፒ",
+    "talk": "pi",
+    "roles": ["syllable"]
+  },
+  {
+    "text": "ፓ",
+    "talk": "pa",
+    "roles": ["syllable"]
+  },
+  {
+    "text": "ፔ",
+    "talk": "pe",
+    "roles": ["syllable"]
+  },
+  {
+    "text": "ፕ",
+    "talk": "pi$",
+    "roles": ["syllable"]
+  },
+  {
+    "text": "ፖ",
+    "talk": "po",
+    "roles": ["syllable"]
+  },
+  {
+    "text": "ፗ",
+    "talk": "pw~a",
+    "roles": ["syllable"]
+  },
+  { "text": "፠", "talk": "", "roles": ["punctuation"] },
+  { "text": "፡", "talk": "", "roles": ["punctuation"] },
+  { "text": "።", "talk": ".", "roles": ["punctuation"] },
+  { "text": "፣", "talk": ",", "roles": ["punctuation"] },
+  { "text": "፤", "talk": ";", "roles": ["punctuation"] },
+  { "text": "፥", "talk": ":", "roles": ["punctuation"] },
+  { "text": "፦", "talk": ":", "roles": ["punctuation"] },
+  { "text": "፧", "talk": "?", "roles": ["punctuation"] },
+  { "text": "፨", "talk": "", "roles": ["punctuation"] },
+  {
+    "text": "፩",
+    "talk": "1",
+    "roles": ["numeral"]
+  },
+  {
+    "text": "፪",
+    "talk": "2",
+    "roles": ["numeral"]
+  },
+  {
+    "text": "፫",
+    "talk": "3",
+    "roles": ["numeral"]
+  },
+  {
+    "text": "፬",
+    "talk": "4",
+    "roles": ["numeral"]
+  },
+  {
+    "text": "፭",
+    "talk": "5",
+    "roles": ["numeral"]
+  },
+  {
+    "text": "፮",
+    "talk": "6",
+    "roles": ["numeral"]
+  },
+  {
+    "text": "፯",
+    "talk": "7",
+    "roles": ["numeral"]
+  },
+  {
+    "text": "፰",
+    "talk": "8",
+    "roles": ["numeral"]
+  },
+  {
+    "text": "፱",
+    "talk": "9",
+    "roles": ["numeral"]
+  },
+  {
+    "text": "፲",
+    "talk": "10",
+    "roles": ["numeral"]
+  },
+  {
+    "text": "፳",
+    "talk": "20",
+    "roles": ["numeral"]
+  },
+  {
+    "text": "፴",
+    "talk": "30",
+    "roles": ["numeral"]
+  },
+  {
+    "text": "፵",
+    "talk": "40",
+    "roles": ["numeral"]
+  },
+  {
+    "text": "፶",
+    "talk": "50",
+    "roles": ["numeral"]
+  },
+  {
+    "text": "፷",
+    "talk": "60",
+    "roles": ["numeral"]
+  },
+  {
+    "text": "፸",
+    "talk": "70",
+    "roles": ["numeral"]
+  },
+  {
+    "text": "፹",
+    "talk": "80",
+    "roles": ["numeral"]
+  },
+  {
+    "text": "፺",
+    "talk": "90",
+    "roles": ["numeral"]
+  },
+  {
+    "text": "፻",
+    "talk": "100",
+    "roles": ["numeral"]
+  },
+  {
+    "text": "፼",
+    "talk": "10000",
+    "roles": ["numeral"]
+  }
+]

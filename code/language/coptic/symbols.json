@@ -4,860 +4,860 @@
     "name": {
       "head": "coptic capital letter alfa"
     },
-    "role": ["consonant"]
+    "roles": ["consonant"]
   },
   {
     "text": "\u2C81",
     "name": {
       "head": "coptic small letter alfa"
     },
-    "role": ["consonant"]
+    "roles": ["consonant"]
   },
   {
     "text": "\u2C82",
     "name": {
       "head": "coptic capital letter vida"
     },
-    "role": ["consonant"]
+    "roles": ["consonant"]
   },
   {
     "text": "\u2C83",
     "name": {
       "head": "coptic small letter vida"
     },
-    "role": ["consonant"]
+    "roles": ["consonant"]
   },
   {
     "text": "\u2C84",
     "name": {
       "head": "coptic capital letter gamma"
     },
-    "role": ["consonant"]
+    "roles": ["consonant"]
   },
   {
     "text": "\u2C85",
     "name": {
       "head": "coptic small letter gamma"
     },
-    "role": ["consonant"]
+    "roles": ["consonant"]
   },
   {
     "text": "\u2C86",
     "name": {
       "head": "coptic capital letter dalda"
     },
-    "role": ["consonant"]
+    "roles": ["consonant"]
   },
   {
     "text": "\u2C87",
     "name": {
       "head": "coptic small letter dalda"
     },
-    "role": ["consonant"]
+    "roles": ["consonant"]
   },
   {
     "text": "\u2C88",
     "name": {
       "head": "coptic capital letter eie"
     },
-    "role": ["vowel"]
+    "roles": ["vowel"]
   },
   {
     "text": "\u2C89",
     "name": {
       "head": "coptic small letter eie"
     },
-    "role": ["vowel"]
+    "roles": ["vowel"]
   },
   {
     "text": "\u2C8A",
     "name": {
       "head": "coptic capital letter sou"
     },
-    "role": ["consonant"]
+    "roles": ["consonant"]
   },
   {
     "text": "\u2C8B",
     "name": {
       "head": "coptic small letter sou"
     },
-    "role": ["consonant"]
+    "roles": ["consonant"]
   },
   {
     "text": "\u2C8C",
     "name": {
       "head": "coptic capital letter zata"
     },
-    "role": ["consonant"]
+    "roles": ["consonant"]
   },
   {
     "text": "\u2C8D",
     "name": {
       "head": "coptic small letter zata"
     },
-    "role": ["consonant"]
+    "roles": ["consonant"]
   },
   {
     "text": "\u2C8E",
     "name": {
       "head": "coptic capital letter hate"
     },
-    "role": ["consonant"]
+    "roles": ["consonant"]
   },
   {
     "text": "\u2C8F",
     "name": {
       "head": "coptic small letter hate"
     },
-    "role": ["consonant"]
+    "roles": ["consonant"]
   },
   {
     "text": "\u2C90",
     "name": {
       "head": "coptic capital letter thethe"
     },
-    "role": ["consonant"]
+    "roles": ["consonant"]
   },
   {
     "text": "\u2C91",
     "name": {
       "head": "coptic small letter thethe"
     },
-    "role": ["consonant"]
+    "roles": ["consonant"]
   },
   {
     "text": "\u2C92",
     "name": {
       "head": "coptic capital letter iauda"
     },
-    "role": ["vowel"]
+    "roles": ["vowel"]
   },
   {
     "text": "\u2C93",
     "name": {
       "head": "coptic small letter iauda"
     },
-    "role": ["vowel"]
+    "roles": ["vowel"]
   },
   {
     "text": "\u2C94",
     "name": {
       "head": "coptic capital letter kapa"
     },
-    "role": ["consonant"]
+    "roles": ["consonant"]
   },
   {
     "text": "\u2C95",
     "name": {
       "head": "coptic small letter kapa"
     },
-    "role": ["consonant"]
+    "roles": ["consonant"]
   },
   {
     "text": "\u2C96",
     "name": {
       "head": "coptic capital letter laula"
     },
-    "role": ["consonant"]
+    "roles": ["consonant"]
   },
   {
     "text": "\u2C97",
     "name": {
       "head": "coptic small letter laula"
     },
-    "role": ["consonant"]
+    "roles": ["consonant"]
   },
   {
     "text": "\u2C98",
     "name": {
       "head": "coptic capital letter mi"
     },
-    "role": ["consonant"]
+    "roles": ["consonant"]
   },
   {
     "text": "\u2C99",
     "name": {
       "head": "coptic small letter mi"
     },
-    "role": ["consonant"]
+    "roles": ["consonant"]
   },
   {
     "text": "\u2C9A",
     "name": {
       "head": "coptic capital letter ni"
     },
-    "role": ["consonant"]
+    "roles": ["consonant"]
   },
   {
     "text": "\u2C9B",
     "name": {
       "head": "coptic small letter ni"
     },
-    "role": ["consonant"]
+    "roles": ["consonant"]
   },
   {
     "text": "\u2C9C",
     "name": {
       "head": "coptic capital letter ksi"
     },
-    "role": ["consonant"]
+    "roles": ["consonant"]
   },
   {
     "text": "\u2C9D",
     "name": {
       "head": "coptic small letter ksi"
     },
-    "role": ["consonant"]
+    "roles": ["consonant"]
   },
   {
     "text": "\u2C9E",
     "name": {
       "head": "coptic capital letter o"
     },
-    "role": ["vowel"]
+    "roles": ["vowel"]
   },
   {
     "text": "\u2C9F",
     "name": {
       "head": "coptic small letter o"
     },
-    "role": ["vowel"]
+    "roles": ["vowel"]
   },
   {
     "text": "\u2CA0",
     "name": {
       "head": "coptic capital letter pi"
     },
-    "role": ["consonant"]
+    "roles": ["consonant"]
   },
   {
     "text": "\u2CA1",
     "name": {
       "head": "coptic small letter pi"
     },
-    "role": ["consonant"]
+    "roles": ["consonant"]
   },
   {
     "text": "\u2CA2",
     "name": {
       "head": "coptic capital letter ro"
     },
-    "role": ["consonant"]
+    "roles": ["consonant"]
   },
   {
     "text": "\u2CA3",
     "name": {
       "head": "coptic small letter ro"
     },
-    "role": ["consonant"]
+    "roles": ["consonant"]
   },
   {
     "text": "\u2CA4",
     "name": {
       "head": "coptic capital letter sima"
     },
-    "role": ["consonant"]
+    "roles": ["consonant"]
   },
   {
     "text": "\u2CA5",
     "name": {
       "head": "coptic small letter sima"
     },
-    "role": ["consonant"]
+    "roles": ["consonant"]
   },
   {
     "text": "\u2CA6",
     "name": {
       "head": "coptic capital letter tau"
     },
-    "role": ["consonant"]
+    "roles": ["consonant"]
   },
   {
     "text": "\u2CA7",
     "name": {
       "head": "coptic small letter tau"
     },
-    "role": ["consonant"]
+    "roles": ["consonant"]
   },
   {
     "text": "\u2CA8",
     "name": {
       "head": "coptic capital letter ua"
     },
-    "role": ["vowel"]
+    "roles": ["vowel"]
   },
   {
     "text": "\u2CA9",
     "name": {
       "head": "coptic small letter ua"
     },
-    "role": ["vowel"]
+    "roles": ["vowel"]
   },
   {
     "text": "\u2CAA",
     "name": {
       "head": "coptic capital letter fi"
     },
-    "role": ["consonant"]
+    "roles": ["consonant"]
   },
   {
     "text": "\u2CAB",
     "name": {
       "head": "coptic small letter fi"
     },
-    "role": ["consonant"]
+    "roles": ["consonant"]
   },
   {
     "text": "\u2CAC",
     "name": {
       "head": "coptic capital letter khi"
     },
-    "role": ["consonant"]
+    "roles": ["consonant"]
   },
   {
     "text": "\u2CAD",
     "name": {
       "head": "coptic small letter khi"
     },
-    "role": ["consonant"]
+    "roles": ["consonant"]
   },
   {
     "text": "\u2CAE",
     "name": {
       "head": "coptic capital letter psi"
     },
-    "role": ["consonant"]
+    "roles": ["consonant"]
   },
   {
     "text": "\u2CAF",
     "name": {
       "head": "coptic small letter psi"
     },
-    "role": ["consonant"]
+    "roles": ["consonant"]
   },
   {
     "text": "\u2CB0",
     "name": {
       "head": "coptic capital letter oou"
     },
-    "role": ["vowel"]
+    "roles": ["vowel"]
   },
   {
     "text": "\u2CB1",
     "name": {
       "head": "coptic small letter oou"
     },
-    "role": ["vowel"]
+    "roles": ["vowel"]
   },
   {
     "text": "\u2CB2",
     "name": {
       "head": "coptic capital letter dialect-p alef"
     },
-    "role": ["consonant"]
+    "roles": ["consonant"]
   },
   {
     "text": "\u2CB3",
     "name": {
       "head": "coptic small letter dialect-p alef"
     },
-    "role": ["consonant"]
+    "roles": ["consonant"]
   },
   {
     "text": "\u2CB4",
     "name": {
       "head": "coptic capital letter old coptic ain"
     },
-    "role": ["consonant"]
+    "roles": ["consonant"]
   },
   {
     "text": "\u2CB5",
     "name": {
       "head": "coptic small letter old coptic ain"
     },
-    "role": ["consonant"]
+    "roles": ["consonant"]
   },
   {
     "text": "\u2CB6",
     "name": {
       "head": "coptic capital letter cryptogrammic eie"
     },
-    "role": ["vowel"]
+    "roles": ["vowel"]
   },
   {
     "text": "\u2CB7",
     "name": {
       "head": "coptic small letter cryptogrammic eie"
     },
-    "role": ["vowel"]
+    "roles": ["vowel"]
   },
   {
     "text": "\u2CB8",
     "name": {
       "head": "coptic capital letter dialect-p kapa"
     },
-    "role": ["consonant"]
+    "roles": ["consonant"]
   },
   {
     "text": "\u2CB9",
     "name": {
       "head": "coptic small letter dialect-p kapa"
     },
-    "role": ["consonant"]
+    "roles": ["consonant"]
   },
   {
     "text": "\u2CBA",
     "name": {
       "head": "coptic capital letter dialect-p ni"
     },
-    "role": ["consonant"]
+    "roles": ["consonant"]
   },
   {
     "text": "\u2CBB",
     "name": {
       "head": "coptic small letter dialect-p ni"
     },
-    "role": ["consonant"]
+    "roles": ["consonant"]
   },
   {
     "text": "\u2CBC",
     "name": {
       "head": "coptic capital letter cryptogrammic ni"
     },
-    "role": ["consonant"]
+    "roles": ["consonant"]
   },
   {
     "text": "\u2CBD",
     "name": {
       "head": "coptic small letter cryptogrammic ni"
     },
-    "role": ["consonant"]
+    "roles": ["consonant"]
   },
   {
     "text": "\u2CBE",
     "name": {
       "head": "coptic capital letter old coptic oou"
     },
-    "role": ["vowel"]
+    "roles": ["vowel"]
   },
   {
     "text": "\u2CBF",
     "name": {
       "head": "coptic small letter old coptic oou"
     },
-    "role": ["vowel"]
+    "roles": ["vowel"]
   },
   {
     "text": "\u2CC0",
     "name": {
       "head": "coptic capital letter sampi"
     },
-    "role": ["consonant"]
+    "roles": ["consonant"]
   },
   {
     "text": "\u2CC1",
     "name": {
       "head": "coptic small letter sampi"
     },
-    "role": ["consonant"]
+    "roles": ["consonant"]
   },
   {
     "text": "\u2CC2",
     "name": {
       "head": "coptic capital letter crossed shei"
     },
-    "role": ["consonant"]
+    "roles": ["consonant"]
   },
   {
     "text": "\u2CC3",
     "name": {
       "head": "coptic small letter crossed shei"
     },
-    "role": ["consonant"]
+    "roles": ["consonant"]
   },
   {
     "text": "\u2CC4",
     "name": {
       "head": "coptic capital letter old coptic shei"
     },
-    "role": ["consonant"]
+    "roles": ["consonant"]
   },
   {
     "text": "\u2CC5",
     "name": {
       "head": "coptic small letter old coptic shei"
     },
-    "role": ["consonant"]
+    "roles": ["consonant"]
   },
   {
     "text": "\u2CC6",
     "name": {
       "head": "coptic capital letter old coptic esh"
     },
-    "role": ["consonant"]
+    "roles": ["consonant"]
   },
   {
     "text": "\u2CC7",
     "name": {
       "head": "coptic small letter old coptic esh"
     },
-    "role": ["consonant"]
+    "roles": ["consonant"]
   },
   {
     "text": "\u2CC8",
     "name": {
       "head": "coptic capital letter akhmimic khei"
     },
-    "role": ["consonant"]
+    "roles": ["consonant"]
   },
   {
     "text": "\u2CC9",
     "name": {
       "head": "coptic small letter akhmimic khei"
     },
-    "role": ["consonant"]
+    "roles": ["consonant"]
   },
   {
     "text": "\u2CCA",
     "name": {
       "head": "coptic capital letter dialect-p hori"
     },
-    "role": ["consonant"]
+    "roles": ["consonant"]
   },
   {
     "text": "\u2CCB",
     "name": {
       "head": "coptic small letter dialect-p hori"
     },
-    "role": ["consonant"]
+    "roles": ["consonant"]
   },
   {
     "text": "\u2CCC",
     "name": {
       "head": "coptic capital letter old coptic hori"
     },
-    "role": ["consonant"]
+    "roles": ["consonant"]
   },
   {
     "text": "\u2CCD",
     "name": {
       "head": "coptic small letter old coptic hori"
     },
-    "role": ["consonant"]
+    "roles": ["consonant"]
   },
   {
     "text": "\u2CCE",
     "name": {
       "head": "coptic capital letter old coptic ha"
     },
-    "role": ["consonant"]
+    "roles": ["consonant"]
   },
   {
     "text": "\u2CCF",
     "name": {
       "head": "coptic small letter old coptic ha"
     },
-    "role": ["consonant"]
+    "roles": ["consonant"]
   },
   {
     "text": "\u2CD0",
     "name": {
       "head": "coptic capital letter l-shaped ha"
     },
-    "role": ["consonant"]
+    "roles": ["consonant"]
   },
   {
     "text": "\u2CD1",
     "name": {
       "head": "coptic small letter l-shaped ha"
     },
-    "role": ["consonant"]
+    "roles": ["consonant"]
   },
   {
     "text": "\u2CD2",
     "name": {
       "head": "coptic capital letter old coptic hei"
     },
-    "role": ["consonant"]
+    "roles": ["consonant"]
   },
   {
     "text": "\u2CD3",
     "name": {
       "head": "coptic small letter old coptic hei"
     },
-    "role": ["consonant"]
+    "roles": ["consonant"]
   },
   {
     "text": "\u2CD4",
     "name": {
       "head": "coptic capital letter old coptic hat"
     },
-    "role": ["consonant"]
+    "roles": ["consonant"]
   },
   {
     "text": "\u2CD5",
     "name": {
       "head": "coptic small letter old coptic hat"
     },
-    "role": ["consonant"]
+    "roles": ["consonant"]
   },
   {
     "text": "\u2CD6",
     "name": {
       "head": "coptic capital letter old coptic gangia"
     },
-    "role": ["consonant"]
+    "roles": ["consonant"]
   },
   {
     "text": "\u2CD7",
     "name": {
       "head": "coptic small letter old coptic gangia"
     },
-    "role": ["consonant"]
+    "roles": ["consonant"]
   },
   {
     "text": "\u2CD8",
     "name": {
       "head": "coptic capital letter old coptic dja"
     },
-    "role": ["consonant"]
+    "roles": ["consonant"]
   },
   {
     "text": "\u2CD9",
     "name": {
       "head": "coptic small letter old coptic dja"
     },
-    "role": ["consonant"]
+    "roles": ["consonant"]
   },
   {
     "text": "\u2CDA",
     "name": {
       "head": "coptic capital letter old coptic shima"
     },
-    "role": ["consonant"]
+    "roles": ["consonant"]
   },
   {
     "text": "\u2CDB",
     "name": {
       "head": "coptic small letter old coptic shima"
     },
-    "role": ["consonant"]
+    "roles": ["consonant"]
   },
   {
     "text": "\u2CDC",
     "name": {
       "head": "coptic capital letter old nubian shima"
     },
-    "role": ["consonant"]
+    "roles": ["consonant"]
   },
   {
     "text": "\u2CDD",
     "name": {
       "head": "coptic small letter old nubian shima"
     },
-    "role": ["consonant"]
+    "roles": ["consonant"]
   },
   {
     "text": "\u2CDE",
     "name": {
       "head": "coptic capital letter old nubian ngi"
     },
-    "role": ["consonant"]
+    "roles": ["consonant"]
   },
   {
     "text": "\u2CDF",
     "name": {
       "head": "coptic small letter old nubian ngi"
     },
-    "role": ["consonant"]
+    "roles": ["consonant"]
   },
   {
     "text": "\u2CE0",
     "name": {
       "head": "coptic capital letter old nubian nyi"
     },
-    "role": ["consonant"]
+    "roles": ["consonant"]
   },
   {
     "text": "\u2CE1",
     "name": {
       "head": "coptic small letter old nubian nyi"
     },
-    "role": ["consonant"]
+    "roles": ["consonant"]
   },
   {
     "text": "\u2CE2",
     "name": {
       "head": "coptic capital letter old nubian wau"
     },
-    "role": ["consonant"]
+    "roles": ["consonant"]
   },
   {
     "text": "\u2CE3",
     "name": {
       "head": "coptic small letter old nubian wau"
     },
-    "role": ["consonant"]
+    "roles": ["consonant"]
   },
   {
     "text": "\u2CE4",
     "name": {
       "head": "coptic symbol kai"
     },
-    "role": ["sign"]
+    "roles": ["mark"]
   },
   {
     "text": "\u2CE5",
     "name": {
       "head": "coptic symbol mi ro"
     },
-    "role": ["sign"]
+    "roles": ["mark"]
   },
   {
     "text": "\u2CE6",
     "name": {
       "head": "coptic symbol pi ro"
     },
-    "role": ["sign"]
+    "roles": ["mark"]
   },
   {
     "text": "\u2CE7",
     "name": {
       "head": "coptic symbol stauros"
     },
-    "role": ["sign"]
+    "roles": ["mark"]
   },
   {
     "text": "\u2CE8",
     "name": {
       "head": "coptic symbol tau ro"
     },
-    "role": ["sign"]
+    "roles": ["mark"]
   },
   {
     "text": "\u2CE9",
     "name": {
       "head": "coptic symbol khi ro"
     },
-    "role": ["sign"]
+    "roles": ["mark"]
   },
   {
     "text": "\u2CEA",
     "name": {
       "head": "coptic symbol shima sima"
     },
-    "role": ["sign"]
+    "roles": ["mark"]
   },
   {
     "text": "\u2CEB",
     "name": {
       "head": "coptic capital letter cryptogrammic shei"
     },
-    "role": ["consonant"]
+    "roles": ["consonant"]
   },
   {
     "text": "\u2CEC",
     "name": {
       "head": "coptic small letter cryptogrammic shei"
     },
-    "role": ["consonant"]
+    "roles": ["consonant"]
   },
   {
     "text": "\u2CED",
     "name": {
       "head": "coptic capital letter cryptogrammic gangia"
     },
-    "role": ["consonant"]
+    "roles": ["consonant"]
   },
   {
     "text": "\u2CEE",
     "name": {
       "head": "coptic small letter cryptogrammic gangia"
     },
-    "role": ["consonant"]
+    "roles": ["consonant"]
   },
   {
     "text": "\u2CEF",
     "name": {
       "head": "coptic combining ni above"
     },
-    "role": ["modifier"]
+    "roles": ["modifier"]
   },
   {
     "text": "\u2CF0",
     "name": {
       "head": "coptic combining spiritus asper"
     },
-    "role": ["modifier"]
+    "roles": ["modifier"]
   },
   {
     "text": "\u2CF1",
     "name": {
       "head": "coptic combining spiritus lenis"
     },
-    "role": ["modifier"]
+    "roles": ["modifier"]
   },
   {
     "text": "\u2CF2",
     "name": {
       "head": "coptic capital letter bohairic khei"
     },
-    "role": ["consonant"]
+    "roles": ["consonant"]
   },
   {
     "text": "\u2CF3",
     "name": {
       "head": "coptic small letter bohairic khei"
     },
-    "role": ["consonant"]
+    "roles": ["consonant"]
   },
   {
     "text": "\u2CF9",
     "name": {
       "head": "coptic old nubian full stop"
     },
-    "role": ["punctuation"]
+    "roles": ["punctuation", "mark"]
   },
   {
     "text": "\u2CFA",
     "name": {
       "head": "coptic old nubian direct question mark"
     },
-    "role": ["punctuation"]
+    "roles": ["punctuation", "mark"]
   },
   {
     "text": "\u2CFB",
     "name": {
       "head": "coptic old nubian indirect question mark"
     },
-    "role": ["punctuation"]
+    "roles": ["punctuation", "mark"]
   },
   {
     "text": "\u2CFC",
     "name": {
       "head": "coptic old nubian verse divider"
     },
-    "role": ["punctuation"]
+    "roles": ["punctuation", "mark"]
   },
   {
     "text": "\u2CFD",
     "name": {
       "head": "coptic fraction one half"
     },
-    "role": ["sign"]
+    "roles": ["mark"]
   },
   {
     "text": "\u2CFE",
     "name": {
       "head": "coptic full stop"
     },
-    "role": ["punctuation", "period"]
+    "roles": ["punctuation", "period"]
   },
   {
     "text": "\u2CFF",
     "name": {
       "head": "coptic morphological divider"
     },
-    "role": ["punctuation"]
+    "roles": ["punctuation", "mark"]
   }
 ]

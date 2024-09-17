@@ -2,12 +2,9 @@
 // https://en.wiktionary.org/wiki/Category:Gothic_terms_with_IPA_pronunciation
 
 import { build, transform } from '../base'
+import symbolsBase from './symbols.json'
 
-/**
- * Gothic to ULA map.
- */
-
-export const m = {
+const map = {
   '𐌰': 'a',
   '𐌱': 'b',
   '𐌲': 'ɡ',
@@ -51,8 +48,52 @@ export const m = {
   '!': '!',
 }
 
-const s = build(m)
+const numericsMap = {
+  '𐌰': 1,
+  '𐌱': 2,
+  '𐌲': 3,
+  '𐌳': 4,
+  '𐌴': 5,
+  '𐌵': 6,
+  '𐌶': 7,
+  '𐌷': 8,
+  '𐌸': 9,
+  '𐌹': 10,
+  '𐌺': 20,
+  '𐌻': 30,
+  '𐌼': 40,
+  '𐌽': 50,
+  '𐌾': 60,
+  '𐌿': 70,
+  '𐍀': 80,
+  '𐍁': 90,
+  '𐍂': 100,
+  '𐍃': 200,
+  '𐍄': 300,
+  '𐍅': 400,
+  '𐍆': 500,
+  '𐍇': 600,
+  '𐍈': 700,
+  '𐍉': 800,
+  '𐍊': 900,
+}
 
-const form = (i: string) => transform(i, s, m)
+export const symbols = symbolsBase.map(x => {
+  return {
+    ...x,
+    talk: map[x.text],
+    numeric: numericsMap[x.text],
+  }
+})
 
-export default form
+export const consonants = symbols.filter(x =>
+  x.roles.includes('consonant'),
+)
+
+export const vowels = symbols.filter(x => x.roles.includes('vowel'))
+
+const trie = build(map)
+
+const make = (i: string) => transform(i, trie, map)
+
+export default make

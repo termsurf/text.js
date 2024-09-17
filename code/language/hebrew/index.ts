@@ -1,5 +1,5 @@
 import { Map, Mark, build, transform } from '../base'
-import marks from './text.json'
+import marks from './symbols.json'
 
 const boundVowelsToCode = marks
   .filter(x => x.role?.includes('vowel') && x.role.includes('bound'))

@@ -1,8 +1,15 @@
 /* eslint-disable sort-keys/sort-keys-fix */
 
 import { build, transform } from '../base'
+import symbols from './symbols.json'
 
-const consonant = {
+export const consonants = symbols.filter(x =>
+  x.roles.includes('consonant'),
+)
+
+export const vowels = symbols.filter(x => x.roles.includes('vowel'))
+
+const consonantsMap = {
   b: 'b',
   d: 'd',
   g: 'g',
@@ -26,7 +33,7 @@ const consonant = {
   ʾ: "'",
 }
 
-const vowel = {
+const vowelsMap = {
   a: 'a',
   ā: 'a',
   â: 'a',
@@ -42,8 +49,8 @@ const vowel = {
 }
 
 const m = {
-  ...vowel,
-  ...consonant,
+  ...vowelsMap,
+  ...consonantsMap,
 }
 
 const s = build(m)

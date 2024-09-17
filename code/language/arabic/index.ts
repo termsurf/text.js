@@ -1,7 +1,5 @@
 /* eslint-disable sort-keys/sort-keys-fix */
 
-import { makeBack } from '../base'
-
 /**
  * Arabic to ULA map.
  */
@@ -23,7 +21,6 @@ const codeHead = {
   '٨': '8',
   '٩': '9',
 }
-const codeBack = makeBack(codeHead)
 
 // ```
 // import make from '@termsurf/talk'
@@ -317,7 +314,7 @@ export const m: Record<string, string> = {
   ...codeHead,
 }
 
-const form = (s: string) => {
+const make = (s: string) => {
   let out: Array<string> = []
   let i = 0
   let r = s
@@ -355,4 +352,4 @@ const form = (s: string) => {
     .replace(/uu+/g, 'uu')
 }
 
-export default form
+export default make
