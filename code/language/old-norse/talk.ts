@@ -57,6 +57,7 @@ const vowels = {
   á: 'a_', //	father (long)
   e: 'e', // /ɛ/ é as in French 'été' (short)
   é: 'e_', //	é as in French 'été' (long)
+  ē: 'e_',
   i: 'i', //	ee as in feet (short)
   í: 'i_', //	ee as in feet (long)
   o: 'o', //	o as in vote (short)
@@ -70,6 +71,7 @@ const vowels = {
   ǫ́: 'o$_', //	o as in 'lot', (long)
   ø: 'e$', //	eu as in French 'feu'
   œ: 'e$_', //	eu as in French 'feu', (long)
+  ö: 'e$_',
 }
 
 const m = {

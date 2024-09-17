@@ -174,7 +174,7 @@ const form = (s: string) => {
     }
   }
 
-  let out = []
+  let out: Array<string> = []
 
   while (syllables.length) {
     let r = syllables.shift()
@@ -195,7 +195,7 @@ const form = (s: string) => {
     }
 
     if (rm) {
-      let v = vowels[rm]
+      let v = vowels[rm]!
       out.push(v)
     }
 

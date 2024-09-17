@@ -1,5 +1,5 @@
 import { Mark } from '../base'
-import marks from './marks.json'
+import marks from './text.json'
 
 export const consonants = marks.filter(x =>
   x.role?.includes('consonant'),

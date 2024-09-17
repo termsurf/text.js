@@ -318,7 +318,7 @@ export const m: Record<string, string> = {
 }
 
 const form = (s: string) => {
-  let out = []
+  let out: Array<string> = []
   let i = 0
   let r = s
   let last: string = ''
