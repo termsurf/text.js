@@ -156,14 +156,15 @@ talk('rIg ph~a') //=> "ṙịg pɦa"
 
 Take the generated [TalkText](https://github.com/termsurf/talk) and
 convert it into a format compatible with
-[ToneText](https://github.com/termsurf/tone) fonts (this isn't really
-human readable, it's for the font format).
+[ToneText](https://github.com/termsurf/tone) fonts.
 
 ```ts
 import tone from '@termsurf/tone'
 
 tone('měi lì de') //=> "me8i li6 tO"
 ```
+
+...which is rendered as:
 
 <p align='center'>
   <img src="https://github.com/termsurf/text.js/blob/make/view/tone-example.png?raw=true" width="360" />
