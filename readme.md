@@ -6,7 +6,7 @@
 <br/>
 <br/>
 
-<h3 align='center'>@termsurf/talk-code</h3>
+<h3 align='center'>@termsurf/text</h3>
 <p align='center'>
   Convert traditional orthography into Latin or pronunciation text.
 </p>
