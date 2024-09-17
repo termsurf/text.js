@@ -42,7 +42,9 @@ spelling, which is pretty cool. Taking advantage of that fact here!
 npm install @termsurf/text
 ```
 
-## Example
+## Examples
+
+Here are some API examples.
 
 ### Detect Script
 
