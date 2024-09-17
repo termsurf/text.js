@@ -36,6 +36,15 @@ some other languages. However, some languages do have the ability to get
 pretty close to correct pronunciation based purely on the native
 spelling, which is pretty cool. Taking advantage of that fact here!
 
+## Goals
+
+- [x] Script detection.
+- [ ] Romanization transliterations of scripts/languages in various
+      forms.
+- [ ] Structured script data, such as what are the vowels, etc..
+- [ ] [Keyboard layout data](https://github.com/simple-keyboard/simple-keyboard-layouts)
+      for various languages.
+
 ## Installation
 
 ```bash
@@ -138,15 +147,6 @@ can and can't have pronunciations automatically done.
 | English            | no                                                             | Too many words need to have pronunciation memorized.                                                                                                                                                    |
 | Tibetan            | no                                                             | Modern Tibetan has evolved to where the script no longer is phonetic.                                                                                                                                   |
 | Vietnamese         | no                                                             |                                                                                                                                                                                                         |
-
-## Goals
-
-- [x] Script detection.
-- [ ] Romanization transliterations of scripts/languages in various
-      forms.
-- [ ] Structured script data, such as what are the vowels, etc..
-- [ ] [Keyboard layout data](https://github.com/simple-keyboard/simple-keyboard-layouts)
-      for various languages.
 
 ## License
 
