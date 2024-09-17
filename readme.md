@@ -42,7 +42,58 @@ spelling, which is pretty cool. Taking advantage of that fact here!
 npm install @termsurf/text
 ```
 
-## Table of Languages
+## Example
+
+### Detect Script
+
+```ts
+import detect from '@termsurf/text/detect'
+
+detect([...'美丽的']) //=> { form: 'chinese', rank: 1 }
+```
+
+### Transform Text
+
+For these languages you can currently call `make`:
+
+- akkadian
+- arabic
+- chinese
+- coptic
+- devanagari
+- finnish
+- french
+- geez
+- georgian
+- gothic
+- gujarati
+- gurmukhi
+- TODO...
+
+#### Arabic
+
+```ts
+import make, {
+  symbols,
+  vowels,
+  boundVowels,
+  consonants,
+} from '@termsurf/text/system/arabic'
+
+make('جَمِيل') //=> "djami_l"
+
+vowels.forEach(console.log)
+```
+
+#### Chinese
+
+```ts
+import make from '@termsurf/text/system/chinese'
+
+make('měi lì de') //=> "me\\/i li\\ tO"
+```
+
+## Derivable Pronunciations
 
 Here is a table explaining which languages we've looked at so far which
 can and can't have pronunciations automatically done.
@@ -64,30 +115,16 @@ can and can't have pronunciations automatically done.
 
 ## Goals
 
-- Include romanization transliterations of texts in various forms.
-- Include pronunciation of words and word parts in Chat text and
-  possibly IPA.
-- Maybe include
-  [keyboard layout data](https://github.com/simple-keyboard/simple-keyboard-layouts)
-  for various languages.
-- Have structured script data, such as what are the vowels, etc..
-- Script detection.
+- [x] Script detection.
+- [ ] Romanization transliterations of scripts/languages in various
+      forms.
+- [ ] Structured script data, such as what are the vowels, etc..
+- [ ] [Keyboard layout data](https://github.com/simple-keyboard/simple-keyboard-layouts)
+      for various languages.
 
 ## License
 
-Copyright 2021-2024 <a href='https://term.surf'>TermSurf</a>
-
-Licensed under the Apache License, Version 2.0 (the "License"); you may
-not use this file except in compliance with the License. You may obtain
-a copy of the License at
-
-    http://www.apache.org/licenses/LICENSE-2.0
-
-Unless required by applicable law or agreed to in writing, software
-distributed under the License is distributed on an "AS IS" BASIS,
-WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-See the License for the specific language governing permissions and
-limitations under the License.
+MIT
 
 ## TermSurf
 
