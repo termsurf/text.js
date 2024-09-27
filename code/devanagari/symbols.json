@@ -17,14 +17,6 @@
   },
   {
     "roles": ["vowel"],
-    "text": "\u0905",
-    "talk": "H",
-    "name": {
-      "head": "devanagari letter a"
-    }
-  },
-  {
-    "roles": ["vowel"],
     "text": "\u0906",
     "talk": "a_",
     "name": {

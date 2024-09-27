@@ -7,7 +7,7 @@ import symbolsBase from './symbols.json'
 const map = {
   '𐌰': 'a',
   '𐌱': 'b',
-  '𐌲': 'ɡ',
+  '𐌲': 'g',
   '𐌳': 'd',
   '𐌴': 'e_',
   '𐌵': 'kw~',

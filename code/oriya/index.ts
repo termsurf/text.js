@@ -1,103 +1,100 @@
-const x = {}
-export default x
-// import { build, transform } from '~/base'
+import { build, transform } from '~/base'
 
-// const virama = '\u0B4d'
+const virama = '\u0B4d'
 
-// const vowelDiacritics = {
-//   '\u0B3e': 'aa',
-//   '\u0B3f': 'i',
-//   '\u0B40': 'ii',
-//   '\u0B41': 'u',
-//   '\u0B42': 'uu',
-//   '\u0B43': 'r',
-//   '\u0B44': 'rr',
-//   '\u0B47': 'e',
-//   '\u0B48': 'ai',
-//   '\u0B4b': 'o',
-//   '\u0B4c': 'au',
-//   '\u0B62': 'l',
-//   '\u0B63': 'll',
-// }
+const vowelDiacritics = {
+  '\u0B3e': 'a_',
+  '\u0B3f': 'i',
+  '\u0B40': 'i_',
+  '\u0B41': 'u',
+  '\u0B42': 'u_',
+  '\u0B43': 'u$',
+  '\u0B44': 'u$_',
+  '\u0B47': 'e',
+  '\u0B48': 'ai',
+  '\u0B4b': 'o',
+  '\u0B4c': 'au',
+  '\u0B62': 'l',
+  '\u0B63': 'll',
+}
 
-// const standaloneVowels = {
-//   ଅ: 'a',
-//   ଇ: 'i',
-//   ଉ: 'u',
-//   ଋ: 'ru',
-//   ଌ: 'lu',
-//   ଆ: 'aa',
-//   ଈ: 'ii',
-//   ଊ: 'uu',
-//   ୠ: 'rru',
-//   ୡ: 'llu',
-//   ଏ: 'e',
-//   ଓ: 'o',
-//   ଐ: 'ai',
-//   ଔ: 'au',
-// }
+const standaloneVowels = {
+  ଅ: 'a',
+  ଇ: 'i',
+  ଉ: 'u',
+  ଋ: 'u$u',
+  ଌ: 'lu',
+  ଆ: 'a_',
+  ଈ: 'i_',
+  ଊ: 'u_',
+  ୠ: 'u$_u',
+  ୡ: 'llu',
+  ଏ: 'e',
+  ଓ: 'o',
+  ଐ: 'ai',
+  ଔ: 'au',
+}
 
-// const consonants = {
-//   କ: 'ko~',
-//   ଖ: 'kho~',
-//   ଗ: 'go~',
-//   ଘ: 'gho~',
-//   ଙ: 'qo~',
-//   ଚ: 'txo~',
-//   ଛ: 'txho~',
-//   ଜ: 'djo~',
-//   ଝ: 'djho~',
-//   ଞ: 'nyo~',
-//   ଟ: 'To~',
-//   ଠ: 'Tho~',
-//   ଡ: 'Do~',
-//   ଢ: 'Dho~',
-//   ଣ: 'No~',
-//   ତ: 'to~',
-//   ଥ: 'tho~',
-//   ଦ: 'do~',
-//   ଧ: 'dho~',
-//   ନ: 'no~',
-//   ପ: 'po~',
-//   ଫ: 'pho~',
-//   ବ: 'bo~',
-//   ଭ: 'bho~',
-//   ମ: 'mo~',
-//   ଯ: 'djo~',
-//   ୟ: 'yo~',
-//   ର: 'r!o~',
-//   ଳ: 'Lo~',
-//   ଲ: 'lo~',
-//   ୱ: 'wo~',
-//   ଶ: 'so~',
-//   ଷ: 'so~',
-//   ସ: 'so~',
-//   ହ: 'ho~',
-//   ଡ଼: 'Ro~',
-//   ଢ଼: 'Rho~',
-//   କ୍ଷ: 'kso~',
-// }
+const consonants = {
+  କ: 'ko$',
+  ଖ: 'kh~o$',
+  ଗ: 'go$',
+  ଘ: 'gh~o$',
+  ଙ: 'qo$',
+  ଚ: 'txo$',
+  ଛ: 'txh~o$',
+  ଜ: 'djo$',
+  ଝ: 'djh~o$',
+  ଞ: 'ny~o$',
+  ଟ: 'To$',
+  ଠ: 'Th~o$',
+  ଡ: 'Do$',
+  ଢ: 'Dh~o$',
+  ଣ: 'No$',
+  ତ: 'to$',
+  ଥ: 'th~o$',
+  ଦ: 'do$',
+  ଧ: 'dh~o$',
+  ନ: 'no$',
+  ପ: 'po$',
+  ଫ: 'ph~o$',
+  ବ: 'bo$',
+  ଭ: 'bh~o$',
+  ମ: 'mo$',
+  ଯ: 'djo$',
+  ୟ: 'yo$',
+  ର: 'ro$',
+  ଳ: 'Lo$',
+  ଲ: 'lo$',
+  ୱ: 'wo$',
+  ଶ: 'so$',
+  ଷ: 'so$',
+  ସ: 'so$',
+  ହ: 'ho$',
+  ଡ଼: 'Ro$',
+  ଢ଼: 'Rh~o$',
+  କ୍ଷ: 'kso$',
+}
 
-// const vowelTransformer = Object.keys(vowelDiacritics).reduce((m, x) => {
-//   let render = vowels[x]
-//   m[x] = m => {
-//     m[m.length - 1] = m[m.length - 1].replace(/o~/, '') + render
-//   }
-//   return m
-// }, {})
+const vowelTransformer = Object.keys(vowelDiacritics).reduce((m, x) => {
+  let render = vowelDiacritics[x]
+  m[x] = m => {
+    m[m.length - 1] = m[m.length - 1].replace(/o~/, '') + render
+  }
+  return m
+}, {})
 
-// const m = {
-//   ...blank,
-//   ...vowelTransformer,
-//   ...standaloneVowels,
-//   ...consonants,
-//   [virama]: m => {
-//     m[m.length - 1] = m[m.length - 1].replace(/o~/, '')
-//   },
-// }
+const m = {
+  ...vowelTransformer,
+  ...standaloneVowels,
+  ...consonants,
+  [virama]: m => {
+    m[m.length - 1] = m[m.length - 1].replace(/o~/, '')
+  },
+}
 
-// const s = build(m)
+const s = build(m)
 
-// const form = (t: string) => transform(t, s, m)
+const form = (t: string) => transform(t, s, m)
 
-// export default form
+export default form

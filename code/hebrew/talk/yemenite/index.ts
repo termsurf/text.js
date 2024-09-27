@@ -1,6 +1,6 @@
-import { Map, Mark, build, load, transform } from '../../../base'
+import { Map, Mark, build, load, transform } from '~/base/index.js'
 import TALK from './text.json'
-import TEXT from '../../text.json'
+import TEXT from '../../symbols.json'
 
 const talk = TALK as any
 const text = TEXT as any

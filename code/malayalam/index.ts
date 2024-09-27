@@ -1,120 +1,121 @@
-const x = {}
-export default x
-// import { build, transform } from '~/base'
+import { build, transform } from '~/base'
 
-// const virama = '\u0D4d'
+const virama = '\u0D4d'
 
-// const vowelDiacritics = {
-//   '\u0D3e': 'aa',
-//   '\u0D3f': 'i',
-//   '\u0D40': 'ii',
-//   '\u0D41': 'u',
-//   '\u0D42': 'uu',
-//   '\u0D43': 'r',
-//   '\u0D44': 'rr',
-//   '\u0D46': 'e',
-//   '\u0D47': 'ee',
-//   '\u0D48': 'ai',
-//   '\u0D4a': 'o',
-//   '\u0D4b': 'oo',
-//   '\u0D4c': 'au',
-//   '\u0D62': 'l',
-//   '\u0D63': 'll',
-// }
+const vowelDiacritics = {
+  '\u0D3e': 'a_',
+  '\u0D3f': 'i',
+  '\u0D40': 'i_',
+  '\u0D41': 'u',
+  '\u0D42': 'u_',
+  '\u0D43': 'u$',
+  '\u0D44': 'u$_',
+  '\u0D46': 'e',
+  '\u0D47': 'e_',
+  '\u0D48': 'ai',
+  '\u0D4a': 'o',
+  '\u0D4b': 'o_',
+  '\u0D4c': 'au',
+  '\u0D62': 'l',
+  '\u0D63': 'll',
+}
 
-// const otherDiacritics = {
-//   '\u0D11': '&',
-//   '\u0D12': '&',
-//   '\u0D13': 'h',
-// }
+const otherDiacritics = {
+  '\u0D11': '&',
+  '\u0D12': '&',
+  '\u0D13': 'h',
+}
 
-// const standaloneVowels = {
-//   അ: 'a',
-//   ഇ: 'i',
-//   ഉ: 'u',
-//   ഋ: 'r̥',
-//   ഌ: 'l̥',
-//   എ: 'e',
-//   ഒ: 'o',
-//   ആ: 'aa',
-//   ഈ: 'ii',
-//   ഊ: 'uu',
-//   ൠ: 'rr',
-//   ൡ: 'll',
-//   ഏ: 'ee',
-//   ഓ: 'oo',
-//   ഐ: 'ai',
-//   ഔ: 'au',
-// }
+const standaloneVowels = {
+  അ: 'a',
+  ഇ: 'i',
+  ഉ: 'u',
+  ഋ: 'u$',
+  ഌ: 'l',
+  എ: 'e',
+  ഒ: 'o',
+  ആ: 'a_',
+  ഈ: 'i_',
+  ഊ: 'u_',
+  ൠ: 'u$_',
+  ൡ: 'll',
+  ഏ: 'e_',
+  ഓ: 'o_',
+  ഐ: 'ai',
+  ഔ: 'au',
+}
 
-// const consonants = {
-//   ക: 'ka',
-//   ഖ: 'kha',
-//   ഗ: 'ga',
-//   ഘ: 'gha',
-//   ങ: 'qa',
-//   ച: 'txa',
-//   ഛ: 'txha',
-//   ജ: 'dja',
-//   ഝ: 'djha',
-//   ഞ: 'nya',
-//   ട: 'Ta',
-//   ഠ: 'Tha',
-//   ഡ: 'Da',
-//   ഢ: 'Dha',
-//   ണ: 'Na',
-//   ത: 'ta',
-//   ഥ: 'tha',
-//   ദ: 'da',
-//   ധ: 'dha',
-//   ന: 'na',
-//   പ: 'pa',
-//   ഫ: 'pha',
-//   ബ: 'ba',
-//   ഭ: 'bha',
-//   മ: 'ma',
-//   യ: 'ya',
-//   ര: 'ra',
-//   ല: 'la',
-//   വ: 'Va',
-//   ശ: 'xa',
-//   ഷ: 'Xa',
-//   സ: 'sa',
-//   ഹ: 'ha',
-//   ള: 'La',
-//   ഴ: 'Ra',
-//   റ: 'r!a',
-//   ഩ: 'nna',
-//   ഺ: 'tta',
-//   ൿ: 'k',
-//   ൾ: 'll',
-//   ൽ: 'l',
-//   ർ: 'r!',
-//   ൻ: 'n',
-//   ൺ: 'N',
-// }
+const consonants = {
+  ക: 'ka',
+  ഖ: 'kh~a',
+  ഗ: 'ga',
+  ഘ: 'gh~a',
+  ങ: 'qa',
+  ച: 'txa',
+  ഛ: 'txh~a',
+  ജ: 'dja',
+  ഝ: 'djh~a',
+  ഞ: 'ny~a',
+  ട: 'Ta',
+  ഠ: 'Th~a',
+  ഡ: 'Da',
+  ഢ: 'Dh~a',
+  ണ: 'Na',
+  ത: 'ta',
+  ഥ: 'th~a',
+  ദ: 'da',
+  ധ: 'dh~a',
+  ന: 'na',
+  പ: 'pa',
+  ഫ: 'ph~a',
+  ബ: 'ba',
+  ഭ: 'bh~a',
+  മ: 'ma',
+  യ: 'ya',
+  ര: 'ra',
+  ല: 'la',
+  വ: 'Va',
+  ശ: 'xa',
+  ഷ: 'Xa',
+  സ: 'sa',
+  ഹ: 'ha',
+  ള: 'La',
+  ഴ: 'Ra',
+  റ: 'ra',
+  ഩ: 'na',
+  ഺ: 'ta',
+}
 
-// const vowelTransformer = Object.keys(vowelDiacritics).reduce((m, x) => {
-//   let render = vowels[x]
-//   m[x] = m => {
-//     m[m.length - 1] = m[m.length - 1].replace(/a/, '') + render
-//   }
-//   return m
-// }, {})
+const chilluConsonants = {
+  ൿ: 'ka',
+  ൾ: 'lla',
+  ൽ: 'la',
+  ർ: 'ra',
+  ൻ: 'na',
+  ൺ: 'Na',
+}
 
-// const m = {
-//   ...blank,
-//   ...otherDiacritics,
-//   ...vowelTransformer,
-//   ...standaloneVowels,
-//   ...consonants,
-//   [virama]: m => {
-//     m[m.length - 1] = m[m.length - 1].replace(/a/, '')
-//   },
-// }
+const vowelTransformer = Object.keys(vowelDiacritics).reduce((m, x) => {
+  let render = vowelDiacritics[x]
+  m[x] = m => {
+    m[m.length - 1] = m[m.length - 1].replace(/a/, '') + render
+  }
+  return m
+}, {})
 
-// const s = build(m)
+const m = {
+  ...otherDiacritics,
+  ...vowelTransformer,
+  ...standaloneVowels,
+  ...consonants,
+  ...chilluConsonants,
+  [virama]: m => {
+    m[m.length - 1] = m[m.length - 1].replace(/a/, '')
+  },
+}
 
-// const form = (t: string) => transform(t, s, m)
+const s = build(m)
 
-// export default form
+const form = (t: string) => transform(t, s, m)
+
+export default form

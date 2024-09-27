@@ -169,7 +169,7 @@ export const basicConsonants: Record<string, string> = {
   ཝ: 'wa',
   ཞ: 'ja',
   ཟ: 'za',
-  འ: 'hh~',
+  འ: 'hh~a',
   ཡ: 'ya',
   ར: 'ra',
   ལ: 'la',
@@ -191,7 +191,7 @@ export const standaloneVowels: Record<string, string> = {
   ཨ: 'a',
 }
 
-export const vowelDiacritics: Record<string, string> = {
+export const vowelDiacritics = {
   '\u0f39': '', // lenition?
   // vowels
   '\u0f71': 'a_',
