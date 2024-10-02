@@ -1,0 +1,30 @@
+const consonants = {
+  ᮊ: 'ka',
+  ᮌ: 'ga',
+  ᮍ: 'qa',
+  ᮎ: 'txy~a',
+  ᮏ: 'dzy~a',
+  ᮑ: 'ny~a',
+  ᮒ: 'ta',
+  ᮓ: 'da',
+  ᮔ: 'na',
+  ᮕ: 'pa',
+  ᮘ: 'ba',
+  ᮙ: 'ma',
+  ᮚ: 'ya',
+  ᮛ: 'ra',
+  ᮜ: 'la',
+  ᮝ: 'wa',
+  ᮞ: 'sa',
+  ᮠ: 'ha',
+}
+
+const extraConsonants = {
+  ᮖ: 'fa',
+  ᮋ: 'qa',
+  ᮗ: 'va',
+  ᮟ: 'sa',
+  ᮐ: 'za',
+  ᮮ: 'Ha',
+  ᮯ: 'xa',
+}

@@ -1,3 +1,5 @@
+import { build, transform } from '~/base'
+
 export const vowels = {
   অ: 'o$',
   ই: 'i',
@@ -78,3 +80,26 @@ export const postReformConsonants = {
   ঢ়: 'Rh~o$',
   য়: 'yo$',
 }
+
+const map = {
+  ...consonants,
+  ...vowels,
+  ...diacritics,
+  ...complexVowels,
+  ...complexDiacritics,
+  ...postReformConsonants,
+}
+
+/**
+ * Build trie.
+ */
+
+const trie = build(map)
+
+/**
+ * Transform the text.
+ */
+
+const make = (text: string) => transform(text, trie, map)
+
+export default make
