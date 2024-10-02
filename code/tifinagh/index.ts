@@ -1,4 +1,6 @@
-const alphabet = {
+import { build, transform } from '~/base'
+
+export const alphabet = {
   ⴰ: 'A',
   ⴱ: 'b',
   ⴳ: 'g',
@@ -43,3 +45,13 @@ const alphabet = {
   ⵁ: 'h',
   ⵞ: 'tx',
 }
+
+const m = {
+  ...alphabet,
+}
+
+const s = build(m)
+
+const form = (t: string) => transform(t, s, m)
+
+export default form
