@@ -38,7 +38,8 @@ const consonant = {
 }
 
 
-
-
-
-
+const otherCharacters ={
+'\u0622' : 'ɒ',
+'\u06C0' : 'eje',
+'\u0644, \u0627' : 'lɒ' 
+}
