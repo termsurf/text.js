@@ -41,8 +41,8 @@ export const consonants: Record<string, string> = {
   ஃப: 'fa',
   ஃஜ: 'za',
   ஃக: 'Ha',
-  ங: 'qa',
-  ச: 'txa',
+  ங: 'Ka',
+  ச: 'tHa',
   ஞ: 'ny~a',
   ட: 'Ta',
   ண: 'Na',
@@ -50,7 +50,7 @@ export const consonants: Record<string, string> = {
   ந: 'na',
   ப: 'pa',
   ம: 'ma',
-  ய: 'ya',
+  ய: 'i$a',
   ர: 'ra',
   ல: 'la',
   வ: 'Va',
@@ -58,8 +58,8 @@ export const consonants: Record<string, string> = {
   ள: 'La',
   ற: 'ra',
   ன: 'na',
-  ஜ: 'dja',
-  ஶ: 'xa',
+  ஜ: 'dya',
+  ஶ: 'Ha',
   ஷ: 'kXa',
   ஸ: 'sa',
   ஹ: 'ha',
@@ -102,15 +102,14 @@ export const characters: Map = {
     }
   },
   ',': ',',
-  '.': '.',
+  '.': '',
   '?': '?',
   ';': ';',
-  '-': '-',
+  '-': '=-',
   ' ': ' ',
 }
 
 const s = build(characters)
 
 const form = (t: string) => transform(t, s, characters)
-
 export default form
