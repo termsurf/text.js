@@ -15,7 +15,7 @@ export const vowels = {
 
 export const diacritics = {
   'া': 'a',
-  ' ি': 'i',
+  'ি': 'i',
   'ী': 'i',
   'ু': 'u',
   'ূ': 'u',

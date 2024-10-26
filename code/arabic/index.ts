@@ -89,6 +89,8 @@ const vibe: Record<string, string> = {
   '\u064A\u064E': 'ay',
   '\u0648\u064E': 'aw',
 
+  '\u06a9': 'kh~',
+
   '\u0649': 'a_',
 
   ء: "'",

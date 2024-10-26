@@ -16,6 +16,7 @@ const vowelDiacritics = {
   '\u0D4a': 'o',
   '\u0D4b': 'o_',
   '\u0D4c': 'au',
+  '\u0D57': 'au',
   '\u0D62': 'l',
   '\u0D63': 'll',
 }
@@ -103,14 +104,25 @@ const vowelTransformer = Object.keys(vowelDiacritics).reduce((m, x) => {
   return m
 }, {})
 
+const anusvara = `ം`
+const visarga = `\u0d03`
+
 const m = {
+  [visarga]: 'h',
   ...otherDiacritics,
   ...vowelTransformer,
   ...standaloneVowels,
   ...consonants,
   ...chilluConsonants,
+  '-': '-',
   [virama]: m => {
     m[m.length - 1] = m[m.length - 1].replace(/a/, '')
+  },
+  [anusvara]: m => {
+    m[m.length - 1] = m[m.length - 1].replace(
+      /([aeiou])$/i,
+      (_, $1) => `${$1}m`,
+    )
   },
 }
 
