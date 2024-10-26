@@ -13,8 +13,8 @@ importers:
         version: 1.0.1
     devDependencies:
       '@termsurf/talk':
-        specifier: ^3.1.0
-        version: 3.1.0
+        specifier: ^3.1.6
+        version: 3.1.6
       '@termsurf/tone':
         specifier: ^3.3.4
         version: 3.3.4
@@ -424,8 +424,8 @@ packages:
     resolution: {integrity: sha512-POgTXhjrTfbTV63DiFXav4lBHiICLKKwDeaKn9Nphwj7WH6m0hMMCaJkMyRWjgtPFyRKRVoMXXjczsTQRDEhYw==}
     engines: {node: ^12.20.0 || ^14.18.0 || >=16.0.0}
 
-  '@termsurf/talk@3.1.0':
-    resolution: {integrity: sha512-APkxJrFk1UVDeYZ8DoP27hHiQ6UtgX7ul3slMIy4cVQkWc8qufpI1570JysiU2/CnwUbSr663jUnNsAQ/oArjA==}
+  '@termsurf/talk@3.1.6':
+    resolution: {integrity: sha512-SBw0MncHciSrDfY4S88ABIr1Wkx0oUodUE6GsUijj+RjPihk8HpCGbBbF2aa+HJJEzqwgDnXSCwcmKVWjnJSlA==}
 
   '@termsurf/tone@3.3.4':
     resolution: {integrity: sha512-Agr/xwNyN9zidMWYkzB9pDu0mVtieYf1vex5++xG+LbO9fpFHoaZc90G6/0t+Xm5uIjca2FXABFbuWpR3aGAIg==}
@@ -2219,7 +2219,7 @@ snapshots:
       picocolors: 1.0.0
       tslib: 2.6.2
 
-  '@termsurf/talk@3.1.0':
+  '@termsurf/talk@3.1.6':
     dependencies:
       '@lancejpollard/script-tree': 1.1.2
 
