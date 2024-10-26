@@ -123,3 +123,16 @@ export function load(talk: Array<any>, text: Array<any>) {
     a.role = b.role
   }
 }
+
+export const basicPunctuation = {
+  ' ': ' ',
+  '.': '.',
+  '-': '-',
+  '?': '?',
+  '!': '!',
+  ',': ',',
+  ';': ';',
+  ':': ':',
+  '(': '(',
+  ')': ')',
+}
