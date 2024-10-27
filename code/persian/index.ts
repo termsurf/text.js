@@ -1,4 +1,6 @@
-const consonant = {
+import { build, transform } from '~/base'
+
+const consonants = {
 '\u0621': 'ʔ ',
 '\u0623': 'ʔ ',
 '\u0626': 'ʔ ',
@@ -41,5 +43,16 @@ const consonant = {
 const otherCharacters ={
 '\u0622' : 'ɒ',
 '\u06C0' : 'eje',
-'\u0644, \u0627' : 'lɒ' 
+'\u0644' :  'lɒ',
+'\u0627' : 'lɒ' 
 }
+
+const symbols = {
+    ...consonants,
+    ...otherCharacters
+  }
+  const s = build(symbols)
+  const make = (t: string) => transform(t, s, s)
+
+  
+  export default make
