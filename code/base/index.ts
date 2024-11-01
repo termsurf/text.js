@@ -1,6 +1,6 @@
 export type Map = Record<
   string,
-  string | ((m: Array<string>, n: string) => void)
+  string | Array<string> | ((m: Array<string>, n: string) => void)
 >
 
 export type Mark = {
@@ -80,6 +80,8 @@ export function transform(i: string, s: Tree, m: Map) {
       k(o, i.slice(v))
     } else if (typeof k === 'string') {
       o.push(k)
+    } else if (Array.isArray(k) && k[0]) {
+      o.push(k[0]!)
     }
 
     w = v
