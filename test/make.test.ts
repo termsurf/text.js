@@ -1,5 +1,6 @@
 import makeChinese from '~/chinese'
 import makeArabic from '~/arabic'
+import makePersian from '~/persian'
 import makeTibetanWylie from '~/tibetan/wylie/to'
 import makeWylieTibetan from '~/tibetan/wylie/from'
 import tone from '@termsurf/tone'
@@ -13,3 +14,5 @@ console.log(makeWylieTibetan('rig pa'))
 
 console.log(tone(makeChinese('měi lì de')))
 console.log(talk('rIg ph~a'))
+
+console.log(makePersian('سلام وجود دارد'))
