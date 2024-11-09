@@ -108,6 +108,8 @@ export const numbers: Map = {
   '੯': '9',
 }
 
+const addak = `\u0A71`
+
 const nasal = (m: Array<string>) => {
   const last = m[m.length - 1]
   if (last) {
@@ -119,12 +121,20 @@ const nasal = (m: Array<string>) => {
   }
 }
 
+const geminated = (m: Array<string>, n: string) => {
+  const next = n[0]
+  if (next?.match(/[bcdfghjklmnpqrstvwxyz]/i)) {
+    m.push(next)
+  }
+}
+
 export const characters: Map = {
   ...blank,
   ...vowelTransformer,
   ...standaloneVowels,
   ...consonants,
   ...numbers,
+  [addak]: geminated,
   [virama]: m => {
     const last = m[m.length - 1]
     if (last) {

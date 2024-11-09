@@ -1,7 +1,23 @@
 import { Map, build, transform } from '~/base'
 
+// https://ccat.sas.upenn.edu/plc/tamilweb/
+
 export const virama = '\u0bcd'
 export const anusvara = '\u0b82'
+
+export const numerals = {
+  '௦': 0,
+  '௧': 1,
+  '௨': 2,
+  '௩': 3,
+  '௪': 4,
+  '௫': 5,
+  '௬': 6,
+  '௭': 7,
+  '௮': 8,
+  '௯': 9,
+  '௰': 1,
+}
 
 export const vowelDiacritics: Record<string, string> = {
   '\u0BBe': 'a_',
@@ -83,6 +99,7 @@ export const characters: Map = {
   ...standaloneVowels,
   ...akku,
   ...consonants,
+  ...numerals,
   [anusvara]: m => {
     let last = m[m.length - 1]
     if (last) {

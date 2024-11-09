@@ -1,6 +1,9 @@
 export type Map = Record<
   string,
-  string | Array<string> | ((m: Array<string>, n: string) => void)
+  | string
+  | number
+  | Array<string>
+  | ((m: Array<string>, n: string) => void)
 >
 
 export type Mark = {

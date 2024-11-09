@@ -1,6 +1,6 @@
-import { build, transform } from '~/base'
+import { build, transform, Map } from '~/base'
 
-const consonants = {
+const consonants: Map = {
   '\u0621': 'ʔ',
   '\u0623': 'ʔ',
   '\u0626': 'ʔ',
@@ -35,22 +35,24 @@ const consonants = {
   '\u0646': 'n',
   '\u063A': ['ɢ', 'ɣ'],
   '\u0648': ['u', 'ow', 'v', 'o', 'u', 'w', 'aw', 'oː'],
-  '\u0647': ['h', 'or ', 'a'],
+  '\u0647': ['h', 'or', 'a'],
   '\u06CC': ['j', 'i', 'ɒː', 'aj', 'eː', 'ɒː'],
 }
 
-const otherCharacters = {
+const otherCharacters: Map = {
   '\u0622': 'ɒ',
   '\u06C0': 'eje',
   '\u0644': 'lɒ',
   '\u0627': 'lɒ',
 }
 
-const symbols = {
+const symbols: Map = {
   ...consonants,
   ...otherCharacters,
 }
+
 const s = build(symbols)
-const make = (t: string) => transform(t, s, s)
+
+const make = (t: string) => transform(t, s, symbols)
 
 export default make
