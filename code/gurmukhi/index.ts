@@ -1,6 +1,6 @@
 // https://en.wikipedia.org/wiki/Gurmukhi
 
-import { Map, build, transform } from '~/base'
+import { Map, basicPunctuation, build, transform } from '~/base'
 
 export const virama = '\u0A4d'
 export const tippi = '\u0a70'
@@ -147,8 +147,7 @@ export const characters: Map = {
   '।': '।', // danda to gurmukhi danda
   '॥': '॥', // double danda
   '\u0a03': '.', // visarga is abbreviation
-  '(': '(',
-  ')': ')',
+  ...basicPunctuation,
 }
 
 const s = build(characters)
