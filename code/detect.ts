@@ -267,13 +267,11 @@ export default function detect(characters: Array<string>) {
   Object.keys(possibilities).forEach(form => {
     const mark = possibilities[form]
 
-    if (
-      mark != null &&
-      maxPair[1] != null &&
-      maxPair[1] < mark &&
-      form !== 'other'
-    ) {
+    if (mark != null) {
       sum += mark
+    }
+
+    if (mark != null && maxPair[1] != null && maxPair[1] < mark) {
       maxPair[0] = form
       maxPair[1] = mark
     }
