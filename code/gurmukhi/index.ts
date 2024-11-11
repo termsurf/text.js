@@ -93,6 +93,7 @@ export const consonants: Map = {
   ਖ਼: 'kh~U',
   ਸ਼: 'xU',
   ਗ਼: 'GU',
+  ਲ਼: 'lU',
 }
 
 export const numbers: Map = {
@@ -128,12 +129,23 @@ const geminated = (m: Array<string>, n: string) => {
   }
 }
 
+const nuktaConsonants: Map = {
+  ਫ਼: 'fU',
+  ਜ਼: 'zU',
+  ਸ਼: 'xU',
+  ਖ਼: 'HU',
+  ਗ਼: 'GU',
+  ਲ਼: 'LU',
+}
+
 export const characters: Map = {
   ...blank,
   ...vowelTransformer,
   ...standaloneVowels,
+  ...nuktaConsonants,
   ...consonants,
   ...numbers,
+  '\u0a3c': '', // ignore nukta on others
   [addak]: geminated,
   [virama]: m => {
     const last = m[m.length - 1]
