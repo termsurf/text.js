@@ -1,22 +1,20 @@
 ﻿import { build, transform } from '~/base'
 
 const letters = {
-
-    Α : 'ˈælfə',
-    Β : 'ˈbiːt',
-    Γ : 'ˈɡæmə',
-    Δ : 'ˈdɛlt',
-    Η : 'ˈiːtə',
-    Θ : 'ˈθiːt',
+    Α : 'ælfə',
+    Β : 'biːt',
+    Γ : 'ɡæmə',
+    Δ : 'dɛlt',
+    Η : 'iːtə',
+    Θ : 'θiːt',
     Ι : 'aɪˈoʊ',
-    Κ : 'ˈkæpə',
-    Λ : 'ˈlæmd',
+    Κ : 'kæpə',
+    Λ : 'læmd',
     Μ : 'mjuː',
     Ν : 'njuː',
     Ρ : 'roʊ',
     Τ : 'taʊ',
     Τ : 'tɔː'
-
 }
 
 
