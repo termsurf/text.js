@@ -19,3 +19,5 @@ console.log(talk('rIg ph~a'))
 // console.log(makePersian('سلام وجود دارد'))
 
 console.log(makeTibetan('བསྒྲུབས'))
+console.log(makeTibetan('བསྒྲིབས'))
+console.log(makeTibetan('གཡོན་'))

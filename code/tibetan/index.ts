@@ -313,7 +313,7 @@ const make = (t: string) => {
         if (!characters[syllable.vowel]) {
           throw new Error(`Missing vowel: ${syllable.vowel}`)
         }
-        text.push(characters[syllable.root]!)
+        text.push(characters[syllable.vowel]!)
       }
 
       if (syllable.suffix) {
