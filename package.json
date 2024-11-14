@@ -5,7 +5,7 @@
     "toss": "rm -rf host",
     "make": "pnpm toss && tsc && tsc-alias && cp package.json host/code/package.json",
     "scan": "concurrently --kill-others \"tsc -w\" \"tsc-alias -w\"",
-    "test": "tsx test.ts",
+    "test": "tsx test/make.test.ts",
     "host": "pnpm make && cd host/code && npm publish --access=public",
     "move:talk": "tsx code/convert-source-ipa-to-talk.ts"
   },

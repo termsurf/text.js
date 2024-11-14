@@ -8,6 +8,22 @@
 // https://github.com/Omnibus-Type/Jaldi
 
 import { build, transform } from '~/base'
+import { TibetanSyllableParser } from './parser.js'
+
+export type TibetanSyllable = {
+  prefix: string
+  superscribed: string
+  root: string
+  subscribed: string
+  vowel: string
+  suffix: string
+  secondSuffix: string
+  wasur: string
+  achung: string
+  anusvara: string
+  honorificMarker: string
+  chego: string
+}
 
 const CLUSTER_PATTERN =
   /^(bl|br|dr|dw|fl|fr|gl|gr|kl|kr|kw|pl|pr|sk|skr|skw|sl|sm|sn|sp|spl|spr|st|str|sw|xr|tr|tw)/
@@ -247,9 +263,79 @@ export const characters: Record<string, string> = {
 //     }
 //   }
 
-const s = build(characters)
+const make = (t: string) => {
+  return t
+    .trim()
+    .split(/[་༌]/)
+    .map(syllable => new TibetanSyllableParser(syllable).parse())
+    .map(syllable => {
+      const text: Array<string> = []
 
-const make = (t: string) => transform(t, s, characters)
+      if (syllable.prefix) {
+        if (!characters[syllable.prefix]) {
+          throw new Error(`Missing prefix: ${syllable.prefix}`)
+        }
+        text.push(characters[syllable.prefix]!.replace('a', ''))
+      }
+
+      if (syllable.superscribed) {
+        if (!characters[syllable.superscribed]) {
+          throw new Error(
+            `Missing superscribed: ${syllable.superscribed}`,
+          )
+        }
+        text.push(characters[syllable.superscribed]!.replace('a', ''))
+      }
+
+      if (syllable.root) {
+        if (!characters[syllable.root]) {
+          throw new Error(`Missing root: ${syllable.root}`)
+        }
+        if (syllable.vowel || syllable.subscribed) {
+          text.push(characters[syllable.root]!.replace('a', ''))
+        } else {
+          text.push(characters[syllable.root]!)
+        }
+      }
+
+      if (syllable.subscribed) {
+        if (!characters[syllable.subscribed]) {
+          throw new Error(`Missing subscribed: ${syllable.subscribed}`)
+        }
+        if (syllable.vowel) {
+          text.push(characters[syllable.subscribed]!.replace('a', ''))
+        } else {
+          text.push(characters[syllable.subscribed]!)
+        }
+      }
+
+      if (syllable.vowel) {
+        if (!characters[syllable.vowel]) {
+          throw new Error(`Missing vowel: ${syllable.vowel}`)
+        }
+        text.push(characters[syllable.root]!)
+      }
+
+      if (syllable.suffix) {
+        if (!characters[syllable.suffix]) {
+          throw new Error(`Missing suffix: ${syllable.suffix}`)
+        }
+        text.push(characters[syllable.suffix]!.replace('a', ''))
+      }
+
+      if (syllable.secondSuffix) {
+        if (!characters[syllable.secondSuffix]) {
+          throw new Error(
+            `Missing secondSuffix: ${syllable.secondSuffix}`,
+          )
+        }
+        text.push(characters[syllable.secondSuffix]!.replace('a', ''))
+      }
+
+      return text.join('')
+    })
+    .join('')
+}
 
 export default make
 
