@@ -1,9 +1,9 @@
 {
   "name": "@termsurf/text",
-  "version": "0.3.60",
+  "version": "0.3.62",
   "scripts": {
     "toss": "rm -rf host",
-    "make": "pnpm toss && tsc && tsc-alias && cp package.json host/code/package.json",
+    "make": "pnpm toss && tsc && tsc-alias && cp package.json host/code/package.json && cp code/tibetan/parser.js host/code/tibetan/parser.js",
     "scan": "concurrently --kill-others \"tsc -w\" \"tsc-alias -w\"",
     "test": "tsx test/make.test.ts",
     "host": "pnpm make && cd host/code && npm publish --access=public",
