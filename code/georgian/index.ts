@@ -60,6 +60,7 @@ export const vowels = symbols.filter(x => x.roles.includes('vowel'))
 export const punctuation = symbols.filter(x =>
   x.roles.includes('punctuation'),
 )
+
 const map = {
   ა: 'a',
   ბ: 'b',

@@ -1,6 +1,6 @@
 {
   "name": "@termsurf/text",
-  "version": "0.3.62",
+  "version": "0.3.64",
   "scripts": {
     "toss": "rm -rf host",
     "make": "pnpm toss && tsc && tsc-alias && cp package.json host/code/package.json && cp code/tibetan/parser.js host/code/tibetan/parser.js",

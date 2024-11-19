@@ -1,3 +1,7 @@
+// i ⟨i⟩	iː ⟨ii⟩	u ⟨u⟩	uː ⟨uu⟩
+// Mid	ɛ ⟨e⟩	eː ⟨ee⟩	ɔ ⟨o⟩	oː ⟨oo⟩
+// Open		a ⟨a⟩	aː ⟨aa⟩
+
 export const map = {
   c: 'kt*ʼ',
   x: 'kl*ʼ',

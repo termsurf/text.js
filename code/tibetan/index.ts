@@ -162,6 +162,54 @@ export const subjoinedConsonants: Record<string, string> = {
   '\u0fbc': 'ra',
 }
 
+export const subjoinedConsonantsToBaseConsonants: Record<
+  string,
+  string
+> = {
+  '\u0FAC': 'ཛྷ',
+  '\u0F90': 'ཀ',
+  '\u0F91': 'ཁ',
+  '\u0F92': 'ག',
+  '\u0F93': 'གྷ',
+  '\u0F94': 'ང',
+  '\u0F95': 'ཅ',
+  '\u0F96': 'ཆ',
+  '\u0F97': 'ཇ',
+  '\u0F9A': 'ཀྲ',
+  '\u0F9B': 'ཋ',
+  '\u0F9C': 'ཌ',
+  '\u0F9D': 'ཌྷ',
+  '\u0F9E': 'ཎ',
+  '\u0F9F': 'ཏ',
+  '\u0FA0': 'ཐ',
+  '\u0FA1': 'ད',
+  '\u0FA2': 'དྷ',
+  '\u0FA3': 'ན',
+  '\u0FA4': 'པ',
+  '\u0FA5': 'ཕ',
+  '\u0FA6': 'བ',
+  '\u0FA7': 'བྷ',
+  '\u0FA8': 'མ',
+  '\u0FA9': 'ཙ',
+  '\u0FAA': 'ཚ',
+  '\u0FAB': 'ཛ',
+  '\u0FAD': 'ཝ',
+  '\u0FAF': 'ཟ',
+  '\u0FB0': 'འ',
+  '\u0FB1': 'ཡ',
+  '\u0FB2': 'ར',
+  '\u0FB3': 'ལ',
+  '\u0FB4': 'ཤ',
+  '\u0FB5': 'ཥ',
+  '\u0FB6': 'ས',
+  '\u0FB7': 'ཧ',
+  '\u0FB9': 'ཀྵ',
+  '\u0FBA': 'ཝ',
+  '\u0FBB': 'ཡ',
+  '\u0FBC': 'ར',
+  '\u0FAE': 'ཞ',
+}
+
 export const basicConsonants: Record<string, string> = {
   ཀ: 'ka',
   ཁ: 'kh~a',
@@ -183,7 +231,7 @@ export const basicConsonants: Record<string, string> = {
   ཚ: 'tsh~a',
   ཛ: 'dza',
   ཝ: 'wa',
-  ཞ: 'ja',
+  ཞ: 'zh~a',
   ཟ: 'za',
   འ: 'hh~a',
   ཡ: 'ya',
@@ -201,6 +249,7 @@ export const consonants: Record<string, string> = {
   ...balti,
   ཀྵ: 'kXa',
   ཪ: 'ra',
+  ཛྷ: 'dzh~a',
 }
 
 export const standaloneVowels: Record<string, string> = {

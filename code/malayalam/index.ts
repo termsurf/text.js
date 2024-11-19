@@ -1,8 +1,11 @@
 import { build, transform } from '~/base'
 
-const virama = '\u0D4d'
+export const virama = '\u0D4d'
 
-const vowelDiacritics = {
+export const anusvara = `ം`
+export const visarga = `\u0d03`
+
+export const vowelDiacritics = {
   '\u0D3e': 'a_',
   '\u0D3f': 'i',
   '\u0D40': 'i_',
@@ -21,13 +24,13 @@ const vowelDiacritics = {
   '\u0D63': 'll',
 }
 
-const otherDiacritics = {
+export const otherDiacritics = {
   '\u0D11': '&',
   '\u0D12': '&',
   '\u0D13': 'h',
 }
 
-const standaloneVowels = {
+export const standaloneVowels = {
   അ: 'a',
   ഇ: 'i',
   ഉ: 'u',
@@ -46,7 +49,7 @@ const standaloneVowels = {
   ഔ: 'au',
 }
 
-const consonants = {
+export const consonants = {
   ക: 'ka',
   ഖ: 'kh~a',
   ഗ: 'ga',
@@ -87,7 +90,7 @@ const consonants = {
   ഺ: 'ta',
 }
 
-const chilluConsonants = {
+export const chilluConsonants = {
   ൿ: 'ka',
   ൾ: 'lla',
   ൽ: 'la',
@@ -103,9 +106,6 @@ const vowelTransformer = Object.keys(vowelDiacritics).reduce((m, x) => {
   }
   return m
 }, {})
-
-const anusvara = `ം`
-const visarga = `\u0d03`
 
 const m = {
   [visarga]: 'h',

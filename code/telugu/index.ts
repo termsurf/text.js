@@ -1,8 +1,8 @@
 import { build, transform } from '~/base'
 
-const virama = '\u0C4d'
+export const virama = '\u0C4d'
 
-const vowelDiacritics = {
+export const vowelDiacritics = {
   '\u0C3e': 'a_',
   '\u0C3f': 'i',
   '\u0C40': 'i_',
@@ -20,12 +20,12 @@ const vowelDiacritics = {
   '\u0C63': 'll',
 }
 
-const otherDiacritics = {
+export const otherDiacritics = {
   '\u0C03': 'h',
   '\u0C01': '&',
 }
 
-const standaloneVowels = {
+export const standaloneVowels = {
   అ: 'a',
   ఇ: 'i',
   ఉ: 'u',
@@ -44,7 +44,7 @@ const standaloneVowels = {
   ఓ: 'o_',
 }
 
-const consonants = {
+export const consonants = {
   క: 'ka',
   ఖ: 'kh~a',
   గ: 'ga',
@@ -86,7 +86,7 @@ const consonants = {
   ౙ: 'dza',
 }
 
-const consonantDiacritics = {
+export const consonantDiacritics = {
   '్క': 'ka',
   '్ఖ': 'kh~a',
   '్గ': 'ga',
