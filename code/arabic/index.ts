@@ -253,11 +253,12 @@ const make = (s: string) => {
   }
   return out
     .join('')
-    .replace(/ii+/g, 'ii')
-    .replace(/ee+/g, 'ee')
+    .replace(/ii+/g, 'i_')
+    .replace(/ee+/g, 'e_')
     .replace(/a_+/g, 'a_')
-    .replace(/oo+/g, 'oo')
-    .replace(/uu+/g, 'uu')
+    .replace(/oo+/g, 'o_')
+    .replace(/uu+/g, 'u_')
+    .replace(/__+/g, '_')
 }
 
 export default make
