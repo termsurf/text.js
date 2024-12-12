@@ -4,14 +4,13 @@
     "target": "ES2015",
     "lib": ["es2020", "dom"],
     "outDir": "host",
-    "rootDir": ".",
     "sourceMap": true,
     "moduleResolution": "node",
     "strictNullChecks": true,
     "strict": true,
     "esModuleInterop": true,
     "noUncheckedIndexedAccess": true,
-    "baseUrl": ".",
+    "baseUrl": "./code",
     "noErrorTruncation": true,
     "types": ["node"],
     "typeRoots": ["node_modules/@types"],
@@ -19,12 +18,12 @@
     "declaration": true,
     "resolveJsonModule": true,
     "paths": {
-      "~/*": ["./code/*"]
+      "~/*": ["./*"]
     }
   },
   "ts-node": {
     "files": true
   },
-  "include": ["*.ts", "**/*.ts", "*.d.ts", "code/tibetan/parser.js"],
+  "include": ["code/**/*.ts", "code/**/*.js"],
   "exclude": ["node_modules", "host", "tmp"]
 }

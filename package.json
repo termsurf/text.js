@@ -1,12 +1,12 @@
 {
   "name": "@cluesurf/text",
-  "version": "0.3.66",
+  "version": "0.3.0",
   "scripts": {
     "toss": "rm -rf host",
-    "make": "pnpm toss && tsc && tsc-alias && cp package.json host/code/package.json && cp code/tibetan/parser.js host/code/tibetan/parser.js",
+    "make": "pnpm toss && tsc && tsc-alias && cp package.json host/package.json && cp code/tibetan/parser.js host/tibetan/parser.js",
     "scan": "concurrently --kill-others \"tsc -w\" \"tsc-alias -w\"",
     "test": "tsx test/make.test.ts",
-    "host": "pnpm make && cd host/code && npm publish --access=public",
+    "host": "pnpm make && cd host && npm publish --access=public",
     "move:talk": "tsx code/convert-source-ipa-to-talk.ts"
   },
   "devDependencies": {
