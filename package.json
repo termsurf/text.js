@@ -1,5 +1,5 @@
 {
-  "name": "@termsurf/text",
+  "name": "@cluesurf/text",
   "version": "0.3.66",
   "scripts": {
     "toss": "rm -rf host",
@@ -10,8 +10,8 @@
     "move:talk": "tsx code/convert-source-ipa-to-talk.ts"
   },
   "devDependencies": {
-    "@termsurf/talk": "^3.1.6",
-    "@termsurf/tone": "^3.3.4",
+    "@cluesurf/talk": "^3.1.6",
+    "@cluesurf/tone": "^3.3.4",
     "@trivago/prettier-plugin-sort-imports": "^4.0.0",
     "@types/lodash": "^4.17.7",
     "@types/node": "^18.11.17",

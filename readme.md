@@ -6,7 +6,7 @@
 <br/>
 <br/>
 
-<h3 align='center'>@termsurf/text</h3>
+<h3 align='center'>@cluesurf/text</h3>
 <p align='center'>
   Convert traditional orthography into Latin or pronunciation text.
 </p>
@@ -19,8 +19,8 @@
 
 **Text** is a TypeScript library which **transforms traditional
 orthography into Latin/Romanized text**, using the
-[Talk](https://github.com/termsurf/talk) spec. TalkText can be used to
-render [Tone](https://github.com/termsurf/tone), which is a unique and
+[Talk](https://github.com/cluesurf/talk) spec. TalkText can be used to
+render [Tone](https://github.com/cluesurf/tone), which is a unique and
 modern rune-like writing system for pronunciations.
 
 _Caveat: It's not always possible to do transform traditional
@@ -44,7 +44,7 @@ here!_
 ## Installation
 
 ```bash
-npm install @termsurf/text
+npm install @cluesurf/text
 ```
 
 ## Examples
@@ -54,7 +54,7 @@ Here are some API examples.
 ### Detect Script
 
 ```ts
-import detect from '@termsurf/text/detect'
+import detect from '@cluesurf/text/detect'
 
 detect([...'美丽的']) //=> { form: 'chinese', rank: 1 }
 ```
@@ -109,7 +109,7 @@ import make, {
   vowels,
   boundVowels,
   consonants,
-} from '@termsurf/text/arabic'
+} from '@cluesurf/text/arabic'
 
 make('جَمِيل') //=> "djami_l"
 
@@ -119,7 +119,7 @@ vowels.forEach(console.log)
 #### Chinese
 
 ```ts
-import make from '@termsurf/text/chinese'
+import make from '@cluesurf/text/chinese'
 
 make('měi lì de') //=> "me\\/i li\\ tO"
 ```
@@ -127,8 +127,8 @@ make('měi lì de') //=> "me\\/i li\\ tO"
 #### Tibetan
 
 ```ts
-import toWylie from '@termsurf/text/tibetan/wylie/to'
-import fromWylie from '@termsurf/text/tibetan/wylie/from'
+import toWylie from '@cluesurf/text/tibetan/wylie/to'
+import fromWylie from '@cluesurf/text/tibetan/wylie/from'
 
 toWylie('རིག་པ་') //=> "rig pa"
 fromWylie('rig pa') //=> "རིག་པ"
@@ -138,25 +138,25 @@ fromWylie('rig pa') //=> "རིག་པ"
 
 ### Talk
 
-Take the generated [TalkText](https://github.com/termsurf/talk) (the
+Take the generated [TalkText](https://github.com/cluesurf/talk) (the
 ASCII output from the base `make` calls), and convert it into a more
 compact, human readable, "simplified" form.
 
 ```ts
-import talk from '@termsurf/talk'
+import talk from '@cluesurf/talk'
 
 talk('rIg ph~a') //=> "ṙịg pɦa"
 ```
 
 ### Tone
 
-Take the generated [TalkText](https://github.com/termsurf/talk) and
+Take the generated [TalkText](https://github.com/cluesurf/talk) and
 convert it into a format compatible with
-[ToneText](https://github.com/termsurf/tone) fonts.
+[ToneText](https://github.com/cluesurf/tone) fonts.
 
 ```ts
-import talk from '@termsurf/text/chinese'
-import tone from '@termsurf/tone'
+import talk from '@cluesurf/text/chinese'
+import tone from '@cluesurf/tone'
 
 tone(talk('měi lì de')) //=> "me8i li6 tO"
 ```
@@ -164,7 +164,7 @@ tone(talk('měi lì de')) //=> "me8i li6 tO"
 ...which is [rendered](https://tone.surf) as:
 
 <p align='center'>
-  <img src="https://github.com/termsurf/text.js/blob/make/view/tone-example.png?raw=true" width="360" />
+  <img src="https://github.com/cluesurf/text.js/blob/make/view/tone-example.png?raw=true" width="360" />
 </p>
 
 ## Derivable Pronunciations
@@ -191,11 +191,11 @@ can and can't have pronunciations automatically done.
 
 MIT
 
-## TermSurf
+## ClueSurf
 
-This is being developed by the folks at [TermSurf](https://term.surf), a
+This is being developed by the folks at [ClueSurf](https://clue.surf), a
 California-based project for helping humanity master information and
-computation. Find us on [Twitter](https://twitter.com/termsurf),
-[LinkedIn](https://www.linkedin.com/company/termsurf), and
-[Facebook](https://www.facebook.com/termsurf). Check out our other
-[GitHub projects](https://github.com/termsurf) as well!
+computation. Find us on [Twitter](https://twitter.com/cluesurf),
+[LinkedIn](https://www.linkedin.com/company/cluesurf), and
+[Facebook](https://www.facebook.com/cluesurf). Check out our other
+[GitHub projects](https://github.com/cluesurf) as well!
