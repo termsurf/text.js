@@ -443,7 +443,7 @@
     "link": "shin dot",
     "name": {
       "head": "hebrew point shin dot",
-      "base": "שִׁי\"ן"
+      "base": "שִׁי״ן"
     },
     "role": ["modifier"],
     "text": "\u05C1"
@@ -452,7 +452,7 @@
     "link": "sin dot",
     "name": {
       "head": "hebrew point sin dot",
-      "base": "שִׂי\"ן"
+      "base": "שִׂי״ן"
     },
     "role": ["modifier"],
     "text": "\u05C2"

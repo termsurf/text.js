@@ -1,6 +1,6 @@
 {
   "name": "@cluesurf/text",
-  "version": "0.3.0",
+  "version": "0.3.2",
   "scripts": {
     "toss": "rm -rf host",
     "make": "pnpm toss && tsc && tsc-alias && cp package.json host/package.json && cp code/tibetan/parser.js host/tibetan/parser.js",
