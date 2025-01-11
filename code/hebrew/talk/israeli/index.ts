@@ -52,6 +52,7 @@ const tree = build(map)
  * Transform the text.
  */
 
-const make = (i: string) => transform(i, tree, map).replace(/'+/g, "'")
+const make = (i: string) =>
+  transform(i, tree, map).replace(/'+/g, "'").replace(/_+/g, '_')
 
 export default make
