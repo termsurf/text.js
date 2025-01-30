@@ -252,6 +252,15 @@ How would it figure that out?
 - use levenshtein distance for spelling correction
 - use beam search.
 
+| **Feature**                        | **How We Solved It?**                    |
+| ---------------------------------- | ---------------------------------------- |
+| **Dictionary-based segmentation**  | ✅ Beam Search + Trie                    |
+| **Pronunciation-based validation** | ✅ Phonetic Matching (Soundex/Metaphone) |
+| **Spell correction**               | ✅ Levenshtein Distance                  |
+| **Efficient search**               | ✅ Graph-Based Word Segmentation         |
+| **Context awareness**              | ✅ Bigram + GPT/BERT Scoring             |
+| **Grammar checking**               | ✅ POS Tagging                           |
+
 ### Summary
 
 | **Method**                    | **Handles Context?** | **Handles Unknown Words?** | **Computational Cost** |
