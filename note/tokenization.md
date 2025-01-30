@@ -225,6 +225,33 @@ that goes.
 | **Context Awareness**           | ✅ Bigram Language Model    |
 | **Dynamic Word Discovery**      | ✅ Allows unknown words     |
 
+### Example Parse: `wrtxxthexxstoryplz`
+
+https://chatgpt.com/c/679b6572-eab4-8008-b402-3b5048946d59
+
+Ideally it finishes with:
+
+```
+write the story please
+```
+
+How would it figure that out?
+
+| **Feature**               | **How We Solved It?**          |
+| ------------------------- | ------------------------------ |
+| **Word segmentation**     | ✅ Beam Search (O(N log K))    |
+| **Spelling correction**   | ✅ Levenshtein Distance        |
+| **Abbreviation handling** | ✅ Expand common abbreviations |
+| **Context-based ranking** | ✅ Bigram Language Model       |
+
+### Ideas
+
+- use dictionary.
+- attempt to pronounce each potential word using manually written
+  pronunciation rules.
+- use levenshtein distance for spelling correction
+- use beam search.
+
 ### Summary
 
 | **Method**                    | **Handles Context?** | **Handles Unknown Words?** | **Computational Cost** |
