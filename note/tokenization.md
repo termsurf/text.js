@@ -183,7 +183,7 @@ search" with a bigram probability model.
 | **Beam Search (O(N log K))** | ✅ Fast             | Keeps only best segmentations  |
 | **Bigram Model**             | ✅ Accurate         | Learns unknown words via `<X>` |
 
-### Example Parse: "myrealloreatdust`
+### Example Parse: `myrealloreatdust`
 
 What I had in mind was:
 
