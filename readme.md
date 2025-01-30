@@ -187,6 +187,10 @@ can and can't have pronunciations automatically done.
 | Tibetan            | no                                                             | Modern Tibetan has evolved to where the script no longer is phonetic.                                                                                                                                   |
 | Vietnamese         | no                                                             |                                                                                                                                                                                                         |
 
+## Inspiration
+
+- https://github.com/microsoft/Tokenizer/tree/main/tokenizer_ts
+
 ## License
 
 MIT
