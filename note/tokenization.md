@@ -103,7 +103,16 @@ optimal tokenization.
 - **Neural Tokenization**: Cutting-edge research but not widely adopted
   yet (Charformer, BERT2BERT)
 
-## Example Parse `pineappleslaw`
+## BERT/GPT Sentence Scoring
+
+| **Method**                 | **Model**     | **When to Use?**                          |
+| -------------------------- | ------------- | ----------------------------------------- |
+| **GPT Sentence Scoring**   | GPT-2 / GPT-3 | Ranking entire sentences based on fluency |
+| **BERT Masked Prediction** | BERT          | Resolving ambiguous words in a sentence   |
+
+## Examples
+
+### Example Parse: `pineappleslaw`
 
 Given a non-spaced word like `pineappleslaw`:
 
@@ -142,6 +151,79 @@ talking about how people were debating different laws, and quickly
 "chewing them up" or destroying the arguments, so to speak. In that
 case, it might make sense! But if we are talking about food, then the
 term `pineapple slaw` might make sense.
+
+### Example Parse: `myrishaltypanathisgreat`
+
+```
+my rishaltypanath is great
+my rishalty panath is great
+my rishaltypana this great
+my rishal typana this great
+my ris halty pana this great
+my ris halty panath is great
+myr is halty panath is great
+...
+```
+
+Basically it should probably figure out:
+
+```
+my <X> is great
+```
+
+But does it have to try and check every combination first before it
+makes its decision?
+
+Brute force (checking all combinations) is very slow. Instead, use "beam
+search" with a bigram probability model.
+
+| **Method**                   | **Time Complexity** | **Why it Works?**              |
+| ---------------------------- | ------------------- | ------------------------------ |
+| **Brute Force (O(2^N))**     | ❌ Too slow         | Tries every segmentation       |
+| **Beam Search (O(N log K))** | ✅ Fast             | Keeps only best segmentations  |
+| **Bigram Model**             | ✅ Accurate         | Learns unknown words via `<X>` |
+
+### Example Parse: "myrealloreatdust`
+
+What I had in mind was:
+
+```
+myre all or eat dust
+```
+
+But you could also do:
+
+```
+my real lore at dust
+```
+
+Both are valid grammatical sentences, but the second one doesn't make as
+much practical/logical sense as the first one.
+
+Could also be that we mispelled the last word `dust` and meant `dusk`,
+then the second one is better:
+
+```
+my real lore at dusk
+```
+
+And the first no longer makes sense.
+
+```
+myre all or eat dusk
+```
+
+So ideally you take the full story / context ito perspective, to figure
+out what is most likely meant here. Try changing some words to be other
+words if you change the spelling slightly potentially, and see where
+that goes.
+
+| **Feature**                     | **How We Solved It?**       |
+| ------------------------------- | --------------------------- |
+| **Efficient Word Segmentation** | ✅ Beam Search (O(N log K)) |
+| **Spell Correction**            | ✅ Levenshtein Distance     |
+| **Context Awareness**           | ✅ Bigram Language Model    |
+| **Dynamic Word Discovery**      | ✅ Allows unknown words     |
 
 ### Summary
 
