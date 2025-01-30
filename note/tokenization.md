@@ -244,6 +244,96 @@ How would it figure that out?
 | **Abbreviation handling** | ✅ Expand common abbreviations |
 | **Context-based ranking** | ✅ Bigram Language Model       |
 
+### Example Parse: `thecrystalclearsend`
+
+It could be either pretty much equally:
+
+```
+the crystal clear send
+the crystal clears end
+```
+
+But because `crystal clear` is a common expression itself, it should
+probably rank that one higher than the second.
+
+Looking further, we might even end up having to try:
+
+```
+the cry stall clears end
+```
+
+| **Feature**                              | **How We Solved It?**       |
+| ---------------------------------------- | --------------------------- |
+| **Avoids invalid segmentations**         | ✅ Trie-based word lookup   |
+| **Recognizes common phrases**            | ✅ Phrase priority scoring  |
+| **Prefers grammatically correct splits** | ✅ Bigram language model    |
+| **Efficient search**                     | ✅ Beam Search (O(N log K)) |
+
+### Example Parse: `ch3kdis0ut`
+
+For this, we should ideally result in:
+
+```
+check this out
+```
+
+For this, we are _visually looking at_ the `3` noticing it is like an
+`E`. So the computer can't do that effciently as it's parsing, so it
+should be manually entered in advance, or we previously create a model
+of what symbols resemble other symbols, by visually comparing them
+somehow using AI techniques. Not sure how to do that now.
+
+But either way, we can have a mapping of `3: e`, and use that.
+
+Then we get `chek`, but this can be figured out to be `check` either
+through an edit distance calculation, or pronouncing the expression and
+finding the closest match.
+
+Then `dis` can also be a slang writing of `this`, or we can do a
+pronunciation to see that it is close to or "rhymes" pretty close with
+`this`.
+
+So how exactly might you go about solving that?
+
+| **Feature**            | **How We Solved It?**                      |
+| ---------------------- | ------------------------------------------ |
+| **Leetspeak Handling** | ✅ Symbol substitution (`3 → e`)           |
+| **Spell Correction**   | ✅ Levenshtein Distance (`chek` → `check`) |
+| **Slang Expansion**    | ✅ `dis` → `this` using a slang dictionary |
+| **Phonetic Matching**  | ✅ `dis` → `this` using Metaphone          |
+| **Efficient Search**   | ✅ Beam Search (O(N log K))                |
+| **Context Ranking**    | ✅ Bigram Probability Model                |
+
+### Example Parse: `swtichinlgetters`
+
+That should result in:
+
+```
+switching letters
+```
+
+| **Feature**                   | **How We Solved It?**                                     |
+| ----------------------------- | --------------------------------------------------------- |
+| **Fix transposed characters** | ✅ Swap detection (`swtich` → `switch`)                   |
+| **Fix minor typos**           | ✅ Levenshtein Distance (`switchin` → `switching`)        |
+| **Segment correctly**         | ✅ Beam Search (`switchingletters` → `switching letters`) |
+| **Context-based ranking**     | ✅ Bigram Probability Model                               |
+
+### Example Parse: `ucnlvoutvwls`
+
+In theory should become:
+
+```
+you can leave out vowels
+```
+
+| **Feature**                | **How We Solved It?**                                                |
+| -------------------------- | -------------------------------------------------------------------- |
+| **Restore missing vowels** | ✅ Dictionary-based vowel prediction                                 |
+| **Fix minor typos**        | ✅ Levenshtein Distance (`lv` → `leave`)                             |
+| **Segment correctly**      | ✅ Beam Search (`youcanleaveoutvowels` → `you can leave out vowels`) |
+| **Context-based ranking**  | ✅ Bigram Probability Model                                          |
+
 ### Ideas
 
 - use dictionary.
@@ -260,6 +350,16 @@ How would it figure that out?
 | **Efficient search**               | ✅ Graph-Based Word Segmentation         |
 | **Context awareness**              | ✅ Bigram + GPT/BERT Scoring             |
 | **Grammar checking**               | ✅ POS Tagging                           |
+
+### General Algorithm?
+
+| **Step**                          | **Techniques Used**                                            |
+| --------------------------------- | -------------------------------------------------------------- |
+| **Preprocessing & Normalization** | Leetspeak replacement, abbreviation expansion                  |
+| **Segmentation**                  | Beam Search, Trie lookup, Missing vowel reinsertion            |
+| **Correction**                    | Levenshtein distance, transposed letter fix, phonetic matching |
+| **Ranking**                       | Bigram model, phrase priority boost, GPT/BERT sentence scoring |
+| **Final Selection**               | Highest-ranked segmentation is chosen                          |
 
 ### Summary
 
