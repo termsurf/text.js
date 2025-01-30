@@ -213,7 +213,7 @@ And the first no longer makes sense.
 myre all or eat dusk
 ```
 
-So ideally you take the full story / context ito perspective, to figure
+So ideally you take the full story / context into perspective, to figure
 out what is most likely meant here. Try changing some words to be other
 words if you change the spelling slightly potentially, and see where
 that goes.
@@ -234,8 +234,6 @@ Ideally it finishes with:
 ```
 write the story please
 ```
-
-How would it figure that out?
 
 | **Feature**               | **How We Solved It?**          |
 | ------------------------- | ------------------------------ |
