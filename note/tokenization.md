@@ -1,4 +1,6 @@
-# NLP Tokenization Techniques
+# Tokenization
+
+## NLP Tokenization Techniques
 
 The primary cutting-edge tokenization algorithms for text processing in
 NLP fall into a few main categories.
@@ -9,7 +11,7 @@ NLP fall into a few main categories.
 4. Adaptive Tokenization
 5. Neural Tokenization
 
-## Subword Tokenization
+#### Subword Tokenization
 
 These techniques break words into subwords or morphemes to balance
 vocabulary size and model generalization.
@@ -36,7 +38,7 @@ vocabulary size and model generalization.
   - Splits words into meaningful morphemes based on statistical models.
   - Useful for morphologically rich languages like Finnish or Turkish.
 
-## Character-Level Tokenization
+#### Character-Level Tokenization
 
 These methods keep all input as individual characters, offering a robust
 method for out-of-vocabulary (OOV) words.
@@ -52,7 +54,7 @@ method for out-of-vocabulary (OOV) words.
   - Helps models handle multiple languages and special characters
     efficiently.
 
-## Token-Free Tokenization
+#### Token-Free Tokenization
 
 Instead of explicit token splitting, these models process text directly
 at the byte level.
@@ -66,7 +68,7 @@ at the byte level.
   - Uses character embeddings instead of subwords.
   - Effective for low-resource languages.
 
-## Adaptive Tokenization
+#### Adaptive Tokenization
 
 These models dynamically adjust tokenization based on context or
 training data.
@@ -80,7 +82,7 @@ training data.
   - Combines byte-level input processing with token-based models.
   - Improves scalability for long sequences.
 
-## Neural Tokenization
+#### Neural Tokenization
 
 Instead of using fixed rules, these models use neural networks to learn
 optimal tokenization.
@@ -93,10 +95,60 @@ optimal tokenization.
     subword embeddings.
   - Optimized for speed and efficiency.
 
-## Which One is Best?
+#### Which One is Best?
 
 - **BPE & WordPiece**: General-purpose NLP (GPT, BERT, etc.)
 - **Unigram LM**: More flexible segmentation (T5, SentencePiece)
 - **Character/Byte-Level**: Extreme robustness (ByT5, CANINE, MegaByte)
 - **Neural Tokenization**: Cutting-edge research but not widely adopted
   yet (Charformer, BERT2BERT)
+
+## Example Parse `pineappleslaw`
+
+Given a non-spaced word like `pineappleslaw`:
+
+```
+pineappleslaw
+pineapples law
+pineapple slaw
+```
+
+You can have sentences where it's ambiguous how to parse it:
+
+```
+The pineappleslaw is to eat it fast.
+The pineapples law is to eat it fast. (yes)
+The pineapple slaw is to eat it fast.
+```
+
+Or this:
+
+```
+The pineappleslaw is eaten fast.
+The pineapples law is eaten fast.
+The pineapple slaw is eaten fast. (yes)
+```
+
+I marked the correct with `yes`. But it would be impossible to figure
+out the parse without knowing the meaning of the sentences, and weighing
+how "realistic sounding" both meanings were.
+
+It would have to take into account more than just the current sentence.
+It might have to take into account a whole paragraph, or knowledge from
+the text as a whole, or even knowledge from outside the text (general
+knowledge). For example, the last example sentence could have it be
+parsed as `The pineapples law is eaten fast.` (yes), if we maybe were
+talking about how people were debating different laws, and quickly
+"chewing them up" or destroying the arguments, so to speak. In that
+case, it might make sense! But if we are talking about food, then the
+term `pineapple slaw` might make sense.
+
+### Summary
+
+| **Method**                    | **Handles Context?** | **Handles Unknown Words?** | **Computational Cost** |
+| ----------------------------- | -------------------- | -------------------------- | ---------------------- |
+| **Dictionary-Based**          | ❌ No                | ❌ No                      | ✅ Fast                |
+| **HMM/Viterbi (Statistical)** | ⚠️ Limited           | ⚠️ Limited                 | ✅ Efficient           |
+| **CRF (ML-Based)**            | ✅ Yes               | ⚠️ Needs training data     | ✅ Moderate            |
+| **BERT/GPT Sentence Scoring** | ✅ Yes               | ✅ Yes                     | 🔥 High                |
+| **Discourse-Aware Models**    | ✅ Yes               | ✅ Yes                     | 🔥🔥 Very High         |
