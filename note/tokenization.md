@@ -293,14 +293,14 @@ pronunciation to see that it is close to or "rhymes" pretty close with
 
 So how exactly might you go about solving that?
 
-| **Feature**            | **How We Solved It?**                      |
-| ---------------------- | ------------------------------------------ |
-| **Leetspeak Handling** | ✅ Symbol substitution (`3 → e`)           |
-| **Spell Correction**   | ✅ Levenshtein Distance (`chek` → `check`) |
-| **Slang Expansion**    | ✅ `dis` → `this` using a slang dictionary |
-| **Phonetic Matching**  | ✅ `dis` → `this` using Metaphone          |
-| **Efficient Search**   | ✅ Beam Search (O(N log K))                |
-| **Context Ranking**    | ✅ Bigram Probability Model                |
+| **Feature**            | **How We Solved It?**                       |
+| ---------------------- | ------------------------------------------- |
+| **Leetspeak Handling** | ✅ Symbol substitution (`3 => e`)           |
+| **Spell Correction**   | ✅ Levenshtein Distance (`chek` => `check`) |
+| **Slang Expansion**    | ✅ `dis` => `this` using a slang dictionary |
+| **Phonetic Matching**  | ✅ `dis` => `this` using Metaphone          |
+| **Efficient Search**   | ✅ Beam Search (O(N log K))                 |
+| **Context Ranking**    | ✅ Bigram Probability Model                 |
 
 ### Example Parse: `swtichinlgetters`
 
@@ -310,12 +310,12 @@ That should result in:
 switching letters
 ```
 
-| **Feature**                   | **How We Solved It?**                                     |
-| ----------------------------- | --------------------------------------------------------- |
-| **Fix transposed characters** | ✅ Swap detection (`swtich` → `switch`)                   |
-| **Fix minor typos**           | ✅ Levenshtein Distance (`switchin` → `switching`)        |
-| **Segment correctly**         | ✅ Beam Search (`switchingletters` → `switching letters`) |
-| **Context-based ranking**     | ✅ Bigram Probability Model                               |
+| **Feature**                   | **How We Solved It?**                                      |
+| ----------------------------- | ---------------------------------------------------------- |
+| **Fix transposed characters** | ✅ Swap detection (`swtich` => `switch`)                   |
+| **Fix minor typos**           | ✅ Levenshtein Distance (`switchin` => `switching`)        |
+| **Segment correctly**         | ✅ Beam Search (`switchingletters` => `switching letters`) |
+| **Context-based ranking**     | ✅ Bigram Probability Model                                |
 
 ### Example Parse: `ucnlvoutvwls`
 
@@ -325,12 +325,21 @@ In theory should become:
 you can leave out vowels
 ```
 
-| **Feature**                | **How We Solved It?**                                                |
-| -------------------------- | -------------------------------------------------------------------- |
-| **Restore missing vowels** | ✅ Dictionary-based vowel prediction                                 |
-| **Fix minor typos**        | ✅ Levenshtein Distance (`lv` → `leave`)                             |
-| **Segment correctly**      | ✅ Beam Search (`youcanleaveoutvowels` → `you can leave out vowels`) |
-| **Context-based ranking**  | ✅ Bigram Probability Model                                          |
+| **Feature**                | **How We Solved It?**                                                 |
+| -------------------------- | --------------------------------------------------------------------- |
+| **Restore missing vowels** | ✅ Dictionary-based vowel prediction                                  |
+| **Fix minor typos**        | ✅ Levenshtein Distance (`lv` => `leave`)                             |
+| **Segment correctly**      | ✅ Beam Search (`youcanleaveoutvowels` => `you can leave out vowels`) |
+| **Context-based ranking**  | ✅ Bigram Probability Model                                           |
+
+### Example Parse: `thisisar eelym3ssys entnce`
+
+```
+this is a really messy sentence
+```
+
+- Pronunciation plays a big role, to determine word boundaries as a
+  human.
 
 ### Ideas
 
@@ -368,3 +377,31 @@ you can leave out vowels
 | **CRF (ML-Based)**            | ✅ Yes               | ⚠️ Needs training data     | ✅ Moderate            |
 | **BERT/GPT Sentence Scoring** | ✅ Yes               | ✅ Yes                     | 🔥 High                |
 | **Discourse-Aware Models**    | ✅ Yes               | ✅ Yes                     | 🔥🔥 Very High         |
+
+## Problem: Data Structure for Terms
+
+### How to Query for Terms when Input is Messy?
+
+Say I have a bunch of "terms" from a dictionary, in a particular
+language like English, Tibetan, Chinese, or whatever.
+
+For each language, there are let's say 1 million terms.
+
+How should I create a data structure such that I can take user input,
+which could could be a full sentence, where words could be misspelled
+(several extra characters added, junk text surrounding word, or
+characters changed or missing, etc.), and efficiently tokenize the input
+into terms, using the dictionary?
+
+At first thought, I thought about using a Trie to store the terms, but
+this would probably be hard to traverse if the user input was misspelled
+or had junk around it. So not sure how to best approach this in
+practice.
+
+#### Summary
+
+- **Fast Exact Matching:** HashSet/Trie
+- **Fuzzy Matching:** BK-tree (Burkhard-Keller Tree), LSH
+  (Locality-Sensitive Hashing), n-grams, Soundex
+- **Optimized Search:** Precompute n-gram indices, cache common typos
+- **Ranking Strategy:** Edit distance, frequency, context
