@@ -143,16 +143,6 @@ interface Event {
   manner?: string
   associations: Record<string, Association>
 }
-
-interface VectorIndex {
-  store: Map<string, Float32Array> // Maps ID → Embedding
-  index: VectorSearch // A fast search structure for nearest neighbors
-}
-
-interface VectorSearch {
-  add(id: string, embedding: Float32Array): void
-  query(embedding: Float32Array, topK: number): string[] // Returns closest matching concept IDs
-}
 ```
 
 - Need some way to "invoke memories", "trigger memories", through like

@@ -27,9 +27,9 @@ interface EvaluationMetrics {
 }
 
 interface AttentionHead {
-  queryMatrix: number[][]
-  keyMatrix: number[][]
-  valueMatrix: number[][]
+  queryMatrix: Float32Array
+  keyMatrix: Float32Array
+  valueMatrix: Float32Array
 }
 
 interface NetworkConfig {
@@ -80,6 +80,12 @@ class SemanticNetwork {
   private readonly tempBuffer2: Float32Array
   private readonly tempBuffer3: Float32Array
 
+  private readonly headSize: number
+  private readonly headBuffer1: Float32Array // For projected query
+  private readonly headBuffer2: Float32Array // For projected keys
+  private readonly headBuffer3: Float32Array // For projected values
+  private readonly combinedBuffer: Float32Array // For combining head outputs
+
   // Modify constructor to take optional config
   constructor(config: Partial<NetworkConfig> = {}) {
     // Merge provided config with defaults
@@ -104,23 +110,124 @@ class SemanticNetwork {
     this.entityMatrix = new Float32Array()
     this.relationMatrix = new Float32Array()
 
-    // Initialize attention heads
+    // Add these initializations to your constructor after existing initializations
+    this.headSize = Math.floor(this.vectorSize / this.numHeads)
+    this.headBuffer1 = new Float32Array(this.headSize)
+    this.headBuffer2 = new Float32Array(this.headSize)
+    this.headBuffer3 = new Float32Array(this.headSize)
+    this.combinedBuffer = new Float32Array(this.vectorSize)
+
+    // Initialize attention heads with Float32Arrays
     this.attentionHeads = Array(this.numHeads)
       .fill(null)
       .map(() => ({
-        queryMatrix: this.randomMatrix(
-          this.vectorSize,
-          this.vectorSize / this.numHeads,
-        ),
-        keyMatrix: this.randomMatrix(
-          this.vectorSize,
-          this.vectorSize / this.numHeads,
-        ),
-        valueMatrix: this.randomMatrix(
-          this.vectorSize,
-          this.vectorSize / this.numHeads,
-        ),
+        queryMatrix: new Float32Array(this.vectorSize * this.headSize),
+        keyMatrix: new Float32Array(this.vectorSize * this.headSize),
+        valueMatrix: new Float32Array(this.vectorSize * this.headSize),
       }))
+
+    // Initialize matrices with random values
+    for (const head of this.attentionHeads) {
+      this.initializeRandomMatrix(head.queryMatrix)
+      this.initializeRandomMatrix(head.keyMatrix)
+      this.initializeRandomMatrix(head.valueMatrix)
+    }
+  }
+
+  // Add these methods
+  private initializeRandomMatrix(matrix: Float32Array): void {
+    for (let i = 0; i < matrix.length; i++) {
+      matrix[i] = (Math.random() * 2 - 1) / Math.sqrt(this.headSize)
+    }
+    this.normalizeVectorInPlace(matrix)
+  }
+
+  private projectVector(
+    input: Float32Array,
+    matrix: Float32Array,
+    output: Float32Array,
+  ): void {
+    // Matrix multiplication: output = input × matrix
+    const inputSize = input.length
+    const outputSize = output.length
+
+    output.fill(0)
+    for (let i = 0; i < outputSize; i++) {
+      let sum = 0
+      for (let j = 0; j < inputSize; j++) {
+        sum += input[j] * matrix[j * outputSize + i]
+      }
+      output[i] = sum
+    }
+  }
+
+  private computeMultiHeadAttention(
+    query: Float32Array,
+    keys: Float32Array[],
+    values: Float32Array[],
+    mask?: boolean[],
+  ): Float32Array {
+    // Clear combined output buffer
+    this.combinedBuffer.fill(0)
+
+    // Process each attention head
+    for (let h = 0; h < this.attentionHeads.length; h++) {
+      const head = this.attentionHeads[h]
+      const headOffset = h * this.headSize
+
+      // Project query for this head
+      this.projectVector(query, head.queryMatrix, this.headBuffer1)
+
+      // Calculate attention scores for this head
+      for (let i = 0; i < keys.length; i++) {
+        // Project key
+        this.projectVector(keys[i], head.keyMatrix, this.headBuffer2)
+
+        // Calculate score
+        this.tempBuffer2[i] =
+          this.dotProduct(this.headBuffer1, this.headBuffer2) /
+          Math.sqrt(this.headSize)
+
+        if (mask && !mask[i]) {
+          this.tempBuffer2[i] = -Infinity
+        }
+      }
+
+      // Convert scores to weights
+      this.softmaxInto(
+        this.tempBuffer2.subarray(0, keys.length),
+        this.tempBuffer3.subarray(0, keys.length),
+      )
+
+      // Calculate weighted sum of values
+      for (let i = 0; i < values.length; i++) {
+        // Project value
+        this.projectVector(
+          values[i],
+          head.valueMatrix,
+          this.headBuffer3,
+        )
+
+        // Add weighted value to combined output
+        const weight = this.tempBuffer3[i]
+        for (let j = 0; j < this.headSize; j++) {
+          this.combinedBuffer[headOffset + j] +=
+            this.headBuffer3[j] * weight
+        }
+      }
+    }
+
+    return this.combinedBuffer
+  }
+
+  // Replace your existing computeAttention with this multi-head version
+  private computeAttention(
+    query: Float32Array,
+    keys: Float32Array[],
+    values: Float32Array[],
+    mask?: boolean[],
+  ): Float32Array {
+    return this.computeMultiHeadAttention(query, keys, values, mask)
   }
 
   // Add a node to the network
@@ -267,38 +374,6 @@ class SemanticNetwork {
     // Use tempBuffer1 for result
     for (let i = 0; i < x.length; i++) {
       this.tempBuffer1[i] = x[i] * coef
-    }
-
-    return this.tempBuffer1
-  }
-
-  private computeAttention(
-    query: Float32Array,
-    keys: Float32Array[],
-    values: Float32Array[],
-    mask?: boolean[],
-  ): Float32Array {
-    const scores = this.tempBuffer2 // Reuse buffer for attention scores
-    const weights = this.tempBuffer3 // Reuse buffer for attention weights
-
-    // Compute attention scores
-    for (let i = 0; i < keys.length; i++) {
-      scores[i] =
-        this.dotProduct(query, keys[i]) / Math.sqrt(query.length)
-      if (mask && !mask[i]) {
-        scores[i] = -Infinity
-      }
-    }
-
-    // Compute softmax weights in-place
-    this.softmaxInPlace(scores, weights)
-
-    // Compute weighted sum using tempBuffer1
-    this.tempBuffer1.fill(0)
-    for (let i = 0; i < values.length; i++) {
-      for (let j = 0; j < this.tempBuffer1.length; j++) {
-        this.tempBuffer1[j] += values[i][j] * weights[i]
-      }
     }
 
     return this.tempBuffer1
