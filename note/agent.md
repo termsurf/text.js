@@ -197,12 +197,11 @@ There can be multiple parent types associated with each object, and we
 need to make sure to somehow capture the importance of each semantic
 meaning.
 
-How can we encode this "type tree" information (and the features/actions
-associated with each type), into decimal vectors?
-
 | **Use Case**                                                       | **Recommended Vector Size** |
 | ------------------------------------------------------------------ | --------------------------- |
 | **Simple object hierarchy (e.g., animals, vehicles)**              | `32 - 128`                  |
 | **General knowledge graph (e.g., Wikipedia, WordNet)**             | `128 - 512`                 |
 | **Complex AI reasoning (e.g., GPT models, scientific ontologies)** | `512 - 2048`                |
 | **Massive-scale language models (e.g., GPT-4, BERT, DALL·E)**      | `2048 - 4096+`              |
+
+### Cases

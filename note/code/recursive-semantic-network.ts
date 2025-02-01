@@ -1013,10 +1013,18 @@ class SemanticNetwork {
   private evaluateAttentionCoherence(): number {
     let score = 0
     let count = 0
+    const nodeIds = Array.from(this.nodes.keys())
 
-    this.nodes.forEach((node, nodeId) => {
+    // Use tempBuffer2 for scores and tempBuffer3 for attention weights
+    const scoreBuffer = this.tempBuffer2
+    const weightBuffer = this.tempBuffer3
+
+    for (const nodeId of nodeIds) {
+      const node = this.nodes.get(nodeId)!
+
       // Test each relationship type
-      ;['parent', 'feature'].forEach(relType => {
+      const relTypes = ['parent', 'feature']
+      for (const relType of relTypes) {
         const relations = this.getContextualRelations(node, {
           focusNodes: [],
           relationshipTypes: [relType],
@@ -1025,32 +1033,37 @@ class SemanticNetwork {
         })
 
         if (relations.length > 0) {
-          const embeddings = relations.map(
-            rel => this.nodes.get(rel.id)!.hyperbolicEmbedding!,
-          )
+          // Calculate attention scores directly into scoreBuffer
+          for (let i = 0; i < relations.length; i++) {
+            const rel = relations[i]
+            const relNode = this.nodes.get(rel.id)!
+            scoreBuffer[i] =
+              this.dotProduct(
+                node.hyperbolicEmbedding!,
+                relNode.hyperbolicEmbedding!,
+              ) / Math.sqrt(this.vectorSize)
+          }
 
-          // Get attention weights
-          const query = node.hyperbolicEmbedding!
-          const scores = embeddings.map(
-            embed =>
-              this.dotProduct(query, embed) /
-              Math.sqrt(this.vectorSize),
+          // Convert scores to attention weights using pre-allocated buffer
+          this.softmaxInto(
+            scoreBuffer.subarray(0, relations.length),
+            weightBuffer.subarray(0, relations.length),
           )
-          const attentionWeights = this.softmax(scores)
 
           // Check if weights match expected pattern
-          relations.forEach((rel, i) => {
+          for (let i = 0; i < relations.length; i++) {
+            const rel = relations[i]
             const expectedWeight =
               rel.type === 'parent'
                 ? 1.0 // Type relationships equally important
                 : Math.pow(0.8, rel.depth) // Feature relationships decay
 
-            score += 1 - Math.abs(attentionWeights[i] - expectedWeight)
+            score += 1 - Math.abs(weightBuffer[i] - expectedWeight)
             count++
-          })
+          }
         }
-      })
-    })
+      }
+    }
 
     return count > 0 ? score / count : 1.0
   }
